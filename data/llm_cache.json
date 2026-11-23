@@ -126,12 +126,44 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"05163272c1bf690d": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "manager",
+"skills": [
+"Windows",
+"Linux",
+"device drivers",
+"graphics",
+"API / SDK standards",
+"BMC"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "05367eb04dc3b6e9": {
 "relevance": 65,
 "category": "mlops_infra",
 "seniority": "unknown",
 "skills": [],
 "summary_zh": "負責AI平台系統的建置與營運維護，支援AI服務穩定運作",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"05588ca3f5d961d6": {
+"relevance": 45,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Quality Engineering",
+"Test Automation",
+"Data Science",
+"Telemetry & Analytics",
+"Technical Program Leadership",
+"AI Workload Analysis"
+],
+"summary_zh": "HP台北Agentic AI團隊招募技術主管、品質驗證、數據分析與UX人才，推動AI PC平台交付",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -228,6 +260,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"0893458a878a83a5": {
+"relevance": 22,
+"category": "not_ai",
+"seniority": "staff_plus",
+"skills": [
+"yield engineering",
+"SPC",
+"DFM/DFY",
+"failure analysis",
+"statistical analysis",
+"AI/ML defect detection"
+],
+"summary_zh": "負責Intel EMIB-T先進封裝基板供應商良率提升、缺陷改善與製程管控",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "089542836274cf0d": {
 "relevance": 50,
 "category": "ai_adjacent",
@@ -305,6 +353,22 @@
 "OrCAD/Allegro"
 ],
 "summary_zh": "結合LLM、RAG、NLP與電腦視覺，開發EDA/PCB設計相關的自動化應用工具",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"0af74e35db3f3d93": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "intern",
+"skills": [
+"C/C++",
+"Python",
+"BIOS / UEFI",
+"embedded firmware",
+"Linux debugging",
+"PCIe"
+],
+"summary_zh": "研發替代役實習，協助NVIDIA伺服器平台BIOS/UEFI韌體工具、除錯與測試自動化開發",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -476,6 +540,15 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"0eb76fe01b638e6d": {
+"relevance": 62,
+"category": "data_sci",
+"seniority": "manager",
+"skills": [],
+"summary_zh": "美光台中廠資料科學經理，帶領團隊以資料分析與建模支援半導體製造",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "0ec52d14e3fcdef2": {
 "relevance": 88,
 "category": "ml",
@@ -521,6 +594,20 @@
 "data quality / SLO"
 ],
 "summary_zh": "負責廣告數據平台與查詢API的產品規劃，並導入代理式AI工作流程",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"101d63089b2a89c1": {
+"relevance": 72,
+"category": "llm_genai",
+"seniority": "senior",
+"skills": [
+"Applied AI",
+"Windows",
+"Agent development",
+"Software Engineering"
+],
+"summary_zh": "趨勢科技應用AI軟體工程師，將AI模型整合至Windows端點代理程式產品",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -663,6 +750,31 @@
 "Kotlin Multiplatform"
 ],
 "summary_zh": "負責Gogolook企業防詐SDK的Android功能研發、API設計與客戶整合支援",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"154726c14100dd56": {
+"relevance": 80,
+"category": "ml",
+"seniority": "senior",
+"skills": [],
+"summary_zh": "美光台灣資深AI工程師，職缺描述未提供，推測負責AI模型開發與應用",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"1699e26cef3439c3": {
+"relevance": 30,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"C/C++",
+"Linux/ALSA",
+"Android Media Framework",
+"AEC",
+"beamforming",
+"real-time DSP"
+],
+"summary_zh": "開發視訊會議設備的嵌入式音訊軟體與DSP處理，並探索AI語音增強整合",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -827,6 +939,37 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"197efbde4fa278b2": {
+"relevance": 3,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"Photolithography",
+"EUV equipment",
+"equipment troubleshooting",
+"preventative maintenance",
+"MS Office"
+],
+"summary_zh": "負責美光晶圓廠EUV曝光機台的維護、故障排除與稼動率提升，並與ASML合作保養",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"1a0ae00ccf7c5f00": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "intern",
+"skills": [
+"Linux Kernel",
+"C",
+"Embedded Systems",
+"ARM",
+"Power Management",
+"DVFS"
+],
+"summary_zh": "為Tegra SoC嵌入式平台開發Linux核心電源與散熱管理軟體的實習生",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "1a6a2382502381e7": {
 "relevance": 45,
 "category": "ai_adjacent",
@@ -891,6 +1034,27 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"1c58bb797e11d59e": {
+"relevance": 80,
+"category": "ml",
+"seniority": "staff_plus",
+"skills": [],
+"summary_zh": "美光桃園廠資深AI工程師，推測負責晶圓製造相關AI模型開發與應用",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"1c7387f89f9a4489": {
+"relevance": 55,
+"category": "data_sci",
+"seniority": "unknown",
+"skills": [
+"Full Stack development",
+"Data Science"
+],
+"summary_zh": "美光台中廠智慧製造AI團隊資料科學職，偏重全端開發支援AI應用",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "1c7d481e781a4f5a": {
 "relevance": 68,
 "category": "llm_genai",
@@ -920,6 +1084,22 @@
 "PyTorch"
 ],
 "summary_zh": "以因果推論與線上實驗衡量廣告增量效果，並用機器學習模型提升廣告投放效率",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"1d9c2695638e07e1": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"ATE",
+"DFT",
+"Python",
+"Perl",
+"R",
+"Statistics"
+],
+"summary_zh": "為客製化晶片開發ATE量產測試方案，進行特性分析、良率與失效根因分析",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -1029,6 +1209,22 @@
 "AUTOSAR"
 ],
 "summary_zh": "開發車用嵌入式軟體，涵蓋RTOS、DSP與ROS/SLAM，深度學習經驗為加分",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"1f28c79b9a491d7f": {
+"relevance": 62,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"RAG",
+"AI Chatbot",
+"Prompt",
+"Python（FastAPI／Django）",
+"PostgreSQL",
+"REST API"
+],
+"summary_zh": "開發內部Web系統並實作RAG架構AI聊天機器人與評估機制",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -1294,6 +1490,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"2a14f61dbb9f12a7": {
+"relevance": 42,
+"category": "ai_adjacent",
+"seniority": "junior",
+"skills": [
+"Python",
+"Cadence",
+"EDA scripting",
+"PCB design",
+"AI Agents",
+"GitLab CI/CD"
+],
+"summary_zh": "新鮮人職位，開發PCB設計EDA自動化工具並探索AI Agent在硬體設計的應用",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "2a6b1cf197ca32bf": {
 "relevance": 2,
 "category": "not_ai",
@@ -1373,6 +1585,38 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"2cc75e5d56c328ad": {
+"relevance": 92,
+"category": "mlops_infra",
+"seniority": "junior",
+"skills": [
+"TensorRT-LLM",
+"Python",
+"PyTorch",
+"C++",
+"CUDA",
+"compiler optimization"
+],
+"summary_zh": "優化TensorRT-LLM推論效能或TensorRT編譯器圖優化，加速GPU上的LLM推論",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"2d5c4e2b075c1d53": {
+"relevance": 50,
+"category": "ai_adjacent",
+"seniority": "intern",
+"skills": [
+"C",
+"Python",
+"embedded systems",
+"ARM-based platforms",
+"pre-silicon simulation/emulation",
+"GenAI agentic workflow"
+],
+"summary_zh": "研發替代役實習，開發CPU系統軟體與韌體，並運用GenAI代理流程優化除錯分析",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "2e54f5a29f666fc6": {
 "relevance": 42,
 "category": "ai_hw",
@@ -1386,6 +1630,38 @@
 "Emulator"
 ],
 "summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"2ece7f8c50df47ab": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "intern",
+"skills": [
+"C/C++",
+"Python",
+"Perl",
+"VLSI CAD",
+"Innovus",
+"PrimeTime"
+],
+"summary_zh": "開發VLSI實體設計CAD工具與流程自動化，並與EDA廠商合作評估改進工具",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"2ed1e4794e065ccf": {
+"relevance": 20,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"TPM",
+"6S Audit",
+"BKM standardization",
+"PM Procedures",
+"data analytics",
+"GenAI"
+],
+"summary_zh": "美光晶圓廠中央團隊工程師，推動TPM、設備保養標準化與製程最佳實務對齊",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -1433,6 +1709,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"2fba767195d4886c": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "intern",
+"skills": [
+"C",
+"Linux Kernel",
+"Embedded Systems",
+"ARM",
+"Power Management",
+"System-level debugging"
+],
+"summary_zh": "研發替代役實習，於Tegra嵌入式平台開發Linux核心電源與熱管理軟體",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "3073790b71eae03d": {
 "relevance": 62,
 "category": "data_sci",
@@ -1443,6 +1735,38 @@
 "Scala"
 ],
 "summary_zh": "於國泰金控數數發中心開發資料科學相關程式與系統",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"30f8b934927bdfd8": {
+"relevance": 25,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"CMP process engineering",
+"SPC",
+"DOE",
+"FDC",
+"JMP",
+"Python"
+],
+"summary_zh": "美光晶圓廠CMP製程工程師，優化製程良率並輔以數據分析與機器學習",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"317a3863cf9694b6": {
+"relevance": 55,
+"category": "llm_genai",
+"seniority": "intern",
+"skills": [
+"Python",
+"LLMs",
+"prompt engineering",
+"AI agent architectures",
+"test automation",
+"EVT"
+],
+"summary_zh": "開發鍵盤平台AI技能與提示流程，整合AI工具至驗證測試自動化",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -1523,6 +1847,22 @@
 "模型量化"
 ],
 "summary_zh": "開發深度學習、大語言模型與生成式AI，並研究分散式訓練及AI PC量化推論",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"357d4673eb6a288b": {
+"relevance": 22,
+"category": "not_ai",
+"seniority": "intern",
+"skills": [
+"C/C++",
+"Java",
+"AOSP",
+"Linux kernel",
+"BSP",
+"Python"
+],
+"summary_zh": "",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -1662,6 +2002,35 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"371648771e5371e2": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"logic verification",
+"data-path analysis",
+"machine learning",
+"artificial intelligence",
+"EDA",
+"algorithms"
+],
+"summary_zh": "於Cadence Conformal團隊研發邏輯等價驗證演算法，部分涉及機器學習應用",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"37a42af561fcad13": {
+"relevance": 70,
+"category": "llm_genai",
+"seniority": "senior",
+"skills": [
+"Linux",
+"AI",
+"Software Engineering"
+],
+"summary_zh": "於趨勢科技開發Linux端點代理程式中的應用AI功能（職缺描述未提供，依職稱推估）",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "3856649caed1ad4f": {
 "relevance": 45,
 "category": "ai_adjacent",
@@ -1691,6 +2060,15 @@
 "Root Cause分析"
 ],
 "summary_zh": "負責AI伺服器的自動化測試腳本開發、軟硬體整合驗證與問題分析",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"3ab1fbbfe3955f3f": {
+"relevance": 65,
+"category": "data_sci",
+"seniority": "manager",
+"skills": [],
+"summary_zh": "美光台灣資料科學資深經理，帶領團隊以資料科學與AI支援製造營運。",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -1726,6 +2104,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"3c74cc8ac7c14d90": {
+"relevance": 35,
+"category": "ai_hw",
+"seniority": "intern",
+"skills": [
+"Python",
+"C/C++",
+"silicon characterization",
+"failure analysis",
+"computer architecture",
+"signal integrity"
+],
+"summary_zh": "替代役實習，負責GPU晶片實驗室驗證、效能功耗特性分析與失效分析，並開發自動化及AI分析工具",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "3c857386b39522e1": {
 "relevance": 80,
 "category": "llm_genai",
@@ -1754,6 +2148,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"3cac74529ab63fd6": {
+"relevance": 50,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Agentic AI",
+"LLM",
+"VLM",
+"GPU accelerated computing",
+"NeMo Agent Toolkit",
+"MLOps"
+],
+"summary_zh": "推廣NVIDIA代理式AI工具與SDK，協助亞太開發者與夥伴導入加速方案",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "3cc7017478cddf84": {
 "relevance": 8,
 "category": "not_ai",
@@ -1766,6 +2176,22 @@
 "12吋晶圓製程"
 ],
 "summary_zh": "負責12吋晶圓CMP製程開發、量產導入、線上維護與降本提升產能",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"3cce88c3f6c6ecb2": {
+"relevance": 55,
+"category": "llm_genai",
+"seniority": "senior",
+"skills": [
+"C#",
+"ASP.NET",
+"Angular",
+"Kubernetes",
+"RAG",
+"Model Context Protocol (MCP)"
+],
+"summary_zh": "為智慧製造開發全端系統，整合LLM代理、RAG與MCP並負責維運支援",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -1845,6 +2271,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"3e6bec3ace8794b5": {
+"relevance": 25,
+"category": "not_ai",
+"seniority": "intern",
+"skills": [
+"SQL",
+"Python",
+"Power BI",
+"Tableau",
+"process mapping",
+"RAG"
+],
+"summary_zh": "協助全球營運團隊分析供應鏈數據、建置儀表板，並運用AI工具優化流程自動化",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "3e846e476984a511": {
 "relevance": 55,
 "category": "mlops_infra",
@@ -1909,6 +2351,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"401a237782f33d4f": {
+"relevance": 8,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"C/C++",
+"C#",
+".Net",
+"EtherCat",
+"Modbus",
+"SECS/GEM"
+],
+"summary_zh": "半導體設備軟體現場支援工程師，負責軟體安裝升級、故障排除與客戶培訓",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "41943540279095b6": {
 "relevance": 22,
 "category": "not_ai",
@@ -1938,6 +2396,22 @@
 "ETL/ELT"
 ],
 "summary_zh": "x",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"41df0992f02b5aad": {
+"relevance": 38,
+"category": "ai_adjacent",
+"seniority": "intern",
+"skills": [
+"Program Management",
+"System Software",
+"Agile",
+"Jira",
+"Process Automation",
+"Enterprise System Architecture"
+],
+"summary_zh": "研發替代役技術專案經理，負責深度學習企業伺服器軟體的規劃、排程與發布流程改善",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -1973,6 +2447,15 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"42710f2bf05efe4f": {
+"relevance": 75,
+"category": "data_sci",
+"seniority": "senior",
+"skills": [],
+"summary_zh": "於趨勢科技AI實驗室擔任資深資料科學家，從事資安相關資料建模與AI研究",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "4282c7bef59e891e": {
 "relevance": 5,
 "category": "not_ai",
@@ -2000,6 +2483,22 @@
 "Agentic AI",
 "Tool Calling",
 "EDA"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"447b408a8164d5e8": {
+"relevance": 40,
+"category": "ai_adjacent",
+"seniority": "intern",
+"skills": [
+"Jira Cloud",
+"Oracle PLM Quality Cloud",
+"data analytics",
+"data visualization",
+"large language models",
+"NotebookLM"
 ],
 "summary_zh": "",
 "model": "claude-opus-5-5",
@@ -2046,6 +2545,15 @@
 "OWASP Top 10 for LLM Applications"
 ],
 "summary_zh": "負責CI/CD資安、SSDLC與滲透測試，並評估LLM與AI代理帶來的資安風險",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"45f36816ae725acf": {
+"relevance": 70,
+"category": "data_sci",
+"seniority": "unknown",
+"skills": [],
+"summary_zh": "美光台中廠AI解決方案開發資料科學家，以資料建模支援智慧製造",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -2141,6 +2649,18 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"4942000f3af28752": {
+"relevance": 70,
+"category": "llm_genai",
+"seniority": "senior",
+"skills": [
+"Full Stack",
+"AI solution"
+],
+"summary_zh": "於美光開發端到端AI解決方案的資深全端AI工程師",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "496a7dffdf78ef5e": {
 "relevance": 75,
 "category": "data_sci",
@@ -2170,6 +2690,21 @@
 "prompt engineering"
 ],
 "summary_zh": "負責PCIe與USB高速介面IP驗證，並導入LLM輔助驗證流程",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"4a8ff9e1e4580b7d": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"Java",
+"資料庫設計",
+"系統設計",
+"Coding Agent",
+"Smart City"
+],
+"summary_zh": "以Java開發智慧城市能源管理後端系統，含系統設計與資料庫設計",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -2241,6 +2776,15 @@
 "seniority": "unknown",
 "skills": [],
 "summary_zh": "投資公司徵AI軟體開發工程師，職務內容未詳述",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"4cead54e4f05cf0d": {
+"relevance": 70,
+"category": "data_sci",
+"seniority": "senior",
+"skills": [],
+"summary_zh": "美光台灣資深資料科學家，運用數據分析與建模支援半導體製造",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -2596,6 +3140,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"55ee8a3167fc68f6": {
+"relevance": 68,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"Python",
+"PyTorch",
+"PhysicsNeMo",
+"Omniverse",
+"Physics-informed Neural Networks (PINNs)",
+"GPU computing"
+],
+"summary_zh": "協助台灣學研與政府導入NVIDIA科學AI與物理AI方案，設計並優化GPU上的AI工作流程",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "56decc8703b82494": {
 "relevance": 45,
 "category": "ai_adjacent",
@@ -2625,6 +3185,22 @@
 "LangChain"
 ],
 "summary_zh": "於MIS部門以Python開發高併發後端服務與API，優化資料庫效能並重構舊系統，LLM經驗為加分",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"58377be8ad19b4eb": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"server manufacturing (L6/L10/L11)",
+"yield analysis",
+"failure analysis",
+"ODM/JDM management",
+"liquid cooling",
+"NVLink/NVSwitch"
+],
+"summary_zh": "負責與ODM/JDM夥伴對接GPU伺服器量產，推動良率改善與故障分析",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -2691,6 +3267,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"59a03fc63485371b": {
+"relevance": 55,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"SystemVerilog",
+"UVM",
+"Python",
+"LLM APIs",
+"prompt engineering",
+"RAG"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "5a984d24d5b2b0d3": {
 "relevance": 45,
 "category": "ai_adjacent",
@@ -2700,6 +3292,22 @@
 "應用策略規劃"
 ],
 "summary_zh": "於銀行數位金融處規劃生成式AI應用策略與導入場景",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"5b48401f12c4440c": {
+"relevance": 50,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Agentic AI",
+"LLM",
+"Physical AI",
+"EDA",
+"GPU accelerated computing",
+"NeMo Agent Toolkit"
+],
+"summary_zh": "推動製造業開發者採用NVIDIA AI軟體與SDK，聚焦代理式AI與實體AI",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -2900,6 +3508,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"634ae2c92d46c656": {
+"relevance": 82,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"生成式 AI",
+"RAG",
+"Prompt／Context Engineering",
+"Agent Workflow",
+"模型評估",
+"API 整合"
+],
+"summary_zh": "為政府及企業客戶開發LLM應用，含RAG、Agent與系統整合及PoC導入",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "634d663e0b5f923b": {
 "relevance": 5,
 "category": "not_ai",
@@ -2945,6 +3569,54 @@
 "AI演算法開發"
 ],
 "summary_zh": "開發AI演算法處理毫米波雷達與生理訊號，並整合至產品系統",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"63d7b3a1b0148fd8": {
+"relevance": 50,
+"category": "ai_adjacent",
+"seniority": "staff_plus",
+"skills": [
+"Data Science",
+"Generative AI",
+"agentic AI",
+"analytics",
+"automation",
+"POCs"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"64908a9331aa806b": {
+"relevance": 22,
+"category": "not_ai",
+"seniority": "intern",
+"skills": [
+"Python",
+"C/C++",
+"Linux",
+"BMC-BIOS",
+"bash",
+"Git"
+],
+"summary_zh": "為NVIDIA資料中心伺服器開發韌體與軟體測試工具、自動化測試及品質報告",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"64df9b5d3ee1b035": {
+"relevance": 55,
+"category": "mlops_infra",
+"seniority": "intern",
+"skills": [
+"CUDA C/C++",
+"OpenACC",
+"Fortran",
+"C/C++",
+"parallel programming",
+"linear algebra"
+],
+"summary_zh": "協助客戶在NVIDIA GPU上優化HPC與資料分析應用效能的開發技術實習生",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -3002,6 +3674,22 @@
 "Kueue"
 ],
 "summary_zh": "x",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"665a8db7907c5014": {
+"relevance": 22,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"CSAM",
+"2D/3D X-Ray",
+"SEM/EDX",
+"Emission Microscopy",
+"JMP",
+"Python"
+],
+"summary_zh": "負責DRAM/HBM封裝可靠度失效分析與根因調查，並導入AI輔助影像分析",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -3117,6 +3805,15 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"69712937f7cd04fe": {
+"relevance": 75,
+"category": "ml",
+"seniority": "unknown",
+"skills": [],
+"summary_zh": "美光台中廠智慧製造團隊AI工程師，開發製造相關AI解決方案",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "698c6308e8c02014": {
 "relevance": 25,
 "category": "not_ai",
@@ -3178,6 +3875,15 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"6ba3d7ba2a960324": {
+"relevance": 80,
+"category": "ml",
+"seniority": "senior",
+"skills": [],
+"summary_zh": "美光台灣資深AI工程師，職缺描述未提供，推測負責智慧製造AI模型開發",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "6bc7df1d4a8878ad": {
 "relevance": 75,
 "category": "cv_nlp",
@@ -3207,6 +3913,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"6c094c2b5bfddee6": {
+"relevance": 95,
+"category": "ml",
+"seniority": "intern",
+"skills": [
+"Python",
+"PyTorch",
+"CUDA",
+"C++",
+"computer vision",
+"speech LLMs"
+],
+"summary_zh": "NVIDIA台北研究實習生，研發並發表深度學習、VLA、語音LLM等新方法",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "6d077ad0516b1d09": {
 "relevance": 55,
 "category": "ai_adjacent",
@@ -3220,6 +3942,22 @@
 "internal chatbots"
 ],
 "summary_zh": "x",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"6d35950d965f3705": {
+"relevance": 20,
+"category": "not_ai",
+"seniority": "intern",
+"skills": [
+"CMOS Analog / Mixed Signal Circuit Design",
+"FINFET",
+"Cadence Virtuoso",
+"Spectre",
+"HSpice",
+"Behavioral modeling"
+],
+"summary_zh": "研發替代役實習，設計NVLINK高速介面與類比混合訊號電路並協助矽後驗證。",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -3336,6 +4074,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"71327b04b7c7adfb": {
+"relevance": 25,
+"category": "not_ai",
+"seniority": "intern",
+"skills": [
+"C",
+"Linux",
+"QNX",
+"Android",
+"embedded systems",
+"ARM"
+],
+"summary_zh": "研發替代役職位，負責NVIDIA Tegra車用/嵌入式平台的系統軟體開發、驅動移植與平台bring-up",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "71a9aded65da9ec5": {
 "relevance": 88,
 "category": "ml",
@@ -3440,6 +4194,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"735ec93525a6d6f3": {
+"relevance": 82,
+"category": "llm_genai",
+"seniority": "junior",
+"skills": [
+"Python",
+"SQL",
+"LLM",
+"RAG",
+"PyTorch",
+"scikit-learn"
+],
+"summary_zh": "為企業場景開發機器學習模型與LLM/RAG方案，並透過API整合至內部系統",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "73928da7a467965b": {
 "relevance": 62,
 "category": "data_sci",
@@ -3520,6 +4290,38 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"75257ae8d7149d3e": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "intern",
+"skills": [
+"C/C++",
+"Python",
+"Redfish",
+"MCTP/PLDM/SPDM",
+"BMC",
+"embedded Linux"
+],
+"summary_zh": "開發NVIDIA伺服器BMC/BIOS監控韌體，涉及Redfish等標準與單元測試",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"76a789a8cbbe77c4": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "intern",
+"skills": [
+"C",
+"C++",
+"kernel drivers",
+"Linux",
+"SoC platform software",
+"system-level debugging"
+],
+"summary_zh": "開發NVIDIA GPU與SoC核心驅動、韌體及系統軟體的實習職位",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "76b9075abb8781e7": {
 "relevance": 90,
 "category": "mlops_infra",
@@ -3568,6 +4370,20 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"7884d5a9442cab28": {
+"relevance": 72,
+"category": "data_sci",
+"seniority": "staff_plus",
+"skills": [
+"Data Science",
+"Machine Learning",
+"Smart Manufacturing",
+"AI"
+],
+"summary_zh": "於美光台灣廠區以資料科學與AI建模推動智慧製造應用",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "7890276d11488d6a": {
 "relevance": 15,
 "category": "not_ai",
@@ -3611,6 +4427,38 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"7a305f77bf5e7f6f": {
+"relevance": 8,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"C/C++",
+"Multi-threading",
+"RPC",
+"Windows",
+"C#/.Net",
+"Linux"
+],
+"summary_zh": "為顯示器電子束檢測設備開發與除錯C/C++設備控制軟體",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"7aaf5bff53d96470": {
+"relevance": 25,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"CMOS analog/mixed-signal circuit design",
+"High-speed transceivers (Tx/Rx/CDR)",
+"PLL",
+"Data Converters",
+"Cadence custom design tools",
+"Silicon bring-up and lab characterization"
+],
+"summary_zh": "設計GPU晶片的高速介面與混合訊號電路（SerDes、PLL），並負責矽驗證與除錯",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "7ad3c2d43589500b": {
 "relevance": 35,
 "category": "ai_adjacent",
@@ -3640,6 +4488,22 @@
 "MLOps"
 ],
 "summary_zh": "於資訊技術部門進行資料分析，開發LLM聊天機器人與RAG系統並微調模型",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"7bb3c6a473b67930": {
+"relevance": 25,
+"category": "not_ai",
+"seniority": "intern",
+"skills": [
+"C",
+"Python",
+"Linux",
+"device drivers",
+"UEFI",
+"PCIe"
+],
+"summary_zh": "研發替代役實習，負責在 Linux 發行版上啟用 NVIDIA Vera 平台並協助系統開機與除錯",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -3688,6 +4552,27 @@
 "語音辨識演算法"
 ],
 "summary_zh": "負責音訊後處理與聲學效能調校、量測及數據分析",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"7d047a6d13a29f17": {
+"relevance": 75,
+"category": "mlops_infra",
+"seniority": "staff_plus",
+"skills": [
+"ML infrastructure",
+"ML platform"
+],
+"summary_zh": "為趨勢科技建置與維運機器學習基礎設施及平台",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"7d0e193dfbda43e0": {
+"relevance": 80,
+"category": "llm_genai",
+"seniority": "senior",
+"skills": [],
+"summary_zh": "於趨勢科技開發應用型AI系統，將模型整合至資安產品（職缺描述未提供細節）",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -3809,6 +4694,18 @@
 "混合雲"
 ],
 "summary_zh": "負責雲端與AI相關產品規劃、代理合作、通路管理及海外推廣的產品經理",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"8133087fedaf3e39": {
+"relevance": 85,
+"category": "llm_genai",
+"seniority": "staff_plus",
+"skills": [
+"Agentic AI",
+"LLM"
+],
+"summary_zh": "於美光擔任代理式AI架構師，設計與建置AI代理系統架構",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -3983,6 +4880,22 @@
 "executive briefings"
 ],
 "summary_zh": "負責Google資料中心區域威脅情報、風險評估與危機應變支援。",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"85cd4847777c0c57": {
+"relevance": 18,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"SAP SD",
+"SAP ABAP",
+"IMG",
+"SAP HANA",
+"SQL",
+"API"
+],
+"summary_zh": "負責SAP ERP SD模組維運、全球Roll-out及ABAP開發，兼參與AI Agent流程自動化",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -4167,6 +5080,18 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"8856b6043dfe5212": {
+"relevance": 88,
+"category": "llm_genai",
+"seniority": "senior",
+"skills": [
+"LLM",
+"Security"
+],
+"summary_zh": "於趨勢科技開發應用於資安領域的大型語言模型與AI系統",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "88ec7b37c84ad7ae": {
 "relevance": 18,
 "category": "not_ai",
@@ -4247,6 +5172,21 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"8b33ec11711cfabd": {
+"relevance": 72,
+"category": "llm_genai",
+"seniority": "junior",
+"skills": [
+"GenAI 平台建置",
+"GenAI 應用開發",
+"編程技能",
+"系統設計",
+"系統維運"
+],
+"summary_zh": "於聯電南科建置GenAI系統平台並開發內部生成式AI應用專案與維運",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "8b8adacd05e842ac": {
 "relevance": 68,
 "category": "llm_genai",
@@ -4279,6 +5219,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"8c56a8c98d15f269": {
+"relevance": 45,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"product ownership",
+"hybrid agile / waterfall",
+"NVIDIA Isaac Sim",
+"ROS 2",
+"computer vision",
+"BIM/VDC"
+],
+"summary_zh": "負責美光工業與實體AI產品需求、路線圖與待辦清單，協調機器人與視覺系統導入晶圓廠",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "8ce914b8a4228433": {
 "relevance": 35,
 "category": "ai_hw",
@@ -4292,6 +5248,22 @@
 "Secure Boot"
 ],
 "summary_zh": "為資料中心AI機架與伺服器的ARM平台開發開機韌體並負責硬體bring-up與除錯",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"8d56d9151d7c3ed5": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"C/C++",
+"Python",
+"Windows device drivers",
+"USB Video Class",
+"MIPI CSI-2",
+"camera firmware"
+],
+"summary_zh": "",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -4340,6 +5312,22 @@
 "敏捷方法"
 ],
 "summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"8e5fe5b0035399ff": {
+"relevance": 92,
+"category": "llm_genai",
+"seniority": "intern",
+"skills": [
+"TensorRT-LLM",
+"Python",
+"PyTorch",
+"C++",
+"TensorRT Compiler",
+"CUDA"
+],
+"summary_zh": "NVIDIA實習生，優化TensorRT-LLM推論效能或開發TensorRT編譯器圖優化",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -4405,6 +5393,22 @@
 "seniority": "unknown",
 "skills": [],
 "summary_zh": "擔任AI工程師，職務內容未詳述，推測從事AI模型開發與應用",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"903293589eb8f081": {
+"relevance": 18,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"Linux",
+"C",
+"Camera software stack",
+"Display controller",
+"ARM",
+"RTOS"
+],
+"summary_zh": "於NVIDIA Tegra車用/嵌入式平台開發相機與顯示驅動、平台bring up及客戶技術支援",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -4587,6 +5591,21 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"95431af28239db08": {
+"relevance": 5,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"EUV equipment",
+"Photolithography",
+"equipment troubleshooting",
+"preventative maintenance",
+"MS Office"
+],
+"summary_zh": "負責美光晶圓廠EUV曝光機台維護、故障排除與提升稼動率",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "95f8163fa31d5ad2": {
 "relevance": 12,
 "category": "not_ai",
@@ -4719,6 +5738,15 @@
 "前端開發"
 ],
 "summary_zh": "於國泰數數發中心負責數據產品的前端開發工作",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"9b4a6828e1df0ed1": {
+"relevance": 68,
+"category": "data_sci",
+"seniority": "senior",
+"skills": [],
+"summary_zh": "美光台中廠資深資料科學家，運用數據分析與建模支援半導體製造",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -4877,6 +5905,38 @@
 "數據分析"
 ],
 "summary_zh": "AI伺服器產線工業工程師，負責產線佈局、產能人力規劃與製程改善",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"a0925d1092b332d5": {
+"relevance": 88,
+"category": "ml",
+"seniority": "junior",
+"skills": [
+"CNN",
+"RNN",
+"Transformer",
+"NLP",
+"K8s",
+"CI/CD"
+],
+"summary_zh": "於聯電南科開發深度學習模型與平台，導入AI技術提升晶圓廠營運效率",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"a0b4533378b71b1d": {
+"relevance": 68,
+"category": "llm_genai",
+"seniority": "intern",
+"skills": [
+"Local LLM",
+"Claude/GPT",
+"C/C++",
+"Software system level design",
+"Technical documentation",
+"Windows/macOS deployment"
+],
+"summary_zh": "評估本地端LLM於公司筆電的應用、部署與安全，規劃與雲端LLM分流並製作原型",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -5163,6 +6223,15 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"acd926f1775eef69": {
+"relevance": 80,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [],
+"summary_zh": "趨勢科技AI工程師，開發應用於資安產品的AI模型與系統（職缺描述未提供細節）",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "ad231bd7dd1b8f18": {
 "relevance": 12,
 "category": "not_ai",
@@ -5259,6 +6328,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"af2a0838f2e7b087": {
+"relevance": 8,
+"category": "not_ai",
+"seniority": "intern",
+"skills": [
+"Mixed-signal circuit design",
+"PLL",
+"High-speed serial links",
+"Cadence Virtuoso",
+"HSpice",
+"DRC/LVS"
+],
+"summary_zh": "研發替代役實習，設計GPU與SoC用高速混合訊號類比電路",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "af5491eb58381a4d": {
 "relevance": 48,
 "category": "ai_adjacent",
@@ -5272,6 +6357,22 @@
 "B2B SaaS"
 ],
 "summary_zh": "負責企業級AI工作平台的產品策略、路線圖、交付管理與成效評估",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"af8404fe0f361707": {
+"relevance": 45,
+"category": "ai_hw",
+"seniority": "staff_plus",
+"skills": [
+"Physical AI hardware architecture",
+"Edge AI inference",
+"EtherCAT",
+"TSN",
+"machine vision / LiDAR",
+"PCB/schematic review"
+],
+"summary_zh": "定義機器人與邊緣Physical AI平台硬體架構，整合即時控制與AI推論並協同台灣IPC夥伴",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -5416,6 +6517,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"b2edd7b319c3d7b9": {
+"relevance": 22,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"Excel",
+"Power BI",
+"Tableau",
+"SQL",
+"Python",
+"financial modeling"
+],
+"summary_zh": "負責全球工程部門策略分析、人力與預算規劃，並推動AI轉型評估",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "b3bb16206f0e513f": {
 "relevance": 50,
 "category": "ai_adjacent",
@@ -5540,6 +6657,22 @@
 "DIP波峰焊"
 ],
 "summary_zh": "AI伺服器產線SMT設備與光學檢測程式維護及製程品質監控",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"b9c07858db55e41e": {
+"relevance": 22,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"資訊安全",
+"ISO27001",
+"Big Data",
+"Machine Learning",
+"個資保護",
+"資安事件調查"
+],
+"summary_zh": "規劃維運企業資安系統與法規認證，並探索大數據/機器學習於資安之應用",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -5680,6 +6813,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"c03de6017b740287": {
+"relevance": 22,
+"category": "not_ai",
+"seniority": "intern",
+"skills": [
+"C/C++",
+"Python",
+"MCTP",
+"Redfish",
+"PLDM",
+"Embedded Linux"
+],
+"summary_zh": "研發替代役實習，開發NVIDIA伺服器MCU監控韌體與單元測試",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "c060cb9bdc4d2f90": {
 "relevance": 62,
 "category": "ml",
@@ -5750,6 +6899,20 @@
 "AI雲端技術"
 ],
 "summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"c156f51ae1f88ede": {
+"relevance": 85,
+"category": "ml",
+"seniority": "junior",
+"skills": [
+"深度學習模型",
+"統計大數據分析",
+"資料科學演算法",
+"模型調適"
+],
+"summary_zh": "設計訓練深度學習模型，應用於晶圓廠提升良率、產能與縮短cycle time",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -5825,6 +6988,22 @@
 "AI Imaging"
 ],
 "summary_zh": "設計影像訊號處理(ISP)硬體架構，含傳統與AI影像演算法的硬體化與PPA最佳化",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"c37bbd54d45a5b49": {
+"relevance": 68,
+"category": "mlops_infra",
+"seniority": "senior",
+"skills": [
+"OpenVINO",
+"C/C++",
+"SYCL/oneAPI",
+"VA-API",
+"GStreamer",
+"Linux DRM i915/Xe"
+],
+"summary_zh": "於Intel GPU上為人形機器人整合優化AI推論與影像管線及驅動除錯",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -6021,6 +7200,54 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"c992fb6f73c404a7": {
+"relevance": 22,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"business development",
+"alliance management",
+"channel management",
+"enterprise AI solutions",
+"HPC",
+"Cloud infrastructure"
+],
+"summary_zh": "負責亞太區HPE與NVIDIA AI解決方案的聯盟業務拓展、通路夥伴經營與銷售賦能。",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"c9d5687ec6c7e4db": {
+"relevance": 35,
+"category": "ai_hw",
+"seniority": "senior",
+"skills": [
+"GDDR/LPDDR/HBM",
+"memory bring-up and characterization",
+"IO tuning / timing margin analysis",
+"SI/PI",
+"AI-enabled shmoo analysis",
+"RAG-grounded debug assistants"
+],
+"summary_zh": "負責NVIDIA GPU/SoC高速記憶體驗證與除錯，並建置AI輔助分析流程",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"ca22f596a1e34909": {
+"relevance": 78,
+"category": "llm_genai",
+"seniority": "intern",
+"skills": [
+"AI agents",
+"LLM-based applications",
+"RAG",
+"prompt engineering",
+"tool calling",
+"Python"
+],
+"summary_zh": "x",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "cb8b8e046ca91863": {
 "relevance": 85,
 "category": "llm_genai",
@@ -6101,6 +7328,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"ccd7df7f83ebba4c": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "intern",
+"skills": [
+"post-silicon validation",
+"characterization",
+"yield enhancement",
+"Python",
+"PCIe",
+"DDR"
+],
+"summary_zh": "研發替代役實習，負責NVIDIA GPU系統級測試、良率提升與矽晶問題分析",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "cd4868edd856a7a3": {
 "relevance": 88,
 "category": "ml",
@@ -6114,6 +7357,18 @@
 "Azure Databricks"
 ],
 "summary_zh": "總部IT資料科學團隊，建構ML/NLP模型、微調LLM並以MLOps部署維運",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"cd6c89e13248d2fa": {
+"relevance": 92,
+"category": "cv_nlp",
+"seniority": "junior",
+"skills": [
+"Deep Learning",
+"Computer Vision"
+],
+"summary_zh": "NVIDIA台北深度學習與電腦視覺研究科學家，應屆畢業生職缺",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -6145,6 +7400,22 @@
 "PDN 測試"
 ],
 "summary_zh": "新進工程師協助AI伺服器主板與GPU載板電路設計、測試及SI/PI模擬",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"ce55216c7dab34e2": {
+"relevance": 12,
+"category": "not_ai",
+"seniority": "staff_plus",
+"skills": [
+"Bulk Gas / Special Gas / Chemical Distribution",
+"P&ID Review",
+"PLC/SCADA",
+"Orbital Welding",
+"Commissioning",
+"Predictive Maintenance"
+],
+"summary_zh": "負責美光晶圓廠氣體與化學品供應系統的設計、建置、運轉維護與安全管理",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -6232,6 +7503,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"d080e67542c34d35": {
+"relevance": 20,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"Python",
+"Jenkins",
+"Robot Framework",
+"BIOS/UEFI",
+"BMC",
+"CI/CD"
+],
+"summary_zh": "為資料中心伺服器韌體與軟體開發自動化測試框架與CI/CD流程",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "d0c954a9dbd49499": {
 "relevance": 35,
 "category": "ai_adjacent",
@@ -6244,6 +7531,24 @@
 "ML/AI algorithm"
 ],
 "summary_zh": "設計5G/6G基頻通訊演算法如波束成形與校正，並探索以ML優化系統效能",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"d1908bc807b69cba": {
+"relevance": 65,
+"category": "data_sci",
+"seniority": "senior",
+"skills": [],
+"summary_zh": "美光桃園廠資深資料科學家，運用數據分析與建模支援半導體製造",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"d1a51d4a23a212ef": {
+"relevance": 65,
+"category": "data_sci",
+"seniority": "senior",
+"skills": [],
+"summary_zh": "美光桃園廠資深資料科學家，於智慧製造AI團隊運用資料建模優化製程",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -6604,6 +7909,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"e0635e1cf25d269b": {
+"relevance": 12,
+"category": "not_ai",
+"seniority": "junior",
+"skills": [
+"CMP",
+"SPC",
+"Python",
+"SQL",
+"Power BI",
+"Tableau"
+],
+"summary_zh": "負責半導體廠CMP製程開發、調校與良率改善，運用數據分析與SPC解決製程問題",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "e0709bcca7d6f46a": {
 "relevance": 30,
 "category": "ai_adjacent",
@@ -6661,6 +7982,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"e178603826fee09b": {
+"relevance": 10,
+"category": "not_ai",
+"seniority": "intern",
+"skills": [
+"C++",
+"Python",
+"Tcl",
+"Design for Test",
+"ATPG",
+"Verilog"
+],
+"summary_zh": "替代役實習，開發晶片可測試性設計（DFT）的內部CAD軟體與自動化流程",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "e1eed474997e455f": {
 "relevance": 65,
 "category": "ml",
@@ -6672,6 +8009,22 @@
 "機器學習"
 ],
 "summary_zh": "醫療AI實習生，參與雲端軟體開發、數據分析與機器學習方法研究",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"e232bcd0bf5c4314": {
+"relevance": 85,
+"category": "llm_genai",
+"seniority": "senior",
+"skills": [
+"Python",
+"C++",
+"LLM Inference Systems",
+"RAG",
+"LangGraph",
+"Semantic Kernel"
+],
+"summary_zh": "為HP AI PC與邊緣運算打造代理式AI系統、LLM推論執行環境與RAG平台",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -6691,6 +8044,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"e35f3f93b8aa61f9": {
+"relevance": 18,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"JMP",
+"Python",
+"SQL",
+"SPC",
+"DOE",
+"FMEA"
+],
+"summary_zh": "美光台中廠良率工程師，分析製程與測試數據找出良率問題並推動改善",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "e38cd77739104138": {
 "relevance": 25,
 "category": "not_ai",
@@ -6704,6 +8073,22 @@
 "system monitoring tools"
 ],
 "summary_zh": "新進人員參與AI伺服器BMC/BIOS韌體開發、驅動移植與測試",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"e43ac46e2e5541e3": {
+"relevance": 93,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"LoRA / QLoRA",
+"Hugging Face Transformers, PEFT, TRL",
+"DPO / RLHF",
+"MCP servers",
+"RAG",
+"vLLM, TensorRT-LLM"
+],
+"summary_zh": "微調開源LLM並建構可呼叫企業系統工具的AI代理，部署於研華AI平台",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -6771,6 +8156,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"e53d28aaa04266d8": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "intern",
+"skills": [
+"CMOS Analog / Mixed Signal Circuit Design",
+"FINFET",
+"PLL",
+"Spectre",
+"HSpice",
+"Cadence Virtuoso"
+],
+"summary_zh": "研發替代役實習，設計NVLINK高速介面類比混合訊號電路如TX/RX與PLL",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "e59d70d4427c5385": {
 "relevance": 68,
 "category": "llm_genai",
@@ -6800,6 +8201,22 @@
 "CI/CD"
 ],
 "summary_zh": "運用生成式AI模型與工具自動化4G/5G數據機系統驗證與測試流程",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"e70d05b22de9a6f2": {
+"relevance": 70,
+"category": "llm_genai",
+"seniority": "manager",
+"skills": [
+"Python/FastAPI",
+"React",
+"LLMs / RAG / agentic AI",
+"Docker + Kubernetes",
+"MLOps / LLMOps",
+"NVIDIA Omniverse"
+],
+"summary_zh": "x",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -6835,6 +8252,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"e7c0018d76b3349c": {
+"relevance": 93,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"Python",
+"PyTorch",
+"HuggingFace",
+"TensorRT-LLM",
+"CUDA",
+"C/C++"
+],
+"summary_zh": "開發與優化TensorRT-LLM推論軟體，實作kernel與執行期功能以支援新LLM模型",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "e806637d00b8ba4d": {
 "relevance": 45,
 "category": "ai_adjacent",
@@ -6857,6 +8290,54 @@
 "Matlab"
 ],
 "summary_zh": "開發與調校Snapdragon相機ISP傳統影像演算法，並大量支援客戶",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"e8de5aadceba71a8": {
+"relevance": 40,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"C++",
+"C#",
+"Rust",
+"Windows/Linux Systems",
+"Firmware & BIOS",
+"CPU / GPU / NPU Optimization"
+],
+"summary_zh": "為HP AI PC平台開發作業系統、韌體與資源管理等底層系統軟體",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"e9906be1f9276c8b": {
+"relevance": 62,
+"category": "data_sci",
+"seniority": "mid",
+"skills": [
+"big data analysis",
+"machine learning",
+"FDC analysis",
+"yield enhancement",
+"Process integration",
+"Coding"
+],
+"summary_zh": "開發半導體巨量數據良率提升系統，進行FDC分析與機器學習方法開發",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"eb54dd2e64e4d536": {
+"relevance": 62,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"Python",
+"TypeScript/JavaScript",
+"MCP",
+"LLM APIs",
+"AI coding agents",
+"REST APIs"
+],
+"summary_zh": "運用AI編碼代理開發伺服器測試與實驗室工具，並建構MCP等代理工作流程",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -6905,6 +8386,22 @@
 "FDE"
 ],
 "summary_zh": "x",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"ecbd4b00ba0151c2": {
+"relevance": 30,
+"category": "ai_hw",
+"seniority": "senior",
+"skills": [
+"SystemVerilog",
+"UVM",
+"C++",
+"PCIE",
+"CXL",
+"CHI"
+],
+"summary_zh": "驗證NVIDIA GPU與SoC高速一致性互連設計，建構UVM測試平台與覆蓋率計畫",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -7207,6 +8704,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"f8361f0726514174": {
+"relevance": 30,
+"category": "ai_hw",
+"seniority": "intern",
+"skills": [
+"C/C++",
+"QEMU/KVM",
+"CI/CD",
+"Python",
+"Docker/Kubernetes",
+"ARM & x86"
+],
+"summary_zh": "開發與除錯NVIDIA次世代資料中心系統模擬平台，涵蓋核心與驅動軟體堆疊",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "f88cd055c94a2a44": {
 "relevance": 72,
 "category": "mlops_infra",
@@ -7261,6 +8774,22 @@
 "市場規劃"
 ],
 "summary_zh": "負責HPC與深度學習產品的市場規劃、客戶需求及開發時程控管",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"f9db5fad44231b47": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "intern",
+"skills": [
+"AI agents",
+"LLMs",
+"polymer materials",
+"mechanical/thermal characterization",
+"agent workflows",
+"materials databases"
+],
+"summary_zh": "材料工程實習，運用AI代理輔助永續塑料材料的探索、優化與實驗驗證",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -7370,6 +8899,20 @@
 "AI-assisted coding tools"
 ],
 "summary_zh": "Wi‑Fi實體層韌體開發與驗證實習，輔以AI工具提升除錯效率",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"fda34260881eeb82": {
+"relevance": 65,
+"category": "data_sci",
+"seniority": "senior",
+"skills": [
+"Data Science",
+"Machine Learning",
+"Python",
+"Statistical Analysis"
+],
+"summary_zh": "美光台中廠封測資深資料科學家，運用資料分析與建模改善封裝測試製程",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
