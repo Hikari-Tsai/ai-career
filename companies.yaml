@@ -216,3 +216,15 @@ companies:
   - {id: digiwin, name: Digiwin, name_zh: 鼎新電腦, group: tw_software, link_only: true, reason: job_board, careers_url: https://www.digiwin.com.tw/hr/school/, in_salary_survey: true}
   - {id: sinopac, name: SinoPac Holdings, name_zh: 永豐金控, group: tw_software, link_only: true, reason: no_api, careers_url: https://careers.sinopac.com, in_salary_survey: true}
   - {id: cmoney, name: CMoney, name_zh: 全曜財經, group: tw_software, link_only: true, reason: job_board, careers_url: https://www.cmoney.tw/careers/, in_salary_survey: true}
+
+  # ---------------------------------------------------------------- job boards (many companies per entry)
+  # Startup AI jobs from Yourator; companies already crawled from their official sites are skipped.
+  - id: yourator
+    name: Yourator
+    name_zh: Yourator 新創職缺
+    group: tw_startup
+    careers_url: https://www.yourator.co/jobs
+    source: yourator
+    multi_company: true
+    params:
+      terms: [AI, 機器學習, Machine Learning, LLM, 深度學習, Data Scientist, Computer Vision, NLP, MLOps, 演算法]

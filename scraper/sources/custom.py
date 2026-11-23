@@ -138,3 +138,52 @@ def line(company: dict):
 def line_detail(company: dict, job: Job) -> dict:
     d = get_json(f"https://careers.linecorp.com/page-data/jobs/{job.extra['sid']}/page-data.json")
     return {"description": html_to_text(d["result"]["data"]["strapiJobs"].get("content"))}
+
+
+# ---------------------------------------------------------------- Yourator (job board, many companies)
+_YOURATOR = "https://www.yourator.co"
+_LD_JSON = re.compile(r'<script type="application/ld\+json">(.*?)</script>', re.S)
+
+
+def yourator(company: dict):
+    """Keyword search across the board. Each job belongs to its own (startup) company, encoded in
+    company_id as "<entry id>:<company slug>"; extra["company"] carries the name and page URL."""
+    from ..models import is_taiwan
+
+    seen: set[int] = set()
+    for term in company["params"]["terms"]:
+        for page in range(1, company["params"].get("max_pages", 15) + 1):
+            data = get_json(f"{_YOURATOR}/api/v4/jobs", params={"term[]": term, "page": page})["payload"]
+            for j in data.get("jobs") or []:
+                if j["id"] in seen or not is_taiwan(j.get("location", "")):
+                    continue
+                seen.add(j["id"])
+                c = j.get("company") or {}
+                slug = c.get("enName") or str(j.get("companyId"))
+                yield Job(
+                    company_id=f"{company['id']}:{slug}",
+                    source_id=str(j["id"]),
+                    title=html_to_text(j.get("name", "")),
+                    url=_YOURATOR + j["path"],
+                    location=f"台灣 {j.get('location', '')}",
+                    extra={"company": {"name": c.get("brand", slug), "careers_url": _YOURATOR + c.get("path", "")},
+                           "tags": j.get("tags") or []},
+                )
+            if not data.get("hasMore"):
+                break
+
+
+def yourator_detail(company: dict, job: Job) -> dict:
+    import json as _json
+
+    for block in _LD_JSON.findall(get_text(job.url)):
+        try:
+            d = _json.loads(block)
+        except ValueError:
+            continue
+        if d.get("@type") == "JobPosting":
+            return {
+                "description": html_to_text(d.get("description")) + " " + " ".join(job.extra.get("tags", [])),
+                "posted_at": str(d.get("datePosted") or "")[:10],
+            }
+    return {}

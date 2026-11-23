@@ -102,6 +102,9 @@
       n.querySelector(".score-bar i").style.width = s + "%";
       n.querySelector(".company").textContent = label(j.company, j.company_zh);
       n.querySelector(".new").hidden = daysAgo(j.first_seen) > 7;
+      const via = n.querySelector(".via");
+      via.hidden = !j.via;
+      via.textContent = j.via ? `來源：${j.via}` : "";
       const a = n.querySelector(".title");
       a.textContent = j.title;
       a.href = j.url;
@@ -139,7 +142,10 @@
     const failing = DATA.companies
       .filter((c) => c.ok === false && !c.ai_jobs)
       .map((c) => ({ ...c, reason: "暫時無法自動抓取" }));
+    const listed = new Set(DATA.jobs.map((j) => `${j.company} ${j.company_zh}`.toLowerCase()));
+    const hasJobs = (c) => [...listed].some((l) => (c.name_zh && l.includes(c.name_zh.toLowerCase())) || l.includes(c.name.toLowerCase()));
     const ext = [...(DATA.external || []), ...failing].filter((c) => {
+      if (hasJobs(c)) return false; // e.g. a link-only company that now has listings via a job board
       if (state.group.size && !state.group.has(c.group)) return false;
       if (state.survey && !c.in_salary_survey) return false;
       if (state.company) return false;
@@ -168,13 +174,12 @@
   }
 
   function renderStatic() {
-    const comps = DATA.companies.filter((c) => c.ok !== undefined);
     const fresh = DATA.jobs.filter((j) => daysAgo(j.first_seen) <= 7).length;
     const updated = new Date(DATA.generated_at).toLocaleString("zh-TW", { dateStyle: "medium", timeStyle: "short", timeZone: "Asia/Taipei" });
     $("#stats").innerHTML = [
       ["AI 職缺", DATA.jobs.length],
       ["近 7 天新增", fresh],
-      ["公司", comps.filter((c) => c.ai_jobs).length + " / " + comps.length],
+      ["有職缺的公司", new Set(DATA.jobs.map((j) => j.company_id)).size],
       ["更新", updated],
     ].map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join("");
 
@@ -187,6 +192,7 @@
     const tbody = $("#coverage tbody");
     tbody.replaceChildren(
       ...DATA.companies
+        .filter((c) => !c.via) // startups found through a job board are summarised by the board's own row
         .slice()
         .sort((a, b) => a.group.localeCompare(b.group) || (b.ai_jobs || 0) - (a.ai_jobs || 0))
         .map((c) => {

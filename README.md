@@ -66,9 +66,11 @@ python3 -m http.server -d . 8000   # 開 http://localhost:8000/web/
 | 台灣軟體／網路／金融 | 趨勢、Appier、KKCompany、SHOPLINE、Pinkoi、Gogolook、Dcard、玉山銀行 |
 | 國際科技大廠 | Google、Microsoft、Amazon、Apple、NVIDIA、Intel、AMD、Qualcomm、Micron、Broadcom、Marvell、Synopsys、Cadence、Arm、AMAT、ASML、Lam、KLA、IBM、Cisco、Dell、TI、HP、HPE、Supermicro、Logitech、NXP、Infineon、ADI、Keysight、Teradyne、Netflix |
 | 日美星外商在台 | LINE、Shopee、Renesas、Bosch、Zebra、Binance、Ubiquiti、Canonical、OKX、Agoda、Stripe、Crypto.com、Ericsson、Sony、TEL、foodpanda |
+| 台灣新創（Yourator） | 以 AI、機器學習、LLM 等關鍵字搜尋 Yourator（robots.txt 允許、公開 API），已由官網爬取的公司會跳過，職缺標示「來源：Yourator」 |
 
 **無法收錄的公司**（不使用求職平台、不繞過反爬蟲機制）：其中的大廠以 `link_only: true` 登記在 `companies.yaml`，網頁上會以「請至官網查看」卡片顯示，直接連到官方招募頁。
 
+- **求職平台**：Yourator 允許爬取，已作為新創來源；104、1111、CakeResume 會擋爬蟲（403 或 CAPTCHA），所以不使用。
 - **官網只導向 104 等求職平台**：聯詠、奇景、群聯、世芯、晶心、南亞科、旺宏、台達電、和碩、光寶、Gogoro、工研院、91APP、奧義智慧、iKala、遊戲橘子、昕力、精誠、叡揚、東森購物、將來銀行、訊連、台灣人工智慧實驗室
 - **官網有 Cloudflare 或其他機制阻擋自動化存取**：台積電、日月光、力旺、英業達、技嘉、微星、義隆、Uber、Nokia、MaiCoin
 - **只有私有 API，或找不到可用的端點**：Meta（只有私有 GraphQL）、廣達（職缺頁 iframe 目前 404）、國泰（iMatch API 格式不明）、Western Digital、緯穎（只有招募信箱）

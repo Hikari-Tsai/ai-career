@@ -165,7 +165,7 @@ def main() -> int:
         prev_seen = {}
 
     def baseline_date(r: dict) -> str:
-        return (r["posted_at"] or "2000-01-01") if r["company_id"] not in known else today
+        return (r["posted_at"] or "2000-01-01") if r["company_id"].split(":", 1)[0] not in known else today
     today = date.today().isoformat()
 
     t0 = time.time()
@@ -182,14 +182,30 @@ def main() -> int:
 
     # ---- relevance
     records = []
+    dynamic: dict[str, dict] = {}  # companies discovered through a job board entry (e.g. "yourator:jkopay")
+    official = [  # English names match on word boundaries so "Arm"/"HP"/"LINE" don't hit unrelated startups
+        re.compile(rf"(?<![A-Za-z]){re.escape(n)}(?![A-Za-z])" if n.isascii() else re.escape(n), re.I)
+        for c in all_companies if not c.get("multi_company")
+        for n in (c["name"].split(" (")[0].split(" / ")[0], c.get("name_zh")) if n and len(n) >= 2
+    ]
     for job in all_jobs:
-        c = by_id[job.company_id]
+        c = by_id.get(job.company_id) or dynamic.get(job.company_id)
+        if c is None:
+            entry = by_id[job.company_id.split(":", 1)[0]]
+            name = job.extra["company"]["name"]
+            if any(o.search(name) for o in official):  # official careers site already covers it
+                continue
+            c = dynamic[job.company_id] = {
+                "id": job.company_id, "name": name, "name_zh": "", "group": entry["group"],
+                "careers_url": job.extra["company"]["careers_url"], "via": entry["name"],
+            }
         rs = rule_score(job.title, job.description, job.department)
         rec = job.to_dict()
         rec.update(
             company_name=c["name"],
             company_name_zh=c.get("name_zh", ""),
             group=c["group"],
+            via=c.get("via", ""),
             content_hash=job.content_hash,
             rule_score=rs.score,
             rule_category=rs.category,
@@ -223,6 +239,7 @@ def main() -> int:
                 "company": r["company_name"],
                 "company_zh": r["company_name_zh"],
                 "group": r["group"],
+                "via": r["via"],
                 "title": r["title"],
                 "url": r["url"],
                 "location": r["location"],
@@ -256,7 +273,7 @@ def main() -> int:
     failed = {cid for cid, s in status.items() if not s.get("ok")} | (by_id.keys() - {c["id"] for c in companies})
     prev_seen = {k: v for k, v in prev_seen.items() if k in live or k.split(":")[0] in failed}
     if failed:  # carry over yesterday's listings for companies whose site failed today
-        out += [j for j in previous.values() if j["company_id"] in failed]
+        out += [j for j in previous.values() if j["uid"].split(":")[0] in failed]
     details = {k: v for k, v in details.items() if k in live or k.split(":")[0] in failed}
 
     payload = {
@@ -274,9 +291,13 @@ def main() -> int:
                 "careers_url": c.get("careers_url", ""),
                 "in_salary_survey": bool(c.get("in_salary_survey")),
                 **status.get(c["id"], {}),
-                "ai_jobs": sum(1 for j in out if j["company_id"] == c["id"]),
+                "ai_jobs": sum(1 for j in out if j["uid"].split(":")[0] == c["id"]),  # board entries count all their startups
             }
             for c in all_companies
+        ] + [
+            {"id": c["id"], "name": c["name"], "name_zh": "", "group": c["group"], "careers_url": c["careers_url"],
+             "via": c["via"], "ok": True, "ai_jobs": sum(1 for j in out if j["company_id"] == c["id"])}
+            for c in dynamic.values()
         ],
         "external": [
             {

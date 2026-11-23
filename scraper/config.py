@@ -15,6 +15,7 @@ GROUP_LABELS = {
     "tw_software": "台灣軟體 / 網路 / 金融",
     "global_tech": "國際科技大廠",
     "foreign_branch": "日美星外商在台",
+    "tw_startup": "台灣新創（Yourator）",
 }
 
 
