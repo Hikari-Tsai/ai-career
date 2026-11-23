@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T09:18:29+00:00",
+ "generated_at": "2026-11-23T09:46:40+00:00",
  "llm_enabled": true,
  "llm_model": "claude-opus-5-5",
  "groups": {
@@ -89,7 +89,7 @@
    "ok": true,
    "taiwan_jobs": 8,
    "error": null,
-   "ai_jobs": 1
+   "ai_jobs": 2
   },
   {
    "id": "shopline",
@@ -150,6 +150,18 @@
    "taiwan_jobs": 184,
    "error": null,
    "ai_jobs": 12
+  },
+  {
+   "id": "netskope",
+   "name": "Netskope",
+   "name_zh": "Netskope",
+   "group": "foreign_branch",
+   "careers_url": "https://www.netskope.com/company/careers/open-positions",
+   "in_salary_survey": true,
+   "ok": true,
+   "taiwan_jobs": 8,
+   "error": null,
+   "ai_jobs": 4
   },
   {
    "id": "line",
@@ -218,9 +230,9 @@
    "group": "foreign_branch",
    "careers_url": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers",
    "in_salary_survey": false,
-   "ok": false,
-   "taiwan_jobs": 0,
-   "error": "RateLimited: POST https://zebra.wd501.myworkdayjobs.com/wday/cxs/zebra/Zebra_careers/jobs: HTTP 429 after 3 attempts",
+   "ok": true,
+   "taiwan_jobs": 10,
+   "error": null,
    "ai_jobs": 0
   },
   {
@@ -289,7 +301,7 @@
    "name_zh": "Agoda",
    "group": "foreign_branch",
    "careers_url": "https://job-boards.greenhouse.io/agoda",
-   "in_salary_survey": false,
+   "in_salary_survey": true,
    "ok": true,
    "taiwan_jobs": 2,
    "error": null,
@@ -313,7 +325,7 @@
    "name_zh": "Crypto.com",
    "group": "foreign_branch",
    "careers_url": "https://crypto.com/en/careers/",
-   "in_salary_survey": false,
+   "in_salary_survey": true,
    "ok": true,
    "taiwan_jobs": 3,
    "error": null,
@@ -389,7 +401,7 @@
    "ok": true,
    "taiwan_jobs": 443,
    "error": null,
-   "ai_jobs": 25
+   "ai_jobs": 26
   },
   {
    "id": "realtek",
@@ -401,7 +413,7 @@
    "ok": true,
    "taiwan_jobs": 200,
    "error": null,
-   "ai_jobs": 8
+   "ai_jobs": 9
   },
   {
    "id": "umc",
@@ -473,7 +485,7 @@
    "ok": true,
    "taiwan_jobs": 892,
    "error": null,
-   "ai_jobs": 29
+   "ai_jobs": 33
   },
   {
    "id": "asus",
@@ -485,7 +497,7 @@
    "ok": true,
    "taiwan_jobs": 638,
    "error": null,
-   "ai_jobs": 46
+   "ai_jobs": 47
   },
   {
    "id": "wistron",
@@ -497,7 +509,7 @@
    "ok": true,
    "taiwan_jobs": 539,
    "error": null,
-   "ai_jobs": 11
+   "ai_jobs": 12
   },
   {
    "id": "acer",
@@ -536,6 +548,30 @@
    "ai_jobs": 1
   },
   {
+   "id": "cht",
+   "name": "Chunghwa Telecom",
+   "name_zh": "中華電信",
+   "group": "tw_electronics",
+   "careers_url": "https://rmis.cht.com.tw/portal/jobs/index.jsp",
+   "in_salary_survey": true,
+   "ok": true,
+   "taiwan_jobs": 2,
+   "error": null,
+   "ai_jobs": 0
+  },
+  {
+   "id": "fet",
+   "name": "Far EasTone",
+   "name_zh": "遠傳電信",
+   "group": "tw_electronics",
+   "careers_url": "https://erecruit.fareastone.com.tw/",
+   "in_salary_survey": true,
+   "ok": false,
+   "taiwan_jobs": 0,
+   "error": "FetchError: GET https://erecruit.fareastone.com.tw/zh_TW/web/guest/home?p_p_id=FETRECopportunity_WAR_FETRECopportunityportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_FETRECopportunity_WAR_FETRECopportunityportlet_isSearch=true&_FETRECopportunity_WAR_FETRECopportunityportlet_mvcPath=%2Fhtml%2Fjob%2Ffront%2Fview.jsp&_FETRECopportunity_WAR_FETRECopportunityportlet_curPage=1: HTTPSConnectionPool(host='erecruit.fareastone.com.tw', port=443): Max retries exceeded with url: /zh_TW/web/guest/home?p_p_id=FETRECopportunity_WAR_FETRECopportunityportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_FETRECopportunity_WAR_FETRECopportunityportlet_isSearch=true&_FETRECopportunity_WAR_FETRECopportunityportlet_mvcPath=%2Fhtml%2Fjob%2Ffront%2Fview.jsp&_FETRECopportunity_WAR_FETRECopportunityportlet_curPage=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='erecruit.fareastone.com.tw', port=443) at 0x7aa8d4c6e2d0>, 'Connection to erecruit.fareastone.com.tw timed out. (connect timeout=30)'))",
+   "ai_jobs": 0
+  },
+  {
    "id": "twm",
    "name": "Taiwan Mobile",
    "name_zh": "台灣大哥大",
@@ -545,7 +581,7 @@
    "ok": true,
    "taiwan_jobs": 165,
    "error": null,
-   "ai_jobs": 5
+   "ai_jobs": 6
   },
   {
    "id": "microsoft",
@@ -593,7 +629,7 @@
    "ok": true,
    "taiwan_jobs": 59,
    "error": null,
-   "ai_jobs": 6
+   "ai_jobs": 7
   },
   {
    "id": "qualcomm",
@@ -626,9 +662,9 @@
    "group": "global_tech",
    "careers_url": "https://broadcom.wd1.myworkdayjobs.com/External_Career",
    "in_salary_survey": false,
-   "ok": true,
-   "taiwan_jobs": 1,
-   "error": null,
+   "ok": false,
+   "taiwan_jobs": 0,
+   "error": "RateLimited: POST https://broadcom.wd1.myworkdayjobs.com/wday/cxs/broadcom/External_Career/jobs: HTTP 429 after 3 attempts",
    "ai_jobs": 0
   },
   {
@@ -1006,7 +1042,7 @@
    "group": "tw_electronics",
    "careers_url": "https://www.liteon.com/zh-tw/hrjoin/join-us",
    "reason": "官網職缺刊登於求職平台",
-   "in_salary_survey": false
+   "in_salary_survey": true
   },
   {
    "id": "meta",
@@ -1016,22 +1052,184 @@
    "careers_url": "https://www.metacareers.com/jobs?offices[0]=Taipei%2C%20Taiwan",
    "reason": "官網無公開職缺資料",
    "in_salary_survey": false
+  },
+  {
+   "id": "cathay",
+   "name": "Cathay United Bank",
+   "name_zh": "國泰世華銀行",
+   "group": "tw_software",
+   "careers_url": "https://recruit.cathayholdings.com/iMatch",
+   "reason": "官網無公開職缺資料",
+   "in_salary_survey": true
+  },
+  {
+   "id": "91app",
+   "name": "91APP",
+   "name_zh": "九易宇軒",
+   "group": "tw_software",
+   "careers_url": "https://www.91app.com/",
+   "reason": "官網職缺刊登於求職平台",
+   "in_salary_survey": true
+  },
+  {
+   "id": "cycraft",
+   "name": "CyCraft",
+   "name_zh": "奧義智慧",
+   "group": "tw_software",
+   "careers_url": "https://www.cycraft.com/careers",
+   "reason": "官網職缺刊登於求職平台",
+   "in_salary_survey": true
+  },
+  {
+   "id": "cyberlink",
+   "name": "CyberLink",
+   "name_zh": "訊連科技",
+   "group": "tw_software",
+   "careers_url": "https://tw.cyberlink.com/",
+   "reason": "官網職缺刊登於求職平台",
+   "in_salary_survey": true
+  },
+  {
+   "id": "gamania",
+   "name": "Gamania",
+   "name_zh": "遊戲橘子",
+   "group": "tw_software",
+   "careers_url": "https://career.gamania.com/",
+   "reason": "官網職缺刊登於求職平台",
+   "in_salary_survey": true
+  },
+  {
+   "id": "itri",
+   "name": "ITRI",
+   "name_zh": "工業技術研究院",
+   "group": "tw_electronics",
+   "careers_url": "https://www.itri.org.tw/ListStyle.aspx?DisplayStyle=04&SiteID=1&MmmID=1036461243245060746",
+   "reason": "官網職缺刊登於求職平台",
+   "in_salary_survey": true
+  },
+  {
+   "id": "systex",
+   "name": "SYSTEX",
+   "name_zh": "精誠資訊",
+   "group": "tw_software",
+   "careers_url": "https://tw.systex.com/",
+   "reason": "官網職缺刊登於求職平台",
+   "in_salary_survey": true
+  },
+  {
+   "id": "gss",
+   "name": "Galaxy Software Services",
+   "name_zh": "叡揚資訊",
+   "group": "tw_software",
+   "careers_url": "https://www.gss.com.tw/career",
+   "reason": "官網職缺刊登於求職平台",
+   "in_salary_survey": true
+  },
+  {
+   "id": "tpisoftware",
+   "name": "TPIsoftware",
+   "name_zh": "昕力資訊",
+   "group": "tw_software",
+   "careers_url": "https://www.tpisoftware.com/",
+   "reason": "官網職缺刊登於求職平台",
+   "in_salary_survey": true
+  },
+  {
+   "id": "etmall",
+   "name": "Eastern Home Shopping",
+   "name_zh": "東森購物",
+   "group": "tw_software",
+   "careers_url": "https://www.etmall.com.tw/",
+   "reason": "官網職缺刊登於求職平台",
+   "in_salary_survey": true
+  },
+  {
+   "id": "nextbank",
+   "name": "NEXT BANK",
+   "name_zh": "將來銀行",
+   "group": "tw_software",
+   "careers_url": "https://www.nextbank.com.tw/",
+   "reason": "官網職缺刊登於求職平台",
+   "in_salary_survey": true
+  },
+  {
+   "id": "qnap",
+   "name": "QNAP",
+   "name_zh": "威聯通",
+   "group": "tw_electronics",
+   "careers_url": "https://www.qnap.com/zh-tw/career",
+   "reason": "官網職缺刊登於求職平台",
+   "in_salary_survey": true
+  },
+  {
+   "id": "yahoo_tw",
+   "name": "Yahoo Taiwan",
+   "name_zh": "雅虎台灣",
+   "group": "foreign_branch",
+   "careers_url": "https://www.yahooinc.com/careers/search.html?location=Taiwan",
+   "reason": "官網阻擋自動化存取",
+   "in_salary_survey": true
+  },
+  {
+   "id": "teamt5",
+   "name": "TeamT5",
+   "name_zh": "杜浦數位安全",
+   "group": "tw_software",
+   "careers_url": "https://teamt5.org/tw/careers",
+   "reason": "官網職缺刊登於求職平台",
+   "in_salary_survey": true
+  },
+  {
+   "id": "igs",
+   "name": "IGS",
+   "name_zh": "鈊象電子",
+   "group": "tw_software",
+   "careers_url": "https://www.igs.com.tw/career/",
+   "reason": "官網無公開職缺資料",
+   "in_salary_survey": true
+  },
+  {
+   "id": "digiwin",
+   "name": "Digiwin",
+   "name_zh": "鼎新電腦",
+   "group": "tw_software",
+   "careers_url": "https://www.digiwin.com.tw/hr/school/",
+   "reason": "官網職缺刊登於求職平台",
+   "in_salary_survey": true
+  },
+  {
+   "id": "sinopac",
+   "name": "SinoPac Holdings",
+   "name_zh": "永豐金控",
+   "group": "tw_software",
+   "careers_url": "https://careers.sinopac.com",
+   "reason": "官網無公開職缺資料",
+   "in_salary_survey": true
+  },
+  {
+   "id": "cmoney",
+   "name": "CMoney",
+   "name_zh": "全曜財經",
+   "group": "tw_software",
+   "careers_url": "https://www.cmoney.tw/careers/",
+   "reason": "官網職缺刊登於求職平台",
+   "in_salary_survey": true
   }
  ],
  "stats": {
-  "taiwan_jobs_scanned": 5440,
-  "ai_jobs": 275
+  "taiwan_jobs_scanned": 5459,
+  "ai_jobs": 290
  },
  "llm_usage": {
   "model": "claude-opus-5-5",
-  "calls": 400,
-  "classified": 398,
-  "input_tokens": 908935,
-  "output_tokens": 51545,
+  "calls": 35,
+  "classified": 35,
+  "input_tokens": 79474,
+  "output_tokens": 7738,
   "cache_read_input_tokens": 0,
   "cache_creation_input_tokens": 0,
-  "cost_usd": 4.6666,
-  "pending": 27
+  "cost_usd": 0.4727,
+  "pending": 0
  },
  "jobs": [
   {
@@ -1500,6 +1698,45 @@
    ],
    "summary": "研究LLM後訓練、推理擴展與多代理系統，應用於加密貨幣交易代理",
    "snippet": "…ronments. You will conduct original research that pushes the boundaries of what AI agents can do — reasoning under market uncertainty, coordinating with other agents in open adversarial settings, and making reliable decisions when real value is at stake. The g",
+   "llm": true
+  },
+  {
+   "uid": "netskope:8329534",
+   "company_id": "netskope",
+   "company": "Netskope",
+   "company_zh": "Netskope",
+   "group": "foreign_branch",
+   "title": "Staff Machine Learning Scientist",
+   "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=8329534",
+   "location": "Taipei, Taiwan",
+   "city": "台北",
+   "department": "AI R&D",
+   "posted_at": "2026-10-28",
+   "first_seen": "2026-10-28",
+   "score": 92.5,
+   "rule_score": 100.0,
+   "category": "ml",
+   "matched": [
+    "AI",
+    "AI/ML model",
+    "CUDA",
+    "large language model",
+    "Machine Learning",
+    "ML",
+    "Natural language",
+    "Tensorflow"
+   ],
+   "seniority": "staff_plus",
+   "skills": [
+    "Python",
+    "Tensorflow",
+    "CUDA",
+    "LLM",
+    "NLP",
+    "AWS/Azure/GCP"
+   ],
+   "summary": "於資安產品中開發機器學習模型，涵蓋資料標註、特徵工程、訓練驗證與產品化",
+   "snippet": "…Within Netskope Engineering, the Netskope AI Labs is responsible for advancing state-of-the-art artificial intelligence (AI) and machine learning (ML) technology to power the Netskope Intelligent Security Service Edge (SSE) security platform. Leveraging our e",
    "llm": true
   },
   {
@@ -4899,6 +5136,35 @@
    "llm": true
   },
   {
+   "uid": "realtek:1412",
+   "company_id": "realtek",
+   "company": "Realtek",
+   "company_zh": "瑞昱",
+   "group": "tw_semi",
+   "title": "影像/ML演算法工程師",
+   "url": "https://recruit.realtek.com/Job/JobDetail?jobid=1412&lang=en",
+   "location": "台灣 新竹科學園區",
+   "city": "新竹",
+   "department": "系統設計",
+   "posted_at": "",
+   "first_seen": "2000-01-01",
+   "score": 65.2,
+   "rule_score": 15.0,
+   "category": "cv_nlp",
+   "matched": [
+    "Machine Learning"
+   ],
+   "seniority": "unknown",
+   "skills": [
+    "影像處理",
+    "Machine Learning",
+    "DNN model development"
+   ],
+   "summary": "於瑞昱系統設計部門開發影像處理與機器學習演算法",
+   "snippet": "工作項目： 1. 影像處理。 2. Machine Learning演算法發展。 應徵條件： 1. 碩士以上; 電機工程、電信工程、電控工程、電子工程、資訊工程、資訊科學、動力機械、自動控制、通訊工程相關科系畢業為主。 2. 熟悉 Machine Learning/DNN model development為佳。",
+   "llm": true
+  },
+  {
    "uid": "asus:fc97470b-563f-48dc-b1ec-ce715eff9edc",
    "company_id": "asus",
    "company": "ASUS",
@@ -5660,6 +5926,44 @@
    "llm": true
   },
   {
+   "uid": "netskope:8184639",
+   "company_id": "netskope",
+   "company": "Netskope",
+   "company_zh": "Netskope",
+   "group": "foreign_branch",
+   "title": "Sr. Staff Engineer, Data Engineering",
+   "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=8184639",
+   "location": "Taipei, Taiwan",
+   "city": "台北",
+   "department": "Data Engineering",
+   "posted_at": "2026-09-24",
+   "first_seen": "2026-09-24",
+   "score": 59.2,
+   "rule_score": 42.0,
+   "category": "llm_genai",
+   "matched": [
+    "agentic",
+    "AI",
+    "AI systems",
+    "AI/ML",
+    "generative AI",
+    "machine learning",
+    "natural language"
+   ],
+   "seniority": "staff_plus",
+   "skills": [
+    "Agentic AI",
+    "RAG",
+    "Natural Language to SQL",
+    "Apache Spark",
+    "Apache Kafka",
+    "Python"
+   ],
+   "summary": "",
+   "snippet": "…We are seeking skilled engineers to build scalable distributed systems and integrate agentic AI and conversational analytics. As a Senior Staff Engineer, you will lead the architecture, data modeling, and core infrastructure powering our next-generation AI an",
+   "llm": true
+  },
+  {
    "uid": "foxconn:43f5a8d1c1cb41af83b73fafb33f0c94",
    "company_id": "foxconn",
    "company": "Hon Hai / Foxconn",
@@ -5829,6 +6133,71 @@
    ],
    "summary": "為企業客戶設計並原型開發Google Cloud生成式AI與代理整合方案的技術顧問",
    "snippet": "The Google Cloud Platform team helps customers transform and build what's next for their business — all with technology built in the cloud. Our products are developed for security, reliability and scalability, running the full stack from infrastructure to appl",
+   "llm": true
+  },
+  {
+   "uid": "foxconn:712a3111962f4af5bd55e61f7f91f817",
+   "company_id": "foxconn",
+   "company": "Hon Hai / Foxconn",
+   "company_zh": "鴻海",
+   "group": "tw_electronics",
+   "title": "EDA/演算法應用開發工程師",
+   "url": "https://recruit.foxconn.com/isite-web-tw/main/jobsearch",
+   "location": "台灣",
+   "city": "台灣",
+   "department": "一般招募(社招/顧問)",
+   "posted_at": "",
+   "first_seen": "2000-01-01",
+   "score": 57.8,
+   "rule_score": 15.0,
+   "category": "llm_genai",
+   "matched": [
+    "Multimodal",
+    "prompt engineer"
+   ],
+   "seniority": "mid",
+   "skills": [
+    "Python",
+    "LLM",
+    "RAG",
+    "prompt engineering",
+    "OpenCV",
+    "OrCAD/Allegro"
+   ],
+   "summary": "結合LLM、RAG、NLP與電腦視覺，開發EDA/PCB設計相關的自動化應用工具",
+   "snippet": "…熟悉Python語言，並熟練運用dataclasses/concurrency/messaging/Flask/Dash，以及進行PDF注釋與Word/Excel讀寫 3. 熟悉LLM、Multimodal Model、Agent原理，能夠針對用戶需求，規劃與建置專屬應用(工作項包含但不限於:資料工程、prompt engineering、RAG、fine-tuing) 4. 熟悉NLP、字串相似度知識及演算法，能夠操作相關工具達成需求 5. 熟悉計算機視覺知識及演算法，能夠操作OpenCV等工具達成需求 6.",
+   "llm": true
+  },
+  {
+   "uid": "foxconn:5ab346f7a3934eab86b744b898476722",
+   "company_id": "foxconn",
+   "company": "Hon Hai / Foxconn",
+   "company_zh": "鴻海",
+   "group": "tw_electronics",
+   "title": "高雄軟體園區-演算法工程師",
+   "url": "https://recruit.foxconn.com/isite-web-tw/main/jobsearch",
+   "location": "台灣",
+   "city": "台灣",
+   "department": "高雄軟體研發中心專區",
+   "posted_at": "",
+   "first_seen": "2000-01-01",
+   "score": 57.8,
+   "rule_score": 15.0,
+   "category": "data_sci",
+   "matched": [
+    "深度學習"
+   ],
+   "seniority": "unknown",
+   "skills": [
+    "數據清洗",
+    "特徵工程",
+    "統計分析",
+    "資料視覺化",
+    "機器學習",
+    "深度學習"
+   ],
+   "summary": "負責數據前處理與特徵工程，以機器學習與統計方法進行建模分析與最佳化研究。",
+   "snippet": "1. 數據資料前處理（包含數據清洗、特徵工程） 2. 規劃數據模型，進行統計與分析，開發資料視覺化圖表。 3. 以機器、深度學習與統計分析等技術作最佳化研究、開發與驗證。 4. 數據研究報告的撰寫。 5. 協同工程師進行平台開發與新技術的導入。",
    "llm": true
   },
   {
@@ -6382,6 +6751,70 @@
    "llm": true
   },
   {
+   "uid": "twm:3419",
+   "company_id": "twm",
+   "company": "Taiwan Mobile",
+   "company_zh": "台灣大哥大",
+   "group": "tw_electronics",
+   "title": "大哥付你分期數據分析人員",
+   "url": "https://hrweb.taiwanmobile.com/TWMHRMS/#/job-view/vacancy-detail/3419/1/13/資訊類",
+   "location": "台灣 台北市",
+   "city": "台北",
+   "department": "資訊類",
+   "posted_at": "",
+   "first_seen": "2000-01-01",
+   "score": 52.5,
+   "rule_score": 15.0,
+   "category": "data_sci",
+   "matched": [
+    "機器學習"
+   ],
+   "seniority": "mid",
+   "skills": [
+    "Python",
+    "SQL",
+    "Tableau",
+    "AWS",
+    "隨機森林",
+    "Spark"
+   ],
+   "summary": "為先買後付服務開發維運信用風險模型、建置風險儀表板與資料管線",
+   "snippet": "…【其他條件】 兩年以上數據分析或模型開發相關經驗，具備扎實的數據分析基礎與實務操作能力。 熟悉 Python、R 或其他數據分析工具，具備 SQL 查詢及數據處理能力。 具備建模經驗，包括回歸分析、決策樹、隨機森林等機器學習技術應用。 有良好的邏輯思維與問題解決能力，能將數據轉化為可行的業務建議。 【加分條件】 曾參與過金融、支付或電信相關行業的數據分析或風險模型開發項目。 熟悉信用風險管理流程與授信策略。 熟悉大數據處理技術（如 Hadoop、Spark）。",
+   "llm": true
+  },
+  {
+   "uid": "wistron:26008009",
+   "company_id": "wistron",
+   "company": "Wistron",
+   "company_zh": "緯創",
+   "group": "tw_electronics",
+   "title": "新技術研發工程師",
+   "url": "https://jobs.wistron.com/#/app/vacancy",
+   "location": "台灣 新北",
+   "city": "新北",
+   "department": "softwareFirmware",
+   "posted_at": "2026-11-12",
+   "first_seen": "2026-11-12",
+   "score": 52.5,
+   "rule_score": 15.0,
+   "category": "ml",
+   "matched": [
+    "深度學習"
+   ],
+   "seniority": "mid",
+   "skills": [
+    "深度學習",
+    "機器學習",
+    "量子科技",
+    "Python",
+    "C++",
+    "快速原型開發"
+   ],
+   "summary": "研究AI與量子科技等新興技術，開發原型並評估其業務應用可行性",
+   "snippet": "…參與跨部門創新專案，提供技術支持與指導，推動技術落地。 5. 持續學習並追蹤AI與量子科技領域的最新發展，並提供內部技術分享與培訓。 1. 具備AI相關技術的實務開發經驗，熟悉深度學習、機器學習模型。 2. 了解量子科技的基本原理，並能應用於研發與實驗中。 3. 具備創新應用開發能力，能提出解決實際問題的技術方案。 4. 熟悉程式語言如Python、C++或其他相關語言，並能進行快速原型開發。 5. 擁有跨領域合作經驗，能與不同部門團隊有效協作。",
+   "llm": true
+  },
+  {
    "uid": "binance:5002713101",
    "company_id": "binance",
    "company": "Binance",
@@ -6776,6 +7209,37 @@
    "llm": true
   },
   {
+   "uid": "foxconn:8b6c8616967246bfb81c59e02913b2c5",
+   "company_id": "foxconn",
+   "company": "Hon Hai / Foxconn",
+   "company_zh": "鴻海",
+   "group": "tw_electronics",
+   "title": "高雄軟體園區-HPC應用整合工程師",
+   "url": "https://recruit.foxconn.com/isite-web-tw/main/jobsearch",
+   "location": "台灣",
+   "city": "台灣",
+   "department": "高雄軟體研發中心專區",
+   "posted_at": "",
+   "first_seen": "2000-01-01",
+   "score": 50.2,
+   "rule_score": 15.0,
+   "category": "mlops_infra",
+   "matched": [
+    "深度學習"
+   ],
+   "seniority": "unknown",
+   "skills": [
+    "HPC",
+    "深度學習影像應用",
+    "運算加速器",
+    "網路硬體加速",
+    "資料傳輸協定"
+   ],
+   "summary": "整合優化HPC與深度學習影像應用，開發運算加速器及網路硬體加速與傳輸協定",
+   "snippet": "1.整合優化 HPC及深度學習影像應用 2.運算加速器/網路硬體加速機制開發 3.資料傳輸協定應用層開發",
+   "llm": true
+  },
+  {
    "uid": "asus:ddda6cf5-bec5-492b-b37f-65d910231eeb",
    "company_id": "asus",
    "company": "ASUS",
@@ -7092,6 +7556,108 @@
    "llm": true
   },
   {
+   "uid": "netskope:8171690",
+   "company_id": "netskope",
+   "company": "Netskope",
+   "company_zh": "Netskope",
+   "group": "foreign_branch",
+   "title": "Staff / Sr. Staff Engineer, AI Gateway",
+   "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=8171690",
+   "location": "Taipei, Taiwan",
+   "city": "台北",
+   "department": "Cloud Data Path",
+   "posted_at": "2026-11-03",
+   "first_seen": "2026-11-03",
+   "score": 47.6,
+   "rule_score": 55.5,
+   "category": "ai_adjacent",
+   "matched": [
+    "agentic",
+    "AI",
+    "AI researcher",
+    "Generative AI",
+    "LangChain",
+    "LLM"
+   ],
+   "seniority": "staff_plus",
+   "skills": [
+    "Golang",
+    "Kubernetes",
+    "distributed systems",
+    "TLS/Proxy",
+    "gRPC",
+    "LLM streaming (SSE)"
+   ],
+   "summary": "以Golang架構與擴展AI Gateway後端微服務，處理LLM串流代理與企業安全治理",
+   "snippet": "…About the Role Netskope AI Gateway helps global enterprises securely adopt, scale, and govern Generative AI. We are seeking a Staff / Sr. Staff Software Engineer to architect, build, and scale the core systems powering our AI Gateway product and its supportin",
+   "llm": true
+  },
+  {
+   "uid": "foxconn:25263f390e6445e2b9851686cf810615",
+   "company_id": "foxconn",
+   "company": "Hon Hai / Foxconn",
+   "company_zh": "鴻海",
+   "group": "tw_electronics",
+   "title": "自動駕駛演算法工程師",
+   "url": "https://recruit.foxconn.com/isite-web-tw/main/jobsearch",
+   "location": "台灣",
+   "city": "台灣",
+   "department": "一般招募(社招/顧問),軟體研發中心專區",
+   "posted_at": "",
+   "first_seen": "2000-01-01",
+   "score": 47.2,
+   "rule_score": 15.0,
+   "category": "ai_adjacent",
+   "matched": [
+    "深度學習"
+   ],
+   "seniority": "unknown",
+   "skills": [
+    "自動駕駛控制決策系統",
+    "自動駕駛模擬器",
+    "深度學習演算法整合",
+    "感知融合",
+    "整車測試",
+    "數據蒐集"
+   ],
+   "summary": "開發自駕車控制決策系統，整合深度學習與感知融合演算法並進行模擬及實車驗證",
+   "snippet": "…開發自動駕駛車輛控制決策系統 2. 串接自動駕駛模擬器與系統驗證 3. 自動駕駛系統功能分析、驗證 4. 模擬平台測試、整車測試 5. 軟硬體系統和設備配置研究、評估、維護 6. 協助深度學習演算法數據蒐集、側錄 7. 整合深度學習演算法與車輛控制決策系統 8. 整合感知融合演算法與車輛控制決策系統",
+   "llm": true
+  },
+  {
+   "uid": "amd:93905",
+   "company_id": "amd",
+   "company": "AMD",
+   "company_zh": "超微",
+   "group": "global_tech",
+   "title": "Product Development Engineer (Data Analytics & AI/ML)",
+   "url": "https://careers.amd.com/careers-home/jobs/93905",
+   "location": "Hsinchu, Taiwan",
+   "city": "新竹",
+   "department": "Engineering",
+   "posted_at": "2026-11-20",
+   "first_seen": "2026-11-20",
+   "score": 46.1,
+   "rule_score": 49.5,
+   "category": "data_sci",
+   "matched": [
+    "AI",
+    "AI/ML"
+   ],
+   "seniority": "mid",
+   "skills": [
+    "data analytics",
+    "AI/ML techniques",
+    "design of experiments",
+    "yield analysis",
+    "product test program debug",
+    "semiconductor manufacturing"
+   ],
+   "summary": "分析晶片良率數據，運用資料分析與AI/ML找出良率損失原因並改善",
+   "snippet": "…THE PERSON: The ideal candidate will have the following skills: Exceptional data analytic skills and ability to leverage advanced AI/ML techniques Ability to design experiments and analyze results to solve problems Ability to collaborate and influence outside",
+   "llm": true
+  },
+  {
    "uid": "amd:94434",
    "company_id": "amd",
    "company": "AMD",
@@ -7296,6 +7862,38 @@
    ],
    "summary": "協助AI算力雲端平台部署維運、容器化排查與MLOps流程優化",
    "snippet": "…境佈署與配置作業；參與雲端服務資源的日常維運、自動化資源分配之參數設定及性能監控。配合利用容器化技術 (Docker/K8s) 進行效能瓶頸初步排查，支援優化 MLOps 工作流並協助撰寫技術維護文件。 Assist in environmental deployment and configuration of global AI computing platforms. Participate in daily operations of cloud resources and parameter settin",
+   "llm": true
+  },
+  {
+   "uid": "kkcompany:V6YX3496",
+   "company_id": "kkcompany",
+   "company": "KKCompany",
+   "company_zh": "科科科技",
+   "group": "tw_software",
+   "title": "Senior Data Engineer",
+   "url": "https://www.careers-page.com/kkcompany/job/V6YX3496",
+   "location": "Taipei, Taipei, Taiwan",
+   "city": "台北",
+   "department": "Music",
+   "posted_at": "",
+   "first_seen": "2000-01-01",
+   "score": 45.0,
+   "rule_score": 15.0,
+   "category": "mlops_infra",
+   "matched": [
+    "machine learning"
+   ],
+   "seniority": "senior",
+   "skills": [
+    "Python",
+    "PySpark",
+    "ETL/ELT",
+    "AWS Personalize",
+    "Airflow",
+    "SparkSQL"
+   ],
+   "summary": "為音樂平台建置ETL資料管線，並以AWS Personalize開發個人化推薦系統",
+   "snippet": "…In addition to supporting data-driven decision making, the team is also responsible for the development and ongoing operation of personalized recommendation systems. By integrating machine learning models—such as those powered by AWS Personalize—into our data",
    "llm": true
   },
   {
@@ -7604,6 +8202,41 @@
    ],
    "summary": "設計Android BSP平台軟體架構，並研發生成式AI與代理系統核心元件",
    "snippet": "…Explore and evaluate new platform technologies 3. Research and develop core building blocks for Generative AI(GAI) and agentic systems 4. Develop methodologies for system optimization #LI-JK1",
+   "llm": true
+  },
+  {
+   "uid": "netskope:8319243",
+   "company_id": "netskope",
+   "company": "Netskope",
+   "company_zh": "Netskope",
+   "group": "foreign_branch",
+   "title": "Staff / Sr. Staff Engineer, Data Engineering",
+   "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=8319243",
+   "location": "Taipei, Taiwan",
+   "city": "台北",
+   "department": "Data Engineering",
+   "posted_at": "2026-10-23",
+   "first_seen": "2026-10-23",
+   "score": 43.9,
+   "rule_score": 40.5,
+   "category": "ai_adjacent",
+   "matched": [
+    "agentic",
+    "AI",
+    "LLM",
+    "natural language"
+   ],
+   "seniority": "staff_plus",
+   "skills": [
+    "Go",
+    "Java",
+    "Python",
+    "gRPC",
+    "Kubernetes",
+    "Parquet"
+   ],
+   "summary": "設計大規模資安遙測資料平台，並建構AI語意層與自然語言查詢代理功能",
+   "snippet": "…We are now investing in an AI-native future, building a semantic layer that makes our data machine-interpretable and agentic experiences that let customers ask questions of their data in natural language. What you’ll work on Partner with architects to design",
    "llm": true
   },
   {
@@ -8490,6 +9123,69 @@
    ],
    "summary": "協助規劃AI產品規格、推動AI專案並串接研發與業務需求",
    "snippet": "…•具備基本產品思維與需求分析能力，以及問題拆解與邏輯分析能力 。 •對新興技術展現優異的理解能力及應用思維 。 •具備優異的技術專案規劃、統籌與實作能力，且具備良好的跨部門溝通能力 。 【加分條件】 •對 AI 應用或系統架構有基本概念，或熟悉 AI 工具與產品應用 。 •具備產品企劃、專案管理或需求分析實務經驗 。 •曾參與產品開發或新創專案 。 •具備 PMP 證照或受過專案管理相關訓練 。",
+   "llm": true
+  },
+  {
+   "uid": "asus:060bb8a7-401d-443c-af71-aed982f31d63",
+   "company_id": "asus",
+   "company": "ASUS",
+   "company_zh": "華碩",
+   "group": "tw_electronics",
+   "title": "軟體研發工程師(消費性產品)",
+   "url": "https://recruit.asus.com/Jobs/Detail?sn=060bb8a7-401d-443c-af71-aed982f31d63",
+   "location": "臺灣 / 臺北",
+   "city": "台北",
+   "department": "研究發展/ SW/ 軟體設計(通才/跨領域)",
+   "posted_at": "",
+   "first_seen": "2000-01-01",
+   "score": 37.5,
+   "rule_score": 15.0,
+   "category": "ai_adjacent",
+   "matched": [
+    "深度學習"
+   ],
+   "seniority": "junior",
+   "skills": [
+    "Windows",
+    "C++",
+    "C#",
+    "Android/iOS",
+    "深度學習",
+    "機器學習"
+   ],
+   "summary": "開發華碩AI PC Windows軟體產品，負責設計、撰寫程式及量產維護",
+   "snippet": "…規劃、執行與維護量產產品 需求條件 1. 熟悉Windows作業系統 2. 對開發C++/C#視窗程式設計有興趣者 3. 具有開發Windows/Android/iOS程式經驗尤佳 4. 具備深度學習/機器學習實務經驗尤佳 ‌ 收藏職缺 收藏職缺 --> 我要應徵 使用條款 隱私權保護政策 ©ASUSTeK Computer Inc. All rights reserved. 支援瀏覽器 Chrome 85 以上、Firefox 85 以上 、Safari 14 以上 、IE 11 以上 w3.includeHT",
+   "llm": true
+  },
+  {
+   "uid": "mediatek:MTK120260709002",
+   "company_id": "mediatek",
+   "company": "MediaTek",
+   "company_zh": "聯發科",
+   "group": "tw_semi",
+   "title": "MCU/DSP design engineer",
+   "url": "https://careers.mediatek.com/en/jobs/MTK120260709002",
+   "location": "HsinChu, Taiwan",
+   "city": "新竹",
+   "department": "",
+   "posted_at": "2026-08-02",
+   "first_seen": "2026-08-02",
+   "score": 37.5,
+   "rule_score": 15.0,
+   "category": "ai_hw",
+   "matched": [
+    "machine learning"
+   ],
+   "seniority": "unknown",
+   "skills": [
+    "Processor micro-architecture design",
+    "Cache and bus interface",
+    "DSP",
+    "machine learning library design",
+    "Simulator/modeling"
+   ],
+   "summary": "設計MCU/DSP處理器微架構、快取匯流排介面及DSP與機器學習函式庫",
+   "snippet": "1. Processor micro-architecture design 2. Cache and bus interface 3. DSP and machine learning library design 4. Simulator/modeling and architecture #LI-LL1",
    "llm": true
   },
   {
