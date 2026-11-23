@@ -1,0 +1,196 @@
+# Company registry. Each entry points at the company's OWN career site backend.
+# Verify a new entry with:  python -m scraper.probe --company <id>
+#
+# fields:
+#   id, name, name_zh, group (see scraper/config.py GROUP_LABELS)
+#   careers_url        human-facing official careers page (shown on the site)
+#   source + params    adapter in scraper/sources/__init__.py
+#   all_taiwan: true   source is already Taiwan-only (skip location filtering)
+#   in_salary_survey   company appears in github.com/Hikari-Tsai/software-salary
+#   disabled: true     keep the entry but skip it
+
+companies:
+  # ---------------------------------------------------------------- global tech
+  - id: google
+    name: Google
+    name_zh: 谷歌
+    group: global_tech
+    careers_url: https://www.google.com/about/careers/applications/jobs/results?location=Taiwan
+    source: google
+    in_salary_survey: true
+
+  - id: amazon
+    name: Amazon / AWS
+    name_zh: 亞馬遜
+    group: global_tech
+    careers_url: https://www.amazon.jobs/en/search?normalized_country_code[]=TWN
+    source: amazon
+    in_salary_survey: true
+
+  - id: nvidia
+    name: NVIDIA
+    name_zh: 輝達
+    group: global_tech
+    careers_url: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
+    source: workday
+    params: {host: nvidia.wd5.myworkdayjobs.com, tenant: nvidia, site: NVIDIAExternalCareerSite}
+
+  # ---------------------------------------------------------------- Taiwan software / internet / fintech
+  - id: trendmicro
+    name: Trend Micro
+    name_zh: 趨勢科技
+    group: tw_software
+    careers_url: https://www.trendmicro.com/en_us/about/careers.html
+    source: workday
+    params: {host: trendmicro.wd3.myworkdayjobs.com, tenant: trendmicro, site: External}
+    in_salary_survey: true
+
+  - id: appier
+    name: Appier
+    name_zh: 沛星互動
+    group: tw_software
+    careers_url: https://www.appier.com/en/about/career/
+    source: greenhouse
+    params: {board: appier}
+    in_salary_survey: true
+
+  - id: kkcompany
+    name: KKCompany
+    name_zh: 科科科技
+    group: tw_software
+    careers_url: https://www.kkcompany.com/zh-tw/career/
+    source: manatal
+    params: {slug: kkcompany}
+    all_taiwan: true
+    in_salary_survey: true
+
+  - id: shopline
+    name: SHOPLINE
+    name_zh: 商線科技
+    group: tw_software
+    careers_url: https://shopline.applytojob.com/apply   # SHOPLINE's own JazzHR board
+    source: jazzhr
+    params: {subdomain: shopline}
+    in_salary_survey: true
+
+  - id: pinkoi
+    name: Pinkoi
+    name_zh: 果翼科技
+    group: tw_software
+    careers_url: https://www.pinkoi.com/about/careers
+    source: lever
+    params: {site: pinkoi}
+    in_salary_survey: true
+
+  - id: gogolook
+    name: Gogolook
+    name_zh: 走著瞧
+    group: tw_software
+    careers_url: https://www.gogolook.com/career
+    source: lever
+    params: {site: Gogolook}
+
+  - id: dcard
+    name: Dcard
+    name_zh: 狄卡科技
+    group: tw_software
+    careers_url: https://boards.greenhouse.io/dcard   # Dcard's own Greenhouse board
+    source: greenhouse
+    params: {board: dcard}
+
+  - id: esun
+    name: E.SUN Bank
+    name_zh: 玉山銀行
+    group: tw_software
+    careers_url: https://recruit.esunbank.com.tw/Recruit/StaffAcquisition
+    source: esun
+    all_taiwan: true
+    in_salary_survey: true
+
+  # ---------------------------------------------------------------- foreign companies with Taiwan branches
+  - {id: line, name: LINE Taiwan, name_zh: LINE 台灣, group: foreign_branch, careers_url: https://careers.linecorp.com/jobs, source: line}
+  - {id: shopee, name: Shopee Taiwan, name_zh: 蝦皮台灣, group: foreign_branch, careers_url: https://careers.shopee.tw/, source: sea, params: {region_ids: 28}}
+  - {id: renesas, name: Renesas, name_zh: 瑞薩電子, group: foreign_branch, careers_url: https://jobs.renesas.com/jobs, source: smartrecruiters, params: {company: RenesasElectronics}}
+  - {id: bosch, name: Bosch, name_zh: 博世, group: foreign_branch, careers_url: https://careers.smartrecruiters.com/BoschGroup, source: smartrecruiters, params: {company: BoschGroup}}
+  - {id: foodpanda, name: foodpanda (Delivery Hero), name_zh: 富胖達, group: foreign_branch, careers_url: https://careers.smartrecruiters.com/DeliveryHero, source: smartrecruiters, params: {company: DeliveryHero}}
+  - {id: zebra, name: Zebra Technologies, name_zh: 斑馬技術, group: foreign_branch, careers_url: https://zebra.wd501.myworkdayjobs.com/Zebra_careers, source: workday, params: {host: zebra.wd501.myworkdayjobs.com, tenant: zebra, site: Zebra_careers}}
+  - {id: cisco, name: Cisco, name_zh: 思科, group: global_tech, careers_url: https://careers.cisco.com/global/en, source: workday, params: {host: cisco.wd5.myworkdayjobs.com, tenant: cisco, site: Cisco_Careers}}
+  - {id: binance, name: Binance, name_zh: 幣安, group: foreign_branch, careers_url: https://www.binance.com/en/careers, source: greenhouse, params: {board: binance}}
+  - {id: ubiquiti, name: Ubiquiti, name_zh: Ubiquiti, group: foreign_branch, careers_url: https://job-boards.greenhouse.io/ubiquiti, source: greenhouse, params: {board: ubiquiti}}
+  - {id: canonical, name: Canonical, name_zh: Canonical, group: foreign_branch, careers_url: https://job-boards.greenhouse.io/canonical, source: greenhouse, params: {board: canonical}}
+  - {id: okx, name: OKX, name_zh: OKX, group: foreign_branch, careers_url: https://job-boards.greenhouse.io/okx, source: greenhouse, params: {board: okx}}
+  - {id: agoda, name: Agoda, name_zh: Agoda, group: foreign_branch, careers_url: https://job-boards.greenhouse.io/agoda, source: greenhouse, params: {board: agoda}}
+  - {id: stripe, name: Stripe, name_zh: Stripe, group: foreign_branch, careers_url: https://stripe.com/jobs/search, source: greenhouse, params: {board: stripe}}
+  - {id: crypto_com, name: Crypto.com, name_zh: Crypto.com, group: foreign_branch, careers_url: https://crypto.com/en/careers/, source: lever, params: {site: crypto}}
+  - {id: netflix, name: Netflix, name_zh: 網飛, group: global_tech, careers_url: https://explore.jobs.netflix.net, source: eightfold, params: {host: explore.jobs.netflix.net, domain: netflix.com, api: v2}}
+  - {id: ericsson, name: Ericsson, name_zh: 愛立信, group: foreign_branch, careers_url: https://jobs.ericsson.com/careers, source: eightfold, params: {host: jobs.ericsson.com, domain: ericsson.com, api: pcsx}}
+  - {id: sony_sie, name: Sony Interactive Entertainment, name_zh: 索尼互動娛樂, group: foreign_branch, careers_url: https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal, source: greenhouse, params: {board: sonyinteractiveentertainmentglobal}}
+  - {id: sony_music, name: Sony Music, name_zh: 索尼音樂, group: foreign_branch, careers_url: https://job-boards.greenhouse.io/sonymusicentertainment, source: greenhouse, params: {board: sonymusicentertainment}}
+  - {id: tel, name: Tokyo Electron, name_zh: 東京威力科創, group: foreign_branch, careers_url: https://tel.wd3.myworkdayjobs.com/TET_Career, source: workday, params: {host: tel.wd3.myworkdayjobs.com, tenant: tel, site: TET_Career}, all_taiwan: true}
+
+  # ---------------------------------------------------------------- Taiwan semiconductors
+  - {id: mediatek, name: MediaTek, name_zh: 聯發科, group: tw_semi, careers_url: https://careers.mediatek.com/en/jobs, source: mediatek}
+  - {id: realtek, name: Realtek, name_zh: 瑞昱, group: tw_semi, careers_url: "https://recruit.realtek.com/Job/Search?lang=en", source: realtek, all_taiwan: true}
+  - {id: umc, name: UMC, name_zh: 聯電, group: tw_semi, careers_url: https://careers.umc.com/jobsearch.php, source: umc}
+  - {id: nuvoton, name: Nuvoton, name_zh: 新唐, group: tw_semi, careers_url: https://jobs.nuvoton.com/search/, source: successfactors, params: {host: jobs.nuvoton.com}}
+  - {id: winbond, name: Winbond, name_zh: 華邦電, group: tw_semi, careers_url: https://careers.winbond.com/, source: successfactors, params: {host: careers.winbond.com}}
+  - {id: guc, name: Global Unichip (GUC), name_zh: 創意電子, group: tw_semi, careers_url: https://careers.guc-asic.com/Jobs, source: talentsite, params: {host: careers.guc-asic.com, country: Taiwan}}
+  - {id: vis, name: Vanguard (VIS), name_zh: 世界先進, group: tw_semi, careers_url: https://talent.vis.com.tw/Jobs, source: talentsite, params: {host: talent.vis.com.tw, country: ""}}
+
+  # ---------------------------------------------------------------- Taiwan electronics / systems / telecom
+  - {id: foxconn, name: Hon Hai / Foxconn, name_zh: 鴻海, group: tw_electronics, careers_url: https://recruit.foxconn.com/isite-web-tw/main/jobsearch, source: foxconn, in_salary_survey: true}
+  - {id: asus, name: ASUS, name_zh: 華碩, group: tw_electronics, careers_url: "https://recruit.asus.com/?Lang=en&Location=TW", source: talentsite, params: {host: recruit.asus.com, query: {Lang: en, Location: TW}}, in_salary_survey: true}
+  - {id: wistron, name: Wistron, name_zh: 緯創, group: tw_electronics, careers_url: https://jobs.wistron.com, source: wistron}
+  - {id: acer, name: Acer, name_zh: 宏碁, group: tw_electronics, careers_url: https://careers.acer.com, source: successfactors, params: {host: careers.acer.com}}
+  - {id: advantech, name: Advantech, name_zh: 研華, group: tw_electronics, careers_url: https://www.advantech.com/en/careers, source: workday, params: {host: advantech.wd3.myworkdayjobs.com, tenant: advantech, site: External}}
+  - {id: synology, name: Synology, name_zh: 群暉科技, group: tw_electronics, careers_url: https://career.synology.com/en-global/HQ/, source: synology, params: {location: HQ}, all_taiwan: true, in_salary_survey: true}
+  - {id: twm, name: Taiwan Mobile, name_zh: 台灣大哥大, group: tw_electronics, careers_url: https://hrweb.taiwanmobile.com/TWMHRMS/#/home, source: twm, all_taiwan: true, in_salary_survey: true}
+
+  # ---------------------------------------------------------------- global tech / semiconductors (more)
+  - {id: microsoft, name: Microsoft, name_zh: 微軟, group: global_tech, careers_url: https://apply.careers.microsoft.com/careers, source: eightfold, params: {host: apply.careers.microsoft.com, domain: microsoft.com, api: pcsx}, in_salary_survey: true}
+  - {id: apple, name: Apple, name_zh: 蘋果, group: global_tech, careers_url: "https://jobs.apple.com/en-us/search?location=taiwan-TWN", source: apple}
+  - {id: intel, name: Intel, name_zh: 英特爾, group: global_tech, careers_url: https://intel.wd1.myworkdayjobs.com/External, source: workday, params: {host: intel.wd1.myworkdayjobs.com, tenant: intel, site: External}}
+  - {id: amd, name: AMD, name_zh: 超微, group: global_tech, careers_url: https://careers.amd.com/careers-home/jobs, source: jibe, params: {host: careers.amd.com}}
+  - {id: qualcomm, name: Qualcomm, name_zh: 高通, group: global_tech, careers_url: https://careers.qualcomm.com/careers, source: eightfold, params: {host: careers.qualcomm.com, domain: qualcomm.com, api: pcsx}}
+  - {id: micron, name: Micron, name_zh: 美光, group: global_tech, careers_url: https://micron.wd1.myworkdayjobs.com/External, source: workday, params: {host: micron.wd1.myworkdayjobs.com, tenant: micron, site: External}}
+  - {id: broadcom, name: Broadcom, name_zh: 博通, group: global_tech, careers_url: https://broadcom.wd1.myworkdayjobs.com/External_Career, source: workday, params: {host: broadcom.wd1.myworkdayjobs.com, tenant: broadcom, site: External_Career}}
+  - {id: marvell, name: Marvell, name_zh: 邁威爾, group: global_tech, careers_url: https://marvell.wd1.myworkdayjobs.com/MarvellCareers, source: workday, params: {host: marvell.wd1.myworkdayjobs.com, tenant: marvell, site: MarvellCareers}}
+  - {id: synopsys, name: Synopsys, name_zh: 新思科技, group: global_tech, careers_url: https://careers.synopsys.com/, source: radancy, params: {host: careers.synopsys.com}, in_salary_survey: true}
+  - {id: cadence, name: Cadence, name_zh: 益華電腦, group: global_tech, careers_url: https://cadence.wd1.myworkdayjobs.com/External_Careers, source: workday, params: {host: cadence.wd1.myworkdayjobs.com, tenant: cadence, site: External_Careers}}
+  - {id: arm, name: Arm, name_zh: 安謀, group: global_tech, careers_url: https://careers.arm.com/, source: radancy, params: {host: careers.arm.com}}
+  - {id: amat, name: Applied Materials, name_zh: 應用材料, group: global_tech, careers_url: https://amat.wd1.myworkdayjobs.com/External, source: workday, params: {host: amat.wd1.myworkdayjobs.com, tenant: amat, site: External}}
+  - {id: asml, name: ASML, name_zh: 艾司摩爾, group: global_tech, careers_url: https://www.asml.com/en/careers/find-your-job, source: asml, in_salary_survey: true}
+  - {id: lam, name: Lam Research, name_zh: 科林研發, group: global_tech, careers_url: https://careers.lamresearch.com/careers, source: eightfold, params: {host: careers.lamresearch.com, domain: lamresearch.com, api: pcsx}}
+  - {id: kla, name: KLA, name_zh: 科磊, group: global_tech, careers_url: https://kla.wd1.myworkdayjobs.com/Search, source: workday, params: {host: kla.wd1.myworkdayjobs.com, tenant: kla, site: Search}}
+  - {id: ibm, name: IBM, name_zh: 國際商業機器, group: global_tech, careers_url: "https://www.ibm.com/careers/search?field_keyword_05[0]=Taiwan", source: ibm, in_salary_survey: true}
+  - {id: dell, name: Dell, name_zh: 戴爾, group: global_tech, careers_url: https://jobs.dell.com, source: oracle, params: {host: enterpriseplatform.dell.com, site: CX_1, slug: careers, taiwan_location_id: "300000000471419"}}
+  - {id: ti, name: Texas Instruments, name_zh: 德州儀器, group: global_tech, careers_url: https://careers.ti.com/en/sites/CX, source: oracle, params: {host: edbz.fa.us2.oraclecloud.com, site: CX, slug: CX, taiwan_location_id: "300000000361847"}}
+  - {id: hp, name: HP Inc, name_zh: 惠普, group: global_tech, careers_url: https://hp.wd5.myworkdayjobs.com/ExternalCareerSite, source: workday, params: {host: hp.wd5.myworkdayjobs.com, tenant: hp, site: ExternalCareerSite}}
+  - {id: hpe, name: HPE, name_zh: 慧與科技, group: global_tech, careers_url: https://hpe.wd5.myworkdayjobs.com/Jobsathpe, source: workday, params: {host: hpe.wd5.myworkdayjobs.com, tenant: hpe, site: Jobsathpe}}
+  - {id: supermicro, name: Supermicro, name_zh: 美超微, group: global_tech, careers_url: https://jobs.supermicro.com/, source: successfactors, params: {host: jobs.supermicro.com, locationsearch: Taiwan}}
+  - {id: logitech, name: Logitech, name_zh: 羅技, group: global_tech, careers_url: https://logitech.wd5.myworkdayjobs.com/Logitech, source: workday, params: {host: logitech.wd5.myworkdayjobs.com, tenant: logitech, site: Logitech}}
+  - {id: nxp, name: NXP, name_zh: 恩智浦, group: global_tech, careers_url: https://nxp.myworkdayjobs.com/careers, source: workday, params: {host: nxp.myworkdayjobs.com, tenant: nxp, site: careers}}
+  - {id: infineon, name: Infineon, name_zh: 英飛凌, group: global_tech, careers_url: https://jobs.infineon.com/careers, source: eightfold, params: {host: jobs.infineon.com, domain: infineon.com, api: pcsx}}
+  - {id: adi, name: Analog Devices, name_zh: 亞德諾, group: global_tech, careers_url: https://analogdevices.wd1.myworkdayjobs.com/External, source: workday, params: {host: analogdevices.wd1.myworkdayjobs.com, tenant: analogdevices, site: External}}
+  - {id: keysight, name: Keysight, name_zh: 是德科技, group: global_tech, careers_url: https://jobs.keysight.com/, source: jibe, params: {host: jobs.keysight.com}}
+  - {id: teradyne, name: Teradyne, name_zh: 泰瑞達, group: global_tech, careers_url: https://jobs.teradyne.com/Teradyne/, source: successfactors, params: {host: jobs.teradyne.com, path: /Teradyne, locationsearch: Taiwan}}
+
+  # ---------------------------------------------------------------- link only (shown as "check the official site" cards)
+  # These official career sites can't be crawled without circumventing bot protection, only point to
+  # job boards, or have no public endpoint. reason: blocked | job_board | no_api
+  - {id: tsmc, name: TSMC, name_zh: 台積電, group: tw_semi, link_only: true, reason: blocked, careers_url: https://careers.tsmc.com/, in_salary_survey: true}
+  - {id: ase, name: ASE, name_zh: 日月光, group: tw_semi, link_only: true, reason: blocked, careers_url: https://ase.aseglobal.com/}
+  - {id: novatek, name: Novatek, name_zh: 聯詠, group: tw_semi, link_only: true, reason: job_board, careers_url: https://www.novatek.com.tw/Recruit}
+  - {id: himax, name: Himax, name_zh: 奇景光電, group: tw_semi, link_only: true, reason: job_board, careers_url: https://www.himax.com.tw/zh/company/careers/}
+  - {id: phison, name: Phison, name_zh: 群聯, group: tw_semi, link_only: true, reason: job_board, careers_url: https://www.phison.com/zh-tw/careers/}
+  - {id: nanya, name: Nanya Technology, name_zh: 南亞科, group: tw_semi, link_only: true, reason: job_board, careers_url: https://www.nanya.com/tw/}
+  - {id: macronix, name: Macronix, name_zh: 旺宏, group: tw_semi, link_only: true, reason: job_board, careers_url: https://www.macronix.com/zh-tw/about/careers}
+  - {id: ememory, name: eMemory, name_zh: 力旺, group: tw_semi, link_only: true, reason: blocked, careers_url: https://www.ememory.com.tw/}
+  - {id: quanta, name: Quanta Computer, name_zh: 廣達, group: tw_electronics, link_only: true, reason: no_api, careers_url: https://hr.quantatw.com/webrecruit/4-2-job-openings.html}
+  - {id: delta, name: Delta Electronics, name_zh: 台達電, group: tw_electronics, link_only: true, reason: job_board, careers_url: https://www.deltaww.com/zh-TW/careers}
+  - {id: pegatron, name: Pegatron, name_zh: 和碩, group: tw_electronics, link_only: true, reason: job_board, careers_url: https://www.pegatroncorp.com/}
+  - {id: inventec, name: Inventec, name_zh: 英業達, group: tw_electronics, link_only: true, reason: blocked, careers_url: https://career.inventec.com/tw}
+  - {id: gigabyte, name: Gigabyte, name_zh: 技嘉, group: tw_electronics, link_only: true, reason: blocked, careers_url: https://www.gigabyte.com/tw/Careers}
+  - {id: msi, name: MSI, name_zh: 微星, group: tw_electronics, link_only: true, reason: blocked, careers_url: https://www.msi.com/careers}
+  - {id: liteon, name: Lite-On, name_zh: 光寶, group: tw_electronics, link_only: true, reason: job_board, careers_url: https://www.liteon.com/zh-tw/hrjoin/join-us}
+  - {id: meta, name: Meta, name_zh: Meta, group: global_tech, link_only: true, reason: no_api, careers_url: "https://www.metacareers.com/jobs?offices[0]=Taipei%2C%20Taiwan"}

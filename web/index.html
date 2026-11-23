@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>台灣 AI 職缺雷達</title>
+<meta name="description" content="每日自動整理台灣半導體、電子、軟體與國際大廠官方招募頁上的 AI / ML / LLM 職缺。">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='%234f46e5'/><circle cx='16' cy='16' r='5' fill='white'/></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <h1>台灣 AI 職缺雷達</h1>
+      <p class="sub">直接抓取各公司<strong>官方招募頁</strong>的台灣 AI / ML / LLM 職缺，每日更新</p>
+    </div>
+    <dl class="stats" id="stats"></dl>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="controls" aria-label="篩選">
+    <div class="row">
+      <input id="q" type="search" placeholder="搜尋職稱、公司、技能（例：LLM、CUDA、聯發科）" autocomplete="off">
+      <select id="sort" aria-label="排序">
+        <option value="score">依關聯度</option>
+        <option value="new">依最新</option>
+        <option value="company">依公司</option>
+      </select>
+    </div>
+    <div class="facet"><span class="facet-label">公司類型</span><div class="chips" id="f-group"></div></div>
+    <div class="facet"><span class="facet-label">職務類別</span><div class="chips" id="f-category"></div></div>
+    <div class="facet"><span class="facet-label">地點</span><div class="chips" id="f-city"></div></div>
+    <div class="facet" id="facet-seniority" hidden><span class="facet-label">年資</span><div class="chips" id="f-seniority"></div></div>
+    <div class="row toggles">
+      <label class="toggle"><input type="checkbox" id="t-new"> 近 7 天新增</label>
+      <label class="toggle"><input type="checkbox" id="t-survey"> 只看薪資調查名單公司</label>
+      <select id="f-company" aria-label="公司"><option value="">全部公司</option></select>
+      <button id="reset" class="link">清除篩選</button>
+    </div>
+  </section>
+
+  <p class="result-line" id="result-line"></p>
+  <ol class="jobs" id="jobs"></ol>
+  <button id="more" class="more" hidden>顯示更多</button>
+
+  <section class="external" id="external" hidden aria-labelledby="external-title">
+    <h2 id="external-title">其他大廠：請至官網查看</h2>
+    <p class="note">這些公司的官方招募頁無法自動收錄（阻擋自動化存取，或職缺只刊登在求職平台），點擊卡片直接前往官網搜尋 AI 職缺。</p>
+    <div class="ext-grid" id="ext-grid"></div>
+  </section>
+
+  <details class="coverage">
+    <summary>資料來源與抓取狀態</summary>
+    <p class="note">只使用各公司官方招募網站（含其採用的 Workday / Greenhouse / Eightfold 等系統），不使用 104、LinkedIn 等求職平台。</p>
+    <table id="coverage"><thead><tr><th>公司</th><th>類型</th><th class="num">台灣職缺</th><th class="num">AI 職缺</th><th>狀態</th></tr></thead><tbody></tbody></table>
+  </details>
+</main>
+
+<footer class="wrap foot">
+  <p id="method"></p>
+  <p>資料僅供參考，職缺內容以各公司官網為準。</p>
+</footer>
+
+<template id="job-tpl">
+  <li class="job">
+    <div class="score" aria-label="關聯度"><span class="score-num"></span><span class="score-bar"><i></i></span></div>
+    <div class="body">
+      <div class="meta-top"><span class="company"></span><span class="badge new" hidden>NEW</span></div>
+      <h2><a class="title" target="_blank" rel="noopener"></a></h2>
+      <p class="summary"></p>
+      <div class="tags"></div>
+    </div>
+    <div class="side">
+      <span class="city"></span>
+      <span class="cat"></span>
+      <time class="date"></time>
+    </div>
+  </li>
+</template>
+
+<script src="app.js" defer></script>
+</body>
+</html>
