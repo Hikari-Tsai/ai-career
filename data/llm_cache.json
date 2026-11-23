@@ -1,1 +1,6240 @@
-{}
+{
+"0055598fff341524": {
+"relevance": 88,
+"category": "cv_nlp",
+"seniority": "mid",
+"skills": [
+"AI辨識演算法",
+"影像數據標註",
+"模型訓練",
+"瑕疵檢測",
+"模型版本管理",
+"自動化機台整合"
+],
+"summary_zh": "開發工廠瑕疵檢測AI視覺模型，負責訓練優化並整合至自動化設備落地",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"00a4877ab97affbd": {
+"relevance": 40,
+"category": "ai_hw",
+"seniority": "senior",
+"skills": [
+"Linux device drivers",
+"PCIe",
+"GPU diagnostics",
+"telemetry pipelines",
+"test automation",
+"CI/CD"
+],
+"summary_zh": "為AWS AI加速伺服器機群開發自動化診斷、預測性故障偵測與測試工具，確保GPU機群健康運作。",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"01559f5caf02351c": {
+"relevance": 25,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"API",
+"Data Mapping",
+"Workflow",
+"Python",
+"SQL",
+"Power Automate"
+],
+"summary_zh": "規劃供應商資安管理平台與流程，並運用AI及自動化工具優化稽核與風險報表",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"0168f34dd2f61007": {
+"relevance": 70,
+"category": "mlops_infra",
+"seniority": "mid",
+"skills": [
+"Kubernetes",
+"GPU scheduling",
+"Kubeflow",
+"MLflow",
+"Docker",
+"CI/CD"
+],
+"summary_zh": "建置與維運支援AI訓練與推論的Kubernetes GPU平台及MLOps流程",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"023078bad876d3ee": {
+"relevance": 40,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"專案管理",
+"Scrum／Kanban",
+"機器學習",
+"生成式AI",
+"KPI設計",
+"變革管理"
+],
+"summary_zh": "領導跨部門數位轉型專案，規劃並推動AI與數據分析方案導入與成效追蹤",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"047cd8851d73d139": {
+"relevance": 8,
+"category": "not_ai",
+"seniority": "unknown",
+"skills": [
+"ICT",
+"IC數位邏輯",
+"測試程式開發",
+"FW 燒錄",
+"I/O port 電路特性量測",
+"Debug"
+],
+"summary_zh": "負責AI伺服器產線ICT/功能測試規劃、測試程式開發與問題分析",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"04b745b8d314797e": {
+"relevance": 62,
+"category": "ai_hw",
+"seniority": "senior",
+"skills": [
+"AI server system architecture",
+"performance modeling",
+"LLM workload analysis",
+"AI accelerators",
+"memory systems",
+"interconnect topologies"
+],
+"summary_zh": "為次世代AI伺服器建立系統級效能模型，分析LLM工作負載瓶頸以驅動架構決策",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"05078ac91aeef07e": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "unknown",
+"skills": [
+"Figma",
+"Adobe Photoshop",
+"Illustrator",
+"After Effects",
+"AI 影像與生成式設計工具"
+],
+"summary_zh": "為AI、機器人與智慧醫療產品進行UI介面及行銷視覺設計",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"064d9270db2be0ee": {
+"relevance": 88,
+"category": "ml",
+"seniority": "senior",
+"skills": [
+"PyTorch",
+"TensorFlow",
+"recommendation systems",
+"machine learning personalization",
+"search",
+"large-scale application development"
+],
+"summary_zh": "為幣安內容生態設計並開發搜尋與推薦模型及服務，提升內容分發效率",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"06957f1d0b4b0e70": {
+"relevance": 45,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Android",
+"C++",
+"Java",
+"camera stack",
+"on-device ML model integration",
+"Kotlin"
+],
+"summary_zh": "開發Android筆電/平板相機功能與人臉驗證，整合裝置端ML模型提升影像品質",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"06ad55fb36dbcb60": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"電子電路",
+"線路圖分析",
+"伺服器架構",
+"示波器",
+"電錶",
+"焊接"
+],
+"summary_zh": "負責AI伺服器產品電性異常分析、測試良率追蹤與生產改善",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"06ca364684d258fb": {
+"relevance": 68,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"LLM Agent",
+"Slurm",
+"工具呼叫",
+"後端服務/API",
+"Linux",
+"知識檢索"
+],
+"summary_zh": "開發HPC維運AI Agent與Portal，串接叢集系統自動巡檢、異常分析及權限審核流程",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"08312d6c40952cd0": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "intern",
+"skills": [
+"專案管理",
+"文件彙整",
+"研發管理"
+],
+"summary_zh": "協助AI伺服器研發專案管理與文件彙整的實習生",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"084f8d8629434f32": {
+"relevance": 88,
+"category": "mlops_infra",
+"seniority": "senior",
+"skills": [
+"ONNX Runtime",
+"NPU acceleration",
+"Execution Provider",
+"model optimization",
+"Debian/Ubuntu packaging",
+"Linux"
+],
+"summary_zh": "主導聯發科ONNX Runtime NPU執行提供者開發與邊緣AI模型效能優化",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"089542836274cf0d": {
+"relevance": 50,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [
+"Python",
+"LLM API",
+"RAG",
+"AI Agent",
+"n8n / Dify / LangChain",
+"MES / ERP 串接"
+],
+"summary_zh": "開發工廠數據追溯、儀表板與AI代理分析系統，並支援產線與客戶問題排除。",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"08fc2f5f6888a5f8": {
+"relevance": 97,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"LLMs",
+"VLMs",
+"RLHF/RLVR",
+"Agentic systems",
+"Python",
+"PyTorch"
+],
+"summary_zh": "研究並開發LLM/VLM後訓練與代理式AI系統，發表頂會論文並導入產品",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"0a1213989dfea5b7": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "unknown",
+"skills": [
+"影片剪接",
+"腳本與分鏡",
+"AI 影像與影音生成",
+"ComfyUI",
+"Blender／Cinema 4D／Unreal Engine",
+"調色與音效後製"
+],
+"summary_zh": "負責產品影片企劃、拍攝與後製，並運用AI影音工具製作行銷內容",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"0a274e24deb2a03f": {
+"relevance": 72,
+"category": "cv_nlp",
+"seniority": "unknown",
+"skills": [
+"影像數據收集",
+"標示軟體工具",
+"影像資料前處理",
+"影像處理判讀模型",
+"模型上線整合",
+"影像大數據"
+],
+"summary_zh": "負責影像資料收集標註、前處理與判讀模型建立及上線整合",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"0bac69a7f1f26080": {
+"relevance": 30,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [
+"使用者研究",
+"資訊架構",
+"Wireframe",
+"Prototype",
+"A/B測試",
+"數據分析"
+],
+"summary_zh": "x",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"0bb81109675eedab": {
+"relevance": 40,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"RESTful API",
+"SQL",
+"OWASP Top 10",
+"CI/CD",
+"Docker",
+"Microservices"
+],
+"summary_zh": "為AI語音辨識產品進行系統分析、架構設計、資安與DevOps規劃",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"0be6f9dd80575770": {
+"relevance": 96,
+"category": "llm_genai",
+"seniority": "junior",
+"skills": [
+"PyTorch",
+"Python",
+"RLHF",
+"RLVR",
+"post-training",
+"multi-agent systems"
+],
+"summary_zh": "研究LLM後訓練、推理擴展與多代理系統，應用於加密貨幣交易代理",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"0bf9584a233399b9": {
+"relevance": 42,
+"category": "ai_adjacent",
+"seniority": "junior",
+"skills": [
+"專案管理",
+"市場調查",
+"影像辨識",
+"LLM",
+"規格制定"
+],
+"summary_zh": "規劃醫療AI產品，負責市調、規格制定與跨部門專案時程控管",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"0da5bc85595870b4": {
+"relevance": 55,
+"category": "ai_adjacent",
+"seniority": "intern",
+"skills": [
+"Frontend/Backend/Full-Stack Web programming",
+"PyTorch",
+"Tensorflow",
+"JAX",
+"Natural Language Processing"
+],
+"summary_zh": "於聯發科研究院協助研究員開發AI應用與網頁前後端系統的工程實習生",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"0df6a5aef779a585": {
+"relevance": 72,
+"category": "cv_nlp",
+"seniority": "mid",
+"skills": [
+"影像處理",
+"電腦視覺",
+"機器學習",
+"影像匹配",
+"C/C++"
+],
+"summary_zh": "開發指紋影像處理與辨識演算法，模擬驗證效能並移植至多種運算平台",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"0e16166388badd58": {
+"relevance": 68,
+"category": "mlops_infra",
+"seniority": "unknown",
+"skills": [
+"AI system architecture",
+"model inference",
+"application pipeline",
+"performance optimization",
+"requirements analysis"
+],
+"summary_zh": "分析AI應用系統需求與瓶頸，優化模型推論與應用流程效能",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"0ec52d14e3fcdef2": {
+"relevance": 88,
+"category": "ml",
+"seniority": "mid",
+"skills": [
+"Python",
+"PyTorch",
+"time-series anomaly detection",
+"LLM fine-tuning",
+"XGBoost",
+"Explainable AI (XAI)"
+],
+"summary_zh": "為企業網通產品開發以ML/LLM為基礎的網路異常根因分析與AIOps系統",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"0f48b751b0b70de6": {
+"relevance": 32,
+"category": "ai_adjacent",
+"seniority": "manager",
+"skills": [
+"AI Server",
+"GPU Driver / CUDA",
+"Linux",
+"BMC",
+"網路架構",
+"ITIL® 4"
+],
+"summary_zh": "負責AI/GPU伺服器資料中心現場維運、問題分析與海外客戶技術支援",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"0f69bbcc440eed9f": {
+"relevance": 40,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"PRD / functional specs",
+"API contracts",
+"data pipelines",
+"Agentic AI workflows",
+"SQL",
+"data quality / SLO"
+],
+"summary_zh": "負責廣告數據平台與查詢API的產品規劃，並導入代理式AI工作流程",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"10ad3bb01f174a48": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "staff_plus",
+"skills": [
+"MBIST",
+"DRAM test",
+"failure analysis",
+"AI/ML pattern recognition",
+"Python",
+"Mentor Tessent"
+],
+"summary_zh": "開發SoC記憶體診斷與測試修復演算法，並導入AI/ML圖樣辨識提升良率",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"1146c507b043e20c": {
+"relevance": 42,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"React",
+"TypeScript",
+"Node.js",
+"WebAuthn/FIDO2",
+"BFF",
+"online inference services"
+],
+"summary_zh": "全端前端工程師，打造人臉辨識KYC與登入驗證產品並整合AI模型",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"1236ae9b9daddfb8": {
+"relevance": 72,
+"category": "cv_nlp",
+"seniority": "senior",
+"skills": [
+"HEVC/VVC",
+"CNN/RNN/autoencoders",
+"PyTorch",
+"TensorFlow",
+"C/C++",
+"video compression"
+],
+"summary_zh": "研發結合傳統與深度學習的影像壓縮演算法，並參與JVET/MPEG標準制定",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"13567ef0c58a5101": {
+"relevance": 55,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"C#",
+"Python",
+"C++",
+"REST APIs",
+"Azure",
+"CI/CD"
+],
+"summary_zh": "開發Azure文件智慧服務的後端元件、測試評估與遙測，支援LLM文件理解產品",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"136d1848ab0460cd": {
+"relevance": 65,
+"category": "mlops_infra",
+"seniority": "junior",
+"skills": [
+"distributed systems",
+"large-scale infrastructure",
+"GPU/TPU",
+"AI clusters",
+"networking",
+"low level system software"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"13b1e8f6fe29b5a6": {
+"relevance": 22,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"yield analytics",
+"scan diagnosis",
+"DFT (scan, ATPG)",
+"ATE/SLT test flows",
+"statistical data mining",
+"ML/AI techniques in yield analytics"
+],
+"summary_zh": "負責半導體晶圓測試與量產良率分析、失效診斷及自動化監控",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"142d75a89ba498c4": {
+"relevance": 25,
+"category": "not_ai",
+"seniority": "junior",
+"skills": [
+"SystemVerilog",
+"UVM",
+"Verilog",
+"formal verification",
+"Python",
+"FPGA prototyping"
+],
+"summary_zh": "研發替代役新鮮人，負責AI/HPC用SoC與高速介面IP的數位設計與驗證",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"1504ed5c840de73a": {
+"relevance": 12,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"Kotlin",
+"Jetpack Compose",
+"Android SDK design",
+"MVVM/MVI",
+"Clean Architecture",
+"Kotlin Multiplatform"
+],
+"summary_zh": "負責Gogolook企業防詐SDK的Android功能研發、API設計與客戶整合支援",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"16b207431282acbe": {
+"relevance": 88,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"Python",
+"LLMs",
+"RAG",
+"Prompt Engineering",
+"Recommendation Systems",
+"Azure/GCP"
+],
+"summary_zh": "開發電商LLM助理、個人化推薦與受眾擴增模型，並以A/B測試驗證成效",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"1773a97c36b4385b": {
+"relevance": 92,
+"category": "llm_genai",
+"seniority": "unknown",
+"skills": [
+"Transformer",
+"MoE",
+"Hybrid attention",
+"Mamba/SSM",
+"Speculative Decoding",
+"Edge AI (APU)"
+],
+"summary_zh": "開發與部署生成式語言及多模態模型演算法，並優化邊緣AI推論",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"17be01d6150b0ea3": {
+"relevance": 62,
+"category": "llm_genai",
+"seniority": "unknown",
+"skills": [
+"LLM API integration",
+"RAG",
+"MCP",
+"prompt design",
+"full stack development",
+"risk/data analysis"
+],
+"summary_zh": "為稽核部門開發整合LLM與RAG的全端應用系統並進行風險資料分析",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"180514ddac1e4e62": {
+"relevance": 42,
+"category": "ai_adjacent",
+"seniority": "manager",
+"skills": [
+"Generative AI",
+"AI technology roadmap",
+"product planning",
+"market requirement document",
+"GTM",
+"customer engagement"
+],
+"summary_zh": "規劃天璣SoC的AI/生成式AI技術路線與產品需求，並負責客戶與合作夥伴經營",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"1816c4e2263bbeba": {
+"relevance": 5,
+"category": "not_ai",
+"seniority": "manager",
+"skills": [
+"Linux",
+"Ubuntu",
+"deb/snap packaging",
+"Python",
+"C",
+"Kubernetes"
+],
+"summary_zh": "帶領工程團隊與OEM/ODM合作，將Ubuntu預載至硬體裝置的Linux啟用專案",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"186e328b8c6e5292": {
+"relevance": 72,
+"category": "cv_nlp",
+"seniority": "senior",
+"skills": [
+"Camera ISP",
+"3A演算法",
+"Computer Vision",
+"機器學習演算法",
+"C/C++",
+"Matlab"
+],
+"summary_zh": "開發相機ISP、3A及電腦視覺與AI演算法，並帶領研發小組",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"18b27b5d003f2182": {
+"relevance": 25,
+"category": "not_ai",
+"seniority": "intern",
+"skills": [
+"Python",
+"JavaScript",
+"HTML",
+"SQL",
+"APIs",
+"generative AI tools"
+],
+"summary_zh": "依SOP協助廣告雲客戶導入與排錯，撰寫技術文件並評估生成式AI工具",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"18f7c4e0cda6cea7": {
+"relevance": 12,
+"category": "not_ai",
+"seniority": "junior",
+"skills": [
+"專案管理",
+"量產產品管理",
+"客戶溝通",
+"跨部門協調",
+"多益650"
+],
+"summary_zh": "負責AI伺服器量產產品驗證進度追蹤與客戶窗口協調的專案管理職",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"1ac894f9591342d1": {
+"relevance": 85,
+"category": "llm_genai",
+"seniority": "junior",
+"skills": [
+"Python",
+"Linux Shell Scripting",
+"RAG",
+"Open Source LLM 部署",
+"SFT / LoRA",
+"vLLM / Ollama / TensorRT-LLM"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"1bc4a3ea06a2dec6": {
+"relevance": 85,
+"category": "ml",
+"seniority": "senior",
+"skills": [
+"MLOps/LLMOps",
+"Tensorflow",
+"Pytorch",
+"Scikit-Learn",
+"Feature Store",
+"GCP"
+],
+"summary_zh": "帶領團隊開發部署金融AI模型，統籌MLOps流程並將業務問題轉為AI/LLM解決方案",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"1c7d481e781a4f5a": {
+"relevance": 68,
+"category": "llm_genai",
+"seniority": "junior",
+"skills": [
+"Python",
+"LLM API",
+"Function Calling",
+"AI Agent Framework",
+"MCP",
+"Docker"
+],
+"summary_zh": "開發AI Agent技能與工具，整合企業系統以支援AI伺服器設計與生產測試流程",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"1d07f82885edc301": {
+"relevance": 75,
+"category": "data_sci",
+"seniority": "senior",
+"skills": [
+"causal inference",
+"incrementality",
+"marketing mix modeling",
+"Python",
+"SQL",
+"PyTorch"
+],
+"summary_zh": "以因果推論與線上實驗衡量廣告增量效果，並用機器學習模型提升廣告投放效率",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"1e11afea5022ce74": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Flink",
+"SQL",
+"Kafka",
+"Spark",
+"ClickHouse",
+"Python"
+],
+"summary_zh": "x",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"1e764ae6a63acf71": {
+"relevance": 97,
+"category": "llm_genai",
+"seniority": "unknown",
+"skills": [
+"多模態語言模型",
+"自監督學習",
+"蒸餾/量化/LORA",
+"分散式訓練",
+"CUDA MEMORY 優化",
+"INSTRUCTION TUNING/REINFORCEMENT LEARNING"
+],
+"summary_zh": "參與FOXBRAIN大模型訓練、優化與微調，並導入製造、電動車等場景",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"1e77b76ed729af3f": {
+"relevance": 5,
+"category": "not_ai",
+"seniority": "manager",
+"skills": [
+"生產排程",
+"產能評估",
+"良率追蹤",
+"人員管理",
+"數據分析",
+"標準作業流程"
+],
+"summary_zh": "負責夜班AI伺服器產線生產規劃、人員管理與良率改善。",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"1e9bcf4da6b22a72": {
+"relevance": 35,
+"category": "ai_hw",
+"seniority": "unknown",
+"skills": [
+"RTL to GDS",
+"floor-planning",
+"place and route",
+"STA",
+"DRC/LVS",
+"timing and power optimization"
+],
+"summary_zh": "負責CPU/GPU及AI處理器晶片的RTL到GDS實體設計與簽核（約聘）",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"1ecc904e0a758b26": {
+"relevance": 22,
+"category": "not_ai",
+"seniority": "unknown",
+"skills": [
+"網頁平台介面開發",
+"API 開發",
+"資料整合",
+"資料視覺化"
+],
+"summary_zh": "於資料分析團隊開發網頁平台前端介面與API，並整合分析資料。",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"1fa3b7c8842cdf7d": {
+"relevance": 30,
+"category": "ai_adjacent",
+"seniority": "manager",
+"skills": [
+"Ryzen CPU",
+"Radeon GPU",
+"BIOS/UEFI",
+"drivers",
+"ROCm",
+"JIRA"
+],
+"summary_zh": "負責AMD消費級CPU/GPU平台的售前技術支援、客戶問題排除與合作夥伴培訓，兼顧AI工作負載諮詢",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"1fee44debddcdbf4": {
+"relevance": 62,
+"category": "mlops_infra",
+"seniority": "senior",
+"skills": [
+"GCP",
+"Azure",
+"Kubernetes",
+"Terraform",
+"Python",
+"CI/CD"
+],
+"summary_zh": "建置維運玉山銀行企業級資料與AI雲端平台，支援機器學習與生成式AI應用",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"1ff287374743a8b5": {
+"relevance": 75,
+"category": "ml",
+"seniority": "manager",
+"skills": [
+"Python",
+"SQL",
+"推薦系統",
+"RAG",
+"Azure/GCP",
+"時間序列資料處理"
+],
+"summary_zh": "帶領AI團隊推動推薦系統、客群建模與LLM應用專案從方案到落地上線",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"20647b99a90eab7d": {
+"relevance": 30,
+"category": "ai_adjacent",
+"seniority": "junior",
+"skills": [
+"雲端技術開發",
+"專案管理",
+"伺服器"
+],
+"summary_zh": "鴻海新幹班儲備人才，負責AI伺服器等雲端產品開發與專案管理",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"20f1cca766fb47fb": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "junior",
+"skills": [
+"Node.js",
+"Python",
+"React",
+"SQL/NoSQL",
+"REST/GraphQL APIs",
+"agentic AI frameworks"
+],
+"summary_zh": "開發半導體工程數據分析全端應用與儀表板，輔以AI工具與代理模組",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"21396d43bdf28b33": {
+"relevance": 45,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"MCP",
+"tool calling",
+"API products",
+"SQL",
+"data ingestion",
+"OAuth/JWT"
+],
+"summary_zh": "負責防詐共用服務平台的產品路線圖，打造供內部團隊與AI代理使用的API與MCP工具",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"2259687a77e50fff": {
+"relevance": 88,
+"category": "ml",
+"seniority": "mid",
+"skills": [
+"PINN",
+"PyTorch",
+"TensorFlow",
+"深度學習",
+"Python",
+"力學"
+],
+"summary_zh": "以PINN與深度學習結合力學知識，建立工程預測與模擬AI模型並部署",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"22737d4057f7fe82": {
+"relevance": 85,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"Python",
+"LLM",
+"AI Agent",
+"API",
+"系統整合",
+"GCP"
+],
+"summary_zh": "x",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"2331c1706a6198a7": {
+"relevance": 22,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"HW troubleshooting",
+"high-speed digital and analog circuits",
+"PCBA fabrication process",
+"Linux shell scripting",
+"python",
+"server architecture"
+],
+"summary_zh": "負責AI伺服器/GPU板卡於工廠的系統測試、除錯、良率提升與量產導入。",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"23faed7a8a3ad7e3": {
+"relevance": 8,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"Java",
+"Spring Framework",
+"MySQL",
+"NoSQL",
+"distributed system design",
+"messaging middleware"
+],
+"summary_zh": "為幣安KYC合規平台開發高吞吐分散式Java後端服務",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"256bc4eb6378325d": {
+"relevance": 40,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"SERDES",
+"PCS/PMA",
+"200–400G high-speed interfaces",
+"system-level debugging",
+"RAG/LLM",
+"log analysis pipelines"
+],
+"summary_zh": "負責資料中心200–400G SERDES客戶系統除錯，並建置RAG/LLM輔助除錯工具",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"257bf4e4efe2bc4a": {
+"relevance": 5,
+"category": "not_ai",
+"seniority": "junior",
+"skills": [
+"生產計劃與排程",
+"品質管理",
+"成本控制",
+"6S管理",
+"人員管理",
+"流程優化"
+],
+"summary_zh": "負責AI伺服器產線排程、品質、成本與人員管理及流程改善",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"26c6bfa1f1922a00": {
+"relevance": 72,
+"category": "data_sci",
+"seniority": "junior",
+"skills": [
+"Python",
+"Pandas",
+"Scikit-learn",
+"XGBoost",
+"LightGBM",
+"Git"
+],
+"summary_zh": "針對AI伺服器設計與生產測試數據，開發機器學習模型並進行分析洞察。",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"28f133584f071616": {
+"relevance": 85,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"Python",
+"Langchain",
+"RAG",
+"Agent",
+"VectorDB",
+"Docker"
+],
+"summary_zh": "為電商行銷部門開發部署LLM/RAG/Agent系統並監控優化模型表現",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"2b1791f158750406": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Linux security",
+"AWS",
+"Kubernetes",
+"Python/Go",
+"LLM agents",
+"eBPF"
+],
+"summary_zh": "負責幣安雲端與Linux基礎設施資安防護，並保護內部AI代理免於提示注入等威脅",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"2be1fdef7b759d7d": {
+"relevance": 75,
+"category": "mlops_infra",
+"seniority": "mid",
+"skills": [
+"Python",
+"Kubeflow",
+"MLflow",
+"Kubernetes",
+"Docker",
+"Terraform"
+],
+"summary_zh": "為企業網通產品建置ML管線、模型部署監控與AIOps自動化維運",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"2c03a04ee56910e6": {
+"relevance": 45,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"C/C++",
+"MCU",
+"BLE / ANT+",
+"Secure Boot",
+"Edge AI",
+"SPI, I2C, UART"
+],
+"summary_zh": "開發e-mobility裝置MCU/BLE韌體與資安，並部署優化邊緣AI模型推論",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"2c5fd3eb43eccd69": {
+"relevance": 8,
+"category": "not_ai",
+"seniority": "junior",
+"skills": [
+"8D Analysis",
+"Excel",
+"VBA",
+"文件管理",
+"Log分析"
+],
+"summary_zh": "負責AI伺服器產品電性異常Log分析、生產文件管理與行政支援",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"2e54f5a29f666fc6": {
+"relevance": 42,
+"category": "ai_hw",
+"seniority": "unknown",
+"skills": [
+"Design Verification",
+"AI processor",
+"DSP",
+"Functional verification",
+"Low power analysis",
+"Emulator"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"2f007aa3ffbdb6e8": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"Python",
+"pytest",
+"AWS (DynamoDB, Lambda)",
+"GitHub Actions",
+"Locust",
+"JMeter"
+],
+"summary_zh": "為防詐後端服務與資料管線開發Python自動化測試與測試工具",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"2f36025ff2145909": {
+"relevance": 68,
+"category": "llm_genai",
+"seniority": "unknown",
+"skills": [
+"AI agent harness",
+"software engineering systems",
+"system design",
+"performance analysis"
+],
+"summary_zh": "開發整合AI代理框架與軟體工程系統，提升軟體開發流程效率",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"2f6466e41e7b53cc": {
+"relevance": 65,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"AI system design",
+"AI architecture",
+"performance optimization",
+"customer technical solutions"
+],
+"summary_zh": "擔任關鍵客戶AI架構負責人，主導端到端AI系統設計與跨部門交付",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"3207f7938868c94a": {
+"relevance": 88,
+"category": "llm_genai",
+"seniority": "junior",
+"skills": [
+"Python",
+"LLM",
+"RAG",
+"Agentic AI",
+"Tool Calling",
+"EDA"
+],
+"summary_zh": "開發LLM Agent、RAG與Coding Copilot應用於IC設計流程並微調模型",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"325f5fb00f5ccad5": {
+"relevance": 30,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"Firmware",
+"Release Management",
+"SIT",
+"Bug Review",
+"Team Center",
+"Version Control"
+],
+"summary_zh": "負責AI伺服器韌體專案管理，統籌需求、發布時程、驗證品質與版本文件",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"3515a9d2a09449db": {
+"relevance": 75,
+"category": "llm_genai",
+"seniority": "unknown",
+"skills": [
+"AI 模型整合",
+"模型推理效能優化",
+"模型微調",
+"雲端/邊緣部署",
+"A/B 測試",
+"智能客服"
+],
+"summary_zh": "將AI模型整合至企業系統，微調、優化推理並部署至雲端或邊緣",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"35206ff7596687d4": {
+"relevance": 22,
+"category": "not_ai",
+"seniority": "junior",
+"skills": [
+"RTB/Programmatic buying",
+"Excel",
+"SQL",
+"Python",
+"Prompt Engineering",
+"Tableau"
+],
+"summary_zh": "x",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"356d4abf9f134903": {
+"relevance": 92,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"Python",
+"C++",
+"Pytorch",
+"Tensorflow",
+"MLOPs",
+"模型量化"
+],
+"summary_zh": "開發深度學習、大語言模型與生成式AI，並研究分散式訓練及AI PC量化推論",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"35a173aa8bf0b8a0": {
+"relevance": 92,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"Python",
+"vLLM",
+"ROCm",
+"HIP/Triton",
+"LLM inference optimization",
+"Kubernetes"
+],
+"summary_zh": "開發vLLM語意路由器，訓練並優化決策模型於AMD GPU上的LLM路由與推論",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"35aa246eb31564ba": {
+"relevance": 22,
+"category": "not_ai",
+"seniority": "manager",
+"skills": [
+"semiconductor supply chain management",
+"business development",
+"technical program management",
+"AI compute hardware",
+"TPUs/GPUs",
+"negotiation"
+],
+"summary_zh": "管理台灣晶圓代工、載板與封裝供應鏈夥伴，支援Google AI硬體策略營運",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"35d9058fe7591cc5": {
+"relevance": 30,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [
+"JavaScript",
+"Vue.js",
+"Java",
+"Python",
+"Docker",
+"NginX"
+],
+"summary_zh": "在AI團隊開發全端網頁應用與後端API，負責部署與CI/CD",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"3650a7bc16d5f89b": {
+"relevance": 30,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"NPI",
+"EVT/DVT/PVT",
+"BOM Cost Control",
+"NRE Management",
+"RFI/RFQ",
+"FCC/CE/UL Certification"
+],
+"summary_zh": "負責AI伺服器新產品導入專案時程、客戶溝通與跨部門協調",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"36c386840ee34d0b": {
+"relevance": 40,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [
+"Java",
+"Python",
+"Spring Boot / FastAPI / Flask",
+"RESTful API",
+"LLM / RAG / 向量資料庫",
+"Docker / Kubernetes"
+],
+"summary_zh": "MIS 部門全端與 API 開發維運，並依需求將 AI/LLM 模組整合進既有系統",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"36d2551b8ea3b70a": {
+"relevance": 5,
+"category": "not_ai",
+"seniority": "junior",
+"skills": [
+"自動化設備維護",
+"故障排除",
+"PLC",
+"自動控制",
+"機電整合"
+],
+"summary_zh": "於AI伺服器產線負責自動化設備操作、維護保養與異常排除",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"36e8af6406621335": {
+"relevance": 55,
+"category": "ai_hw",
+"seniority": "mid",
+"skills": [
+"data compression",
+"digital signal processing",
+"image/video compression",
+"information theory",
+"hardware design",
+"C/C++"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"3856649caed1ad4f": {
+"relevance": 45,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"C#",
+"ASP.NET Core",
+"PostgreSQL",
+"Kafka",
+"Docker",
+"MLOps"
+],
+"summary_zh": "為AI互動廣告打造可擴展後端服務，並協助ML團隊建置模型部署與MLOps流程",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"38e0366e5704063c": {
+"relevance": 30,
+"category": "ai_hw",
+"seniority": "unknown",
+"skills": [
+"Python",
+"Shell",
+"Linux",
+"自動化測試",
+"軟硬體整合驗證",
+"Root Cause分析"
+],
+"summary_zh": "負責AI伺服器的自動化測試腳本開發、軟硬體整合驗證與問題分析",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"3b68b301f920b7ff": {
+"relevance": 12,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"Linux",
+"Shell Script",
+"Python",
+"CI/CD",
+"GCP/AWS",
+"Docker/Kubernetes"
+],
+"summary_zh": "負責Linux系統與雲端服務維運、監控告警、CI/CD及故障排除",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"3c070f3a73c0fded": {
+"relevance": 8,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"PLM",
+"需求分析",
+"系統分析",
+"Agile/Scrum",
+"Jira/Confluence",
+"API"
+],
+"summary_zh": "負責記憶體半導體PLM企業應用系統的需求分析、產品規劃與導入。",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"3c911400035a42a4": {
+"relevance": 82,
+"category": "llm_genai",
+"seniority": "senior",
+"skills": [
+"Python",
+"LangChain",
+"RAGAS",
+"Pytest",
+"Prompt Injection",
+"Docker/Kubernetes"
+],
+"summary_zh": "為銀行LLM與RAG系統開發自動化評測、紅隊安全測試與錯誤分析工具",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"3cc7017478cddf84": {
+"relevance": 8,
+"category": "not_ai",
+"seniority": "junior",
+"skills": [
+"CMP製程",
+"SPC",
+"Python",
+"新製程材料評估",
+"12吋晶圓製程"
+],
+"summary_zh": "負責12吋晶圓CMP製程開發、量產導入、線上維護與降本提升產能",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"3cf6f06d544bad6d": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "intern",
+"skills": [
+"影片剪接",
+"腳本與分鏡",
+"動態設計",
+"Blender／Cinema 4D／Unreal Engine",
+"ComfyUI／AI 工作流程",
+"AI 影音工具"
+],
+"summary_zh": "x",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"3d63cd62545ac86e": {
+"relevance": 72,
+"category": "data_sci",
+"seniority": "mid",
+"skills": [
+"Machine Learning",
+"Statistical Modeling",
+"Deep Learning",
+"Optimization Algorithm(OR)",
+"Python",
+"Exploratory Data Analysis"
+],
+"summary_zh": "鴻海總部IT數據科學團隊，為供應鏈、財務、營運等管理議題建立統計與機器學習模型",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"3d6ed2e13631498c": {
+"relevance": 70,
+"category": "llm_genai",
+"seniority": "manager",
+"skills": [
+"data lake",
+"multi-agent AI systems",
+"retrieval-augmented generation",
+"prompt engineering",
+"FHIR",
+"OMOP"
+],
+"summary_zh": "領導團隊建構醫療資料平台並導入多代理AI與RAG架構",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"3e1ba0269e56d5d4": {
+"relevance": 92,
+"category": "cv_nlp",
+"seniority": "intern",
+"skills": [
+"Deep Learning",
+"Neural Networks",
+"Tensorflow",
+"PyTorch",
+"JAX",
+"Computer Vision"
+],
+"summary_zh": "聯發科研究院深度學習研究實習，開發電腦視覺與NLP演算法並發表頂會論文",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"3e846e476984a511": {
+"relevance": 55,
+"category": "mlops_infra",
+"seniority": "mid",
+"skills": [
+"C/C++",
+"Python",
+"Linux",
+"ROCm",
+"CUDA",
+"PyTorch"
+],
+"summary_zh": "支援ROCm GitHub社群回報問題，分類除錯並修復GPU軟體堆疊",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"3eb2ad21454af2ec": {
+"relevance": 40,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"Agile",
+"PMP/Scrum",
+"Requirements analysis",
+"Axure RP",
+"Microsoft Visio",
+"SQL"
+],
+"summary_zh": "於鴻海總部數據科學與AI團隊擔任AI專案管理或系統分析，負責需求、規格與跨部門協調",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"3f73d45daf011ade": {
+"relevance": 40,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"UiPath",
+"Python",
+"SQL",
+"生成式AI",
+"AI Agent",
+"專案管理"
+],
+"summary_zh": "擔任工廠數位轉型專案PO，推動i4.0、生成式AI與AI Agent應用落地",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"41aabf399c623844": {
+"relevance": 45,
+"category": "mlops_infra",
+"seniority": "mid",
+"skills": [
+"Airflow",
+"GCP Dataplex",
+"Python",
+"SQL",
+"Terraform",
+"ETL/ELT"
+],
+"summary_zh": "x",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"4207f919872cfed8": {
+"relevance": 32,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"專案管理",
+"伺服器架構",
+"預算管理",
+"敏捷方法",
+"供應鏈協調",
+"英文溝通"
+],
+"summary_zh": "負責伺服器與AI伺服器新產品專案時程、成本與跨部門客戶協調管理",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"425db8f4b00d4e42": {
+"relevance": 45,
+"category": "ai_adjacent",
+"seniority": "junior",
+"skills": [
+"Python",
+"Java",
+"FastAPI",
+"Spring Boot",
+"RAG",
+"Docker / Kubernetes"
+],
+"summary_zh": "校園新鮮人職缺，負責前後端與API開發、資料庫設計、系統部署維運，並將AI/LLM模組整合至既有系統",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"4282c7bef59e891e": {
+"relevance": 5,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"Kotlin",
+"Android SDK",
+"Jetpack Compose",
+"KeyStore",
+"MPC/TSS",
+"OkHttp/Retrofit"
+],
+"summary_zh": "開發幣安MPC錢包Android客戶端，負責金鑰管理與簽章安全模組",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"43112dd12eaec94b": {
+"relevance": 88,
+"category": "llm_genai",
+"seniority": "senior",
+"skills": [
+"Python",
+"LLM",
+"RAG",
+"Agentic AI",
+"Tool Calling",
+"EDA"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"447d41eedc55beda": {
+"relevance": 80,
+"category": "mlops_infra",
+"seniority": "senior",
+"skills": [
+"Machine Learning infrastructure",
+"performance profiling",
+"model deployment",
+"GPUs or TPUs",
+"Large Language Models",
+"distributed computing"
+],
+"summary_zh": "優化Google Cloud AI基礎設施效能，分析除錯訓練與推論工作負載並支援客戶部署",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"45adbb9cf0cd9748": {
+"relevance": 40,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"DevSecOps",
+"SSDLC",
+"SAST/DAST/SCA",
+"Threat Modeling",
+"Penetration Testing",
+"OWASP Top 10 for LLM Applications"
+],
+"summary_zh": "負責CI/CD資安、SSDLC與滲透測試，並評估LLM與AI代理帶來的資安風險",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"470e91ea745d68f6": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"市場分析",
+"供應鏈管理",
+"專案流程管理",
+"需求預測",
+"供應商談判",
+"伺服器產品"
+],
+"summary_zh": "負責AI伺服器關鍵零組件策略、供應商合作、定價與需求規劃",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"475110391b2da90d": {
+"relevance": 75,
+"category": "llm_genai",
+"seniority": "unknown",
+"skills": [
+"Python",
+"Prompt Engineering",
+"RAG",
+"AI Agent Framework",
+"OpenAI API",
+"Azure OpenAI"
+],
+"summary_zh": "開發整合LLM、RAG與AI Agent應用，負責AI工具PoC、API串接與部署",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"4838fc490d4ce280": {
+"relevance": 75,
+"category": "ml",
+"seniority": "intern",
+"skills": [
+"robot learning",
+"computer vision",
+"perception",
+"motion/path planning",
+"machine learning",
+"Python"
+],
+"summary_zh": "機器人應用科學家實習，研究感知、操作、運動規劃與機器人學習等演算法",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"48a2e00995dfc4f8": {
+"relevance": 32,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"JavaScript",
+"React",
+"Vue",
+"REST",
+"JSON",
+"AI model APIs"
+],
+"summary_zh": "為幣安KYC合規團隊開發內部網頁應用，整合第三方API與AI模型。",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"490dded14dd0de15": {
+"relevance": 72,
+"category": "data_sci",
+"seniority": "senior",
+"skills": [
+"statistical modeling",
+"Machine Learning",
+"predictive modeling",
+"model training automation",
+"data analytics",
+"root-cause analysis"
+],
+"summary_zh": "運用統計與機器學習模型提升製造良率與品質，並支援行銷客戶分析",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"496a7dffdf78ef5e": {
+"relevance": 75,
+"category": "data_sci",
+"seniority": "junior",
+"skills": [
+"Python",
+"SQL",
+"機器學習",
+"MLOps/DevOps",
+"Docker",
+"K8S"
+],
+"summary_zh": "於華邦中科廠進行統計分析與機器學習專案開發，並建置維護MLOps系統",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"4a270a0e803b94ce": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "manager",
+"skills": [
+"UVM",
+"SystemVerilog Assertions (SVA)",
+"PCIe",
+"USB",
+"LLM-assisted verification",
+"prompt engineering"
+],
+"summary_zh": "負責PCIe與USB高速介面IP驗證，並導入LLM輔助驗證流程",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"4ab58c9ff746a29a": {
+"relevance": 80,
+"category": "ml",
+"seniority": "mid",
+"skills": [
+"Python",
+"Pytorch / Tensorflow",
+"Scikit-learn",
+"MLOps / ML Pipeline",
+"SQL",
+"Yolo / Opencv"
+],
+"summary_zh": "於半導體製程研發開發ML模型預測量測結果，並建置資料管線與模型部署監控",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"4ba67cb1770bf581": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "staff_plus",
+"skills": [
+"NPU SDK",
+"Kernel development",
+"Firmware",
+"Networking Switch"
+],
+"summary_zh": "為網路交換器產品開發網路處理器（NPU）SDK與核心韌體",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"4bab77fa3c0e7676": {
+"relevance": 40,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Python/TypeScript/Java/C#/Go",
+"CI/CD (GitHub Actions/Jenkins/GitLab CI)",
+"REST API/Webhook/SDK 系統整合",
+"AI 輔助開發工具",
+"LLM 應用開發 (RAG/Agent/MCP)",
+"Docker/Kubernetes"
+],
+"summary_zh": "優化內部開發流程，建置CI/CD、自動化與AI輔助開發工具，推動AI驅動SDLC轉型",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"4bab8b9b30e98cd9": {
+"relevance": 62,
+"category": "mlops_infra",
+"seniority": "unknown",
+"skills": [
+"Django",
+"Angular",
+"機器學習/深度學習框架",
+"SQL/Oracle",
+"DevOps / MLOps",
+"UNIX/Linux"
+],
+"summary_zh": "於晶圓廠開發AI機器學習Web平台，整合MLOps與資料庫應用",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"4cf19fac164a4cae": {
+"relevance": 62,
+"category": "cv_nlp",
+"seniority": "unknown",
+"skills": [
+"MR/AR/VR",
+"電腦視覺",
+"NLP",
+"混合實境",
+"擴增實境"
+],
+"summary_zh": "開發結合電腦視覺與NLP的MR/AR/VR人工智慧互動產品與應用",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"4d01ba5ad3e2e820": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"NPI",
+"SMT assembly",
+"DFM/DFA/DFT",
+"PFMEA",
+"JMP",
+"ICT/BFT testing"
+],
+"summary_zh": "負責AWS GPU AI伺服器的NPI製造、測試策略與良率品質管理，駐ODM廠支援量產",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"4dbf3bc7e23e68c6": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Product Line Management",
+"Product Marketing",
+"Firmware",
+"DCIM",
+"IaaS",
+"AI軟體堆疊"
+],
+"summary_zh": "x",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"4eb5e7f195c64ee4": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "intern",
+"skills": [
+"instructional design",
+"generative AI tools",
+"LMS platforms",
+"PowerPoint",
+"e-learning development",
+"learning analytics"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"4ed568b4a5fe6574": {
+"relevance": 8,
+"category": "not_ai",
+"seniority": "junior",
+"skills": [
+"macOS",
+"Windows",
+"ITSM",
+"TCP/IP",
+"Jira Service Management",
+"PowerShell"
+],
+"summary_zh": "企業內部第一線IT支援，處理設備、帳號權限、網路與會議室問題",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"4f004768cda0d01f": {
+"relevance": 50,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Project Management",
+"LLM 應用開發",
+"Prompt Engineering",
+"RAG",
+"AI Assistant",
+"PRD 撰寫"
+],
+"summary_zh": "華碩全球服務部AI專案經理，評估導入AI工具並推動內部流程數位轉型",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"50c08d7a0739ee5a": {
+"relevance": 72,
+"category": "ai_hw",
+"seniority": "staff_plus",
+"skills": [
+"NPU SDK",
+"Kernel",
+"Firmware",
+"AI agent-based tools",
+"Networking Switch"
+],
+"summary_zh": "為網路交換器產品開發與實作NPU SDK與核心韌體，並參與AI工具開發",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"50ed7189cd281a8c": {
+"relevance": 30,
+"category": "ai_adjacent",
+"seniority": "junior",
+"skills": [
+"APP/Web",
+"後端 API",
+"CI/CD",
+"程式碼審閱",
+"AI 模型任務自動化",
+"技術佈署文件"
+],
+"summary_zh": "新幹班軟體研發，開發跨平台應用與後端API，支援AI任務自動化專案",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"511ab739bebbc804": {
+"relevance": 62,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"SQL",
+"Python",
+"FastAPI",
+"ETL",
+"Text-to-SQL",
+"RAG"
+],
+"summary_zh": "建置AI導向資料管線與語義層，開發GenAI營運分析問答系統與知識庫",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"511c3241e2f67025": {
+"relevance": 93,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"LLM",
+"RAG",
+"vLLM/SGLang",
+"LangGraph",
+"prompt engineering",
+"SFT/DPO"
+],
+"summary_zh": "負責LLM全流程開發，建置RAG問答與多代理系統，應用於客服聊天機器人",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"51e1030493f58c89": {
+"relevance": 88,
+"category": "cv_nlp",
+"seniority": "unknown",
+"skills": [
+"電腦視覺",
+"語音辨識",
+"自然語言處理",
+"深度學習",
+"深度學習框架硬體加速優化"
+],
+"summary_zh": "開發電腦視覺、語音及NLP深度學習演算法，並優化框架硬體加速",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"51e87dff7b7b08e1": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"產線測試程式開發",
+"測試導入",
+"問題分析",
+"軟體自動化"
+],
+"summary_zh": "負責AI伺服器產線測試程式開發、測試導入與問題分析解決",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"533209f4554d026a": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"SOW development",
+"Salesforce",
+"program management",
+"cloud migration",
+"Amazon Bedrock",
+"RAG architectures"
+],
+"summary_zh": "負責AWS專業服務案的銷售、範疇界定與交付管理，推動台灣企業雲端轉型營收。",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"533b7bc9af7c966e": {
+"relevance": 40,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"AI Agent",
+"Agentic AI",
+"生成式 AI",
+"AI 應用導入",
+"教育訓練",
+"知識管理"
+],
+"summary_zh": "制定業務行銷部門AI應用策略，推動跨部門與全球據點導入生成式AI與AI Agent",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"53621b52f0c5a35f": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"NPI",
+"失效分析",
+"FAE",
+"SOP製作",
+"AI伺服器"
+],
+"summary_zh": "負責AI伺服器NPI與失效分析，支援海外據點與客戶技術問題及教育訓練",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"536a7a28612ad144": {
+"relevance": 92,
+"category": "mlops_infra",
+"seniority": "unknown",
+"skills": [
+"PyTorch",
+"ONNX",
+"Triton",
+"LLM inference optimization",
+"transformer architectures",
+"Python"
+],
+"summary_zh": "為高通Cloud AI加速器轉換、優化與部署LLM等模型推論效能並開發Triton核心",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"53d3b2294cbfeb74": {
+"relevance": 68,
+"category": "mlops_infra",
+"seniority": "mid",
+"skills": [
+"Kubernetes",
+"Docker",
+"CI/CD",
+"Terraform",
+"ML model servers",
+"Python"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"55cbdda25f342f8b": {
+"relevance": 40,
+"category": "ai_adjacent",
+"seniority": "manager",
+"skills": [
+"AI 策略",
+"AI 治理",
+"AI 應用組合管理",
+"企業流程整合",
+"組織轉型"
+],
+"summary_zh": "制定集團AI原生轉型策略與治理體系，統籌AI應用投資並推動組織轉型",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"56decc8703b82494": {
+"relevance": 45,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"product management",
+"deep learning",
+"LLMs",
+"machine learning",
+"HIPAA",
+"AI model validation"
+],
+"summary_zh": "負責醫療AI產品策略與路線圖，與AI團隊及醫院合作推動產品落地與法規遵循",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"57a477186d91cad6": {
+"relevance": 25,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"Python",
+"Django",
+"PostgreSQL",
+"Redis",
+"Celery/RabbitMQ/Kafka",
+"LangChain"
+],
+"summary_zh": "於MIS部門以Python開發高併發後端服務與API，優化資料庫效能並重構舊系統，LLM經驗為加分",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"58db490bf3efc165": {
+"relevance": 22,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"Flutter",
+"React Native",
+"React",
+"Next.js",
+"Figma",
+"CI/CD"
+],
+"summary_zh": "為機器人應用開發跨平台行動與網頁前端，處理地圖、任務規劃與即時串流介面",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"592fdd01ee545bbb": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"SEO",
+"Semrush",
+"Ahrefs",
+"Google Search Console",
+"AI agents",
+"workflow automation"
+],
+"summary_zh": "管理華碩全球新聞室內容與SEO，並導入AI代理自動化行銷傳播流程",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"597e9f33da1c662e": {
+"relevance": 35,
+"category": "ai_hw",
+"seniority": "staff_plus",
+"skills": [
+"system architecture definition",
+"electrical design",
+"prototyping",
+"layout debugging",
+"hardware validation"
+],
+"summary_zh": "負責AI伺服器電路設計、架構定義、原型開發與驗證的資深首席電子工程師",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"598df6e72f2c403e": {
+"relevance": 40,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [
+"Python",
+"C/C++",
+"SIEM",
+"EDR",
+"TensorFlow",
+"PyTorch"
+],
+"summary_zh": "開發資安系統與監控規則，並運用機器學習提升威脅偵測能力",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"5b86b30c6947544b": {
+"relevance": 20,
+"category": "not_ai",
+"seniority": "staff_plus",
+"skills": [
+"NPU SDK",
+"Kernel",
+"Firmware",
+"Networking Switch"
+],
+"summary_zh": "為網路交換器產品開發網路處理器(NPU)SDK與核心韌體軟體",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"5bff663967a0e055": {
+"relevance": 5,
+"category": "not_ai",
+"seniority": "manager",
+"skills": [
+"Linux",
+"Ubuntu",
+"kernel",
+"deb/snap packaging",
+"Python",
+"CI/CD"
+],
+"summary_zh": "帶領工程團隊為OEM/ODM客戶預載與啟用Ubuntu系統的軟體工程主管",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"5ceb3d83b26f4644": {
+"relevance": 55,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"資料治理",
+"血緣追蹤",
+"數據服務 API",
+"資料視覺化",
+"LLM",
+"RAG"
+],
+"summary_zh": "為智慧城市建置企業級數據平台，負責資料流程、治理與監控，並整合生成式AI應用",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"5da6ded38916cabd": {
+"relevance": 80,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"Python",
+"LLM API",
+"RAG",
+"Agentic workflow",
+"Docker / Kubernetes",
+"LangGraph"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"5ede3c4904d6dab9": {
+"relevance": 62,
+"category": "ai_adjacent",
+"seniority": "manager",
+"skills": [
+"Python",
+"統計分析",
+"LLM / Prompt Engineering",
+"AI / Machine Learning",
+"log analysis",
+"flow optimization"
+],
+"summary_zh": "分析DRAM/Flash設計CAD流程資料，以Python與AI/LLM開發自動化工具優化設計效率",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"5f12a5a1af219e9a": {
+"relevance": 65,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"AI tool development",
+"lead time prediction",
+"intelligent document search",
+"automation",
+"workflow analysis"
+],
+"summary_zh": "為供應鏈採購與生產規劃團隊開發客製化AI工具，如報價分析與交期預測",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"602ddb45c0df9d44": {
+"relevance": 82,
+"category": "ml",
+"seniority": "junior",
+"skills": [
+"深度學習",
+"資料收集",
+"模型訓練",
+"虛擬環境模擬",
+"機器人部署"
+],
+"summary_zh": "協助收集真實與模擬環境資料、設計回饋機制訓練機器人模型並部署至實體機器人",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"60cf39ea52e059cc": {
+"relevance": 52,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"recommender systems",
+"RAG",
+"prompt design",
+"AI agents",
+"SQL",
+"A/B testing"
+],
+"summary_zh": "負責幣安交易平台推薦系統與LLM/AI代理產品的規劃、評估與成長策略",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"611726550535e4dc": {
+"relevance": 8,
+"category": "not_ai",
+"seniority": "junior",
+"skills": [
+"主機板電子電路維修",
+"Trouble Shooting Guide",
+"Repair SOP",
+"FA Report"
+],
+"summary_zh": "儲備人才計畫，負責AI伺服器主機板電路維修分析與撰寫維修SOP，需海外輪調",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"61c60928a90c5cb9": {
+"relevance": 40,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Golang",
+"web crawling/scraping",
+"AWS",
+"SQL/NoSQL",
+"LLM integration",
+"Claude Code/Codex"
+],
+"summary_zh": "以Golang開發企業防詐平台後端、爬蟲與API，並探索LLM代理應用於風險偵測",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"6227e608499eb381": {
+"relevance": 30,
+"category": "ai_hw",
+"seniority": "junior",
+"skills": [
+"AI Server",
+"伺服器架構",
+"電子電路分析",
+"原理圖與Layout",
+"故障分析",
+"QC 8 大分析手法"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"634d663e0b5f923b": {
+"relevance": 5,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"PLM",
+"Agile/Scrum",
+"API Integration",
+"Cloud Platform",
+"產品Roadmap規劃",
+"Vendor Management"
+],
+"summary_zh": "負責半導體PLM及稽核法務IP企業應用系統的產品規劃與導入",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"635d328d57dfd465": {
+"relevance": 22,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"Playwright",
+"Puppeteer",
+"Python",
+"JavaScript",
+"AWS",
+"HTTP/TLS"
+],
+"summary_zh": "建置自有大規模網路爬蟲基礎設施，蒐集社群與網路資料轉為詐騙訊號",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"63d79ad674f1c67a": {
+"relevance": 85,
+"category": "ml",
+"seniority": "mid",
+"skills": [
+"毫米波雷達訊號處理",
+"生理訊號處理",
+"Python",
+"TensorFlow",
+"PyTorch",
+"AI演算法開發"
+],
+"summary_zh": "開發AI演算法處理毫米波雷達與生理訊號，並整合至產品系統",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"65084a68c0acca97": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "junior",
+"skills": [
+"C#",
+"Python",
+"SQL",
+"SEMI Standard",
+"Angular",
+"ASP.Net"
+],
+"summary_zh": "開發維護半導體工廠機台連線EAP與FDC/R2R等EES自動化系統並值班排除問題",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"6570dc8b437b5e61": {
+"relevance": 93,
+"category": "llm_genai",
+"seniority": "senior",
+"skills": [
+"QNN",
+"AIMET",
+"quantization",
+"C++",
+"Python",
+"LLM/VLM deployment"
+],
+"summary_zh": "於高通AI軟體堆疊上架構與優化LLM/VLM邊緣端部署，含量化與KV快取加速",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"65beae9b4ea225d1": {
+"relevance": 30,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [],
+"summary_zh": "鴻海AI伺服器相關職缺線上測驗用途，職務內容未詳述",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"661d8739a79adec4": {
+"relevance": 50,
+"category": "mlops_infra",
+"seniority": "manager",
+"skills": [
+"Kubernetes",
+"GKE",
+"Go",
+"distributed systems",
+"TPU/GPU",
+"Kueue"
+],
+"summary_zh": "x",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"6696964e2edef54f": {
+"relevance": 35,
+"category": "ai_hw",
+"seniority": "senior",
+"skills": [
+"C++",
+"SystemC",
+"performance modeling",
+"NoC",
+"PCIe/CXL",
+"Python"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"670accf659f4fff2": {
+"relevance": 85,
+"category": "llm_genai",
+"seniority": "intern",
+"skills": [
+"Agent LLM",
+"模型訓練",
+"LLM 實驗"
+],
+"summary_zh": "實習參與Agent LLM模型訓練與實驗，並支援Agent系統應用優化",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"6717fc92658a3e74": {
+"relevance": 88,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"C/C++",
+"Python",
+"PyTorch/TensorFlow",
+"Assembly/SIMD",
+"Microsoft NNI",
+"LLM"
+],
+"summary_zh": "開發處理器上AI框架與Model Zoo，優化LLM模型並移植至晶片端運行",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"67d3569cf83e5256": {
+"relevance": 8,
+"category": "not_ai",
+"seniority": "unknown",
+"skills": [
+"品質問題追蹤",
+"客訴處理",
+"客戶稽核",
+"大數據資料彙整"
+],
+"summary_zh": "負責AI伺服器產品品質問題追蹤改善、客訴處理與客戶稽核對應窗口",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"6894bf9e67875542": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"電子電路",
+"線路圖分析",
+"示波器",
+"電錶",
+"焊接",
+"伺服器架構"
+],
+"summary_zh": "負責AI伺服器產品電性異常分析、測試良率追蹤與生產良率改善",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"68a6e39691c0183c": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [
+"Power BI",
+"Power Automate (RPA)",
+"生成式 AI (GenAI)",
+"AI Agent",
+"流程優化"
+],
+"summary_zh": "優化供應鏈流程，建置Power BI儀表板與RPA自動化，並推動GenAI應用",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"698c6308e8c02014": {
+"relevance": 25,
+"category": "not_ai",
+"seniority": "unknown",
+"skills": [
+"Linux",
+"BMC firmware",
+"CI/CD"
+],
+"summary_zh": "負責AI伺服器BMC韌體Linux開發、CI/CD驗證及跨部門協作",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"6a6a13b2e96c980d": {
+"relevance": 25,
+"category": "not_ai",
+"seniority": "manager",
+"skills": [
+"Manufacturing Test",
+"Design for Test (DFT)",
+"Python",
+"Gauge R&R",
+"System-level test",
+"NPI"
+],
+"summary_zh": "領導ML加速器伺服器的量產測試開發團隊，規劃板級與系統級測試方案。",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"6b52cfc3ae254340": {
+"relevance": 80,
+"category": "llm_genai",
+"seniority": "unknown",
+"skills": [
+"generative AI",
+"LLMs",
+"RTL design",
+"RTL optimization",
+"simulation testbench generation",
+"formal testbench generation"
+],
+"summary_zh": "運用商用或開源LLM自動化RTL設計、優化及驗證測試平台生成",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"6b6ab4c7047652b4": {
+"relevance": 90,
+"category": "cv_nlp",
+"seniority": "senior",
+"skills": [
+"neural video coding",
+"entropy modeling",
+"rate-distortion optimization",
+"PyTorch",
+"Python",
+"C/C++"
+],
+"summary_zh": "研發基於深度學習的神經影像壓縮演算法，並參與JVET/MPEG等標準制定",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"6bc7df1d4a8878ad": {
+"relevance": 75,
+"category": "cv_nlp",
+"seniority": "junior",
+"skills": [
+"Python",
+"PyTorch",
+"TensorFlow",
+"YOLO",
+"OpenCV",
+"SQL"
+],
+"summary_zh": "為華碩顯示器開發影像分類與物件偵測模型，並進行影像校色、用戶數據分析與視覺化",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"6d077ad0516b1d09": {
+"relevance": 55,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"prompt engineering",
+"REST APIs",
+"OAuth/SAML/SCIM",
+"Python",
+"RAG",
+"internal chatbots"
+],
+"summary_zh": "x",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"6dc07a7fbc14e302": {
+"relevance": 12,
+"category": "not_ai",
+"seniority": "junior",
+"skills": [
+"Excel",
+"digital advertising",
+"campaign management",
+"ChatGPT",
+"data monitoring"
+],
+"summary_zh": "協助廣告活動團隊設定與監控AI廣告投放成效的入門營運職位",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"6f978ae954f90e3f": {
+"relevance": 45,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"C/C++",
+"MCU/嵌入式系統",
+"數位訊號處理",
+"阻抗控制",
+"TinyML",
+"CMSIS-NN"
+],
+"summary_zh": "開發機器人靈巧手觸覺訊號處理、柔順力控，並於MCU部署輕量化ML模型",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"70311f6b7ddb3ee9": {
+"relevance": 92,
+"category": "llm_genai",
+"seniority": "junior",
+"skills": [
+"Python",
+"LLM",
+"multi-agent system design",
+"MCP",
+"vLLM",
+"TensorRT-LLM"
+],
+"summary_zh": "為幣安打造加密交易用LLM代理系統，含推理、評估與低延遲推論部署",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"706dfdbcc38c5efa": {
+"relevance": 22,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"OPC",
+"RET",
+"Python",
+"TCL",
+"Linux",
+"pytorch/tensorflow"
+],
+"summary_zh": "負責先進製程光學鄰近修正、OPC模型建立與光罩Tapeout，兼顧自動化系統維護",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"707cea35d569d89a": {
+"relevance": 75,
+"category": "cv_nlp",
+"seniority": "unknown",
+"skills": [
+"Python",
+"C++",
+"C#",
+"OpenCV",
+"PyTorch",
+"TensorFlow"
+],
+"summary_zh": "開發筆電與掌機外觀瑕疵AI影像辨識自動檢測系統並協助工廠導入",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"70e966950651274c": {
+"relevance": 5,
+"category": "not_ai",
+"seniority": "junior",
+"skills": [
+"SMT",
+"NPI",
+"DOE",
+"SPC",
+"PFMEA",
+"8D"
+],
+"summary_zh": "x",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"71a9aded65da9ec5": {
+"relevance": 88,
+"category": "ml",
+"seniority": "intern",
+"skills": [
+"PyTorch",
+"recommender systems",
+"LLMs",
+"NLP",
+"MLflow",
+"Spark"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"71ffca49fd251dcf": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"Golang",
+"AWS",
+"ETL",
+"Kinesis",
+"SQL",
+"Python"
+],
+"summary_zh": "以Golang與AWS建置雲端分析資料管線與ETL服務",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"72b763bd6d86d470": {
+"relevance": 92,
+"category": "cv_nlp",
+"seniority": "senior",
+"skills": [
+"PyTorch",
+"JAX",
+"Python",
+"OpenCV",
+"CUDA",
+"object detection"
+],
+"summary_zh": "為機器人自主平台開發並部署電腦視覺與感知模型，優化邊緣即時推論",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"731dcafb6cacb51f": {
+"relevance": 35,
+"category": "ai_hw",
+"seniority": "unknown",
+"skills": [
+"post-silicon validation",
+"ATE test data analysis",
+"AVS low power design",
+"test plan",
+"yield improvement"
+],
+"summary_zh": "負責NPU晶片量產測試規劃、功能功耗驗證、ATE資料分析與AVS低功耗設計",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"732ba75fcc5a6446": {
+"relevance": 62,
+"category": "ml",
+"seniority": "mid",
+"skills": [
+"Python",
+"Tcl",
+"SKILL",
+"PyTorch",
+"Cadence APD/SiP",
+"2.5D/3D packaging"
+],
+"summary_zh": "開發AI驅動的先進封裝設計自動化流程，優化基板與中介層佈線、擺放及訊號完整性",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"73928da7a467965b": {
+"relevance": 62,
+"category": "data_sci",
+"seniority": "intern",
+"skills": [
+"Python",
+"機器學習",
+"深度學習",
+"生成式AI",
+"Django",
+"BI"
+],
+"summary_zh": "晶圓廠AI/大數據實習，協助資料前處理、AI平台維運及演算法模型開發",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"73f4af5e16ea7c1a": {
+"relevance": 92,
+"category": "ml",
+"seniority": "unknown",
+"skills": [
+"Machine Learning",
+"Deep Learning",
+"Learning Theory",
+"Computer Vision",
+"Speech",
+"NLP"
+],
+"summary_zh": "於聯發科創新基地進行機器學習與深度學習理論研究，應用於AI設計晶片與對話系統",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"742e3846892e1704": {
+"relevance": 12,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"Web3",
+"blockchain",
+"Java",
+"smart contract integration",
+"on-chain data indexing",
+"backend development"
+],
+"summary_zh": "開發Web3錢包與區塊鏈後端系統，處理鏈上資料索引與交易整合",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"747bfb4835b7aa7f": {
+"relevance": 65,
+"category": "mlops_infra",
+"seniority": "mid",
+"skills": [
+"AI infrastructure (GPU/TPU)",
+"large-scale distributed systems",
+"AI cluster interconnects and networking",
+"large-scale training and inference workloads",
+"hybrid/on-prem cloud infrastructure",
+"performance optimization"
+],
+"summary_zh": "為Google Cloud混合與地端環境打造GPU/TPU大型AI叢集基礎設施",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"74ea6b51f15c78d3": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Next.js",
+"TypeScript",
+"PostgreSQL",
+"GCP",
+"Docker",
+"Terraform"
+],
+"summary_zh": "開發將影像轉為互動3D重建的網頁平台全端系統與雲端架構",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"76b9075abb8781e7": {
+"relevance": 90,
+"category": "mlops_infra",
+"seniority": "mid",
+"skills": [
+"C++",
+"Python",
+"LiteRT",
+"QNN SDK",
+"LLM inference optimization",
+"quantization"
+],
+"summary_zh": "開發LiteRT與QNN推論執行環境，於高通NPU上部署並優化LLM模型",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"775928ce8996ee5b": {
+"relevance": 95,
+"category": "llm_genai",
+"seniority": "staff_plus",
+"skills": [
+"PyTorch",
+"torch.compile / TorchDynamo",
+"Triton",
+"ONNX",
+"KVcache",
+"distributed inference"
+],
+"summary_zh": "主導LLM/VLM/擴散模型在高通推論加速器上的模型轉換、核心融合與推論效能最佳化",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"77db59b53b249827": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"Python",
+"C++",
+"Java",
+"CI/CD",
+"test automation frameworks",
+"observability dashboards"
+],
+"summary_zh": "為華碩企業網路事業部從零建置測試自動化框架與CI/CD流程，提升開發效率",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"7890276d11488d6a": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"GCP IAM",
+"OAuth",
+"SAST/DAST",
+"CI/CD",
+"Terraform",
+"Node.js/Next.js"
+],
+"summary_zh": "負責華碩機器人與AI中心雲端平台的應用與基礎架構資安防護",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"79e32436ef8653b2": {
+"relevance": 55,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Python",
+"Java",
+"JavaScript",
+"system design",
+"enterprise integrations",
+"AI/ML model deployments"
+],
+"summary_zh": "擔任Google Cloud前線部署工程師，設計企業AI方案架構整合並排除客戶導入問題",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"7ad3c2d43589500b": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Java",
+"Spring Boot / Spring Cloud",
+"Kafka / RocketMQ",
+"distributed transactions",
+"ISO 20022 / SWIFT",
+"RAG, agents"
+],
+"summary_zh": "開發法幣出入金的資金與帳戶安全、對帳系統，並以LLM輔助異常偵測",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"7b26e1c8beef420c": {
+"relevance": 85,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"LLMs",
+"RAG",
+"Python",
+"PyTorch",
+"TensorFlow",
+"MLOps"
+],
+"summary_zh": "於資訊技術部門進行資料分析，開發LLM聊天機器人與RAG系統並微調模型",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"7be06536606349ae": {
+"relevance": 88,
+"category": "ml",
+"seniority": "senior",
+"skills": [
+"Python",
+"scikit-learn",
+"XGBoost",
+"PyTorch",
+"A/B testing",
+"Bayesian methods"
+],
+"summary_zh": "為防詐產品設計與驗證機器學習模型，主導實驗設計、統計評估與模型上線標準",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"7c7760301f6cddc2": {
+"relevance": 75,
+"category": "data_sci",
+"seniority": "mid",
+"skills": [
+"機器學習",
+"Python",
+"LLM",
+"RAG",
+"AI Agent",
+"MCP"
+],
+"summary_zh": "分析製造數據建立預測模型，並導入LLM與AI Agent於數據分析流程",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"7cb35c591b6442e8": {
+"relevance": 22,
+"category": "not_ai",
+"seniority": "junior",
+"skills": [
+"Audio post-processing tuning",
+"acoustic measurement",
+"AEC",
+"麥克風陣列",
+"DSP",
+"語音辨識演算法"
+],
+"summary_zh": "負責音訊後處理與聲學效能調校、量測及數據分析",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"7ea2581de8c46d1b": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "manager",
+"skills": [
+"C#/.NET",
+"WPF",
+"WinForm",
+"DuckDB",
+"SQL",
+"React"
+],
+"summary_zh": "領導eManager結果分析軟體團隊，負責維護、交付與技術債改善。",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"7eaf09373fc9dd0b": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"伺服器產品管理",
+"產品生命周期管理",
+"市場與競品分析",
+"跨部門溝通",
+"售後維修流程"
+],
+"summary_zh": "負責OTS AI伺服器產品規劃、生命週期管理與市場導入的產品經理",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"7ec93c88da51e27f": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [
+"專案時程管理",
+"電子設計",
+"韌體設計",
+"機構設計",
+"客戶溝通"
+],
+"summary_zh": "負責AI伺服器電子、韌體與機構設計專案時程管理及客戶溝通",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"7f29fa590319bca2": {
+"relevance": 38,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Python",
+"Apache Airflow",
+"Scrapy",
+"Apache Spark",
+"SQL",
+"Azure/AWS"
+],
+"summary_zh": "為集團AI與數據科學專案建置ETL資料管線、爬蟲及資料架構平台",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"80a76f147a1b78b1": {
+"relevance": 5,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"RFI/RFQ",
+"pricing strategies",
+"account management",
+"A/R management",
+"TOEIC 700+"
+],
+"summary_zh": "負責AI伺服器客戶訂單管理、報價與出貨協調及應收帳款追蹤的業務職。",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"80aeed5aaa6c1800": {
+"relevance": 85,
+"category": "llm_genai",
+"seniority": "junior",
+"skills": [
+"Python",
+"Linux Shell Scripting",
+"Open Source LLM 部署",
+"RAG",
+"SFT / LoRA",
+"vLLM"
+],
+"summary_zh": "於離線內網部署與微調開源LLM及RAG，打造EDA維運AI代理與日誌診斷工具",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"8123fc4f70e2bc60": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"Azure",
+"AWS",
+"GCP",
+"Agentic AI",
+"雲端安全",
+"混合雲"
+],
+"summary_zh": "負責雲端與AI相關產品規劃、代理合作、通路管理及海外推廣的產品經理",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"8138091b98c43b38": {
+"relevance": 20,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"Java",
+"Python",
+"JavaScript / TypeScript",
+"RESTful API",
+"React",
+"Spring Boot"
+],
+"summary_zh": "負責核心產品全端開發、API與資料庫設計，並與AI團隊協作",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"813907305156454f": {
+"relevance": 88,
+"category": "cv_nlp",
+"seniority": "unknown",
+"skills": [
+"computer vision",
+"image processing",
+"deep learning",
+"machine learning",
+"image recognition",
+"AI-ISP"
+],
+"summary_zh": "開發相機電腦視覺與深度學習演算法，應用於ISP、3A、HDR及AI-ISP",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"817463c054634698": {
+"relevance": 30,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"Python",
+"Rust",
+"C++",
+"FIDL/gRPC",
+"Mobly",
+"CI/CQ test automation"
+],
+"summary_zh": "為Fuchsia驅動程式建立自動化測試流程，並導入AI輔助測試與代理式故障分析",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"832461fb51ff7cf4": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Project Management",
+"AI server",
+"ODM/OEM",
+"Budget Management",
+"Supplier Coordination"
+],
+"summary_zh": "負責AI伺服器產品專案管理，協調跨部門與供應商確保時程與品質",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"833fed8f2f7276fb": {
+"relevance": 92,
+"category": "ml",
+"seniority": "mid",
+"skills": [
+"Python",
+"NVIDIA Isaac Lab",
+"MuJoCo",
+"Transformer",
+"VLM",
+"Diffusion Policy"
+],
+"summary_zh": "以模擬合成資料訓練與微調機器人具身智能多模態基礎模型並部署",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"83ea00e93e6a9184": {
+"relevance": 75,
+"category": "ml",
+"seniority": "mid",
+"skills": [
+"machine learning",
+"generative AI",
+"IC design",
+"chip design flow optimization",
+"digital design",
+"data analysis"
+],
+"summary_zh": "運用機器學習與生成式AI優化晶片設計流程，提升設計效率與品質",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"84664c3e9ff8e2d7": {
+"relevance": 62,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"SystemVerilog Assertions (SVA)",
+"Formal Verification",
+"LLM / RAG",
+"LangChain / LangGraph",
+"Python",
+"MCP"
+],
+"summary_zh": "執行晶片形式驗證，並開發LLM代理工具自動化斷言生成與除錯",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"84a5471700b216ff": {
+"relevance": 3,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"新聞稿撰寫",
+"媒體關係",
+"公關活動規劃",
+"輿情分析",
+"客戶案例包裝"
+],
+"summary_zh": "負責Synology台灣媒體溝通、新聞稿撰寫及公關活動執行",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"8589bf14addfba0c": {
+"relevance": 40,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Product Requirement Documents (PRDs)",
+"Hospital Information Systems (HIS)",
+"Confluence",
+"Jira",
+"competitive analysis",
+"AI-based products"
+],
+"summary_zh": "負責醫療AI與醫院資訊系統軟體的產品規劃、PRD撰寫與上市策略",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"85e7498d7cbb029d": {
+"relevance": 30,
+"category": "ai_hw",
+"seniority": "senior",
+"skills": [
+"Ansys Icepak",
+"Flotherm",
+"CFD",
+"液冷 D2C",
+"3D Vapor Chamber",
+"Liquid Cold Plate"
+],
+"summary_zh": "負責高密度GPU AI伺服器風冷與液冷散熱架構設計、CFD模擬及量產驗證",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"861fc501c7dcaf79": {
+"relevance": 88,
+"category": "llm_genai",
+"seniority": "unknown",
+"skills": [
+"AI代理",
+"生成式AI",
+"驗證框架",
+"AI應用優化"
+],
+"summary_zh": "設計開發並部署AI代理與生成式AI應用，建立驗證框架並優化效能",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"862e7d0b84278196": {
+"relevance": 75,
+"category": "mlops_infra",
+"seniority": "mid",
+"skills": [
+"AI Application Framework",
+"AI 模型整合",
+"MLOps/AIOps",
+"模型驗證與效能評估",
+"參數調整",
+"模型部署與版本管理"
+],
+"summary_zh": "建構AI應用框架並整合模型至產品服務，維運MLOps環境與優化模型效能。",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"8642c78d5f45178a": {
+"relevance": 35,
+"category": "ai_hw",
+"seniority": "mid",
+"skills": [
+"Advantest 93K",
+"Teradyne IGXL",
+"C/C++",
+"Python",
+"JMP",
+"Optimal+"
+],
+"summary_zh": "負責Trainium AI晶片的量產測試開發，包括探針、終測與系統級測試及良率分析",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"86712bce25573097": {
+"relevance": 38,
+"category": "ai_hw",
+"seniority": "mid",
+"skills": [
+"Schematic",
+"PCB Layout",
+"NVLink/InfiniBand",
+"OrCAD/Allegro",
+"Linux",
+"Python"
+],
+"summary_zh": "負責AI伺服器硬體架構與電路設計、系統驗證除錯及客戶端技術支援",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"867befb01038a5f4": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [
+"Linux",
+"BMC/BIOS/Firmware",
+"GPU測試",
+"自動化測試script",
+"Ubuntu/Redhat/SUSE",
+"網路設定"
+],
+"summary_zh": "負責AI伺服器軟體驗證測試，含GPU功能壓力效能測試與韌體設定。",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"8708a4e405fdc67a": {
+"relevance": 78,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"LangChain",
+"LlamaIndex",
+"Microsoft Copilot Studio/Foundry",
+"RAG",
+"MCP",
+"full-stack development"
+],
+"summary_zh": "在企業內部打造LLM代理與對話式AI工作流程，協助各部門導入AI提升效率",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"8719d002593a8a68": {
+"relevance": 90,
+"category": "ml",
+"seniority": "intern",
+"skills": [
+"PyTorch",
+"deep learning",
+"LLM-based agents",
+"RAG",
+"paper reproduction",
+"evaluation/ablations"
+],
+"summary_zh": "ML工程實習生，研讀論文並於LINE大規模資料上開發深度學習或LLM代理原型",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"883a32e8a54a3d2c": {
+"relevance": 5,
+"category": "not_ai",
+"seniority": "junior",
+"skills": [
+"Java",
+"Python",
+"Flask/FastAPI",
+"AWS/Azure/GCP",
+"ASP.NET Core",
+"CI/CD"
+],
+"summary_zh": "台灣大哥大新鮮人資訊職缺，含全端、雲端、維運與.Net開發",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"88ec7b37c84ad7ae": {
+"relevance": 18,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"PostgreSQL",
+"Kubernetes",
+"AWS/Azure/GCP",
+"CPU architecture",
+"AMD uProf",
+"Kafka/Spark"
+],
+"summary_zh": "x",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"89b1cb1af4367a3d": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [
+"Python",
+"LabVIEW",
+"儀控",
+"機器學習",
+"數據分析",
+"電源測試設備"
+],
+"summary_zh": "開發伺服器電源測試自動化流程，並嘗試導入AI於電源設計與故障診斷",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"89e1bd24028e9dc7": {
+"relevance": 5,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"Java",
+"Spring Framework",
+"MySQL",
+"NoSQL",
+"distributed system design",
+"messaging middleware"
+],
+"summary_zh": "為幣安期貨交易開發高吞吐分散式Java後端服務並進行效能調校",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"8ae2e6ce52266514": {
+"relevance": 50,
+"category": "ai_adjacent",
+"seniority": "junior",
+"skills": [
+"Python",
+"C/C++",
+"OpenCV",
+"Jetson Nano",
+"PyTorch",
+"YOLO"
+],
+"summary_zh": "於通信測試部門進行軟硬體與嵌入式系統整合，結合影像辨識與跨協議資料傳輸",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"8b8adacd05e842ac": {
+"relevance": 68,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"Verilog/SystemVerilog",
+"UVM",
+"LLMs",
+"LangChain",
+"RAG",
+"Python"
+],
+"summary_zh": "結合RTL設計驗證與LLM代理，開發AI工具加速晶片設計驗證流程",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"8bd428033bedf85d": {
+"relevance": 22,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"PRD",
+"A/B testing",
+"behavioral analytics",
+"Jira",
+"Figma",
+"generative AI fundamentals"
+],
+"summary_zh": "負責LINE通訊與官方帳號產品規劃，聚焦帳號安全、防詐與訊息體驗",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"8ce914b8a4228433": {
+"relevance": 35,
+"category": "ai_hw",
+"seniority": "senior",
+"skills": [
+"ARM Trusted Firmware (TF-A)",
+"UEFI / EDK2",
+"U-Boot",
+"C programming",
+"PCIe",
+"Secure Boot"
+],
+"summary_zh": "為資料中心AI機架與伺服器的ARM平台開發開機韌體並負責硬體bring-up與除錯",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"8db3b5f95946af9e": {
+"relevance": 68,
+"category": "ml",
+"seniority": "unknown",
+"skills": [
+"Python",
+"Machine learning",
+"Prompt Engineering",
+"NLP",
+"Flask API",
+"SQL"
+],
+"summary_zh": "開發維運企業內部AI資訊系統，進行資料預處理、機器學習模型訓練與提示工程",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"8df9afe4fda0f306": {
+"relevance": 30,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"伺服器架構",
+"專案管理",
+"預算管理",
+"設計驗證",
+"量產導入",
+"敏捷方法"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"8e96b72e2ae5bd16": {
+"relevance": 85,
+"category": "llm_genai",
+"seniority": "unknown",
+"skills": [
+"LLM",
+"AI Agent",
+"Python",
+"C++",
+"Node.js",
+"地端LLM部署"
+],
+"summary_zh": "研發基於LLM的軟體解決方案，設計實作AI Agent流程並快速驗證新技術原型",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"8eaebcc5e16866bd": {
+"relevance": 42,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Go",
+"Python",
+"Kafka",
+"MongoDB",
+"ClickHouse",
+"Kubernetes"
+],
+"summary_zh": "負責Appier廣告投放即時推薦後端服務的設計、效能優化與維運",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"8eccfc889322debc": {
+"relevance": 42,
+"category": "ai_adjacent",
+"seniority": "junior",
+"skills": [
+"產品規劃",
+"需求分析",
+"專案管理",
+"市場研究與競品分析",
+"PMP"
+],
+"summary_zh": "協助規劃AI產品規格、推動AI專案並串接研發與業務需求",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"90a07daf3c64aee6": {
+"relevance": 22,
+"category": "not_ai",
+"seniority": "junior",
+"skills": [
+"HTML",
+"JavaScript",
+"Python",
+"SQL",
+"GTM",
+"SDK integration"
+],
+"summary_zh": "協助廣告客戶導入追蹤技術、排解技術問題並分析活動數據",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"90b417c8ee1d4bd6": {
+"relevance": 30,
+"category": "ai_hw",
+"seniority": "unknown",
+"skills": [
+"BIOS",
+"UEFI",
+"C",
+"C++",
+"JTAG",
+"嵌入式系統"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"91e873ce812e83aa": {
+"relevance": 45,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Go",
+"Java",
+"React",
+"recommendation systems",
+"high-concurrency systems",
+"AI coding tools (Cursor, Copilot, Claude Code)"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"92e36f0bd189c1f1": {
+"relevance": 20,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"專案管理",
+"報價與成本分析",
+"AI server售後服務",
+"AI Data center",
+"溝通協調"
+],
+"summary_zh": "負責AI伺服器售後服務專案規劃執行、客戶溝通與成本報價分析",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"92eefcb2b66cd4bc": {
+"relevance": 82,
+"category": "llm_genai",
+"seniority": "manager",
+"skills": [
+"LLM/RAG 評測",
+"RAGAS",
+"DeepEval",
+"Red Teaming",
+"PyTorch",
+"LangChain"
+],
+"summary_zh": "帶領團隊建立LLM/RAG模型評測框架、紅隊演練與上線品質把關",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"93c50c95ba7994c3": {
+"relevance": 22,
+"category": "not_ai",
+"seniority": "unknown",
+"skills": [
+"BIOS",
+"Firmware",
+"CI/CD"
+],
+"summary_zh": "為AI伺服器開發BIOS韌體，建立CI/CD驗證流程並跨部門協作解決問題",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"93eea25c59680aae": {
+"relevance": 25,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"ATE",
+"SLT",
+"DFT",
+"ATPG",
+"MBIST",
+"Python/Perl"
+],
+"summary_zh": "負責Google資料中心SoC量產測試、良率提升與DPPM降低，對接晶圓廠與封測廠。",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"94319952b2c7bb81": {
+"relevance": 45,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"RAG",
+"LLM API",
+"Prompt Flow",
+"SaaS",
+"模型版本管理",
+"雲端部署"
+],
+"summary_zh": "規劃AI電競軟體規格、平台架構與訂閱機制，並與AI工程師協作推論成本優化的產品PM",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"951468ac6b73e974": {
+"relevance": 62,
+"category": "llm_genai",
+"seniority": "intern",
+"skills": [
+"Java",
+"LLMs",
+"AI agents",
+"MCP",
+"RAG",
+"backend development"
+],
+"summary_zh": "LINE TODAY實習生，開發後端服務並整合LLM、AI代理與MCP以改善工作流程",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"95172b4be3a54c7f": {
+"relevance": 72,
+"category": "data_sci",
+"seniority": "mid",
+"skills": [
+"Statistical Modeling",
+"Machine Learning",
+"Python",
+"R",
+"Feature Engineering",
+"Exploratory Data Analysis"
+],
+"summary_zh": "於鴻海總部IT建立統計與機器學習模型，支援供應鏈、財務等管理決策分析",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"95f8163fa31d5ad2": {
+"relevance": 12,
+"category": "not_ai",
+"seniority": "unknown",
+"skills": [
+"環境測試(溫溼度)",
+"結構性測試(衝擊/震動/落摔)",
+"熱傳溫度測試",
+"噪音測試",
+"自動化測試導入",
+"實驗室設備維護"
+],
+"summary_zh": "負責AI伺服器的環境、結構、熱傳與噪音等系統可靠度測試及實驗室維護",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"9653c8b08ae4f1d4": {
+"relevance": 30,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"專案時程管理",
+"電子/韌體/機構設計",
+"日文",
+"客戶溝通"
+],
+"summary_zh": "負責AI伺服器電子韌體機構設計專案管理，以日文與客戶溝通技術問題",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"9681206308e78c4c": {
+"relevance": 5,
+"category": "not_ai",
+"seniority": "unknown",
+"skills": [
+"生產計劃與排程",
+"訂單管理",
+"物料需求規劃",
+"庫存管理",
+"ERP"
+],
+"summary_zh": "負責AI伺服器生產排程、訂單交付追蹤與物料庫存管理",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"9853c93d4b4d243e": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"AI伺服器NPI",
+"失效分析",
+"FAE",
+"SOP製作",
+"技術支援"
+],
+"summary_zh": "負責AI伺服器NPI與失效分析，提供客戶技術支援並赴海外據點培訓",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"993bf7f8c6ff6898": {
+"relevance": 72,
+"category": "mlops_infra",
+"seniority": "mid",
+"skills": [
+"生成式 AI",
+"AI Agent",
+"模型接入",
+"權限控管",
+"安全護欄",
+"稽核追蹤"
+],
+"summary_zh": "建置企業級AI治理與應用整合平台，整合生成式AI與Agent至既有系統並推動上線",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"9a561da736f75fbb": {
+"relevance": 38,
+"category": "data_sci",
+"seniority": "staff_plus",
+"skills": [
+"Python",
+"JMP",
+"SQL",
+"Yield Explorer",
+"Power BI",
+"statistical modeling"
+],
+"summary_zh": "分析3DIC與先進封裝良率數據，進行失效診斷與根因分析，輔以統計與ML提升良率",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"9b03692f93093423": {
+"relevance": 50,
+"category": "mlops_infra",
+"seniority": "mid",
+"skills": [
+"Docker",
+"Kubernetes",
+"Python",
+"HL7/FHIR",
+"Prometheus/Grafana",
+"Terraform/Ansible"
+],
+"summary_zh": "負責醫療AI代理平台於醫院地端環境的部署整合、自動化與監控維運",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"9bdef1df64b0e275": {
+"relevance": 78,
+"category": "cv_nlp",
+"seniority": "junior",
+"skills": [
+"ASR",
+"Python",
+"C++",
+"Whisper",
+"ROS",
+"DSP"
+],
+"summary_zh": "開發機器人語音辨識系統，調校ASR模型並整合麥克風陣列與機器人平台",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"9cdbec0ad21f5dbd": {
+"relevance": 45,
+"category": "mlops_infra",
+"seniority": "unknown",
+"skills": [
+"AI應用服務開發與部署",
+"雲端平台運營",
+"系統監控",
+"日誌監控",
+"資源管理",
+"效能優化"
+],
+"summary_zh": "負責AI應用服務於雲端平台的開發部署、運維監控與效能改善及教育訓練。",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"9d3efd4da3c3b5ad": {
+"relevance": 38,
+"category": "ai_hw",
+"seniority": "manager",
+"skills": [
+"AI server hardware",
+"compute",
+"storage",
+"networking",
+"system engineering",
+"product lifecycle management"
+],
+"summary_zh": "placeholder",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"9dada4f1eb2a1865": {
+"relevance": 25,
+"category": "not_ai",
+"seniority": "staff_plus",
+"skills": [
+"yield diagnostics",
+"scan diagnosis",
+"JMP",
+"Yield Explorer",
+"Python",
+"SQL"
+],
+"summary_zh": "負責3nm/2nm先進製程良率分析與根因診斷，協同晶圓廠提升良率，並以統計建模預測良率",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"9e0c92f555d99b47": {
+"relevance": 85,
+"category": "ml",
+"seniority": "junior",
+"skills": [
+"Python",
+"Deep Learning",
+"Keras",
+"AI/ML Framework",
+"資料清整",
+"模型佈署"
+],
+"summary_zh": "華碩醫療AI團隊開發AI模型，處理資料、建模驗證並部署整合至後台應用",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"9f07719390e98586": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"TypeScript",
+"Node.js",
+"Python",
+"FastAPI",
+"PostgreSQL",
+"MongoDB"
+],
+"summary_zh": "為醫療AI SaaS平台設計開發雲端分散式後端微服務與資料平台",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"9f6cc904f58af4bd": {
+"relevance": 10,
+"category": "not_ai",
+"seniority": "manager",
+"skills": [
+"Embedded software",
+"Device drivers",
+"Silicon bring up",
+"Linux",
+"Android",
+"ISP/camera"
+],
+"summary_zh": "管理團隊開發ISP與相機晶片驗證用的嵌入式驅動程式與工具",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"9ff823a24e1f8857": {
+"relevance": 85,
+"category": "llm_genai",
+"seniority": "unknown",
+"skills": [
+"LLM/MLLM",
+"RAG",
+"Agent",
+"quantization",
+"多模態資料標註",
+"NVIDIA Omniverse"
+],
+"summary_zh": "負責多模態資料處理、模型訓練與量化，開發LLM/MLLM、RAG與Agent及數位孿生平台",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"9ffa18a5b42526ec": {
+"relevance": 5,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"生產線佈局設計",
+"產能規劃",
+"SOP撰寫",
+"製程改善",
+"人力規劃",
+"數據分析"
+],
+"summary_zh": "AI伺服器產線工業工程師，負責產線佈局、產能人力規劃與製程改善",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"a2d1e60bfb2d633c": {
+"relevance": 28,
+"category": "not_ai",
+"seniority": "staff_plus",
+"skills": [
+"supply chain management",
+"business development",
+"semiconductor",
+"TPU deployment",
+"data center compute scaling",
+"technology partnerships"
+],
+"summary_zh": "負責Google亞太AI基礎設施與TPU供應鏈策略，對接晶圓廠與供應商高層",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"a3ab62e5492f5642": {
+"relevance": 85,
+"category": "ml",
+"seniority": "mid",
+"skills": [
+"Python",
+"transformer",
+"ML/DL",
+"statistical model",
+"Linux",
+"MySQL"
+],
+"summary_zh": "研發機器學習與深度學習模型，進行特徵工程並部署AI系統於平台",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"a454cde92328c942": {
+"relevance": 55,
+"category": "data_sci",
+"seniority": "mid",
+"skills": [
+"Python (Pandas, Numpy, Scikit-learn)",
+"AWS Athena SQL",
+"假設檢定",
+"信用風險模型",
+"Vintage 分析",
+"A/B 測試"
+],
+"summary_zh": "分析BNPL與小額貸款數據，驗證假設並參與信用風險模型開發與策略評估",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"a608c996bc1fd4cb": {
+"relevance": 93,
+"category": "cv_nlp",
+"seniority": "senior",
+"skills": [
+"PyTorch",
+"JAX",
+"VLMs",
+"ViTs",
+"OpenCV",
+"CUDA"
+],
+"summary_zh": "主導機器人自主平台的電腦視覺與感知模型開發，並優化於邊緣裝置即時運行",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"a657f88c0d61da77": {
+"relevance": 72,
+"category": "mlops_infra",
+"seniority": "mid",
+"skills": [
+"Python",
+"SQL",
+"MLOps",
+"Docker",
+"Kubernetes",
+"RAG"
+],
+"summary_zh": "負責智慧製造AI應用開發，模型部署監控及MLOps/DataOps流程建置，並參與生成式AI與RAG應用。",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"a73946ef56c62b61": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"pricing and quotation",
+"cost analysis",
+"market trend analysis",
+"account management",
+"business strategy"
+],
+"summary_zh": "負責AI伺服器業務報價、成本管理、客戶關係與工廠協調",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"a8018355b1539661": {
+"relevance": 85,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"MLOps",
+"LLM",
+"LangGraph",
+"Python",
+"SQL",
+"GCP"
+],
+"summary_zh": "玉山銀行AI工程師，負責MLOps全流程、LLM與Agent應用開發及部署",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"a8368f7777243046": {
+"relevance": 90,
+"category": "cv_nlp",
+"seniority": "mid",
+"skills": [
+"Python",
+"ASR",
+"TTS",
+"NLP",
+"FastAPI",
+"容器化"
+],
+"summary_zh": "研究開發ASR、TTS、聲紋等語音模型，含資料清洗與模型訓練",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"a9b665ebb3a4ac81": {
+"relevance": 38,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"SLURM/PBS",
+"Infiniband",
+"Lustre",
+"Redhat/Ubuntu/SLES",
+"compilers (C/C++/Fortran)",
+"Instinct GPU"
+],
+"summary_zh": "管理AMD位於德美的HPC/AI叢集，確保運作並協助客戶優化EPYC與Instinct系統配置",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"abddc41da38685b8": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"伺服器專案協調管理",
+"產品生命周期管理",
+"市場需求分析",
+"AI伺服器架構",
+"競爭分析"
+],
+"summary_zh": "負責AI伺服器專案協調、進度追蹤與產品市場分析",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"abf8168473ede71c": {
+"relevance": 45,
+"category": "data_sci",
+"seniority": "mid",
+"skills": [
+"SQL",
+"Python",
+"Tableau",
+"Looker",
+"A/B Testing",
+"EDA"
+],
+"summary_zh": "為企業客戶以SQL/Python分析數據、建儀表板與A/B測試，並將需求回饋產品團隊",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"abf95574358b235c": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "unknown",
+"skills": [
+"SPC",
+"蝕刻製程",
+"半導體製程",
+"AI 應用於製程"
+],
+"summary_zh": "晶圓廠蝕刻製程工程師，負責監控SPC與缺陷異常、評估新設備材料，並將AI應用於製程開發。",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"aca2c51cd6343230": {
+"relevance": 8,
+"category": "not_ai",
+"seniority": "junior",
+"skills": [
+"CRM",
+"Excel",
+"Google Sheets",
+"contract administration",
+"workflow automation",
+"SOP"
+],
+"summary_zh": "支援醫療AI部門業務團隊的報價、合約、請款與CRM營運管理",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"ad231bd7dd1b8f18": {
+"relevance": 12,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"主機板電子電路維修",
+"PCBA 電路分析",
+"FA Report",
+"Trouble Shooting Guide",
+"Excel",
+"PowerPoint"
+],
+"summary_zh": "負責AI伺服器主機板電路維修與故障分析，撰寫維修SOP及FA報告",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"ade246477a7df8b9": {
+"relevance": 45,
+"category": "data_sci",
+"seniority": "manager",
+"skills": [
+"SQL",
+"Python",
+"Tableau",
+"PowerBI",
+"R",
+"machine learning models"
+],
+"summary_zh": "分析幣安PB級交易與客戶數據，建立視覺化報表及部分機器學習模型以支援決策",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"ade369a250efe2f7": {
+"relevance": 5,
+"category": "not_ai",
+"seniority": "manager",
+"skills": [
+"生產排程",
+"產能規劃",
+"產線管理",
+"良率追蹤",
+"數據分析",
+"人員管理"
+],
+"summary_zh": "負責夜班AI伺服器產線生產規劃、人員管理與良率品質改善",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"adfa969cf44007e1": {
+"relevance": 12,
+"category": "not_ai",
+"seniority": "unknown",
+"skills": [
+"C#",
+".NET Core",
+"ASP.NET MVC",
+"SQL",
+"RESTful API",
+"JavaScript"
+],
+"summary_zh": "以C# .NET開發台灣大內部CRM、客服等系統後端與Web API",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"ae49582939aaa919": {
+"relevance": 55,
+"category": "data_sci",
+"seniority": "senior",
+"skills": [
+"SQL",
+"Python",
+"Tableau",
+"Spark",
+"machine learning",
+"LLMs"
+],
+"summary_zh": "x",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"af5491eb58381a4d": {
+"relevance": 48,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"AI agent",
+"Eval",
+"API",
+"MCP",
+"LLM 應用",
+"B2B SaaS"
+],
+"summary_zh": "負責企業級AI工作平台的產品策略、路線圖、交付管理與成效評估",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"b0348e19b0ba30b8": {
+"relevance": 28,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"Verilog/SystemVerilog",
+"C/C++/SystemC",
+"Python",
+"ISP pipeline",
+"micro architecture",
+"low power design"
+],
+"summary_zh": "設計與優化SoC影像訊號處理(ISP)硬體管線，含RTL與效能建模",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"b048a977670f886e": {
+"relevance": 8,
+"category": "not_ai",
+"seniority": "unknown",
+"skills": [
+"專案管理",
+"供應鏈管理",
+"成本控管",
+"8D",
+"DOA/RMA",
+"客戶品質管理"
+],
+"summary_zh": "AI伺服器產品專案管理與客戶品質窗口，處理供應鏈、成本及客訴RMA",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"b074a2759214f901": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "manager",
+"skills": [
+"Power BI",
+"Python",
+"VBA",
+"SQL",
+"Excel 建模",
+"成本分析"
+],
+"summary_zh": "負責半導體產品成本、獲利與定價分析，建立報價模型並推動報價流程自動化",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"b0e1875d023374c6": {
+"relevance": 40,
+"category": "ai_adjacent",
+"seniority": "intern",
+"skills": [
+"Python",
+"C++",
+"CUDA",
+"distributed systems",
+"TPUs",
+"GPUs"
+],
+"summary_zh": "Google博士實習生，開發雲端基礎設施軟體，涵蓋運算儲存與TPU/GPU加速器平台",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"b120a11c17aae4d6": {
+"relevance": 70,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"GenAI/LLMs",
+"Python",
+"Linux/OpenWrt",
+"C/C++",
+"Ethernet/TCP/UDP",
+"test automation"
+],
+"summary_zh": "運用LLM打造網通與Linux產品的智慧除錯、日誌分析及自動化工程工具",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"b15f557530e717ca": {
+"relevance": 62,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Python",
+"C++",
+"robotics middleware",
+"Computer Vision",
+"sensor calibration",
+"Docker"
+],
+"summary_zh": "將內部AI視覺與決策模型整合至工業機器人，負責運動控制、模擬驗證與邊緣部署",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"b1e9f2092ea7b9db": {
+"relevance": 88,
+"category": "llm_genai",
+"seniority": "unknown",
+"skills": [
+"LLM / VLM",
+"ASR / TTS",
+"NLP",
+"Computer Vision",
+"Python",
+"C++"
+],
+"summary_zh": "x",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"b25577d0904b00fe": {
+"relevance": 42,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Product Management",
+"Product Roadmap",
+"MVP/PoC",
+"Multimodal AI",
+"HRI",
+"Go-To-Market Strategy"
+],
+"summary_zh": "負責AI機器人產品願景、路線圖與商業化，主導跨部門產品規劃與人機互動體驗",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"b3bb16206f0e513f": {
+"relevance": 50,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"機器學習生命週期",
+"LLM",
+"RAG",
+"Agentic Workflow",
+"Python",
+"AI 治理"
+],
+"summary_zh": "規劃銀行AI產品藍圖，協調跨部門推動AI專案從PoC到上線並負責治理與成效追蹤",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"b5c0c63da8c76047": {
+"relevance": 12,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"4G/5G行動網路",
+"Windows/Linux",
+"雲端系統管理",
+"資料庫管理",
+"IP網路",
+"Shell script"
+],
+"summary_zh": "負責行動網加值系統的網路維運、故障處理與效能監控優化",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"b5c7ee14b8bcf8c2": {
+"relevance": 62,
+"category": "data_sci",
+"seniority": "mid",
+"skills": [
+"ETL",
+"SQL",
+"Python",
+"TensorFlow",
+"PyTorch",
+"MLOps"
+],
+"summary_zh": "台灣大哥大資料工程與ML建模，負責ETL、通路報表及機器學習模型開發部署",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"b675fdb0d2431631": {
+"relevance": 80,
+"category": "cv_nlp",
+"seniority": "senior",
+"skills": [
+"C/C++",
+"embedded Linux/RTOS",
+"PyTorch",
+"TensorFlow",
+"object detection",
+"multi-object tracking"
+],
+"summary_zh": "為Ring攝影機與門鈴開發嵌入式邊緣AI軟體，將電腦視覺模型部署於資源受限裝置即時運行",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"b7781c518be74a56": {
+"relevance": 5,
+"category": "not_ai",
+"seniority": "junior",
+"skills": [
+"生產計畫",
+"排程管理",
+"庫存管理",
+"物料需求規劃",
+"數據分析"
+],
+"summary_zh": "負責AI伺服器產線的生產排程與物料庫存管控",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"b92bcab6e500d2e6": {
+"relevance": 45,
+"category": "ai_adjacent",
+"seniority": "manager",
+"skills": [
+"Python",
+"C++",
+"Go",
+"real-time systems",
+"embedded systems",
+"microservices"
+],
+"summary_zh": "帶領軟體團隊開發自主系統平台，兼顧架構設計與工程管理",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"b961bc920fcf31f7": {
+"relevance": 5,
+"category": "not_ai",
+"seniority": "junior",
+"skills": [
+"AOI/SPI/X-ray",
+"SPC/CPK/PPK",
+"Minitab",
+"R語言",
+"SMT",
+"DIP波峰焊"
+],
+"summary_zh": "AI伺服器產線SMT設備與光學檢測程式維護及製程品質監控",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"bbcc3de8f0694bf9": {
+"relevance": 68,
+"category": "mlops_infra",
+"seniority": "mid",
+"skills": [
+"Kubernetes",
+"Terraform",
+"GitOps",
+"Kubeflow",
+"MLflow",
+"Airflow"
+],
+"summary_zh": "開發自建AI算力平台，負責GPU/K8s資源調度與模型訓練推論部署自動化",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"bc3072fcee4e79c2": {
+"relevance": 62,
+"category": "mlops_infra",
+"seniority": "junior",
+"skills": [
+"Python",
+"SQL",
+"GCP",
+"Azure",
+"Docker",
+"Kubernetes"
+],
+"summary_zh": "協助建置維運銀行Data與AI雲端平台，開發資料管線與API並參與GenAI PoC",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"bc358ec6d43df4b8": {
+"relevance": 62,
+"category": "data_sci",
+"seniority": "mid",
+"skills": [
+"Python",
+"SQL",
+"Power BI",
+"Computer Vision",
+"Microsoft Copilot",
+"Azure AI Services"
+],
+"summary_zh": "於台南製造部門運用數據分析與AI（視覺檢測、Copilot代理、預測分析）推動數位轉型",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"bc6eb42faf5a2292": {
+"relevance": 72,
+"category": "data_sci",
+"seniority": "junior",
+"skills": [
+"機器學習演算法",
+"系統架構",
+"資料科學",
+"人工智慧"
+],
+"summary_zh": "玉山銀行科技儲備幹部，以機器學習解決問題並將AI導入銀行業務",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"bcb3cd1b9c96b2f4": {
+"relevance": 12,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"Go",
+"Java",
+"Python",
+"Microservices",
+"Docker/Kubernetes",
+"AWS/Azure/GCP"
+],
+"summary_zh": "開發與維運後端系統及網頁服務，負責流程自動化與優化，AI僅為加分項",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"bd5629a58782438b": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "unknown",
+"skills": [
+"Vcore power delivery",
+"loop stability analysis",
+"transient response tuning",
+"schematic/layout review",
+"Intel VRTS",
+"AMD SDLE"
+],
+"summary_zh": "協助客戶除錯與優化AI伺服器CPU/GPU的Vcore電源設計，支援TI類比電源銷售。",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"bd855933e68c89b2": {
+"relevance": 5,
+"category": "not_ai",
+"seniority": "unknown",
+"skills": [
+"設備故障分析",
+"設備安裝調試",
+"Label模板製作",
+"包材驗證",
+"技術圖紙判讀",
+"機械/電氣背景"
+],
+"summary_zh": "AI伺服器產線設備維護調試與包裝標籤、包材驗證及客戶稽核",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"bf3d39e7b4b46571": {
+"relevance": 12,
+"category": "not_ai",
+"seniority": "unknown",
+"skills": [
+"結構強度模擬分析",
+"衝擊/震動/落摔測試",
+"熱傳溫度測試",
+"噪音測試",
+"模擬工具二次開發"
+],
+"summary_zh": "負責AI伺服器結構強度模擬分析，並支援衝擊震動、熱傳與噪音測試驗證",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"c060cb9bdc4d2f90": {
+"relevance": 62,
+"category": "ml",
+"seniority": "mid",
+"skills": [
+"C++",
+"Python",
+"robotics navigation stack",
+"decision-making under uncertainty",
+"machine learning",
+"computer vision"
+],
+"summary_zh": "開發機器人導航軟體堆疊與自動化測試環境，研究不確定性下的決策方法",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"c06c2654e5a83a89": {
+"relevance": 38,
+"category": "ai_hw",
+"seniority": "manager",
+"skills": [
+"AI server hardware",
+"compute",
+"storage",
+"networking",
+"system engineering",
+"product lifecycle management"
+],
+"summary_zh": "領導跨領域團隊負責AI企業伺服器硬體系統平台的全生命週期開發",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"c0ae9af5b0f9c53f": {
+"relevance": 28,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"Advantest 93K",
+"ATE test program development",
+"Python",
+"semiconductor test-data analytics",
+"machine learning",
+"wafer sort/final test"
+],
+"summary_zh": "負責AMD伺服器/GPU晶片ATE測試程式開發與量產支援，並以數據/AI提升良率與測試時間",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"c0ff2388e319ee26": {
+"relevance": 88,
+"category": "ml",
+"seniority": "unknown",
+"skills": [
+"機器學習",
+"深度學習",
+"特徵工程",
+"模型評估",
+"線上部署",
+"AI雲端技術"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"c1d25fe03c599825": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "unknown",
+"skills": [
+"Root of Trust",
+"C",
+"C++",
+"嵌入式系統",
+"加密技術",
+"安全啟動"
+],
+"summary_zh": "為AI伺服器開發信任根與MCU韌體，實作安全啟動與加密驗證功能",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"c26656ffb5e19d5f": {
+"relevance": 25,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"System hardware problem determination",
+"System software problem determination",
+"Customer communication",
+"電子產品測試工具",
+"故障排除",
+"技術文件撰寫"
+],
+"summary_zh": "AI伺服器現場應用工程師，提供客戶軟硬體技術支援與故障排除",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"c3616a9923e22cd3": {
+"relevance": 35,
+"category": "ai_hw",
+"seniority": "mid",
+"skills": [
+"Schematic",
+"PCB Layout",
+"NVLink/InfiniBand",
+"OrCAD/Allegro",
+"Linux",
+"Python"
+],
+"summary_zh": "負責AI伺服器硬體架構與電路設計、系統驗證除錯及客戶端技術支援",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"c373838e32f33157": {
+"relevance": 50,
+"category": "ai_hw",
+"seniority": "senior",
+"skills": [
+"ISP Architecture",
+"ASIC/RTL",
+"Verilog/System Verilog",
+"C/C++",
+"SystemC",
+"AI Imaging"
+],
+"summary_zh": "設計影像訊號處理(ISP)硬體架構，含傳統與AI影像演算法的硬體化與PPA最佳化",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"c50fb2305941a1b3": {
+"relevance": 25,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"Python",
+"ClickHouse",
+"Trino/Presto",
+"Apache Airflow",
+"Apache Spark",
+"Kubernetes"
+],
+"summary_zh": "為廣告雲平台開發資料後端API、資料倉儲與資料管線",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"c519143f2bbf54f9": {
+"relevance": 18,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"Figma",
+"Wireframe",
+"Prototype",
+"Usability Testing",
+"Google Analytics",
+"ChatGPT/Claude"
+],
+"summary_zh": "為華碩商用電腦與穿戴裝置規劃UI/UX介面與互動設計，並運用AI工具輔助設計",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"c552fd210f2b6ad1": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "manager",
+"skills": [
+"Server architecture",
+"x86 processors",
+"DDR",
+"PCIE",
+"RAS",
+"system management"
+],
+"summary_zh": "領導客戶工程團隊，協助亞太伺服器客戶開發驗證EPYC與企業AI平台",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"c58d91693b085d1a": {
+"relevance": 92,
+"category": "ml",
+"seniority": "senior",
+"skills": [
+"Machine Learning",
+"Deep Learning",
+"Learning Theory",
+"Computer Vision",
+"Speech",
+"NLP"
+],
+"summary_zh": "於聯發科研究院從事機器學習理論研究，應用於AI設計晶片與對話式通用智慧",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"c5cc9c97319bfaa5": {
+"relevance": 40,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"React",
+"HTML",
+"CSS",
+"Sass",
+"CI/CD",
+"MCP"
+],
+"summary_zh": "開發官網、CMS與AI互動產品前端，並參與Agent與Skill實作",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"c70ceefed68d24fb": {
+"relevance": 88,
+"category": "llm_genai",
+"seniority": "senior",
+"skills": [
+"Python",
+"PyTorch",
+"LLMs",
+"RAG",
+"AI Agents",
+"Scikit-Learn"
+],
+"summary_zh": "為半導體測試與產品工程開發ML模型、LLM代理與RAG應用並部署上線",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"c862d27ddd33812d": {
+"relevance": 72,
+"category": "cv_nlp",
+"seniority": "manager",
+"skills": [
+"Camera ISP",
+"3A演算法",
+"Computer Vision",
+"機器學習",
+"C/C++",
+"Matlab"
+],
+"summary_zh": "開發相機ISP與3A、電腦視覺及機器學習演算法，並帶領研發小組",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"c976879ffe3ab1b6": {
+"relevance": 70,
+"category": "mlops_infra",
+"seniority": "mid",
+"skills": [
+"Pytorch",
+"Tensorflow",
+"JAX",
+"MLperf",
+"Hugging Face",
+"Kubernetes"
+],
+"summary_zh": "協助客戶在AMD Instinct GPU上執行與調校AI訓練推論工作負載並撰寫效能文件",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"c98c384db288802c": {
+"relevance": 85,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"Python",
+"LangChain",
+"Transformers",
+"RAG",
+"向量資料庫（FAISS / Qdrant / Chroma / Weaviate）",
+"Prompt Engineering"
+],
+"summary_zh": "整合開源與商用LLM，開發RAG與Agent應用，以FDE角色完成PoC並導入實際部署",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"cb8b8e046ca91863": {
+"relevance": 85,
+"category": "llm_genai",
+"seniority": "senior",
+"skills": [
+"LLM evaluation",
+"LLM-as-a-judge",
+"Python",
+"benchmark construction",
+"rubrics design",
+"RLHF"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"cb9374b67eae9b6d": {
+"relevance": 22,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"Component Validation",
+"PCIe",
+"USB4",
+"UFS5",
+"DDR",
+"Camera Modules"
+],
+"summary_zh": "審查AI資料中心與相機模組零組件規格，與供應商合作進行元件驗證與導入",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"cc5512faa6e0d0d9": {
+"relevance": 68,
+"category": "data_sci",
+"seniority": "junior",
+"skills": [
+"Python",
+"SAS",
+"JMP",
+"機器學習",
+"深度學習",
+"Django"
+],
+"summary_zh": "於晶圓廠開發AI與大數據模型、分析製程資料並推廣內部AI應用",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"cc93846c124265d5": {
+"relevance": 90,
+"category": "ml",
+"seniority": "junior",
+"skills": [
+"PyTorch",
+"TensorFlow / Keras",
+"PINN",
+"FNO, DeepONet",
+"Python",
+"Git/GitHub"
+],
+"summary_zh": "為AI伺服器設計與生產測試開發深度學習及物理導向神經網路模型",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"ccd5dc371c0793c5": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Flink",
+"SQL",
+"Kafka",
+"Spark",
+"ClickHouse",
+"Python"
+],
+"summary_zh": "建構股票金融市場資料管線與治理，供交易產品及AI/LLM應用使用",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"cd4868edd856a7a3": {
+"relevance": 88,
+"category": "ml",
+"seniority": "mid",
+"skills": [
+"Python",
+"Scikit-Learn",
+"PySpark",
+"PyTorch",
+"Hugging Face Transformers",
+"Azure Databricks"
+],
+"summary_zh": "總部IT資料科學團隊，建構ML/NLP模型、微調LLM並以MLOps部署維運",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"cdf9200508322737": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "unknown",
+"skills": [
+"環境測試(溫溼度)",
+"結構性測試(衝擊/震動/落摔)",
+"熱傳溫度測試",
+"噪音測試",
+"自動化測試導入"
+],
+"summary_zh": "負責AI伺服器環境、結構、熱傳與噪音等可靠度測試及實驗室設備維護",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"cdfb0d0ce69ae3dd": {
+"relevance": 35,
+"category": "ai_hw",
+"seniority": "junior",
+"skills": [
+"電路圖設計",
+"SI/PI 模擬",
+"BOM",
+"硬體原型測試",
+"液冷散熱",
+"PDN 測試"
+],
+"summary_zh": "新進工程師協助AI伺服器主板與GPU載板電路設計、測試及SI/PI模擬",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"cec93225c271a2b8": {
+"relevance": 45,
+"category": "data_sci",
+"seniority": "senior",
+"skills": [
+"SQL",
+"Python",
+"R",
+"Tableau",
+"Spark",
+"Hadoop"
+],
+"summary_zh": "分析PB級交易與客戶資料，建立合規分析模型與視覺化報表，支援合規團隊需求",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"cf74f7383594c75f": {
+"relevance": 25,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"Product Requirement Documents (PRDs)",
+"RESTful APIs",
+"Webhooks",
+"Display Ads",
+"ad serving logic",
+"data-driven analysis"
+],
+"summary_zh": "負責LINE官方帳號、廣告與API平台的產品規劃與營運優化，兼探索AI功能",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"d0c954a9dbd49499": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [
+"5G/B5G/6G/NTN baseband algorithm",
+"beamforming",
+"calibration methodologies",
+"RF exposure control",
+"ML/AI algorithm"
+],
+"summary_zh": "設計5G/6G基頻通訊演算法如波束成形與校正，並探索以ML優化系統效能",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"d29a6bfae9cc805b": {
+"relevance": 85,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"C++",
+"Golang",
+"RAG",
+"OpenVINO",
+"MCP",
+"vector databases"
+],
+"summary_zh": "在Synology NAS上開發RAG、Agent與多模態AI推論管線等生成式AI功能",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"d34a61be67e227d2": {
+"relevance": 55,
+"category": "mlops_infra",
+"seniority": "senior",
+"skills": [
+"Lakehouse",
+"Data Mesh",
+"Data Fabric",
+"Knowledge Graph／Ontology",
+"Semantic Layer",
+"RAG"
+],
+"summary_zh": "規劃企業數據平台架構與治理，設計支援RAG與AI Agent的資料及知識架構",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"d5133501e1473c14": {
+"relevance": 80,
+"category": "cv_nlp",
+"seniority": "unknown",
+"skills": [
+"AOI",
+"影像處理",
+"深度學習"
+],
+"summary_zh": "開發AOI自動光學檢測之影像處理與深度學習瑕疵檢測模型",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"d63b47effb5b5178": {
+"relevance": 35,
+"category": "ai_hw",
+"seniority": "staff_plus",
+"skills": [
+"system architecture definition",
+"electrical design",
+"prototyping",
+"layout debugging",
+"hardware validation",
+"sourcing"
+],
+"summary_zh": "負責AI伺服器電子硬體設計、架構定義、除錯與驗證，從概念到量產",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"d67490c9ef651c28": {
+"relevance": 80,
+"category": "cv_nlp",
+"seniority": "unknown",
+"skills": [
+"echo cancellation",
+"noise reduction",
+"microphone array signal processing",
+"voice recognition",
+"speaker identification",
+"active noise cancellation"
+],
+"summary_zh": "開發聲學訊號處理與語音AI演算法，如降噪、語音辨識與語者識別",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"d6eefc1ba0ac5381": {
+"relevance": 85,
+"category": "mlops_infra",
+"seniority": "unknown",
+"skills": [
+"Machine Learning",
+"Deep Learning",
+"NPU",
+"System Platform",
+"Software Engineering",
+"ML Deployment"
+],
+"summary_zh": "於聯發科AI團隊開發ML基礎架構與加速器，針對NPU優化並部署先進深度學習模型",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"d787f159b9524ffd": {
+"relevance": 85,
+"category": "cv_nlp",
+"seniority": "junior",
+"skills": [
+"電腦視覺",
+"NLP",
+"生成式 AI",
+"數據標註",
+"推理效能評估",
+"領域專屬模型"
+],
+"summary_zh": "新幹班AI職缺，參與電腦視覺與NLP研發並將生成式AI導入製造場景。",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"d877d931c6c65dba": {
+"relevance": 60,
+"category": "mlops_infra",
+"seniority": "senior",
+"skills": [
+"Java",
+"Scala",
+"Spark",
+"Flink",
+"feature engineering",
+"feature stores"
+],
+"summary_zh": "為Binance Square推薦/搜尋系統建置ML特徵資料管線與特徵平台",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"d8cb5cd9298f15a3": {
+"relevance": 35,
+"category": "ai_hw",
+"seniority": "senior",
+"skills": [
+"GPU-accelerated servers",
+"EVT/DVT/PVT",
+"ODM management",
+"PCIe topology",
+"BIOS/BMC/CPLD firmware",
+"root cause analysis"
+],
+"summary_zh": "主導AWS GPU AI伺服器硬體開發與ODM量產交付的資深技術專案經理",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"d8ec5c73e0298ded": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "junior",
+"skills": [
+"Python",
+"C++",
+"Go",
+"Kubernetes",
+"NetBox",
+"BGP"
+],
+"summary_zh": "為TPU資料中心建立網路拓撲模型與DCIM，開發網路設備上線自動化工具",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"d90b7a1377cd95d6": {
+"relevance": 95,
+"category": "cv_nlp",
+"seniority": "senior",
+"skills": [
+"monocular depth estimation",
+"optical flow",
+"Video Transformers",
+"semantic segmentation",
+"3D perception",
+"edge AI deployment"
+],
+"summary_zh": "研發影像與影片深度估計及密集場景理解模型，並優化部署於邊緣裝置",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"d9336c174ae454fd": {
+"relevance": 12,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"Teradyne-uFlex",
+"Advantest-93k",
+"ATE test program development",
+"Exensio",
+"Python",
+"C#"
+],
+"summary_zh": "負責PMIC晶片ATE測試方案軟硬體開發，推動測試時間縮減與良率提升",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"d990b234278ef741": {
+"relevance": 22,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"Embedded systems",
+"PID loops",
+"Kalman filters (EKF)",
+"UART/Ethernet/I2C/SPI",
+"Python/Bash",
+"CI/CD"
+],
+"summary_zh": "負責自主移動機器人韌體設定、感測器融合與運動控制調校及系統除錯",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"db2523663fce3fc8": {
+"relevance": 5,
+"category": "not_ai",
+"seniority": "junior",
+"skills": [
+"Log 分析",
+"文件管理",
+"庫房管理"
+],
+"summary_zh": "協助AI伺服器產品零件異常資料整理、文件管理與庫房行政支援",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"dc734fb6cc425306": {
+"relevance": 40,
+"category": "ai_hw",
+"seniority": "senior",
+"skills": [
+"server architecture",
+"PCBA bring-up",
+"signal integrity",
+"PCIe",
+"power delivery",
+"DFx"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"ded05a87874b7cac": {
+"relevance": 50,
+"category": "mlops_infra",
+"seniority": "junior",
+"skills": [
+"Python",
+"Go",
+"test automation/CI",
+"TPU",
+"BMC/BIOS firmware",
+"MaxText/vLLM benchmarks"
+],
+"summary_zh": "為地端TPU AI超級電腦建置韌體與軟體發佈的自動化驗證測試流程與效能基準測試",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"df40e800583f1d1d": {
+"relevance": 88,
+"category": "llm_genai",
+"seniority": "senior",
+"skills": [
+"Python",
+"LangChain",
+"LiteLLM",
+"RAG",
+"MCP",
+"Kubernetes"
+],
+"summary_zh": "為醫療系統設計多代理LLM架構、RAG管線與多模型路由並導入生產",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"df9049bb7e014b88": {
+"relevance": 28,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"data analysis",
+"AI/ML techniques",
+"design of experiments",
+"yield analysis",
+"product test program debug",
+"semiconductor manufacturing"
+],
+"summary_zh": "分析晶片良率損失與異常晶粒，主導測試除錯以提升產品良率與品質",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"dffa5b2587c08d50": {
+"relevance": 45,
+"category": "mlops_infra",
+"seniority": "senior",
+"skills": [
+"GCP",
+"Azure",
+"Data Lake / Feature Lake",
+"FinOps",
+"Python",
+"Infrastructure as Code (IaC)"
+],
+"summary_zh": "x",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"e0709bcca7d6f46a": {
+"relevance": 30,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"C/C++",
+"embedded Linux",
+"GStreamer",
+"WebRTC",
+"Matter SDK",
+"FFmpeg"
+],
+"summary_zh": "使用高通SDK開發IP攝影機參考應用，整合多媒體與AI模型並支援客戶除錯",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"e0c5848ab7d1371f": {
+"relevance": 80,
+"category": "llm_genai",
+"seniority": "unknown",
+"skills": [
+"RAG",
+"LLM",
+"Python",
+"C/C++",
+"Linux",
+"Git"
+],
+"summary_zh": "運用AI技術加速伺服器BMC研發，並建置地端RAG+LLM知識庫系統",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"e1402e91b451284a": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"MongoDB",
+"Terraform",
+"AWS",
+"Kubernetes",
+"NewSQL",
+"Linux / bash"
+],
+"summary_zh": "x",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"e1eed474997e455f": {
+"relevance": 65,
+"category": "ml",
+"seniority": "intern",
+"skills": [
+"雲端智慧軟體開發",
+"數據收集",
+"資料分析",
+"機器學習"
+],
+"summary_zh": "醫療AI實習生，參與雲端軟體開發、數據分析與機器學習方法研究",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"e2718932f122459d": {
+"relevance": 40,
+"category": "ai_adjacent",
+"seniority": "junior",
+"skills": [
+"ATE",
+"ATPG",
+"MBIST",
+"Python",
+"Machine Learning",
+"LLM"
+],
+"summary_zh": "高通PDTE徵才活動，招募測試、產品工程師及少量ML工程師，負責晶片驗證至量產",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"e38cd77739104138": {
+"relevance": 25,
+"category": "not_ai",
+"seniority": "junior",
+"skills": [
+"BMC",
+"BIOS",
+"firmware",
+"driver porting",
+"EMC testing",
+"system monitoring tools"
+],
+"summary_zh": "新進人員參與AI伺服器BMC/BIOS韌體開發、驅動移植與測試",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"e4dca93cba55fd51": {
+"relevance": 68,
+"category": "mlops_infra",
+"seniority": "junior",
+"skills": [
+"PyTorch",
+"Python",
+"C++",
+"vLLM",
+"Docker",
+"Qualcomm AI SDK"
+],
+"summary_zh": "協助企業客戶以高通AI SDK在雲端與地端部署優化生成式AI模型並建置POC",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"e513044322dd65f0": {
+"relevance": 30,
+"category": "ai_adjacent",
+"seniority": "intern",
+"skills": [
+"Python",
+"Java",
+"Docker",
+"Linux",
+"ASR/TTS",
+"Terraform/Ansible"
+],
+"summary_zh": "IT綜合實習，媒合後端開發、資安、DBA、IaC及部分語音模型與AI應用等職務",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"e52524adae4e9234": {
+"relevance": 30,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"Python (FastAPI)",
+"RESTful APIs",
+"containerization",
+"AWS/Azure/GCP",
+"Cursor/Claude Code",
+"LLM APIs"
+],
+"summary_zh": "開發雲端資料中心管理平台全端系統，運用AI輔助開發工具，可能整合LLM功能",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"e59d70d4427c5385": {
+"relevance": 68,
+"category": "llm_genai",
+"seniority": "junior",
+"skills": [
+"LLM",
+"MCP",
+"AI Agent",
+"Agentic AI",
+"NLP",
+"Linux"
+],
+"summary_zh": "研究MCP、AI Agent等AI應用的安全威脅，開發並評估AI安全防護方案",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"e6f4f98764ba20c6": {
+"relevance": 72,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"LLMs",
+"diffusion models",
+"GANs",
+"data pipelines",
+"feature engineering",
+"CI/CD"
+],
+"summary_zh": "運用生成式AI模型與工具自動化4G/5G數據機系統驗證與測試流程",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"e78ee992571276f3": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Node.js",
+"Python",
+"React",
+"PostgreSQL",
+"MongoDB",
+"Kafka"
+],
+"summary_zh": "開發半導體良率與品質大數據分析全端系統，並運用AI工具及代理式應用",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"e7ac51ecc21e1977": {
+"relevance": 10,
+"category": "not_ai",
+"seniority": "junior",
+"skills": [
+"失效分析",
+"電路分析",
+"故障排除",
+"烙鐵維修",
+"示波器",
+"萬用表"
+],
+"summary_zh": "負責AI伺服器電子產品故障檢測、根因分析與電路板維修",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"e8bce1ef69c1ccb2": {
+"relevance": 28,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"ISP algorithm",
+"classical image processing",
+"Image signal processor pipeline design",
+"C++",
+"Python",
+"Matlab"
+],
+"summary_zh": "開發與調校Snapdragon相機ISP傳統影像演算法，並大量支援客戶",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"ebb6936db624bf62": {
+"relevance": 50,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Azure AI Foundry",
+"GitHub Copilot",
+"CI/CD",
+"Python",
+"Agentic AI development",
+"Solution Architecture"
+],
+"summary_zh": "技術售前顧問，透過工作坊與快速原型協助客戶以Azure AI推動AI轉型",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"ebe19f761f64b370": {
+"relevance": 30,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Python",
+"Kafka",
+"Kubernetes",
+"gRPC",
+"ClickHouse",
+"Claude Code"
+],
+"summary_zh": "為Appier廣告雲平台設計與開發高併發可擴展的後端系統架構",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"ec6982ba3627920b": {
+"relevance": 50,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"Java",
+"生成式 AI",
+"AI Agent",
+"企業應用整合",
+"架構設計",
+"FDE"
+],
+"summary_zh": "x",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"ed544fd34f1c18d5": {
+"relevance": 55,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [
+"C/C++",
+"Python",
+"GCC/LLVM",
+"compiler toolchain",
+"embedded Linux",
+"RTOS"
+],
+"summary_zh": "開發嵌入式系統軟體與編譯器工具鏈，可能涉及機器學習相關應用",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"ed67ded1c37c00b2": {
+"relevance": 90,
+"category": "cv_nlp",
+"seniority": "mid",
+"skills": [
+"Python",
+"C++",
+"ML frameworks",
+"Natural Language Processing",
+"Computer Vision",
+"model training and deployment"
+],
+"summary_zh": "為華碩醫療AI部門設計、訓練並部署NLP與電腦視覺醫療模型",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"ef5eb1dcb9205a1f": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "junior",
+"skills": [
+"Python",
+"JavaScript",
+"ETL",
+"cloud environments",
+"prompt engineering",
+"Langfuse"
+],
+"summary_zh": "負責Appier AI SaaS產品的技術支援、問題排查與內部工具開發",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"efa291cd027e1f36": {
+"relevance": 12,
+"category": "not_ai",
+"seniority": "unknown",
+"skills": [
+"熱流模擬分析",
+"熱傳溫度/噪音測試",
+"環境測試",
+"模擬工具二次開發"
+],
+"summary_zh": "負責AI伺服器熱流模擬分析、溫度噪音與環境測試驗證",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"efd58a1e80ea574c": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [
+"data pipeline",
+"data platform development",
+"software engineering",
+"ML model integration"
+],
+"summary_zh": "開發企業自有資料處理平台與資料管線，並協助整合資料科學團隊的ML模型",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"f145de882a9012a8": {
+"relevance": 32,
+"category": "ai_hw",
+"seniority": "unknown",
+"skills": [
+"BMC",
+"IPMI",
+"Redfish",
+"C/C++",
+"Embedded Linux",
+"JTAG"
+],
+"summary_zh": "為AI伺服器開發BMC韌體，負責硬體監控、遠端管理與除錯",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"f1c6b3dda42ba0ab": {
+"relevance": 22,
+"category": "not_ai",
+"seniority": "unknown",
+"skills": [
+"RTL to GDS",
+"floor-planning",
+"place and route",
+"STA",
+"DRC/LVS",
+"timing and power optimization"
+],
+"summary_zh": "負責GPU、AI處理器及神經網路DSP的RTL到GDS實體設計與簽核",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"f2479d1c0217dc74": {
+"relevance": 12,
+"category": "not_ai",
+"seniority": "unknown",
+"skills": [
+"電子電路",
+"示波器",
+"測試規劃",
+"良率改善",
+"Linux",
+"焊接"
+],
+"summary_zh": "負責AI伺服器產線測試規劃、良率改善與產品問題分析",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"f24e59f239f1997b": {
+"relevance": 62,
+"category": "mlops_infra",
+"seniority": "senior",
+"skills": [
+"Amazon SageMaker",
+"Amazon Bedrock",
+"AWS Glue",
+"Spark",
+"Python",
+"RAG"
+],
+"summary_zh": "為台灣製造與半導體客戶設計AWS資料平台與AI/ML解決方案的顧問架構師",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"f45f4e3ee7e7590d": {
+"relevance": 50,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Golang",
+"distributed systems",
+"Kafka",
+"recommendation systems",
+"microservice architecture",
+"feature stores"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"f5089c796ae2e066": {
+"relevance": 45,
+"category": "ai_adjacent",
+"seniority": "manager",
+"skills": [
+"AI SDLC",
+"Agentic DevSecOps",
+"雲原生",
+"SRE",
+"平台工程",
+"AI 開發工具鏈"
+],
+"summary_zh": "領導平台工程團隊，規劃AI SDLC平台與Agentic DevSecOps、雲原生SRE架構",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"f5a2e27059d2b664": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"Python",
+"C#",
+"Linux",
+"Selenium",
+"測試程式開發",
+"自動化測試"
+],
+"summary_zh": "負責AI伺服器產線測試程式開發、治具導入與測試問題分析解決",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"f5bcbb70fc31e908": {
+"relevance": 95,
+"category": "cv_nlp",
+"seniority": "senior",
+"skills": [
+"Computer Vision",
+"Deepfake Detection",
+"Face Anti-Spoofing",
+"Vision Transformers",
+"PyTorch",
+"VLMs"
+],
+"summary_zh": "研發電腦視覺模型偵測深偽、人臉偽造與影片竄改，強化KYC身分驗證風控",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"f5ee6adf8bdc07f3": {
+"relevance": 45,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"Vue.js",
+"TypeScript",
+"Python",
+"FastAPI",
+"LangGraph",
+"ETL"
+],
+"summary_zh": "開發醫療AI網頁應用全端功能，含前後端、ETL管線與代理式工作流程編排",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"f6415cf3f818bfb0": {
+"relevance": 50,
+"category": "ai_adjacent",
+"seniority": "staff_plus",
+"skills": [
+"Android",
+"BSP",
+"platform software architecture",
+"Generative AI",
+"agentic systems",
+"system optimization"
+],
+"summary_zh": "設計Android BSP平台軟體架構，並研發生成式AI與代理系統核心元件",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"f79c369dc18358c3": {
+"relevance": 40,
+"category": "ai_hw",
+"seniority": "staff_plus",
+"skills": [
+"xPU (ASIC) platform integration",
+"server board/compute tray architecture",
+"PCIe/NVLink",
+"BMC",
+"power/thermal management",
+"EMC/safety compliance"
+],
+"summary_zh": "負責AI伺服器運算托盤與xPU平台架構設計、系統上電驗證及法規認證",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"f88cd055c94a2a44": {
+"relevance": 72,
+"category": "mlops_infra",
+"seniority": "mid",
+"skills": [
+"Python",
+"MLOps",
+"Model Serving",
+"Docker",
+"Kubernetes",
+"GitLab CI/CD"
+],
+"summary_zh": "建置MLOps與資料基礎架構，部署並優化AI模型推論服務及API化",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"f89d1a62a5cabd80": {
+"relevance": 92,
+"category": "ml",
+"seniority": "senior",
+"skills": [
+"CTR prediction",
+"recommendation systems",
+"PyTorch",
+"TensorFlow",
+"Python",
+"A/B tests"
+],
+"summary_zh": "為廣告平台設計並上線出價、定價與推薦的深度學習模型，提升廣告成效",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"fbc83a98d9589f77": {
+"relevance": 30,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Databricks",
+"Microsoft Fabric",
+"Azure",
+"Python",
+"ETL/ELT",
+"Data Governance"
+],
+"summary_zh": "建置與維運Databricks、Azure等企業雲端資料平台與資料管線，支援BI與AI應用",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"fc3f9a5e644a6639": {
+"relevance": 55,
+"category": "data_sci",
+"seniority": "mid",
+"skills": [
+"A/B testing",
+"Python",
+"SQL",
+"PySpark",
+"causal inference",
+"machine learning"
+],
+"summary_zh": "分析廣告競價與用戶數據，透過A/B測試找出提升廣告成效的機會",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"fc91e00d4d6506f1": {
+"relevance": 72,
+"category": "cv_nlp",
+"seniority": "unknown",
+"skills": [
+"C++",
+"python",
+"matlab",
+"image processing",
+"machine learning",
+"computer vision"
+],
+"summary_zh": "開發視訊影像處理與AI演算法，並實作於SoC嵌入式韌體",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"fd6690a2fe8fea0d": {
+"relevance": 65,
+"category": "ai_hw",
+"seniority": "unknown",
+"skills": [
+"AI Model development",
+"system level modeling",
+"HW/SW bottleneck analysis"
+],
+"summary_zh": "為AI處理器建立系統級模型並分析軟硬體效能瓶頸",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"fda01063e629ca97": {
+"relevance": 22,
+"category": "not_ai",
+"seniority": "intern",
+"skills": [
+"C",
+"Python",
+"Embedded systems",
+"RTOS",
+"IEEE 802.11",
+"AI-assisted coding tools"
+],
+"summary_zh": "Wi‑Fi實體層韌體開發與驗證實習，輔以AI工具提升除錯效率",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"fdc18ab7c3bf4081": {
+"relevance": 18,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"Vue 3",
+"Composition API",
+"Pinia/Vuex",
+"TypeScript",
+"Cypress/Playwright",
+"Vite"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"fe4337542e94297f": {
+"relevance": 92,
+"category": "cv_nlp",
+"seniority": "unknown",
+"skills": [
+"AI Vision/Video Algorithm",
+"NPU deployment",
+"Generative AI",
+"Neural network optimization",
+"Self-supervised learning",
+"Distributed training/inference"
+],
+"summary_zh": "開發並優化AI視覺影像演算法部署於聯發科NPU，探索生成式AI與分散式訓練",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"fe73e5224b01ffbf": {
+"relevance": 50,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"Java",
+"生成式 AI",
+"AI Agent",
+"企業應用整合",
+"架構設計"
+],
+"summary_zh": "開發維運企業級Java系統，並整合生成式AI與AI Agent功能於業務場景",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"feadb09e1385db8b": {
+"relevance": 55,
+"category": "mlops_infra",
+"seniority": "junior",
+"skills": [
+"Docker",
+"Kubernetes",
+"MLOps",
+"雲端維運",
+"性能監控"
+],
+"summary_zh": "協助AI算力雲端平台部署維運、容器化排查與MLOps流程優化",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"fecb2ecfdba3fe89": {
+"relevance": 88,
+"category": "ml",
+"seniority": "mid",
+"skills": [
+"Tensorflow",
+"Pytorch",
+"Scikit-Learn",
+"Python",
+"SQL",
+"RESTfulAPI"
+],
+"summary_zh": "於玉山銀行智能金融處運用深度學習框架建置金融模型並開發模型API",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"ff2fa27510841305": {
+"relevance": 66,
+"category": "llm_genai",
+"seniority": "senior",
+"skills": [
+"RAG",
+"Text-to-SQL",
+"semantic search",
+"LangGraph",
+"Google ADK",
+"MCP"
+],
+"summary_zh": "為企業客戶設計並原型開發Google Cloud生成式AI與代理整合方案的技術顧問",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+}
+}
