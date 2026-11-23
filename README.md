@@ -57,12 +57,12 @@ python3 -m http.server -d . 8000   # 開 http://localhost:8000/web/
 
 ## 收錄範圍
 
-`companies.yaml` 目前收錄 71 家公司（2026-11-23 驗證）：
+`companies.yaml` 目前自動爬取 74 家公司，另有 34 家以官網直達卡片顯示（2026-11-23 驗證）：
 
 | 類型 | 公司 |
 |---|---|
 | 台灣半導體 | 聯發科、聯電、瑞昱、新唐、華邦電、創意、世界先進 |
-| 台灣電子／系統／電信 | 鴻海、華碩、緯創、宏碁、研華、群暉、台灣大哥大 |
+| 台灣電子／系統／電信 | 鴻海、華碩、緯創、宏碁、研華、群暉、台灣大哥大、中華電信、遠傳 |
 | 台灣軟體／網路／金融 | 趨勢、Appier、KKCompany、SHOPLINE、Pinkoi、Gogolook、Dcard、玉山銀行 |
 | 國際科技大廠 | Google、Microsoft、Amazon、Apple、NVIDIA、Intel、AMD、Qualcomm、Micron、Broadcom、Marvell、Synopsys、Cadence、Arm、AMAT、ASML、Lam、KLA、IBM、Cisco、Dell、TI、HP、HPE、Supermicro、Logitech、NXP、Infineon、ADI、Keysight、Teradyne、Netflix |
 | 日美星外商在台 | LINE、Shopee、Renesas、Bosch、Zebra、Binance、Ubiquiti、Canonical、OKX、Agoda、Stripe、Crypto.com、Ericsson、Sony、TEL、foodpanda |
@@ -72,7 +72,8 @@ python3 -m http.server -d . 8000   # 開 http://localhost:8000/web/
 - **官網只導向 104 等求職平台**：聯詠、奇景、群聯、世芯、晶心、南亞科、旺宏、台達電、和碩、光寶、Gogoro、工研院、91APP、奧義智慧、iKala、遊戲橘子、昕力、精誠、叡揚、東森購物、將來銀行、訊連、台灣人工智慧實驗室
 - **官網有 Cloudflare 或其他機制阻擋自動化存取**：台積電、日月光、力旺、英業達、技嘉、微星、義隆、Uber、Nokia、MaiCoin
 - **只有私有 API，或找不到可用的端點**：Meta（只有私有 GraphQL）、廣達（職缺頁 iframe 目前 404）、國泰（iMatch API 格式不明）、Western Digital、緯穎（只有招募信箱）
-- **之後可以補的**（端點已找到，還沒寫 adapter）：仁寶、中華電信、遠傳、西門子（Avature）、力積電、慧榮
+- **之後可以補的**（端點已找到，還沒寫 adapter）：仁寶、西門子（Avature）、力積電、慧榮
+- **暫時抓不到**：Workday 系統的公司（NVIDIA、Intel、Micron 等）在 GitHub Actions 上常被限流，聯電擋雲端 IP。抓取失敗且沒有舊資料可沿用時，網頁會自動改顯示成官網直達卡片。
 
 ## GitHub Actions 設定
 

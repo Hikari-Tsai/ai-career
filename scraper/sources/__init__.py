@@ -17,6 +17,8 @@ SOURCES = {
     "wistron": (tw_electronics.wistron, None),
     "twm": (tw_electronics.twm, tw_electronics.twm_detail),
     "synology": (tw_electronics.synology, None),
+    "cht": (tw_electronics.cht, tw_electronics.cht_detail),
+    "fet": (tw_electronics.fet, None),
     "mediatek": (tw_semi.mediatek, None),
     "realtek": (tw_semi.realtek, tw_semi.realtek_detail),
     "umc": (tw_semi.umc, tw_semi.umc_detail),

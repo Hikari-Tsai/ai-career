@@ -135,7 +135,11 @@
 
   // Companies whose official careers sites can't be crawled: link cards, filtered like the job list.
   function renderExternal() {
-    const ext = (DATA.external || []).filter((c) => {
+    // Crawled companies whose site failed this run and have nothing to show also get a card.
+    const failing = DATA.companies
+      .filter((c) => c.ok === false && !c.ai_jobs)
+      .map((c) => ({ ...c, reason: "暫時無法自動抓取" }));
+    const ext = [...(DATA.external || []), ...failing].filter((c) => {
       if (state.group.size && !state.group.has(c.group)) return false;
       if (state.survey && !c.in_salary_survey) return false;
       if (state.company) return false;

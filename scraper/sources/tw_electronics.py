@@ -7,7 +7,9 @@ synology:  career.synology.com /api (JSON)
 """
 from __future__ import annotations
 
-from ..http import get_json, post_json
+import re
+
+from ..http import get_json, get_text, post_json
 from ..models import Job, html_to_text
 
 # ---------------------------------------------------------------- Foxconn
@@ -111,3 +113,82 @@ def synology(company: dict):
             department=j.get("job_category_en", ""),
             description=html_to_text(j.get("description")),
         )
+
+
+# ---------------------------------------------------------------- Chunghwa Telecom (Big5 JSP)
+_CHT = "https://rmis.cht.com.tw/portal/jobs/"
+_CHT_GROUP = re.compile(r"cht-Bjob-jobcard-group-header.*?<h6[^>]*>(.*?)</h6>.*?徵才時間：(\d{4})/(\d{2})/(\d{2})(.*?)(?=cht-Bjob-jobcard-group-header|$)", re.S)
+_CHT_CARD = re.compile(
+    r"cht-jobcard-code'>代碼：(\w+)</div>\s*<h5[^>]*>(.*?)</h5>.*?cht-jobcard-info'>(.*?)</div>.*?href='(jobdetail\.jsp\?[^']+)'", re.S
+)
+
+
+def _big5(path: str) -> str:
+    from ..http import request
+
+    return request("GET", _CHT + path).content.decode("big5", errors="replace")
+
+
+def cht(company: dict):
+    page = _big5("joblist.jsp")
+    for g in _CHT_GROUP.finditer(page):
+        round_name, y, m, d, body = g.groups()
+        for code, title, info, href in _CHT_CARD.findall(body):
+            spans = [html_to_text(s) for s in re.findall(r"<span>(.*?)</span>", info, re.S)]
+            yield Job(
+                company_id=company["id"],
+                source_id=code,
+                title=html_to_text(title),
+                url=_CHT + href,
+                location=f"台灣 {spans[0] if spans else ''}".strip(),
+                department=html_to_text(round_name),
+                posted_at=f"{y}-{m}-{d}",
+                extra={"href": href},
+            )
+
+
+def cht_detail(company: dict, job: Job) -> dict:
+    return {"description": html_to_text(_big5(job.extra["href"]))[:6000]}
+
+
+# ---------------------------------------------------------------- Far EasTone (Liferay portlet)
+_FET_P = "_FETRECopportunity_WAR_FETRECopportunityportlet_"
+_FET_BASE = (
+    "https://erecruit.fareastone.com.tw/zh_TW/web/guest/home?p_p_id=FETRECopportunity_WAR_FETRECopportunityportlet"
+    f"&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&{_FET_P}isSearch=true"
+    f"&{_FET_P}mvcPath=%2Fhtml%2Fjob%2Ffront%2Fview.jsp"
+)
+_FET_ID = re.compile(_FET_P + r'jobId"\s+type="hidden" value="(\d+)"')
+_FET_JOB = re.compile(r"([A-Z]\d{3,5})\s+(.*?)\s+工作內容\s*[:：]\s*(.*?)\s*工作地點\s*[:：]\s*(\S+)", re.S)
+
+
+def fet(company: dict):
+    seen: set[str] = set()
+    for page in range(1, 60):
+        html = get_text(f"{_FET_BASE}&{_FET_P}curPage={page}")
+        start = html.find('id="jobList"')
+        listing = html[start:] if start >= 0 else html
+        marks = list(_FET_ID.finditer(listing))
+        new, prev = 0, 0
+        for mk in marks:
+            jid, block = mk.group(1), html_to_text(listing[prev:mk.start()])
+            prev = mk.end()
+            m = _FET_JOB.search(block)
+            if jid in seen or not m:
+                continue
+            seen.add(jid)
+            new += 1
+            code, title, desc, loc = m.groups()
+            yield Job(
+                company_id=company["id"],
+                source_id=jid,
+                title=title.strip(),
+                url=(f"https://erecruit.fareastone.com.tw/zh_TW/web/guest/home?p_p_id=FETRECopportunity_WAR_FETRECopportunityportlet"
+                     f"&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&{_FET_P}jobId={jid}"
+                     f"&{_FET_P}mvcPath=%2Fhtml%2Fjob%2Ffront%2FjobDetailForInternet.jsp"),
+                location=f"台灣 {loc}",
+                department=code,
+                description=desc.strip(),
+            )
+        if not new:
+            break
