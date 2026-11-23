@@ -40,10 +40,15 @@ def _bucket(host: str) -> str:
     return next((p for p in SHARED_PLATFORMS if host == p or host.endswith("." + p)), host)
 
 
+# Slower pacing for platforms that rate-limit automated clients hard.
+PLATFORM_INTERVAL = {"myworkdayjobs.com": 3.0}
+
+
 def _throttle(host: str) -> None:
     host = _bucket(host)
+    interval = PLATFORM_INTERVAL.get(host, MIN_INTERVAL)
     with _lock:
-        wait = _last_hit.get(host, 0) + MIN_INTERVAL - time.monotonic()
+        wait = _last_hit.get(host, 0) + interval - time.monotonic()
         _last_hit[host] = time.monotonic() + max(wait, 0)
     if wait > 0:
         time.sleep(wait)

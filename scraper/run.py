@@ -8,6 +8,8 @@ from __future__ import annotations
 import argparse
 import gzip
 import json
+import os
+import re
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -21,6 +23,13 @@ from .relevance import CANDIDATE_THRESHOLD, CATEGORY_LABELS, DISPLAY_THRESHOLD, 
 from .sources import SOURCES
 
 DETAIL_CAP = 300  # detail requests per company per run; the cache fills the rest on later runs
+DETAIL_CAP_BY_SOURCE = {"workday": 80}  # Workday rate-limits hard; spread the backlog over several days
+# Only fetch descriptions for roles that could plausibly be AI work: skips technicians, sales, finance, ...
+TECH_TITLE = re.compile(
+    r"engineer|scientist|develop|research|architect|software|data|machine|learning|\bAI\b|\bML\b|algorithm|"
+    r"intern|graduate|analyst|program|product|技術|工程|研發|研究|演算法|軟體|資料|數據|開發|人工智慧|實習",
+    re.I,
+)
 DETAILS_FILE = CACHE / "details.json.gz"
 LLM_CACHE_FILE = DATA / "llm_cache.json"
 JOBS_FILE = DATA / "jobs.json"
@@ -35,6 +44,32 @@ def _load_json(path, default):
         return json.loads(path.read_text())
     except (FileNotFoundError, json.JSONDecodeError, EOFError):
         return default
+
+
+def _write_step_summary(stats: dict, run: dict, day: dict, history: list[dict]) -> None:
+    """Usage table on the GitHub Actions run page (no-op locally)."""
+    path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if not path:
+        return
+    last30 = history[-30:]
+    month_cost = sum((h.get("llm") or {}).get("cost_usd", 0) or 0 for h in last30)
+    month_calls = sum((h.get("llm") or {}).get("calls", 0) or 0 for h in last30)
+    usd = lambda v: "n/a" if v is None else f"${v:.4f}"
+    lines = [
+        "## Job crawl",
+        f"- Taiwan jobs scanned: **{stats['taiwan_jobs_scanned']:,}**, AI-related: **{stats['ai_jobs']:,}**",
+        "",
+        "## LLM usage" + (f" ({run['model']})" if run.get("model") else ""),
+        "| | calls | input tokens | output tokens | cost |",
+        "|---|---:|---:|---:|---:|",
+        f"| this run | {run['calls']} | {run['input_tokens']:,} | {run['output_tokens']:,} | {usd(run['cost_usd'])} |",
+        f"| today | {day['calls']:.0f} | {day['input_tokens']:,.0f} | {day['output_tokens']:,.0f} | {usd(day['cost_usd'])} |",
+        f"| last {len(last30)} days | {month_calls:.0f} | | | {usd(month_cost)} |",
+        "",
+        f"Still pending classification: {run.get('pending', 0)}",
+    ]
+    with open(path, "a") as f:
+        f.write("\n".join(lines) + "\n")
 
 
 def _snippet(text: str, terms: list[str], width: int = 260) -> str:
@@ -80,7 +115,8 @@ def crawl_company(company: dict, details: dict) -> tuple[list[Job], str | None]:
             job.location = cached.get("location") or job.location
             job.posted_at = job.posted_at or cached.get("posted_at", "")
             continue
-        if detail and fetched < DETAIL_CAP and not rate_limited:
+        cap = DETAIL_CAP_BY_SOURCE.get(company["source"], DETAIL_CAP)
+        if detail and fetched < cap and not rate_limited and TECH_TITLE.search(job.title):
             try:
                 d = detail(company, job)
                 fetched += 1
@@ -104,7 +140,10 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", help="comma-separated company ids")
     ap.add_argument("--workers", type=int, default=8)
+    ap.add_argument("--rebaseline", action="store_true", help="reset first_seen of all current jobs to their posted date")
     args = ap.parse_args()
+    if args.rebaseline and args.only:
+        ap.error("--rebaseline needs a full run (without --only)")
 
     all_companies = load_companies()
     companies = all_companies
@@ -119,7 +158,14 @@ def main() -> int:
     llm_cache = llm.load_cache(LLM_CACHE_FILE)
     previous = {j["uid"]: j for j in _load_json(JOBS_FILE, {}).get("jobs", [])}
     prev_seen = _load_json(DATA / "seen.json", {})  # uid -> first_seen for every TW job ever seen
-    bootstrap = not prev_seen
+    # A company crawled for the first time (or everything, with --rebaseline) is a baseline: its existing
+    # openings get first_seen = posted date instead of today, so they aren't all flagged "new".
+    known = set() if args.rebaseline else {uid.split(":", 1)[0] for uid in prev_seen}
+    if args.rebaseline:
+        prev_seen = {}
+
+    def baseline_date(r: dict) -> str:
+        return (r["posted_at"] or "2000-01-01") if r["company_id"] not in known else today
     today = date.today().isoformat()
 
     t0 = time.time()
@@ -152,7 +198,7 @@ def main() -> int:
         records.append(rec)
 
     candidates = [r for r in records if r["rule_score"] >= CANDIDATE_THRESHOLD]
-    calls = llm.classify(candidates, llm_cache)
+    llm_usage = llm.classify(candidates, llm_cache)
 
     out = []
     for r in records:
@@ -166,9 +212,9 @@ def main() -> int:
             keep = r["rule_score"] >= DISPLAY_THRESHOLD
         if not keep:
             continue
-        first_seen = prev_seen.get(r["uid"]) or (previous.get(r["uid"]) or {}).get("first_seen")
-        if not first_seen:  # on the very first run, don't flag every job as new
-            first_seen = (r["posted_at"] or "2000-01-01") if bootstrap else today
+        first_seen = prev_seen.get(r["uid"]) or (None if args.rebaseline else (previous.get(r["uid"]) or {}).get("first_seen"))
+        if not first_seen:
+            first_seen = baseline_date(r)
         prev_seen.setdefault(r["uid"], first_seen)
         out.append(
             {
@@ -199,7 +245,7 @@ def main() -> int:
 
     # ---- persist
     for r in records:
-        prev_seen.setdefault(r["uid"], (r["posted_at"] or "2000-01-01") if bootstrap else today)
+        prev_seen.setdefault(r["uid"], baseline_date(r))
     live = {r["uid"] for r in records}
     # Companies that failed this run, or weren't crawled (--only), keep yesterday's listings and first_seen,
     # so a flaky site doesn't empty its section or reset "new" badges.
@@ -240,7 +286,8 @@ def main() -> int:
             }
             for c in load_link_only()
         ],
-        "stats": {"taiwan_jobs_scanned": sum((s.get("taiwan_jobs") or 0) for s in status.values()), "ai_jobs": len(out), "llm_calls": calls},
+        "stats": {"taiwan_jobs_scanned": sum((s.get("taiwan_jobs") or 0) for s in status.values()), "ai_jobs": len(out)},
+        "llm_usage": llm_usage,
         "jobs": out,
     }
     JOBS_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=1))
@@ -250,12 +297,19 @@ def main() -> int:
         json.dump(details, f, ensure_ascii=False)
 
     history = _load_json(HISTORY_FILE, [])
+    prev_today = next((h for h in history if h["date"] == today), {})
+    llm_day = {  # a day can have several runs (schedule + manual/push), so LLM usage accumulates
+        k: round((prev_today.get("llm") or {}).get(k, 0) + (llm_usage.get(k) or 0), 4)
+        for k in ("calls", "classified", "input_tokens", "output_tokens", "cost_usd")
+    }
     history = [h for h in history if h["date"] != today] + [
-        {"date": today, "taiwan_jobs": len(records), "ai_jobs": len(out), "new_ai_jobs": sum(1 for j in out if j["first_seen"] == today)}
+        {"date": today, "taiwan_jobs": payload["stats"]["taiwan_jobs_scanned"], "ai_jobs": len(out),
+         "new_ai_jobs": sum(1 for j in out if j["first_seen"] == today), "llm": llm_day}
     ]
     HISTORY_FILE.write_text(json.dumps(history[-365:], indent=0))
+    _write_step_summary(payload["stats"], llm_usage, llm_day, history)
 
-    print(f"\n{len(records)} Taiwan jobs scanned, {len(out)} AI-related, {calls} LLM calls, {time.time()-t0:.0f}s")
+    print(f"\n{len(records)} Taiwan jobs scanned, {len(out)} AI-related, {llm_usage['calls']} LLM calls, {time.time()-t0:.0f}s")
     return 0 if any(s.get("ok") for s in status.values()) else 1
 
 

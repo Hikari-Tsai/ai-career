@@ -14,13 +14,14 @@ from __future__ import annotations
 import json
 import os
 import sys
+import threading
 from concurrent.futures import ThreadPoolExecutor
 from typing import Literal
 
 from pydantic import BaseModel, Field
 
-MODEL = os.environ.get("LLM_MODEL", "claude-opus-5-5")
-MAX_PER_RUN = int(os.environ.get("LLM_MAX_PER_RUN", "400"))
+MODEL = os.environ.get("LLM_MODEL") or "claude-opus-5-5"  # empty when the Actions variable is unset
+MAX_PER_RUN = int(os.environ.get("LLM_MAX_PER_RUN") or "400")
 PROMPT_VERSION = "v1"
 
 Category = Literal[
@@ -54,6 +55,51 @@ def _client():
     return anthropic.Anthropic(max_retries=4)
 
 
+# USD per million tokens (input, output), Anthropic first-party API. Cache reads bill at 0.1x input,
+# 5-minute cache writes at 1.25x. Unknown models report tokens with cost=None.
+PRICES = {
+    "claude-opus-5-5": (4.00, 20.00),
+    "claude-sonnet-5-5": (2.00, 10.00),
+    "claude-haiku-5-5": (0.10, 0.50),  # prompts up to 100K tokens
+    "claude-opus-5": (5.00, 25.00),
+    "claude-sonnet-5": (2.00, 10.00),
+    "claude-fable-5-2": (8.00, 40.00),
+}
+
+
+class Usage:
+    """Thread-safe accumulator for response.usage across a run."""
+
+    FIELDS = ("input_tokens", "output_tokens", "cache_read_input_tokens", "cache_creation_input_tokens")
+
+    def __init__(self):
+        self._lock = threading.Lock()
+        self.calls = self.ok = 0
+        self.tokens = dict.fromkeys(self.FIELDS, 0)
+
+    def add(self, u) -> None:
+        with self._lock:
+            for f in self.FIELDS:
+                self.tokens[f] += getattr(u, f, 0) or 0
+
+    def cost_usd(self) -> float | None:
+        price = PRICES.get(MODEL)
+        if not price:
+            return None
+        pin, pout = price
+        t = self.tokens
+        usd = (t["input_tokens"] * pin + t["cache_read_input_tokens"] * pin * 0.1
+               + t["cache_creation_input_tokens"] * pin * 1.25 + t["output_tokens"] * pout) / 1e6
+        return round(usd, 4)
+
+    def summary(self) -> dict:
+        return {"model": MODEL if self.calls else None, "calls": self.calls, "classified": self.ok,
+                **self.tokens, "cost_usd": self.cost_usd() if self.calls else 0.0}
+
+
+usage = Usage()
+
+
 def _classify_one(client, job: dict) -> dict | None:
     import anthropic
 
@@ -76,6 +122,7 @@ def _classify_one(client, job: dict) -> dict | None:
     except anthropic.APIConnectionError as exc:
         print(f"  llm connection error {job['uid']}: {exc}", file=sys.stderr)
         return None
+    usage.add(resp.usage)
     if resp.stop_reason == "refusal" or resp.parsed_output is None:
         return None
     out = resp.parsed_output.model_dump()
@@ -89,20 +136,29 @@ def enabled() -> bool:
     return bool(os.environ.get("ANTHROPIC_API_KEY"))
 
 
-def classify(jobs: list[dict], cache: dict) -> int:
-    """Fill cache[content_hash] for jobs not yet classified. Returns number of API calls."""
+def classify(jobs: list[dict], cache: dict) -> dict:
+    """Fill cache[content_hash] for jobs not yet classified. Returns this run's usage summary."""
     todo = [j for j in jobs if (cache.get(j["content_hash"]) or {}).get("prompt") != PROMPT_VERSION]
     todo.sort(key=lambda j: -j["rule_score"])
+    pending = len(todo)
     todo = todo[:MAX_PER_RUN]
     if not todo or not enabled():
-        return 0
+        return {**usage.summary(), "pending": pending if enabled() else 0}
     client = _client()
-    print(f"LLM: classifying {len(todo)} postings with {MODEL}")
+    print(f"LLM: classifying {len(todo)} of {pending} pending postings with {MODEL}")
     with ThreadPoolExecutor(max_workers=4) as pool:
         for job, result in zip(todo, pool.map(lambda j: _classify_one(client, j), todo)):
+            usage.calls += 1
             if result:
+                usage.ok += 1
                 cache[job["content_hash"]] = result
-    return len(todo)
+    s = {**usage.summary(), "pending": pending - usage.ok}
+    cost = f"${s['cost_usd']:.4f}" if s["cost_usd"] is not None else "unknown (no price for model)"
+    print(
+        f"LLM usage: {s['calls']} calls ({s['classified']} ok), {s['input_tokens']:,} in / {s['output_tokens']:,} out tokens, "
+        f"cost {cost}, {s['pending']} still pending"
+    )
+    return s
 
 
 def load_cache(path) -> dict:
