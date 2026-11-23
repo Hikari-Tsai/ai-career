@@ -126,6 +126,15 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"05367eb04dc3b6e9": {
+"relevance": 65,
+"category": "mlops_infra",
+"seniority": "unknown",
+"skills": [],
+"summary_zh": "負責AI平台系統的建置與營運維護，支援AI服務穩定運作",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "064d9270db2be0ee": {
 "relevance": 88,
 "category": "ml",
@@ -393,6 +402,34 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"0dc44ea148a58364": {
+"relevance": 55,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [
+"GenAI",
+"生成式AI平台"
+],
+"summary_zh": "銀行數位金融處負責生成式AI平台的經營管理與推廣應用",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"0dd0fb426b1e9120": {
+"relevance": 45,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"EDA",
+"Tcl",
+"Python",
+"Perl",
+"Cadence/Synopsys/Siemens",
+"LLM Prompt Engineering"
+],
+"summary_zh": "維護優化DRAM EDA設計流程，並導入LLM加速腳本撰寫與錯誤日誌分析",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "0df6a5aef779a585": {
 "relevance": 72,
 "category": "cv_nlp",
@@ -645,6 +682,15 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"16e7af66acdc3175": {
+"relevance": 45,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [],
+"summary_zh": "仁寶後端工程師，負責AI應用相關後端系統開發與整合",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "1773a97c36b4385b": {
 "relevance": 92,
 "category": "llm_genai",
@@ -658,6 +704,15 @@
 "Edge AI (APU)"
 ],
 "summary_zh": "開發與部署生成式語言及多模態模型演算法，並優化邊緣AI推論",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"177b98e888633f1c": {
+"relevance": 70,
+"category": "data_sci",
+"seniority": "senior",
+"skills": [],
+"summary_zh": "於街口支付擔任資深資料科學家，運用資料分析與建模支援金融支付業務",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -1150,6 +1205,15 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"24a8894735a50a6b": {
+"relevance": 75,
+"category": "llm_genai",
+"seniority": "unknown",
+"skills": [],
+"summary_zh": "於虛擬保險業務中開發與應用AI系統的工程職位，職缺描述資訊有限",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "256bc4eb6378325d": {
 "relevance": 40,
 "category": "ai_adjacent",
@@ -1353,6 +1417,19 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"3073790b71eae03d": {
+"relevance": 62,
+"category": "data_sci",
+"seniority": "unknown",
+"skills": [
+"Python",
+"Java",
+"Scala"
+],
+"summary_zh": "於國泰金控數數發中心開發資料科學相關程式與系統",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "3207f7938868c94a": {
 "relevance": 88,
 "category": "llm_genai",
@@ -1481,6 +1558,19 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"35fe88c79f2ec239": {
+"relevance": 62,
+"category": "llm_genai",
+"seniority": "unknown",
+"skills": [
+"生成式AI",
+"LLM",
+"Prompt Engineering"
+],
+"summary_zh": "銀行資訊處推動生成式AI應用，負責內部培訓與AI效能優化",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "3650a7bc16d5f89b": {
 "relevance": 30,
 "category": "ai_adjacent",
@@ -1494,6 +1584,18 @@
 "FCC/CE/UL Certification"
 ],
 "summary_zh": "負責AI伺服器新產品導入專案時程、客戶溝通與跨部門協調",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"36868edee6aaf148": {
+"relevance": 88,
+"category": "ml",
+"seniority": "senior",
+"skills": [
+"Machine Learning",
+"AI"
+],
+"summary_zh": "於杰倫智能從事AI與機器學習模型研發的資深工程師職位",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -1608,6 +1710,18 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"3c857386b39522e1": {
+"relevance": 80,
+"category": "llm_genai",
+"seniority": "unknown",
+"skills": [
+"Agentic AI",
+"LLM"
+],
+"summary_zh": "於中租控股資訊部門開發Agentic AI代理應用，將大型語言模型導入企業業務流程",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "3c911400035a42a4": {
 "relevance": 82,
 "category": "llm_genai",
@@ -1684,6 +1798,18 @@
 "OMOP"
 ],
 "summary_zh": "領導團隊建構醫療資料平台並導入多代理AI與RAG架構",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"3d81fd0cef6e32a8": {
+"relevance": 88,
+"category": "ml",
+"seniority": "unknown",
+"skills": [
+"Machine Learning",
+"Robot Manipulation"
+],
+"summary_zh": "開發機器人操控相關的機器學習模型與演算法",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -1879,6 +2005,18 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"44b505aa08dee4ca": {
+"relevance": 88,
+"category": "llm_genai",
+"seniority": "senior",
+"skills": [
+"LLM",
+"AI Agent"
+],
+"summary_zh": "於街口支付開發大型語言模型與AI Agent應用系統",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "45adbb9cf0cd9748": {
 "relevance": 40,
 "category": "ai_adjacent",
@@ -1972,6 +2110,18 @@
 "root-cause analysis"
 ],
 "summary_zh": "運用統計與機器學習模型提升製造良率與品質，並支援行銷客戶分析",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"491b94df79ae7d7d": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [
+"Frontend",
+"Web development"
+],
+"summary_zh": "為杰倫智能的AI/機器學習平台開發網頁前端介面",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -2069,6 +2219,15 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"4cc822410aa4a7ca": {
+"relevance": 55,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [],
+"summary_zh": "投資公司徵AI軟體開發工程師，職務內容未詳述",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "4cf19fac164a4cae": {
 "relevance": 62,
 "category": "cv_nlp",
@@ -2129,6 +2288,31 @@
 "AI軟體堆疊"
 ],
 "summary_zh": "x",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"4dc48a2a6510356e": {
+"relevance": 62,
+"category": "llm_genai",
+"seniority": "senior",
+"skills": [
+"生成式 AI",
+"AI Agent",
+"RAG",
+"Python",
+"API 整合",
+"流程自動化"
+],
+"summary_zh": "深入內部單位分析流程，運用生成式AI與Agent打造企業內部解決方案並導入上線",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"4e984d958bba4d36": {
+"relevance": 75,
+"category": "ml",
+"seniority": "unknown",
+"skills": [],
+"summary_zh": "從事AI相關技術研發工程工作，職務內容未詳述",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -2367,6 +2551,20 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"54d8f0467f9405e3": {
+"relevance": 82,
+"category": "llm_genai",
+"seniority": "unknown",
+"skills": [
+"AI Agent",
+"LLM",
+"資料分析",
+"知識管理"
+],
+"summary_zh": "開發應用於資料與知識分析的AI Agent系統（職缺描述未提供細節）",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "55cbdda25f342f8b": {
 "relevance": 40,
 "category": "ai_adjacent",
@@ -2474,6 +2672,29 @@
 "PyTorch"
 ],
 "summary_zh": "開發資安系統與監控規則，並運用機器學習提升威脅偵測能力",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"5a984d24d5b2b0d3": {
+"relevance": 45,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [
+"生成式AI",
+"應用策略規劃"
+],
+"summary_zh": "於銀行數位金融處規劃生成式AI應用策略與導入場景",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"5b65a20c519018e5": {
+"relevance": 85,
+"category": "cv_nlp",
+"seniority": "unknown",
+"skills": [
+"Computer Vision"
+],
+"summary_zh": "為智慧零售場景開發AI電腦視覺影像辨識模型與應用",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -2784,6 +3005,17 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"67083ddf1c078e5d": {
+"relevance": 80,
+"category": "ml",
+"seniority": "unknown",
+"skills": [
+"機器學習"
+],
+"summary_zh": "於仁寶電腦擔任AI機器學習工程師，開發機器學習模型（職缺描述未提供細節）",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "670accf659f4fff2": {
 "relevance": 85,
 "category": "llm_genai",
@@ -2824,6 +3056,17 @@
 "大數據資料彙整"
 ],
 "summary_zh": "負責AI伺服器產品品質問題追蹤改善、客訴處理與客戶稽核對應窗口",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"6877d3c8e025c572": {
+"relevance": 72,
+"category": "llm_genai",
+"seniority": "unknown",
+"skills": [
+"Generative AI"
+],
+"summary_zh": "運用生成式AI技術進行研發並產出影像等創意內容",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -2935,6 +3178,19 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"6bed96b845538444": {
+"relevance": 45,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [
+"生成式AI",
+"需求管理",
+"專案管理"
+],
+"summary_zh": "銀行資訊處負責生成式AI專案的需求蒐集與專案管理",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "6d077ad0516b1d09": {
 "relevance": 55,
 "category": "ai_adjacent",
@@ -2963,6 +3219,15 @@
 "data monitoring"
 ],
 "summary_zh": "協助廣告活動團隊設定與監控AI廣告投放成效的入門營運職位",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"6ed23ac0c923b4f2": {
+"relevance": 72,
+"category": "data_sci",
+"seniority": "senior",
+"skills": [],
+"summary_zh": "仁寶內湖AI資料科學家（理級），負責資料分析與AI模型開發應用",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -3046,6 +3311,15 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"710837a46a4fea25": {
+"relevance": 70,
+"category": "ml",
+"seniority": "unknown",
+"skills": [],
+"summary_zh": "新光保全AI工程師，職務內容未詳述，推測開發保全相關AI應用",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "71a9aded65da9ec5": {
 "relevance": 88,
 "category": "ml",
@@ -3091,6 +3365,15 @@
 "object detection"
 ],
 "summary_zh": "為機器人自主平台開發並部署電腦視覺與感知模型，優化邊緣即時推論",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"731dc291ced9702e": {
+"relevance": 68,
+"category": "data_sci",
+"seniority": "unknown",
+"skills": [],
+"summary_zh": "於國泰金控數數發中心擔任資料科學家，運用數據分析與建模支援金融業務",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -3285,6 +3568,17 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"789a35f0b2881b3b": {
+"relevance": 85,
+"category": "ml",
+"seniority": "unknown",
+"skills": [
+"深度學習"
+],
+"summary_zh": "於新竹開發深度學習演算法，可能應用於語音或影像相關產品",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "79e32436ef8653b2": {
 "relevance": 55,
 "category": "ai_adjacent",
@@ -3424,6 +3718,18 @@
 "客戶溝通"
 ],
 "summary_zh": "負責AI伺服器電子、韌體與機構設計專案時程管理及客戶溝通",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"7f09826b3b49b84d": {
+"relevance": 78,
+"category": "llm_genai",
+"seniority": "unknown",
+"skills": [
+"AI Agent",
+"LLM"
+],
+"summary_zh": "開發AI Agent應用，建置輔助伺服器設計的智慧系統",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -3726,6 +4032,20 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"8659ffff9168edfe": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [
+"專案管理",
+"AI應用",
+"流程優化",
+"數位產品規劃"
+],
+"summary_zh": "負責金融數位產品專案規劃，導入AI應用並優化業務流程",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "86712bce25573097": {
 "relevance": 38,
 "category": "ai_hw",
@@ -3803,6 +4123,15 @@
 "evaluation/ablations"
 ],
 "summary_zh": "ML工程實習生，研讀論文並於LINE大規模資料上開發深度學習或LLM代理原型",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"880afb08427c520e": {
+"relevance": 85,
+"category": "ml",
+"seniority": "unknown",
+"skills": [],
+"summary_zh": "於AIFT的Vulcan團隊擔任機器學習工程師，開發與部署機器學習模型（職缺未提供詳細描述）",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -3998,6 +4327,15 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"8e60b543172d1177": {
+"relevance": 70,
+"category": "data_sci",
+"seniority": "unknown",
+"skills": [],
+"summary_zh": "於國泰金控數數發中心擔任資料科學分析師，運用資料分析與AI建模支援金融業務",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "8e96b72e2ae5bd16": {
 "relevance": 85,
 "category": "llm_genai",
@@ -4042,6 +4380,15 @@
 "PMP"
 ],
 "summary_zh": "協助規劃AI產品規格、推動AI專案並串接研發與業務需求",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"8fdd8d7dc7cb3f99": {
+"relevance": 70,
+"category": "ml",
+"seniority": "unknown",
+"skills": [],
+"summary_zh": "擔任AI工程師，職務內容未詳述，推測從事AI模型開發與應用",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -4124,6 +4471,17 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"9334cca5658502f6": {
+"relevance": 80,
+"category": "ml",
+"seniority": "manager",
+"skills": [
+"機器學習"
+],
+"summary_zh": "仁寶內湖AI機器學習設計經理，負責機器學習模型設計與開發（職缺描述未提供細節）",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "93c50c95ba7994c3": {
 "relevance": 22,
 "category": "not_ai",
@@ -4166,6 +4524,18 @@
 "雲端部署"
 ],
 "summary_zh": "規劃AI電競軟體規格、平台架構與訂閱機制，並與AI工程師協作推論成本優化的產品PM",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"945012b84bb60853": {
+"relevance": 40,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [
+"AI Agent Platform",
+"Presales"
+],
+"summary_zh": "為AI Agent平台提供售前技術諮詢與解決方案說明，協助客戶導入",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -4325,6 +4695,31 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"9b3e740b64c6abde": {
+"relevance": 25,
+"category": "not_ai",
+"seniority": "unknown",
+"skills": [
+"前端開發"
+],
+"summary_zh": "於國泰數數發中心負責數據產品的前端開發工作",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"9bdb5a4672679c60": {
+"relevance": 80,
+"category": "llm_genai",
+"seniority": "senior",
+"skills": [
+"生成式AI",
+"系統架構",
+"系統分析",
+"LLM"
+],
+"summary_zh": "銀行資訊處負責生成式AI系統架構設計與系統分析導入",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "9bdef1df64b0e275": {
 "relevance": 78,
 "category": "cv_nlp",
@@ -4469,6 +4864,26 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"a1841bb3d7f4010b": {
+"relevance": 80,
+"category": "llm_genai",
+"seniority": "unknown",
+"skills": [
+"Generative AI"
+],
+"summary_zh": "於統一資訊開發生成式AI應用與相關系統，詳細職責未提供",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"a2a21ebb37b9b53f": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [],
+"summary_zh": "負責公司內部AI工具導入與應用管理，職務細節未提供",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "a2d1e60bfb2d633c": {
 "relevance": 28,
 "category": "not_ai",
@@ -4498,6 +4913,19 @@
 "MySQL"
 ],
 "summary_zh": "研發機器學習與深度學習模型，進行特徵工程並部署AI系統於平台",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"a41f973ffa6d4e85": {
+"relevance": 85,
+"category": "cv_nlp",
+"seniority": "unknown",
+"skills": [
+"Perception",
+"Robotics Learning",
+"Machine Learning"
+],
+"summary_zh": "開發機器人感知與學習相關的人工智慧模型，職缺描述未提供細節",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -4639,6 +5067,22 @@
 "Instinct GPU"
 ],
 "summary_zh": "管理AMD位於德美的HPC/AI叢集，確保運作並協助客戶優化EPYC與Instinct系統配置",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"ab6ff932b56e60d0": {
+"relevance": 25,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"SQL",
+"Data Warehouse",
+"ETL / ELT",
+"Python",
+"Databricks",
+"Power BI"
+],
+"summary_zh": "負責企業資料倉儲與資料管線規劃開發，支援BI分析與AI應用的資料需求",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -5131,6 +5575,18 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"bc5f4d4d29b7d904": {
+"relevance": 80,
+"category": "llm_genai",
+"seniority": "unknown",
+"skills": [
+"LLM",
+"Agentic AI"
+],
+"summary_zh": "開發以大型語言模型與代理式AI為核心的AI平台",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "bc6eb42faf5a2292": {
 "relevance": 72,
 "category": "data_sci",
@@ -5256,6 +5712,15 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"c0d00cafcd479555": {
+"relevance": 65,
+"category": "data_sci",
+"seniority": "senior",
+"skills": [],
+"summary_zh": "國泰金控數數發中心資深資料科學家，運用數據建模支援集團金融業務分析",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "c0ff2388e319ee26": {
 "relevance": 88,
 "category": "ml",
@@ -5304,6 +5769,17 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"c304c7ba508237d5": {
+"relevance": 85,
+"category": "ml",
+"seniority": "unknown",
+"skills": [
+"Machine Learning"
+],
+"summary_zh": "於杰倫智能從事AI/機器學習模型研發，應用於製造業AutoML平台",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "c3616a9923e22cd3": {
 "relevance": 35,
 "category": "ai_hw",
@@ -5333,6 +5809,27 @@
 "AI Imaging"
 ],
 "summary_zh": "設計影像訊號處理(ISP)硬體架構，含傳統與AI影像演算法的硬體化與PPA最佳化",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"c3ee6ef0750aaa8b": {
+"relevance": 62,
+"category": "mlops_infra",
+"seniority": "unknown",
+"skills": [
+"Kubernetes",
+"K8s"
+],
+"summary_zh": "於國泰數數發中心開發資料科學用的K8s平台產品，支援模型開發與部署",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"c3fe68ff87d33018": {
+"relevance": 80,
+"category": "ml",
+"seniority": "senior",
+"skills": [],
+"summary_zh": "資深AI研發工程師，負責AI模型與相關技術研發（職缺描述未提供細節）",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -5416,6 +5913,18 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"c6f6b4b1d96b9aaa": {
+"relevance": 88,
+"category": "cv_nlp",
+"seniority": "unknown",
+"skills": [
+"Computer Vision",
+"Video AI"
+],
+"summary_zh": "為保全業務開發影像與影片電腦視覺AI模型，如監控影像分析。",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "c70ceefed68d24fb": {
 "relevance": 88,
 "category": "llm_genai",
@@ -5429,6 +5938,22 @@
 "Scikit-Learn"
 ],
 "summary_zh": "為半導體測試與產品工程開發ML模型、LLM代理與RAG應用並部署上線",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"c7faba836a5d9585": {
+"relevance": 72,
+"category": "mlops_infra",
+"seniority": "senior",
+"skills": [
+"企業級 AI 平台架構",
+"模型服務",
+"檢索增強生成",
+"Agentic AI",
+"AI Governance",
+"可觀測性"
+],
+"summary_zh": "設計華邦企業級AI平台架構，含模型服務、RAG、Agent與治理營運",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -5655,6 +6180,26 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"cfb217b181700536": {
+"relevance": 85,
+"category": "cv_nlp",
+"seniority": "unknown",
+"skills": [
+"Computer Vision"
+],
+"summary_zh": "於統一資訊開發電腦視覺AI模型與影像辨識應用",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"d01104380eebe2b9": {
+"relevance": 40,
+"category": "data_sci",
+"seniority": "intern",
+"skills": [],
+"summary_zh": "量化研究實習生，協助進行金融量化策略研究與數據分析（職缺描述未提供細節）",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "d03b0aeac6fecc83": {
 "relevance": 15,
 "category": "not_ai",
@@ -5728,6 +6273,18 @@
 "深度學習"
 ],
 "summary_zh": "開發AOI自動光學檢測之影像處理與深度學習瑕疵檢測模型",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"d525914d335fd75b": {
+"relevance": 82,
+"category": "llm_genai",
+"seniority": "unknown",
+"skills": [
+"生成式AI",
+"LLM"
+],
+"summary_zh": "於銀行資訊處開發生成式AI應用與相關系統",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -5920,6 +6477,28 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"db336f19d2198ff6": {
+"relevance": 80,
+"category": "ml",
+"seniority": "unknown",
+"skills": [
+"機器學習"
+],
+"summary_zh": "仁寶內湖AI機器學習工程師，負責機器學習模型開發與應用（職缺描述未提供細節）",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"dbf49dcc7aa4334e": {
+"relevance": 88,
+"category": "ml",
+"seniority": "unknown",
+"skills": [
+"深度學習"
+],
+"summary_zh": "於意騰科技新竹開發深度學習演算法，職務細節未提供",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "dc734fb6cc425306": {
 "relevance": 40,
 "category": "ai_hw",
@@ -5933,6 +6512,15 @@
 "DFx"
 ],
 "summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"dd30a679334fdca9": {
+"relevance": 55,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [],
+"summary_zh": "仁寶AI軟體應用工程師，開發AI相關軟體應用，職務細節未詳述",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -6029,6 +6617,15 @@
 "Git"
 ],
 "summary_zh": "運用AI技術加速伺服器BMC研發，並建置地端RAG+LLM知識庫系統",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"e0ebfb82dd8be2a2": {
+"relevance": 45,
+"category": "data_sci",
+"seniority": "unknown",
+"skills": [],
+"summary_zh": "於投資公司進行量化資料分析，支援投資研究與策略決策",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -6222,6 +6819,15 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"e806637d00b8ba4d": {
+"relevance": 45,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [],
+"summary_zh": "負責企業AI平台產品規劃與管理，協調開發與市場需求",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "e8bce1ef69c1ccb2": {
 "relevance": 28,
 "category": "not_ai",
@@ -6318,6 +6924,15 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"eeca83eb34fe127a": {
+"relevance": 75,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [],
+"summary_zh": "十論科技AI工程師，職缺描述未提供，推測從事AI模型或應用開發",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "ef5eb1dcb9205a1f": {
 "relevance": 35,
 "category": "ai_adjacent",
@@ -6394,6 +7009,15 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"f230c5d33513ef93": {
+"relevance": 80,
+"category": "ml",
+"seniority": "unknown",
+"skills": [],
+"summary_zh": "ONElab機器學習工程師，負責機器學習模型開發與應用（職缺描述未提供細節）",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "f2479d1c0217dc74": {
 "relevance": 12,
 "category": "not_ai",
@@ -6423,6 +7047,19 @@
 "RAG"
 ],
 "summary_zh": "為台灣製造與半導體客戶設計AWS資料平台與AI/ML解決方案的顧問架構師",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"f27da830ea881f81": {
+"relevance": 55,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [
+"Machine Learning",
+"AutoML",
+"Technical Support"
+],
+"summary_zh": "為杰倫智能AutoML機器學習平台提供客戶技術支援與導入服務",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -6586,6 +7223,17 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"f8a458d475755544": {
+"relevance": 85,
+"category": "ml",
+"seniority": "senior",
+"skills": [
+"Machine Learning"
+],
+"summary_zh": "新創公司創始機器學習工程師，負責建構與部署機器學習模型",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "f924faa88f999103": {
 "relevance": 38,
 "category": "ai_adjacent",
@@ -6661,6 +7309,22 @@
 "computer vision"
 ],
 "summary_zh": "開發視訊影像處理與AI演算法，並實作於SoC嵌入式韌體",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"fd5dd50710b66a0a": {
+"relevance": 85,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"Python",
+"LLM / RAG",
+"LangChain / LlamaIndex",
+"FAISS / Milvus",
+"vLLM / Ollama",
+"API / backend"
+],
+"summary_zh": "為CAD/EDA工程流程建置RAG架構與LLM內部工具，如知識與除錯助理",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -6784,6 +7448,19 @@
 "MCP"
 ],
 "summary_zh": "為企業客戶設計並原型開發Google Cloud生成式AI與代理整合方案的技術顧問",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"ffa10058795fc9f4": {
+"relevance": 50,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [
+"Java",
+"Python",
+"生成式 AI"
+],
+"summary_zh": "為生成式 AI 平台開發後端服務，使用 Java 與 Python",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 }
