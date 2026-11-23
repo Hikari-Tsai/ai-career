@@ -54,12 +54,14 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # optional: enables LLM relevance stage
           LLM_MODEL: ${{ vars.LLM_MODEL }}
         run: |
+          # Companies marked local_only (Workday, UMC, FET) are crawled from a machine in Taiwan by
+          # scripts/local_crawl.sh; here they keep their last listings.
           if [ -n "${{ github.event.inputs.only }}" ]; then
-            python -m scraper.run --only "${{ github.event.inputs.only }}"
+            python -m scraper.run --mode cloud --only "${{ github.event.inputs.only }}"
           elif [ "${{ github.event.inputs.rebaseline }}" = "true" ]; then
-            python -m scraper.run --rebaseline
+            python -m scraper.run --mode cloud --rebaseline
           else
-            python -m scraper.run
+            python -m scraper.run --mode cloud
           fi
 
       - name: Commit data

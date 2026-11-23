@@ -1,0 +1,45 @@
+name: Deploy site (data pushed from local crawl)
+
+# scripts/local_crawl.sh pushes data/ from a machine in Taiwan. That push only needs a rebuild of
+# the static site, not another crawl. (Data commits made by update.yml use GITHUB_TOKEN and don't
+# trigger workflows, so this doesn't double-deploy after the daily cloud run.)
+on:
+  push:
+    branches: [main]
+    paths: ["data/jobs.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build site
+        run: |
+          mkdir -p _site/data
+          cp -R web/. _site/
+          cp data/jobs.json data/history.json _site/data/
+          touch _site/.nojekyll
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -23,7 +23,7 @@ from .relevance import CANDIDATE_THRESHOLD, CATEGORY_LABELS, DISPLAY_THRESHOLD, 
 from .sources import SOURCES
 
 DETAIL_CAP = 300  # detail requests per company per run; the cache fills the rest on later runs
-DETAIL_CAP_BY_SOURCE = {"workday": 80}  # Workday rate-limits hard; spread the backlog over several days
+DETAIL_CAP_BY_SOURCE = {"workday": 40}  # Workday rate-limits hard; spread the backlog over several days
 # Only fetch descriptions for roles that could plausibly be AI work: skips technicians, sales, finance, ...
 TECH_TITLE = re.compile(
     r"engineer|scientist|develop|research|architect|software|data|machine|learning|\bAI\b|\bML\b|algorithm|"
@@ -141,15 +141,23 @@ def main() -> int:
     ap.add_argument("--only", help="comma-separated company ids")
     ap.add_argument("--workers", type=int, default=8)
     ap.add_argument("--rebaseline", action="store_true", help="reset first_seen of all current jobs to their posted date")
+    ap.add_argument(
+        "--mode", choices=("all", "cloud", "local"), default="all",
+        help="cloud: skip companies marked local_only (they keep their last listings); local: only those",
+    )
     args = ap.parse_args()
-    if args.rebaseline and args.only:
-        ap.error("--rebaseline needs a full run (without --only)")
+    if args.rebaseline and (args.only or args.mode == "local"):
+        ap.error("--rebaseline needs a full run (without --only or --mode local)")
 
     all_companies = load_companies()
     companies = all_companies
+    if args.mode == "cloud":
+        companies = [c for c in all_companies if not c.get("local_only")]
+    elif args.mode == "local":
+        companies = [c for c in all_companies if c.get("local_only")]
     if args.only:
         wanted = set(args.only.split(","))
-        companies = [c for c in all_companies if c["id"] in wanted]
+        companies = [c for c in companies if c["id"] in wanted]
     by_id = {c["id"]: c for c in all_companies}
 
     DATA.mkdir(exist_ok=True)
