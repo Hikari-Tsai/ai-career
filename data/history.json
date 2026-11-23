@@ -11,5 +11,18 @@
 "output_tokens": 64386,
 "cost_usd": 5.5363
 }
+},
+{
+"date": "2026-11-24",
+"taiwan_jobs": 7704,
+"ai_jobs": 336,
+"new_ai_jobs": 0,
+"llm": {
+"calls": 0,
+"classified": 0,
+"input_tokens": 0,
+"output_tokens": 0,
+"cost_usd": 0
+}
 }
 ]
