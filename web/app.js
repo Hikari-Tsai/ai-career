@@ -164,7 +164,7 @@
         a.className = "ext-card";
         a.href = c.careers_url;
         a.target = "_blank";
-        a.rel = "noopener";
+        a.rel = "noopener noreferrer";
         const name = Object.assign(document.createElement("span"), { className: "ext-name", textContent: c.name_zh && c.name_zh !== c.name ? `${c.name_zh} ${c.name}` : c.name });
         const meta = Object.assign(document.createElement("span"), { className: "ext-meta", textContent: `${DATA.groups[c.group] || c.group} · ${c.reason}` });
         a.append(name, meta);
@@ -197,7 +197,7 @@
         .sort((a, b) => a.group.localeCompare(b.group) || (b.ai_jobs || 0) - (a.ai_jobs || 0))
         .map((c) => {
           const tr = document.createElement("tr");
-          const name = c.careers_url ? `<a href="${encodeURI(c.careers_url)}" target="_blank" rel="noopener"></a>` : "<span></span>";
+          const name = c.careers_url ? `<a href="${encodeURI(c.careers_url)}" target="_blank" rel="noopener noreferrer"></a>` : "<span></span>";
           tr.innerHTML = `<td>${name}</td><td></td><td class="num">${c.taiwan_jobs ?? "–"}</td><td class="num">${c.ai_jobs ?? 0}</td><td></td>`;
           tr.cells[0].firstChild.textContent = label(c.name, c.name_zh);
           tr.cells[1].textContent = DATA.groups[c.group] || c.group;
