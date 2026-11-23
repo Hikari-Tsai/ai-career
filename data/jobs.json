@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T15:56:53+00:00",
+ "generated_at": "2026-11-23T16:13:17+00:00",
  "llm_enabled": true,
  "llm_model": "claude-opus-5-5",
  "groups": {
@@ -493,7 +493,7 @@
    "name": "ASUS",
    "name_zh": "華碩",
    "group": "tw_electronics",
-   "careers_url": "https://recruit.asus.com/?Lang=en&Location=TW",
+   "careers_url": "https://recruit.asus.com/Jobs?Location=TW",
    "in_salary_survey": true,
    "ok": true,
    "taiwan_jobs": 637,
@@ -2104,14 +2104,14 @@
   "ai_jobs": 343
  },
  "llm_usage": {
-  "model": "claude-opus-5-5",
-  "calls": 61,
-  "classified": 61,
-  "input_tokens": 73727,
-  "output_tokens": 5103,
+  "model": null,
+  "calls": 0,
+  "classified": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
   "cache_read_input_tokens": 0,
   "cache_creation_input_tokens": 0,
-  "cost_usd": 0.397,
+  "cost_usd": 0.0,
   "pending": 0
  },
  "jobs": [
