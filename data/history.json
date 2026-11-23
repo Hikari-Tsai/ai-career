@@ -1,18 +1,5 @@
 [
 {
-"date": "2026-11-23",
-"taiwan_jobs": 6198,
-"ai_jobs": 343,
-"new_ai_jobs": 78,
-"llm": {
-"calls": 496,
-"classified": 494,
-"input_tokens": 1062136,
-"output_tokens": 64386,
-"cost_usd": 5.5363
-}
-},
-{
 "date": "2026-11-24",
 "taiwan_jobs": 7704,
 "ai_jobs": 336,
@@ -23,6 +10,19 @@
 "input_tokens": 0,
 "output_tokens": 0,
 "cost_usd": 0
+}
+},
+{
+"date": "2026-11-23",
+"taiwan_jobs": 7706,
+"ai_jobs": 336,
+"new_ai_jobs": 53,
+"llm": {
+"calls": 497,
+"classified": 495,
+"input_tokens": 1065043,
+"output_tokens": 64492,
+"cost_usd": 5.55
 }
 }
 ]

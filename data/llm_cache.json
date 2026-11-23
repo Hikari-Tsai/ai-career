@@ -1141,6 +1141,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"21eb446f3c6cad5c": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"SDLC/DevOps",
+"GitHub Enterprise",
+"AI 輔助開發工具",
+"DevSecOps",
+"CI/CD pipeline 整合",
+"產品策略規劃"
+],
+"summary_zh": "x",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "2259687a77e50fff": {
 "relevance": 88,
 "category": "ml",
