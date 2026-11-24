@@ -2,14 +2,17 @@
   "use strict";
   const PAGE = 60;
   const SENIORITY = { intern: "實習", junior: "初階", mid: "中階", senior: "資深", staff_plus: "Staff+", manager: "主管" };
+  // Date facet: [days, label]. "Within N days" counts the job's date (posted, else first collected) as day 0.
+  const DAY_OPTIONS = [[1, "今天"], [3, "3 天內"], [7, "7 天內"], [14, "14 天內"], [30, "30 天內"], [90, "90 天內"]];
   const CITY_ORDER = ["台北", "新北", "新竹", "桃園", "台中", "台南", "高雄", "台灣"];
   const $ = (s) => document.querySelector(s);
 
   let DATA = null;
   let shown = PAGE;
-  const state = { q: "", sort: "score", group: new Set(), category: new Set(), city: new Set(), seniority: new Set(), fresh: false, survey: false, company: "" };
+  const state = { q: "", sort: "score", group: new Set(), category: new Set(), city: new Set(), seniority: new Set(), days: 0, survey: false, company: "" };
 
   const daysAgo = (iso) => (iso ? (Date.now() - new Date(iso + "T00:00:00+08:00")) / 864e5 : Infinity);
+  const jobDate = (j) => (j.posted_at || j.first_seen || "").slice(0, 10) || null;
   const esc = (s) => String(s ?? "");
   const label = (en, zh) => (zh && zh !== en ? `${en} ${zh}` : en);
 
@@ -28,7 +31,7 @@
     state.q = p.get("q") || "";
     state.sort = p.get("sort") || "score";
     for (const k of ["group", "category", "city", "seniority"]) state[k] = new Set((p.get(k) || "").split(",").filter(Boolean));
-    state.fresh = p.get("new") === "1";
+    state.days = DAY_OPTIONS.some(([d]) => d === +p.get("days")) ? +p.get("days") : p.get("new") === "1" ? 7 : 0; // "new=1": old links
     state.survey = p.get("survey") === "1";
     state.company = p.get("company") || "";
   }
@@ -37,7 +40,7 @@
     if (state.q) p.set("q", state.q);
     if (state.sort !== "score") p.set("sort", state.sort);
     for (const k of ["group", "category", "city", "seniority"]) if (state[k].size) p.set(k, [...state[k]].join(","));
-    if (state.fresh) p.set("new", "1");
+    if (state.days) p.set("days", state.days);
     if (state.survey) p.set("survey", "1");
     if (state.company) p.set("company", state.company);
     history.replaceState(null, "", p.toString() ? "#" + p : location.pathname);
@@ -54,7 +57,7 @@
     if (skip !== "category" && state.category.size && !state.category.has(j.category)) return false;
     if (skip !== "city" && state.city.size && !state.city.has(j.city)) return false;
     if (skip !== "seniority" && state.seniority.size && !state.seniority.has(j.seniority)) return false;
-    if (state.fresh && daysAgo(j.first_seen) > 7) return false;
+    if (skip !== "days" && state.days && daysAgo(jobDate(j)) >= state.days) return false;
     if (state.survey && !surveyIds().has(j.company_id)) return false;
     if (state.company && j.company_id !== state.company) return false;
     return true;
@@ -72,6 +75,23 @@
         b.setAttribute("aria-pressed", state[key].has(k));
         b.innerHTML = `${esc(labels[k] || k)}<span class="n">${counts[k] || 0}</span>`;
         b.onclick = () => { state[key].has(k) ? state[key].delete(k) : state[key].add(k); shown = PAGE; update(); };
+        return b;
+      })
+    );
+  }
+
+  // Single-select, cumulative ranges; counts respect every other filter.
+  function renderDays() {
+    const ages = DATA.jobs.filter((j) => matches(j, "days")).map((j) => daysAgo(jobDate(j)));
+    const opts = [[0, "不限", ages.length], ...DAY_OPTIONS.map(([d, l]) => [d, l, ages.filter((a) => a < d).length])];
+    $("#f-days").replaceChildren(
+      ...opts.filter(([d, , n]) => n || d === 0 || d === state.days).map(([d, l, n]) => {
+        const b = document.createElement("button");
+        b.className = "chip";
+        b.type = "button";
+        b.setAttribute("aria-pressed", state.days === d);
+        b.innerHTML = `${l}<span class="n">${n}</span>`;
+        b.onclick = () => { state.days = d; shown = PAGE; update(); };
         return b;
       })
     );
@@ -129,6 +149,7 @@
     renderChips("group", $("#f-group"), DATA.groups);
     renderChips("category", $("#f-category"), DATA.categories);
     renderChips("city", $("#f-city"), Object.fromEntries(CITY_ORDER.map((c) => [c, c])), CITY_ORDER);
+    renderDays();
     if (DATA.llm_enabled) renderChips("seniority", $("#f-seniority"), SENIORITY);
     const list = sorted(DATA.jobs.filter((j) => matches(j)));
     $("#result-line").textContent = `共 ${list.length} 筆職缺`;
@@ -218,8 +239,6 @@
     q.addEventListener("input", () => { clearTimeout(t); t = setTimeout(() => { state.q = q.value.trim(); shown = PAGE; update(); }, 150); });
     $("#sort").value = state.sort;
     $("#sort").onchange = (e) => { state.sort = e.target.value; update(); };
-    $("#t-new").checked = state.fresh;
-    $("#t-new").onchange = (e) => { state.fresh = e.target.checked; shown = PAGE; update(); };
     $("#t-survey").checked = state.survey;
     $("#t-survey").onchange = (e) => { state.survey = e.target.checked; shown = PAGE; update(); };
     $("#f-company").value = state.company;
