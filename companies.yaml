@@ -201,7 +201,7 @@ companies:
   - {id: pegatron, name: Pegatron, name_zh: 和碩, group: tw_electronics, link_only: true, reason: job_board, careers_url: https://www.pegatroncorp.com/}
   - {id: inventec, name: Inventec, name_zh: 英業達, group: tw_electronics, link_only: true, reason: blocked, careers_url: https://career.inventec.com/tw}
   - {id: gigabyte, name: Gigabyte, name_zh: 技嘉, group: tw_electronics, link_only: true, reason: blocked, careers_url: https://www.gigabyte.com/tw/Careers}
-  - {id: msi, name: MSI, name_zh: 微星, group: tw_electronics, link_only: true, reason: blocked, careers_url: https://www.msi.com/careers}
+  - {id: msi, name: MSI, name_zh: 微星, group: tw_electronics, link_only: true, reason: job_board, careers_url: https://hr-recruit.msi.com/}  # since 2025-06 its recruiting site links to 104 for openings
   - {id: liteon, name: Lite-On, name_zh: 光寶, group: tw_electronics, link_only: true, reason: job_board, careers_url: https://www.liteon.com/zh-tw/hrjoin/join-us, in_salary_survey: true}
   - {id: meta, name: Meta, name_zh: Meta, group: global_tech, link_only: true, reason: no_api, careers_url: "https://www.metacareers.com/jobs?offices[0]=Taipei%2C%20Taiwan", tags: [faang]}
   # salary-survey companies whose official sites can't be crawled

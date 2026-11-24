@@ -4,3 +4,6 @@ _site/
 __pycache__/
 *.pyc
 .DS_Store
+
+# Career pages saved by hand from Chrome (scraper/import_saved.py reads them)
+imports/
