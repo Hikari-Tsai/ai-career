@@ -57,12 +57,12 @@ python3 -m http.server -d . 8000   # 開 http://localhost:8000/web/
 
 ## 收錄範圍
 
-`companies.yaml` 目前自動爬取 74 家公司，另有 34 家以官網直達卡片顯示（2026-11-23 驗證）：
+`companies.yaml` 目前自動爬取 75 個招募來源，另有 34 家以官網直達卡片顯示（2026-11-23 驗證）：
 
 | 類型 | 公司 |
 |---|---|
 | 台灣半導體 | 聯發科、聯電、瑞昱、新唐、華邦電、創意、世界先進 |
-| 台灣電子／系統／電信 | 鴻海、華碩、緯創、宏碁、研華、群暉、台灣大哥大、中華電信、遠傳 |
+| 台灣電子／系統／電信 | 鴻海、華碩（含機器人與 AI 中心 ARAIC 官網；同一職缺以 ARAIC 為主）、緯創、宏碁、研華、群暉、台灣大哥大、中華電信、遠傳 |
 | 台灣軟體／網路／金融 | 趨勢、Appier、KKCompany、SHOPLINE、Pinkoi、Gogolook、Dcard、玉山銀行 |
 | 國際科技大廠 | Google、Microsoft、Amazon、Apple、NVIDIA、Intel、AMD、Qualcomm、Micron、Broadcom、Marvell、Synopsys、Cadence、Arm、AMAT、ASML、Lam、KLA、IBM、Cisco、Dell、TI、HP、HPE、Supermicro、Logitech、NXP、Infineon、ADI、Keysight、Teradyne、Netflix |
 | 日美星外商在台 | LINE、Shopee、Renesas、Bosch、Zebra、Binance、Ubiquiti、Canonical、OKX、Agoda、Stripe、Crypto.com、Ericsson、Sony、TEL、foodpanda |

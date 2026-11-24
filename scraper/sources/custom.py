@@ -3,6 +3,7 @@
 manatal: {slug}        api.manatal.com career-page API (KKCompany)
 jazzhr:  {subdomain}   {subdomain}.applytojob.com HTML listing (SHOPLINE)
 esun:    {}            E.SUN Bank recruit.esunbank.com.tw JSON API
+wix_cms: {url}         Wix site whose job list is a CMS collection (ASUS Robotics & AI Center)
 """
 from __future__ import annotations
 
@@ -187,3 +188,63 @@ def yourator_detail(company: dict, job: Job) -> dict:
                 "posted_at": str(d.get("datePosted") or "")[:10],
             }
     return {}
+
+
+_WIX_WARMUP = re.compile(r'<script type="application/json" id="wix-warmup-data">(.*?)</script>', re.S)
+_WIX_NEXT = re.compile(r'href="([^"]*[?&]comp-[a-z0-9]+_page=(\d+))"')
+
+
+def _wix_text(node) -> str:
+    """Flatten a Wix Ricos rich-content tree to plain text, one block per line."""
+    if isinstance(node, dict):
+        own = (node.get("textData") or {}).get("text", "")
+        kids = " ".join(_wix_text(n) for n in node.get("nodes") or [])
+        sep = "\n" if node.get("type") in ("PARAGRAPH", "HEADING", "LIST_ITEM") else " "
+        return (own + kids).strip() + sep
+    return ""
+
+
+def wix_cms(company: dict):
+    """Server-rendered Wix pages embed the visible page of CMS items (title, location, created date,
+    rich-text description, item-page link) in wix-warmup-data; pagination links carry ?comp-xxx_page=N."""
+    import json as _json
+    from datetime import timedelta
+    from urllib.parse import urljoin
+
+    p = company["params"]
+    url, seen_pages, seen = p["url"], {1}, set()
+    while url:
+        page = get_text(url)
+        m = _WIX_WARMUP.search(page)
+        if not m:
+            raise ValueError("wix-warmup-data not found")
+        stores = _json.loads(m.group(1)).get("appsWarmupData", {}).get("dataBinding", {}).get("dataStore", {})
+        for collection, records in stores.get("recordsByCollectionId", {}).items():
+            if p.get("collection") and collection != p["collection"]:
+                continue
+            for item in records.values():
+                link = next((v for k, v in item.items() if k.startswith("link-") and isinstance(v, str)), "")
+                if not item.get("title") or not link or item["_id"] in seen:
+                    continue
+                seen.add(item["_id"])
+                created = (item.get("_createdDate") or {}).get("$date", "")
+                posted = ""
+                if created:  # stored in UTC; show the Taipei calendar date
+                    posted = (datetime.fromisoformat(created.replace("Z", "+00:00")) + timedelta(hours=8)).date().isoformat()
+                loc = item.get(p.get("location_field", "text")) or p.get("default_location", "")
+                yield Job(
+                    company_id=company["id"],
+                    source_id=item["_id"],
+                    title=item["title"].strip(),
+                    url=urljoin(url, link),
+                    location=f"{loc}, Taiwan" if loc and "taiwan" not in loc.lower() else loc,
+                    department=p.get("department", ""),
+                    posted_at=posted,
+                    description=_wix_text({"nodes": (item.get("richcontent") or {}).get("nodes", [])}).strip(),
+                )
+        nxt = sorted({(int(n), h) for h, n in _WIX_NEXT.findall(page) if int(n) not in seen_pages})
+        url = None
+        if nxt and len(seen_pages) < p.get("max_pages", 10):
+            n, href = nxt[0]
+            seen_pages.add(n)
+            url = urljoin(p["url"], href.replace("&amp;", "&"))

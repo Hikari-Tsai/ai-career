@@ -94,6 +94,41 @@ def _snippet(text: str, terms: list[str], width: int = 260) -> str:
     return ("…" if start else "") + text[start : start + width].strip()
 
 
+_REQ_CODE = re.compile(r"^[A-Z]{1,4}\d{3,}\s*")  # "RD20167 Senior ..." on recruit.asus.com
+_BRACKETS = re.compile(r"[(（][^)）]*[)）]")
+
+
+def _title_key(title: str) -> str:
+    t = _BRACKETS.sub("", _REQ_CODE.sub("", title.strip()))
+    return re.sub(r"[\W_]+", "", t.lower())
+
+
+def drop_superseded(jobs: list[dict], companies: list[dict], crawled: list[dict] = ()) -> list[dict]:
+    """An entry with `supersedes: {company, marker}` is the preferred copy of postings that the named company's
+    site also lists. A job of that company is dropped when its title matches one of the entry's titles (ignoring
+    requisition codes and bracketed unit tags) and its title, department or summary matches `marker`. Titles come
+    from the displayed jobs and from everything crawled this run, so the parent's copy also goes when the preferred
+    one is waiting for its LLM verdict."""
+    for c in companies:
+        sup = c.get("supersedes")
+        if not sup:
+            continue
+        keys = {_title_key(j["title"]) for j in (*jobs, *crawled) if j["company_id"] == c["id"]}
+        marker = re.compile(sup.get("marker") or ".", re.I)
+        before = len(jobs)
+        jobs = [
+            j for j in jobs
+            if not (
+                j["company_id"] == sup["company"]
+                and _title_key(j["title"]) in keys
+                and marker.search(" ".join((j["title"], j.get("department") or "", j.get("summary") or "", j.get("snippet") or "")))
+            )
+        ]
+        if before != len(jobs):
+            print(f"{c['id']}: dropped {before - len(jobs)} duplicate {sup['company']} listing(s)")
+    return jobs
+
+
 def crawl_company(company: dict, details: dict) -> tuple[list[Job], str | None]:
     fetch, detail = SOURCES[company["source"]]
     jobs: dict[str, Job] = {}
@@ -283,6 +318,7 @@ def main() -> int:
     if failed:  # carry over yesterday's listings for companies whose site failed today
         out += [j for j in previous.values() if j["uid"].split(":")[0] in failed]
     details = {k: v for k, v in details.items() if k in live or k.split(":")[0] in failed}
+    out = drop_superseded(out, all_companies, records)
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),

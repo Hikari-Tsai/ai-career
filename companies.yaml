@@ -143,6 +143,9 @@ companies:
   # ---------------------------------------------------------------- Taiwan electronics / systems / telecom
   - {id: foxconn, name: Hon Hai / Foxconn, name_zh: 鴻海, group: tw_electronics, careers_url: https://recruit.foxconn.com/isite-web-tw/main/jobsearch, source: foxconn, in_salary_survey: true}
   - {id: asus, name: ASUS, name_zh: 華碩, group: tw_electronics, careers_url: "https://recruit.asus.com/Jobs?Location=TW", source: talentsite, params: {host: recruit.asus.com, query: {Lang: en, Location: TW}}, in_salary_survey: true}
+  # ASUS Robotics & AI Center lists its openings on its own site; the same jobs also appear on recruit.asus.com
+  # with tags like "(AI應用)". `supersedes` keeps this site's copy and drops the matching ASUS one.
+  - {id: asus-araic, name: ASUS Robotics & AI Center, name_zh: 華碩機器人與 AI 中心, group: tw_electronics, careers_url: "https://www.araic.asus.com/job-openings", source: wix_cms, params: {url: "https://www.araic.asus.com/job-openings"}, supersedes: {company: asus, marker: "AI應用|Robotics|ARAIC|機器人|Autonomous"}, in_salary_survey: true}
   - {id: wistron, name: Wistron, name_zh: 緯創, group: tw_electronics, careers_url: https://jobs.wistron.com, source: wistron}
   - {id: acer, name: Acer, name_zh: 宏碁, group: tw_electronics, careers_url: https://careers.acer.com, source: successfactors, params: {host: careers.acer.com}}
   - {id: advantech, name: Advantech, name_zh: 研華, group: tw_electronics, careers_url: https://www.advantech.com/en/careers, source: workday, params: {host: advantech.wd3.myworkdayjobs.com, tenant: advantech, site: External}, local_only: true}

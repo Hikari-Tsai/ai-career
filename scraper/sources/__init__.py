@@ -27,6 +27,7 @@ SOURCES = {
     "manatal": (custom.manatal, None),
     "jazzhr": (custom.jazzhr, custom.jazzhr_detail),
     "esun": (custom.esun, None),
+    "wix_cms": (custom.wix_cms, None),
     "yourator": (custom.yourator, custom.yourator_detail),
     "sea": (custom.sea, None),
     "line": (custom.line, custom.line_detail),
