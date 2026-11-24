@@ -753,6 +753,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"1521f55f182646e6": {
+"relevance": 5,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"Order Fulfillment",
+"ODM客戶管理",
+"Supply Chain",
+"Forecast",
+"Shipment Plan",
+"Order Backlog"
+],
+"summary_zh": "負責AI伺服器ODM專案訂單接單、交期管理與跨部門出貨協調",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "154726c14100dd56": {
 "relevance": 80,
 "category": "ml",
@@ -2501,6 +2517,21 @@
 "EDA"
 ],
 "summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"443e6984a1b46d59": {
+"relevance": 3,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"AVAP 客供料管理",
+"庫存管理",
+"序號管理",
+"帳務核對",
+"採購協調"
+],
+"summary_zh": "負責AI伺服器ODM專案客供料的進料、庫存、帳務與不良處理協調管理",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
