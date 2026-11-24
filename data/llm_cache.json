@@ -2883,6 +2883,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"4e8497400657e558": {
+"relevance": 92,
+"category": "cv_nlp",
+"seniority": "mid",
+"skills": [
+"PyTorch",
+"JAX",
+"OpenCV",
+"object detection",
+"segmentation",
+"MLOps"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "4e984d958bba4d36": {
 "relevance": 75,
 "category": "ml",
@@ -3521,6 +3537,22 @@
 "QC 8 大分析手法"
 ],
 "summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"631f705657c50068": {
+"relevance": 85,
+"category": "ml",
+"seniority": "senior",
+"skills": [
+"TensorFlow",
+"PyTorch",
+"CNN",
+"RNN",
+"graph NN",
+"Python"
+],
+"summary_zh": "運用統計與深度學習模型分析資料、快速實驗並建構資料基礎設施",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -4319,6 +4351,22 @@
 "embedded Linux"
 ],
 "summary_zh": "開發NVIDIA伺服器BMC/BIOS監控韌體，涉及Redfish等標準與單元測試",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"769468c4c7e96f42": {
+"relevance": 92,
+"category": "cv_nlp",
+"seniority": "senior",
+"skills": [
+"PyTorch",
+"JAX",
+"computer vision",
+"3D reconstruction",
+"MLOps",
+"OpenCV"
+],
+"summary_zh": "主導自主平台的電腦視覺與3D感知模型開發、部署與效能維運",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },

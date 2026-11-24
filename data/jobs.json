@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T01:10:17+00:00",
+ "generated_at": "2026-11-24T01:23:47+00:00",
  "llm_enabled": true,
  "llm_model": "claude-opus-5-5",
  "groups": {
@@ -256,7 +256,7 @@
    "careers_url": "https://www.binance.com/en/careers",
    "in_salary_survey": false,
    "ok": true,
-   "taiwan_jobs": 79,
+   "taiwan_jobs": 78,
    "error": null,
    "ai_jobs": 14
   },
@@ -498,7 +498,19 @@
    "ok": true,
    "taiwan_jobs": 637,
    "error": null,
-   "ai_jobs": 47
+   "ai_jobs": 44
+  },
+  {
+   "id": "asus-araic",
+   "name": "ASUS Robotics & AI Center",
+   "name_zh": "華碩機器人與 AI 中心",
+   "group": "tw_electronics",
+   "careers_url": "https://www.araic.asus.com/job-openings",
+   "in_salary_survey": true,
+   "ok": true,
+   "taiwan_jobs": 14,
+   "error": null,
+   "ai_jobs": 3
   },
   {
    "id": "wistron",
@@ -592,7 +604,7 @@
    "careers_url": "https://apply.careers.microsoft.com/careers",
    "in_salary_survey": true,
    "ok": true,
-   "taiwan_jobs": 23,
+   "taiwan_jobs": 24,
    "error": null,
    "ai_jobs": 1
   },
@@ -748,7 +760,7 @@
    "careers_url": "https://careers.lamresearch.com/careers",
    "in_salary_survey": false,
    "ok": true,
-   "taiwan_jobs": 284,
+   "taiwan_jobs": 283,
    "error": null,
    "ai_jobs": 0
   },
@@ -2100,18 +2112,18 @@
   }
  ],
  "stats": {
-  "taiwan_jobs_scanned": 7704,
+  "taiwan_jobs_scanned": 7717,
   "ai_jobs": 345
  },
  "llm_usage": {
   "model": "claude-opus-5-5",
-  "calls": 1,
-  "classified": 1,
-  "input_tokens": 1320,
-  "output_tokens": 145,
+  "calls": 3,
+  "classified": 3,
+  "input_tokens": 6427,
+  "output_tokens": 283,
   "cache_read_input_tokens": 0,
   "cache_creation_input_tokens": 0,
-  "cost_usd": 0.0082,
+  "cost_usd": 0.0314,
   "pending": 0
  },
  "jobs": [
@@ -2276,46 +2288,6 @@
    "llm": true
   },
   {
-   "uid": "asus:0dcad355-3cb7-465a-b52b-e4e275fecd30",
-   "company_id": "asus",
-   "company": "ASUS",
-   "company_zh": "華碩",
-   "group": "tw_electronics",
-   "via": "",
-   "title": "Senior Machine Learning Engineer (AI應用)",
-   "url": "https://recruit.asus.com/Jobs/Detail?sn=0dcad355-3cb7-465a-b52b-e4e275fecd30",
-   "location": "臺灣 / 臺北",
-   "city": "台北",
-   "department": "研究發展/ SW/ 軟體設計(通才/跨領域)",
-   "posted_at": "",
-   "first_seen": "2000-01-01",
-   "score": 94.8,
-   "rule_score": 100.0,
-   "category": "cv_nlp",
-   "matched": [
-    "AI",
-    "AI應用",
-    "computer vision",
-    "CUDA",
-    "Machine Learning",
-    "ML",
-    "MLOps",
-    "model training"
-   ],
-   "seniority": "senior",
-   "skills": [
-    "PyTorch",
-    "JAX",
-    "VLMs",
-    "ViTs",
-    "OpenCV",
-    "CUDA"
-   ],
-   "summary": "主導機器人自主平台的電腦視覺與感知模型開發，並優化於邊緣裝置即時運行",
-   "snippet": "工作說明 Description The ASUS Robotics & AI Center is seeking a Senior Machine Learning Engineer to join our global research and development team. This role centers on leading the design and delivery of advanced computer vision and perception systems for our next-",
-   "llm": true
-  },
-  {
    "uid": "binance:5009522101",
    "company_id": "binance",
    "company": "Binance",
@@ -2433,46 +2405,6 @@
    ],
    "summary": "以模擬合成資料訓練與微調機器人具身智能多模態基礎模型並部署",
    "snippet": "…依據NVIDIA Isaac Lab / MuJoCo建構高擬真物理模擬場景，設計自動化任務流程以生成大規模多模態合成資料(Synthetic Data)，並運用Domain Randomization技術提升模型泛化能力 2. 負責具身智能基礎模型(Foundation Models)訓練、微調 (Fine-tuning) 與評估，包含：實作模仿學習或強化學習演算法，使機器人具備指令理解與任務規劃能力 3. 進行模型部署測試，包括推論時間、穩定性、平台適配(邊緣或雲) 4. 設計機器人軟體系統架構，串接上層 A",
-   "llm": true
-  },
-  {
-   "uid": "asus:4b8f508c-95be-49d7-a6bc-a66e5553bc69",
-   "company_id": "asus",
-   "company": "ASUS",
-   "company_zh": "華碩",
-   "group": "tw_electronics",
-   "via": "",
-   "title": "Machine Learning Engineer (AI應用)",
-   "url": "https://recruit.asus.com/Jobs/Detail?sn=4b8f508c-95be-49d7-a6bc-a66e5553bc69",
-   "location": "臺灣 / 臺北",
-   "city": "台北",
-   "department": "研究發展/ SW/ 軟體設計(通才/跨領域)",
-   "posted_at": "",
-   "first_seen": "2000-01-01",
-   "score": 94.0,
-   "rule_score": 100.0,
-   "category": "cv_nlp",
-   "matched": [
-    "AI",
-    "AI應用",
-    "computer vision",
-    "CUDA",
-    "Machine Learning",
-    "ML",
-    "MLOps",
-    "model training"
-   ],
-   "seniority": "senior",
-   "skills": [
-    "PyTorch",
-    "JAX",
-    "Python",
-    "OpenCV",
-    "CUDA",
-    "object detection"
-   ],
-   "summary": "為機器人自主平台開發並部署電腦視覺與感知模型，優化邊緣即時推論",
-   "snippet": "工作說明 Description The ASUS Robotics & AI Center is seeking a Machine Learning Engineer to join our global research and development team. This role focuses on designing, implementing, and optimizing computer vision and perception systems that power our next-gene",
    "llm": true
   },
   {
@@ -2949,6 +2881,86 @@
    ],
    "summary": "為半導體測試與產品工程開發ML模型、LLM代理與RAG應用並部署上線",
    "snippet": "…re Engineering General Summary: Job Overview: Are you passionate about applying Machine Learning and Generative AI to solve complex real-world engineering problems? Join Qualcomm's PDTE (Product Development and Test Engineering) Machine Learning Team and help",
+   "llm": true
+  },
+  {
+   "uid": "asus-araic:4de46bf2-ce54-4048-905a-eecfda979a51",
+   "company_id": "asus-araic",
+   "company": "ASUS Robotics & AI Center",
+   "company_zh": "華碩機器人與 AI 中心",
+   "group": "tw_electronics",
+   "via": "",
+   "title": "Machine Learning Engineer",
+   "url": "https://www.araic.asus.com/job/machine-learning-engineer",
+   "location": "Taipei City, Taiwan",
+   "city": "台北",
+   "department": "",
+   "posted_at": "2025-08-25",
+   "first_seen": "2025-08-25",
+   "score": 90.8,
+   "rule_score": 87.0,
+   "category": "cv_nlp",
+   "matched": [
+    "AI",
+    "computer vision",
+    "CUDA",
+    "Machine Learning",
+    "ML",
+    "MLOps",
+    "model training",
+    "object detection"
+   ],
+   "seniority": "mid",
+   "skills": [
+    "PyTorch",
+    "JAX",
+    "OpenCV",
+    "object detection",
+    "segmentation",
+    "MLOps"
+   ],
+   "summary": "",
+   "snippet": "The ASUS Robotics & AI Center is seeking a Machine Learning Engineer to join our global research and development team. This is an applied engineering role, not a research position. It focuses on building, deploying, and maintaining computer vision models that",
+   "llm": true
+  },
+  {
+   "uid": "asus-araic:a7e764c6-6321-4db0-b027-6d5c21d29713",
+   "company_id": "asus-araic",
+   "company": "ASUS Robotics & AI Center",
+   "company_zh": "華碩機器人與 AI 中心",
+   "group": "tw_electronics",
+   "via": "",
+   "title": "Senior Machine Learning Engineer",
+   "url": "https://www.araic.asus.com/job/senior-machine-learning-engineer",
+   "location": "Taipei City, Taiwan",
+   "city": "台北",
+   "department": "",
+   "posted_at": "2026-03-05",
+   "first_seen": "2026-03-05",
+   "score": 90.8,
+   "rule_score": 87.0,
+   "category": "cv_nlp",
+   "matched": [
+    "AI",
+    "computer vision",
+    "CUDA",
+    "Machine Learning",
+    "ML",
+    "MLOps",
+    "model training",
+    "perception"
+   ],
+   "seniority": "senior",
+   "skills": [
+    "PyTorch",
+    "JAX",
+    "computer vision",
+    "3D reconstruction",
+    "MLOps",
+    "OpenCV"
+   ],
+   "summary": "主導自主平台的電腦視覺與3D感知模型開發、部署與效能維運",
+   "snippet": "The ASUS Robotics & AI Center is seeking a Senior Machine Learning Engineer to join our global research and development team. This is an applied engineering role, not a research position. It centers on leading the design, delivery, and long-term performance of",
    "llm": true
   },
   {
@@ -4757,6 +4769,41 @@
    ],
    "summary": "研發機器學習與深度學習模型，進行特徵工程並部署AI系統於平台",
    "snippet": "工作說明 1. 研究AI模型、機器學習及深度學習模型概念與技術，並運用於專案研發與分析預測。 2. 清整數據並進行特徵工程以優化AI模型效能。 3. 將開發完成的AI/ML系統部署至特定平台以實現內部或外部使用者需求。 4. 清楚闡述專案核心概念與關鍵技術。 需求條件 擅長工具：Linux,Github,Python,MySQL 1. 善於理解、表達與溝通 2. 具備自學與研發能力 3. 具備 transformer、ML/DL、statistical model 開發經驗 4. 具備統整資訊與資料視覺化能力 ‌",
+   "llm": true
+  },
+  {
+   "uid": "asus-araic:f4a4d120-8e17-4e42-b9af-44c22ed3f00b",
+   "company_id": "asus-araic",
+   "company": "ASUS Robotics & AI Center",
+   "company_zh": "華碩機器人與 AI 中心",
+   "group": "tw_electronics",
+   "via": "",
+   "title": "Senior Machine Learning Scientist",
+   "url": "https://www.araic.asus.com/job/senior-machine-learning-scientist",
+   "location": "Taipei City, Taiwan",
+   "city": "台北",
+   "department": "",
+   "posted_at": "2023-07-27",
+   "first_seen": "2023-07-27",
+   "score": 78.8,
+   "rule_score": 60.0,
+   "category": "ml",
+   "matched": [
+    "data scien",
+    "Machine Learning",
+    "TensorFlow"
+   ],
+   "seniority": "senior",
+   "skills": [
+    "TensorFlow",
+    "PyTorch",
+    "CNN",
+    "RNN",
+    "graph NN",
+    "Python"
+   ],
+   "summary": "運用統計與深度學習模型分析資料、快速實驗並建構資料基礎設施",
+   "snippet": "…her stakeholders to gain new insights from data by employing statistical and/or machine learning models.\n Employ fast experimentation, iterations, and exploratory data analysis to reduce time to market.\n Work with data-infrastructure engineers to build up top-",
    "llm": true
   },
   {
@@ -10472,40 +10519,6 @@
    ],
    "summary": "維護優化DRAM EDA設計流程，並導入LLM加速腳本撰寫與錯誤日誌分析",
    "snippet": "…CAD 工作經驗：具備 5 年以上 EDA/CAD 相關工作經驗，熟悉 Cadence/Synopsys/Siemens 工具鏈。 2. 程式開發：精通 Tcl 腳本與 Linux 環境操作。 3. AI 應用意願：具備強烈的學習意願，願意接觸並學習 LLM 提示工程 (Prompt Engineering) 或簡單的 AI 模型應用。 4. 具備豐富的專案解決經驗，能獨立處理複雜的設計環境問題，並展現對新技術（AI/ML）的高度好奇心。",
-   "llm": true
-  },
-  {
-   "uid": "asus:e6d24d80-3c95-4ea3-a1a6-386fbda38a7e",
-   "company_id": "asus",
-   "company": "ASUS",
-   "company_zh": "華碩",
-   "group": "tw_electronics",
-   "via": "",
-   "title": "Engineering Manager - Autonomous Systems(AI應用)",
-   "url": "https://recruit.asus.com/Jobs/Detail?sn=e6d24d80-3c95-4ea3-a1a6-386fbda38a7e",
-   "location": "臺灣 / 臺北",
-   "city": "台北",
-   "department": "研究發展/ SW/ 軟體設計",
-   "posted_at": "",
-   "first_seen": "2000-01-01",
-   "score": 43.9,
-   "rule_score": 40.5,
-   "category": "ai_adjacent",
-   "matched": [
-    "AI",
-    "AI應用"
-   ],
-   "seniority": "manager",
-   "skills": [
-    "Python",
-    "C++",
-    "Go",
-    "real-time systems",
-    "embedded systems",
-    "microservices"
-   ],
-   "summary": "帶領軟體團隊開發自主系統平台，兼顧架構設計與工程管理",
-   "snippet": "工作說明 Description The ASUS Robotics & AI Center is seeking an Engineering Manager to lead our autonomous systems development team. This role combines technical leadership with hands-on engineering contributions, driving the design and implementation of sophisti",
    "llm": true
   },
   {
