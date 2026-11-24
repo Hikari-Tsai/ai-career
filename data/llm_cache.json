@@ -1050,6 +1050,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"1bf6d2db48d02d93": {
+"relevance": 72,
+"category": "llm_genai",
+"seniority": "senior",
+"skills": [
+"LLM applications",
+"agent orchestration",
+"RAG",
+"prompt injection defense",
+"AI red-teaming",
+"Python"
+],
+"summary_zh": "為LLM應用與AI代理建構安全防護，並開發AI驅動的資安自動化工具",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "1c58bb797e11d59e": {
 "relevance": 80,
 "category": "ml",
@@ -1430,6 +1446,22 @@
 "messaging middleware"
 ],
 "summary_zh": "為幣安KYC合規平台開發高吞吐分散式Java後端服務",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"2447d749fb06d957": {
+"relevance": 12,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"Linux",
+"Shell Script",
+"Python",
+"CI/CD",
+"GCP/AWS",
+"Docker/Kubernetes"
+],
+"summary_zh": "負責Linux應用系統維運、監控告警、CI/CD自動化與雲端服務管理",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -2984,6 +3016,22 @@
 "PRD 撰寫"
 ],
 "summary_zh": "華碩全球服務部AI專案經理，評估導入AI工具並推動內部流程數位轉型",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"5020a93f91b6054e": {
+"relevance": 38,
+"category": "ai_adjacent",
+"seniority": "junior",
+"skills": [
+"SQL",
+"Python",
+"Tableau",
+"BigQuery",
+"Copilot Studio",
+"AWS/GCP/Azure"
+],
+"summary_zh": "規劃銀行財管AI理財服務、導入AI工具並進行業務數據分析與儀表板設計",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -5200,6 +5248,22 @@
 "Kafka/Spark"
 ],
 "summary_zh": "x",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"895fddafac6c4a90": {
+"relevance": 72,
+"category": "llm_genai",
+"seniority": "junior",
+"skills": [
+"Python",
+"LLM／AI Agent",
+"MCP",
+"Tool Calling",
+"CI/CD",
+"Git"
+],
+"summary_zh": "為半導體研發流程建置AI Agent與自動化工作流，整合MCP工具與CI/CD提升研發生產力",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },

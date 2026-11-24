@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T05:43:00+00:00",
+ "generated_at": "2026-11-24T07:38:34+00:00",
  "llm_enabled": true,
  "llm_model": "claude-opus-5-5",
  "groups": {
@@ -46,7 +46,7 @@
     "faang"
    ],
    "ok": true,
-   "taiwan_jobs": 56,
+   "taiwan_jobs": 57,
    "error": null,
    "ai_jobs": 5
   },
@@ -163,7 +163,7 @@
    "in_salary_survey": true,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 184,
+   "taiwan_jobs": 185,
    "error": null,
    "ai_jobs": 12
   },
@@ -490,9 +490,9 @@
    "in_salary_survey": false,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 187,
+   "taiwan_jobs": 188,
    "error": null,
-   "ai_jobs": 10
+   "ai_jobs": 11
   },
   {
    "id": "guc",
@@ -542,7 +542,7 @@
    "in_salary_survey": true,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 638,
+   "taiwan_jobs": 639,
    "error": null,
    "ai_jobs": 44
   },
@@ -568,7 +568,7 @@
    "in_salary_survey": false,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 540,
+   "taiwan_jobs": 547,
    "error": null,
    "ai_jobs": 12
   },
@@ -830,7 +830,7 @@
    "in_salary_survey": false,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 285,
+   "taiwan_jobs": 281,
    "error": null,
    "ai_jobs": 0
   },
@@ -960,7 +960,7 @@
    "in_salary_survey": false,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 25,
+   "taiwan_jobs": 24,
    "error": null,
    "ai_jobs": 0
   },
@@ -2023,8 +2023,8 @@
    "name": "MSI",
    "name_zh": "微星",
    "group": "tw_electronics",
-   "careers_url": "https://www.msi.com/careers",
-   "reason": "官網阻擋自動化存取",
+   "careers_url": "https://hr-recruit.msi.com/",
+   "reason": "官網職缺刊登於求職平台",
    "in_salary_survey": false,
    "tags": []
   },
@@ -2232,18 +2232,18 @@
   }
  ],
  "stats": {
-  "taiwan_jobs_scanned": 7724,
-  "ai_jobs": 345
+  "taiwan_jobs_scanned": 7730,
+  "ai_jobs": 346
  },
  "llm_usage": {
   "model": "claude-opus-5-5",
-  "calls": 2,
-  "classified": 2,
-  "input_tokens": 6559,
-  "output_tokens": 231,
+  "calls": 4,
+  "classified": 4,
+  "input_tokens": 8920,
+  "output_tokens": 465,
   "cache_read_input_tokens": 0,
   "cache_creation_input_tokens": 0,
-  "cost_usd": 0.0309,
+  "cost_usd": 0.045,
   "pending": 0
  },
  "jobs": [
@@ -2328,46 +2328,6 @@
    "llm": true
   },
   {
-   "uid": "qualcomm:3093854",
-   "company_id": "qualcomm",
-   "company": "Qualcomm",
-   "company_zh": "高通",
-   "group": "global_tech",
-   "via": "",
-   "title": "Senior AI Engineer – Depth Estimation and Dense Scene Understanding",
-   "url": "https://careers.qualcomm.com/careers/job/446719672552",
-   "location": "Hsinchu City, Taiwan",
-   "city": "新竹",
-   "department": "Machine Learning Engineering",
-   "posted_at": "2026-11-09",
-   "first_seen": "2026-11-09",
-   "score": 96.2,
-   "rule_score": 100.0,
-   "category": "cv_nlp",
-   "matched": [
-    "AI",
-    "AI Engineer",
-    "AI model",
-    "computer vision",
-    "foundation models",
-    "Machine Learning",
-    "neural network",
-    "perception"
-   ],
-   "seniority": "senior",
-   "skills": [
-    "monocular depth estimation",
-    "optical flow",
-    "Video Transformers",
-    "semantic segmentation",
-    "3D perception",
-    "edge AI deployment"
-   ],
-   "summary": "研發影像與影片深度估計及密集場景理解模型，並優化部署於邊緣裝置",
-   "snippet": "…Qualcomm Semiconductor Limited Job Area: Engineering Group, Engineering Group > Machine Learning Engineering General Summary: We are seeking a highly motivated Senior AI Engineer to develop next-generation AI models for depth estimation and dense scene underst",
-   "llm": true
-  },
-  {
    "uid": "qualcomm:3097327",
    "company_id": "qualcomm",
    "company": "Qualcomm",
@@ -2405,6 +2365,46 @@
    ],
    "summary": "主導LLM/VLM/擴散模型在高通推論加速器上的模型轉換、核心融合與推論效能最佳化",
    "snippet": "…Qualcomm Semiconductor Limited Job Area: Engineering Group, Engineering Group > Machine Learning Engineering General Summary: Qualcomm is leveraging its strengths in compute, connectivity, and AI acceleration to play a central role in the evolution of Cloud AI",
+   "llm": true
+  },
+  {
+   "uid": "qualcomm:3093854",
+   "company_id": "qualcomm",
+   "company": "Qualcomm",
+   "company_zh": "高通",
+   "group": "global_tech",
+   "via": "",
+   "title": "Senior AI Engineer – Depth Estimation and Dense Scene Understanding",
+   "url": "https://careers.qualcomm.com/careers/job/446719672552",
+   "location": "Hsinchu City, Taiwan",
+   "city": "新竹",
+   "department": "Machine Learning Engineering",
+   "posted_at": "2026-11-09",
+   "first_seen": "2026-11-09",
+   "score": 96.2,
+   "rule_score": 100.0,
+   "category": "cv_nlp",
+   "matched": [
+    "AI",
+    "AI Engineer",
+    "AI model",
+    "computer vision",
+    "foundation models",
+    "Machine Learning",
+    "neural network",
+    "perception"
+   ],
+   "seniority": "senior",
+   "skills": [
+    "monocular depth estimation",
+    "optical flow",
+    "Video Transformers",
+    "semantic segmentation",
+    "3D perception",
+    "edge AI deployment"
+   ],
+   "summary": "研發影像與影片深度估計及密集場景理解模型，並優化部署於邊緣裝置",
+   "snippet": "…Qualcomm Semiconductor Limited Job Area: Engineering Group, Engineering Group > Machine Learning Engineering General Summary: We are seeking a highly motivated Senior AI Engineer to develop next-generation AI models for depth estimation and dense scene underst",
    "llm": true
   },
   {
@@ -2688,6 +2688,44 @@
    "llm": true
   },
   {
+   "uid": "qualcomm:3078912",
+   "company_id": "qualcomm",
+   "company": "Qualcomm",
+   "company_zh": "高通",
+   "group": "global_tech",
+   "via": "",
+   "title": "Artificial Intelligence for Video Compression - Research Scientist",
+   "url": "https://careers.qualcomm.com/careers/job/446707518930",
+   "location": "San Diego, California, United States of America / Hsinchu City, Taiwan / Munich, Germany",
+   "city": "新竹",
+   "department": "Machine Learning Engineering",
+   "posted_at": "2026-10-27",
+   "first_seen": "2026-10-27",
+   "score": 92.5,
+   "rule_score": 100.0,
+   "category": "cv_nlp",
+   "matched": [
+    "AI",
+    "computer vision",
+    "generative AI",
+    "Machine Learning",
+    "PyTorch",
+    "Research Scientist"
+   ],
+   "seniority": "senior",
+   "skills": [
+    "neural video coding",
+    "entropy modeling",
+    "rate-distortion optimization",
+    "PyTorch",
+    "Python",
+    "C/C++"
+   ],
+   "summary": "研發基於深度學習的神經影像壓縮演算法，並參與JVET/MPEG等標準制定",
+   "snippet": "…y: Qualcomm Technologies, Inc. Job Area: Engineering Group, Engineering Group > Machine Learning Engineering General Summary: Qualcomm's Multimedia R&D and Standards Group is seeking a candidate for the position of Video Compression Research Engineer with a fo",
+   "llm": true
+  },
+  {
    "uid": "qualcomm:3096076",
    "company_id": "qualcomm",
    "company": "Qualcomm",
@@ -2725,44 +2763,6 @@
    ],
    "summary": "開發LiteRT與QNN推論執行環境，於高通NPU上部署並優化LLM模型",
    "snippet": "…Qualcomm Semiconductor Limited Job Area: Engineering Group, Engineering Group > Machine Learning Engineering General Summary: About the Team and What You Will Build Our team maintains the software that runs AI and LLM models on Qualcomm's NPU, working hand in",
-   "llm": true
-  },
-  {
-   "uid": "qualcomm:3078912",
-   "company_id": "qualcomm",
-   "company": "Qualcomm",
-   "company_zh": "高通",
-   "group": "global_tech",
-   "via": "",
-   "title": "Artificial Intelligence for Video Compression - Research Scientist",
-   "url": "https://careers.qualcomm.com/careers/job/446707518930",
-   "location": "San Diego, California, United States of America / Hsinchu City, Taiwan / Munich, Germany",
-   "city": "新竹",
-   "department": "Machine Learning Engineering",
-   "posted_at": "2026-10-27",
-   "first_seen": "2026-10-27",
-   "score": 92.5,
-   "rule_score": 100.0,
-   "category": "cv_nlp",
-   "matched": [
-    "AI",
-    "computer vision",
-    "generative AI",
-    "Machine Learning",
-    "PyTorch",
-    "Research Scientist"
-   ],
-   "seniority": "senior",
-   "skills": [
-    "neural video coding",
-    "entropy modeling",
-    "rate-distortion optimization",
-    "PyTorch",
-    "Python",
-    "C/C++"
-   ],
-   "summary": "研發基於深度學習的神經影像壓縮演算法，並參與JVET/MPEG等標準制定",
-   "snippet": "…y: Qualcomm Technologies, Inc. Job Area: Engineering Group, Engineering Group > Machine Learning Engineering General Summary: Qualcomm's Multimedia R&D and Standards Group is seeking a candidate for the position of Video Compression Research Engineer with a fo",
    "llm": true
   },
   {
@@ -4332,6 +4332,44 @@
    "llm": true
   },
   {
+   "uid": "winbond:1360220366",
+   "company_id": "winbond",
+   "company": "Winbond",
+   "company_zh": "華邦電",
+   "group": "tw_semi",
+   "via": "",
+   "title": "(竹北) CAD AI Engineer",
+   "url": "https://careers.winbond.com/job/%E6%96%B0%E7%AB%B9%EF%BC%8C%E5%8F%B0%E7%81%A3-%28%E7%AB%B9%E5%8C%97%29-CAD-AI-Engineer/1360220366/",
+   "location": "新竹，台灣, TW",
+   "city": "新竹",
+   "department": "",
+   "posted_at": "2026-11-10",
+   "first_seen": "2026-11-24",
+   "score": 82.9,
+   "rule_score": 76.5,
+   "category": "llm_genai",
+   "matched": [
+    "AI",
+    "AI Engineer",
+    "LangChain",
+    "LLM",
+    "PyTorch",
+    "RAG"
+   ],
+   "seniority": "mid",
+   "skills": [
+    "Python",
+    "LLM / RAG",
+    "LangChain / LlamaIndex",
+    "FAISS / Milvus",
+    "vLLM / Ollama",
+    "API / backend"
+   ],
+   "summary": "為CAD/EDA工程流程建置RAG架構與LLM內部工具，如知識與除錯助理",
+   "snippet": "作為華邦的(竹北) CAD AI Engineer ， 【工作內容】 1. 建立 RAG 架構（文件 / Jira / log / engineering data） 2. 開發內部 AI 工具（knowledge assistant / debug assistant / automation） 3. 整合 LLM（如 Gemma、LLaMA）至工程 workflow 4. 設計資料處理流程（text / log / 文件） 5. 建立 API 並整合至內部系統（EDA / flow / 工具） 工作地點：竹北辦",
+   "llm": true
+  },
+  {
    "uid": "esun:268",
    "company_id": "esun",
    "company": "E.SUN Bank",
@@ -5073,44 +5111,6 @@
    ],
    "summary": "為幣安內容生態設計並開發搜尋與推薦模型及服務，提升內容分發效率",
    "snippet": "…Responsibilities Design and manage search recommendation services and models to support the content team, empowering content ecosystem development. Utilize machine learning-based personalization methods, design patterns, and tools to enhance content matching",
-   "llm": true
-  },
-  {
-   "uid": "winbond:1366774466",
-   "company_id": "winbond",
-   "company": "Winbond",
-   "company_zh": "華邦電",
-   "group": "tw_semi",
-   "via": "",
-   "title": "(竹北) AI Solutions Engineer-EDA & Infrastructure",
-   "url": "https://careers.winbond.com/job/%E6%96%B0%E7%AB%B9%EF%BC%8C%E5%8F%B0%E7%81%A3-%28%E7%AB%B9%E5%8C%97%29-AI-Solutions-Engineer-EDA-&amp;-Infrastructure/1366774466/",
-   "location": "新竹，台灣, TW",
-   "city": "新竹",
-   "department": "",
-   "posted_at": "2026-10-30",
-   "first_seen": "2026-10-30",
-   "score": 77.6,
-   "rule_score": 55.5,
-   "category": "llm_genai",
-   "matched": [
-    "AI",
-    "AI 模型",
-    "Fine-tun",
-    "LLM",
-    "RAG",
-    "量化"
-   ],
-   "seniority": "junior",
-   "skills": [
-    "Python",
-    "Linux Shell Scripting",
-    "RAG",
-    "Open Source LLM 部署",
-    "SFT / LoRA",
-    "vLLM / Ollama / TensorRT-LLM"
-   ],
-   "summary": "",
-   "snippet": "…具備實際專案經驗 ( GitHub / Side project / System tool ) 5. 能完成 end-to-end 系統 ( 從 Server Log/資料 → 地端 AI 模型/RAG → 自動化工具 ) [加分條件] 1. 離線/內網環境 LLM 訓練與微調經驗：具備在無外網環境下進行 Open Source LLM (如 LLaMA, Gemma, Qwen) 結合 RAG 之 Training / SFT / LoRA 實務經驗 2. 伺服器與維運工具經驗：熟悉 Linux 伺服器管理、",
    "llm": true
   },
   {
@@ -6739,6 +6739,44 @@
    "llm": true
   },
   {
+   "uid": "binance:5030531101",
+   "company_id": "binance",
+   "company": "Binance",
+   "company_zh": "幣安",
+   "group": "foreign_branch",
+   "via": "",
+   "title": "AI Security Engineer (APAC Remote)",
+   "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5030531101",
+   "location": "Hong Kong; Singapore; Taiwan",
+   "city": "台灣",
+   "department": "Security",
+   "posted_at": "2026-11-24",
+   "first_seen": "2026-11-24",
+   "score": 67.9,
+   "rule_score": 55.5,
+   "category": "llm_genai",
+   "matched": [
+    "AI",
+    "AI Agent",
+    "AI Engineer",
+    "AI systems",
+    "LLM",
+    "model serving"
+   ],
+   "seniority": "senior",
+   "skills": [
+    "LLM applications",
+    "agent orchestration",
+    "RAG",
+    "prompt injection defense",
+    "AI red-teaming",
+    "Python"
+   ],
+   "summary": "為LLM應用與AI代理建構安全防護，並開發AI驅動的資安自動化工具",
+   "snippet": "…You will work closely with Security Engineering, AI Engineering, Infrastructure, and Platform teams to deliver AI-native security capabilities and defend AI systems in production. What You'll Do AI Agent and Application Security Design and implement security",
+   "llm": true
+  },
+  {
    "uid": "foxconn:6e12df4e4fa946b5b65c98f831dd16d4",
    "company_id": "foxconn",
    "company": "Hon Hai / Foxconn",
@@ -6910,6 +6948,42 @@
    ],
    "summary": "領導團隊建構醫療資料平台並導入多代理AI與RAG架構",
    "snippet": "…plications—designed for compliance, scale, and flexibility. • Drive adoption of agentic and multi-agent AI architectures, where autonomous and collaborative AI agents ingest, analyze, and orchestrate data and decision flows across the data ecosystem—enabling e",
+   "llm": true
+  },
+  {
+   "uid": "winbond:1370821066",
+   "company_id": "winbond",
+   "company": "Winbond",
+   "company_zh": "華邦電",
+   "group": "tw_semi",
+   "via": "",
+   "title": "(竹北) AI 全端工程師-研發生產力",
+   "url": "https://careers.winbond.com/job/%E6%96%B0%E7%AB%B9%EF%BC%8C%E5%8F%B0%E7%81%A3-%28%E7%AB%B9%E5%8C%97%29-AI-%E5%85%A8%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB-%E7%A0%94%E7%99%BC%E7%94%9F%E7%94%A2%E5%8A%9B/1370821066/",
+   "location": "新竹，台灣, TW",
+   "city": "新竹",
+   "department": "",
+   "posted_at": "2026-11-24",
+   "first_seen": "2026-11-24",
+   "score": 66.4,
+   "rule_score": 49.5,
+   "category": "llm_genai",
+   "matched": [
+    "AI",
+    "AI Agent",
+    "AI 應用",
+    "LLM"
+   ],
+   "seniority": "junior",
+   "skills": [
+    "Python",
+    "LLM／AI Agent",
+    "MCP",
+    "Tool Calling",
+    "CI/CD",
+    "Git"
+   ],
+   "summary": "為半導體研發流程建置AI Agent與自動化工作流，整合MCP工具與CI/CD提升研發生產力",
+   "snippet": "…建置 Coding、Refactoring、Test Generation、PR／CI/CD，以及 EDA Simulation、Testing、Log／Report Analysis、Debugging 等工程流程，導入 AI Agent 與 Automation，建立具備可追蹤、可驗證及 Human-in-the-loop Controls 的標準化 Workflow 2. 與工程團隊合作，系統化整理既有程式碼、測試案例、技術規格、開發文件及歷史案例，將工程知識轉化為可執行、可驗證、可重複使用，並能持續迭代演",
    "llm": true
   },
   {
@@ -10493,41 +10567,6 @@
    ],
    "summary": "分析PB級交易與客戶資料，建立合規分析模型與視覺化報表，支援合規團隊需求",
    "snippet": "…What You'll Do: Analyzing, mining, and modeling large volumes of business data to build a comprehensive algorithmic system that extracts valuable information regardless of rules or machine learning algorithms. Leading through example: Overseeing high performi",
-   "llm": true
-  },
-  {
-   "uid": "binance:5002721101",
-   "company_id": "binance",
-   "company": "Binance",
-   "company_zh": "幣安",
-   "group": "foreign_branch",
-   "via": "",
-   "title": "Recommendation Engine Backend Engineer (Golang) (APAC Remote)",
-   "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002721101",
-   "location": "Hong Kong; Singapore; Taiwan",
-   "city": "台灣",
-   "department": "Experience & Connectivity Service",
-   "posted_at": "2026-11-23",
-   "first_seen": "2026-11-23",
-   "score": 44.6,
-   "rule_score": 28.5,
-   "category": "ai_adjacent",
-   "matched": [
-    "AI",
-    "AI Agent",
-    "LLM"
-   ],
-   "seniority": "senior",
-   "skills": [
-    "Golang",
-    "distributed systems",
-    "Kafka",
-    "recommendation systems",
-    "microservice architecture",
-    "feature stores"
-   ],
-   "summary": "",
-   "snippet": "…Solid data analysis skills; able to analyze recommendation performance and diagnose data-quality issues. Familiarity with LLM integration, AI Agent frameworks, or AI-driven content generation workflows. Why Binance Shape the future of finance Collaborate with",
    "llm": true
   },
   {
