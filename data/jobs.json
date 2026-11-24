@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T01:23:47+00:00",
+ "generated_at": "2026-11-24T01:29:13+00:00",
  "llm_enabled": true,
  "llm_model": "claude-opus-5-5",
  "groups": {
@@ -27,6 +27,9 @@
    "group": "global_tech",
    "careers_url": "https://www.google.com/about/careers/applications/jobs/results?location=Taiwan",
    "in_salary_survey": true,
+   "tags": [
+    "faang"
+   ],
    "ok": true,
    "taiwan_jobs": 48,
    "error": null,
@@ -39,6 +42,9 @@
    "group": "global_tech",
    "careers_url": "https://www.amazon.jobs/en/search?normalized_country_code[]=TWN",
    "in_salary_survey": true,
+   "tags": [
+    "faang"
+   ],
    "ok": true,
    "taiwan_jobs": 56,
    "error": null,
@@ -51,6 +57,7 @@
    "group": "global_tech",
    "careers_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 150,
    "error": null,
@@ -63,6 +70,7 @@
    "group": "tw_software",
    "careers_url": "https://www.trendmicro.com/en_us/about/careers.html",
    "in_salary_survey": true,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 48,
    "error": null,
@@ -75,6 +83,7 @@
    "group": "tw_software",
    "careers_url": "https://www.appier.com/en/about/career/",
    "in_salary_survey": true,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 33,
    "error": null,
@@ -87,6 +96,7 @@
    "group": "tw_software",
    "careers_url": "https://www.kkcompany.com/zh-tw/career/",
    "in_salary_survey": true,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 8,
    "error": null,
@@ -99,6 +109,7 @@
    "group": "tw_software",
    "careers_url": "https://shopline.applytojob.com/apply",
    "in_salary_survey": true,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 70,
    "error": null,
@@ -111,6 +122,7 @@
    "group": "tw_software",
    "careers_url": "https://www.pinkoi.com/about/careers",
    "in_salary_survey": true,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 5,
    "error": null,
@@ -123,6 +135,7 @@
    "group": "tw_software",
    "careers_url": "https://www.gogolook.com/career",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 12,
    "error": null,
@@ -135,6 +148,7 @@
    "group": "tw_software",
    "careers_url": "https://boards.greenhouse.io/dcard",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 2,
    "error": null,
@@ -147,6 +161,7 @@
    "group": "tw_software",
    "careers_url": "https://recruit.esunbank.com.tw/Recruit/StaffAcquisition",
    "in_salary_survey": true,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 184,
    "error": null,
@@ -159,6 +174,7 @@
    "group": "foreign_branch",
    "careers_url": "https://www.netskope.com/company/careers/open-positions",
    "in_salary_survey": true,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 8,
    "error": null,
@@ -171,6 +187,7 @@
    "group": "foreign_branch",
    "careers_url": "https://careers.linecorp.com/jobs",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 80,
    "error": null,
@@ -183,6 +200,7 @@
    "group": "foreign_branch",
    "careers_url": "https://careers.shopee.tw/",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 13,
    "error": null,
@@ -195,6 +213,7 @@
    "group": "foreign_branch",
    "careers_url": "https://jobs.renesas.com/jobs",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 41,
    "error": null,
@@ -207,6 +226,7 @@
    "group": "foreign_branch",
    "careers_url": "https://careers.smartrecruiters.com/BoschGroup",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 7,
    "error": null,
@@ -219,6 +239,7 @@
    "group": "foreign_branch",
    "careers_url": "https://careers.smartrecruiters.com/DeliveryHero",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 1,
    "error": null,
@@ -231,6 +252,7 @@
    "group": "foreign_branch",
    "careers_url": "https://zebra.wd501.myworkdayjobs.com/Zebra_careers",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 10,
    "error": null,
@@ -243,6 +265,7 @@
    "group": "global_tech",
    "careers_url": "https://careers.cisco.com/global/en",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 62,
    "error": null,
@@ -255,6 +278,7 @@
    "group": "foreign_branch",
    "careers_url": "https://www.binance.com/en/careers",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 78,
    "error": null,
@@ -267,6 +291,7 @@
    "group": "foreign_branch",
    "careers_url": "https://job-boards.greenhouse.io/ubiquiti",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 73,
    "error": null,
@@ -279,6 +304,7 @@
    "group": "foreign_branch",
    "careers_url": "https://job-boards.greenhouse.io/canonical",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 16,
    "error": null,
@@ -291,6 +317,7 @@
    "group": "foreign_branch",
    "careers_url": "https://job-boards.greenhouse.io/okx",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 3,
    "error": null,
@@ -303,6 +330,7 @@
    "group": "foreign_branch",
    "careers_url": "https://job-boards.greenhouse.io/agoda",
    "in_salary_survey": true,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 2,
    "error": null,
@@ -315,6 +343,7 @@
    "group": "foreign_branch",
    "careers_url": "https://stripe.com/jobs/search",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 5,
    "error": null,
@@ -327,6 +356,7 @@
    "group": "foreign_branch",
    "careers_url": "https://crypto.com/en/careers/",
    "in_salary_survey": true,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 3,
    "error": null,
@@ -339,6 +369,9 @@
    "group": "global_tech",
    "careers_url": "https://explore.jobs.netflix.net",
    "in_salary_survey": false,
+   "tags": [
+    "faang"
+   ],
    "ok": true,
    "taiwan_jobs": 2,
    "error": null,
@@ -351,6 +384,7 @@
    "group": "foreign_branch",
    "careers_url": "https://jobs.ericsson.com/careers",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 3,
    "error": null,
@@ -363,6 +397,7 @@
    "group": "foreign_branch",
    "careers_url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 1,
    "error": null,
@@ -375,6 +410,7 @@
    "group": "foreign_branch",
    "careers_url": "https://job-boards.greenhouse.io/sonymusicentertainment",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 4,
    "error": null,
@@ -387,6 +423,7 @@
    "group": "foreign_branch",
    "careers_url": "https://tel.wd3.myworkdayjobs.com/TET_Career",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 46,
    "error": null,
@@ -399,6 +436,7 @@
    "group": "tw_semi",
    "careers_url": "https://careers.mediatek.com/en/jobs",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 443,
    "error": null,
@@ -411,6 +449,7 @@
    "group": "tw_semi",
    "careers_url": "https://recruit.realtek.com/Job/Search?lang=en",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 200,
    "error": null,
@@ -423,6 +462,7 @@
    "group": "tw_semi",
    "careers_url": "https://careers.umc.com/jobsearch.php",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 110,
    "error": null,
@@ -435,6 +475,7 @@
    "group": "tw_semi",
    "careers_url": "https://jobs.nuvoton.com/search/",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 61,
    "error": null,
@@ -447,6 +488,7 @@
    "group": "tw_semi",
    "careers_url": "https://careers.winbond.com/",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 187,
    "error": null,
@@ -459,6 +501,7 @@
    "group": "tw_semi",
    "careers_url": "https://careers.guc-asic.com/Jobs",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 43,
    "error": null,
@@ -471,6 +514,7 @@
    "group": "tw_semi",
    "careers_url": "https://talent.vis.com.tw/Jobs",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 141,
    "error": null,
@@ -483,6 +527,7 @@
    "group": "tw_electronics",
    "careers_url": "https://recruit.foxconn.com/isite-web-tw/main/jobsearch",
    "in_salary_survey": true,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 892,
    "error": null,
@@ -495,6 +540,7 @@
    "group": "tw_electronics",
    "careers_url": "https://recruit.asus.com/Jobs?Location=TW",
    "in_salary_survey": true,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 637,
    "error": null,
@@ -507,6 +553,7 @@
    "group": "tw_electronics",
    "careers_url": "https://www.araic.asus.com/job-openings",
    "in_salary_survey": true,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 14,
    "error": null,
@@ -519,6 +566,7 @@
    "group": "tw_electronics",
    "careers_url": "https://jobs.wistron.com",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 540,
    "error": null,
@@ -531,6 +579,7 @@
    "group": "tw_electronics",
    "careers_url": "https://careers.acer.com",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 20,
    "error": null,
@@ -543,6 +592,7 @@
    "group": "tw_electronics",
    "careers_url": "https://www.advantech.com/en/careers",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 19,
    "error": null,
@@ -555,6 +605,7 @@
    "group": "tw_electronics",
    "careers_url": "https://career.synology.com/en-global/HQ/",
    "in_salary_survey": true,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 30,
    "error": null,
@@ -567,6 +618,7 @@
    "group": "tw_electronics",
    "careers_url": "https://rmis.cht.com.tw/portal/jobs/index.jsp",
    "in_salary_survey": true,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 2,
    "error": null,
@@ -579,6 +631,7 @@
    "group": "tw_electronics",
    "careers_url": "https://erecruit.fareastone.com.tw/",
    "in_salary_survey": true,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 59,
    "error": null,
@@ -591,6 +644,7 @@
    "group": "tw_electronics",
    "careers_url": "https://hrweb.taiwanmobile.com/TWMHRMS/#/home",
    "in_salary_survey": true,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 165,
    "error": null,
@@ -603,6 +657,7 @@
    "group": "global_tech",
    "careers_url": "https://apply.careers.microsoft.com/careers",
    "in_salary_survey": true,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 24,
    "error": null,
@@ -615,6 +670,9 @@
    "group": "global_tech",
    "careers_url": "https://jobs.apple.com/en-us/search?location=taiwan-TWN",
    "in_salary_survey": false,
+   "tags": [
+    "faang"
+   ],
    "ok": true,
    "taiwan_jobs": 14,
    "error": null,
@@ -627,6 +685,7 @@
    "group": "global_tech",
    "careers_url": "https://intel.wd1.myworkdayjobs.com/External",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 17,
    "error": null,
@@ -639,6 +698,7 @@
    "group": "global_tech",
    "careers_url": "https://careers.amd.com/careers-home/jobs",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 59,
    "error": null,
@@ -651,6 +711,7 @@
    "group": "global_tech",
    "careers_url": "https://careers.qualcomm.com/careers",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 150,
    "error": null,
@@ -663,6 +724,7 @@
    "group": "global_tech",
    "careers_url": "https://micron.wd1.myworkdayjobs.com/External",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 583,
    "error": null,
@@ -675,6 +737,7 @@
    "group": "global_tech",
    "careers_url": "https://broadcom.wd1.myworkdayjobs.com/External_Career",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 1,
    "error": null,
@@ -687,6 +750,7 @@
    "group": "global_tech",
    "careers_url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 32,
    "error": null,
@@ -699,6 +763,7 @@
    "group": "global_tech",
    "careers_url": "https://careers.synopsys.com/",
    "in_salary_survey": true,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 13,
    "error": null,
@@ -711,6 +776,7 @@
    "group": "global_tech",
    "careers_url": "https://cadence.wd1.myworkdayjobs.com/External_Careers",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 22,
    "error": null,
@@ -723,6 +789,7 @@
    "group": "global_tech",
    "careers_url": "https://careers.arm.com/",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 13,
    "error": null,
@@ -735,6 +802,7 @@
    "group": "global_tech",
    "careers_url": "https://amat.wd1.myworkdayjobs.com/External",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 139,
    "error": null,
@@ -747,6 +815,7 @@
    "group": "global_tech",
    "careers_url": "https://www.asml.com/en/careers/find-your-job",
    "in_salary_survey": true,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 214,
    "error": null,
@@ -759,6 +828,7 @@
    "group": "global_tech",
    "careers_url": "https://careers.lamresearch.com/careers",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 283,
    "error": null,
@@ -771,6 +841,7 @@
    "group": "global_tech",
    "careers_url": "https://kla.wd1.myworkdayjobs.com/Search",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 112,
    "error": null,
@@ -783,6 +854,7 @@
    "group": "global_tech",
    "careers_url": "https://www.ibm.com/careers/search?field_keyword_05[0]=Taiwan",
    "in_salary_survey": true,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 11,
    "error": null,
@@ -795,6 +867,7 @@
    "group": "global_tech",
    "careers_url": "https://jobs.dell.com",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 113,
    "error": null,
@@ -807,6 +880,7 @@
    "group": "global_tech",
    "careers_url": "https://careers.ti.com/en/sites/CX",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 31,
    "error": null,
@@ -819,6 +893,7 @@
    "group": "global_tech",
    "careers_url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 24,
    "error": null,
@@ -831,6 +906,7 @@
    "group": "global_tech",
    "careers_url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 20,
    "error": null,
@@ -843,6 +919,7 @@
    "group": "global_tech",
    "careers_url": "https://jobs.supermicro.com/",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 283,
    "error": null,
@@ -855,6 +932,7 @@
    "group": "global_tech",
    "careers_url": "https://logitech.wd5.myworkdayjobs.com/Logitech",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 44,
    "error": null,
@@ -867,6 +945,7 @@
    "group": "global_tech",
    "careers_url": "https://nxp.myworkdayjobs.com/careers",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 39,
    "error": null,
@@ -879,6 +958,7 @@
    "group": "global_tech",
    "careers_url": "https://jobs.infineon.com/careers",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 25,
    "error": null,
@@ -891,6 +971,7 @@
    "group": "global_tech",
    "careers_url": "https://analogdevices.wd1.myworkdayjobs.com/External",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 17,
    "error": null,
@@ -903,6 +984,7 @@
    "group": "global_tech",
    "careers_url": "https://jobs.keysight.com/",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 7,
    "error": null,
@@ -915,6 +997,7 @@
    "group": "global_tech",
    "careers_url": "https://jobs.teradyne.com/Teradyne/",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 47,
    "error": null,
@@ -927,6 +1010,7 @@
    "group": "tw_startup",
    "careers_url": "https://www.yourator.co/jobs",
    "in_salary_survey": false,
+   "tags": [],
    "ok": true,
    "taiwan_jobs": 743,
    "error": null,
@@ -1811,7 +1895,8 @@
    "group": "tw_semi",
    "careers_url": "https://careers.tsmc.com/",
    "reason": "官網阻擋自動化存取",
-   "in_salary_survey": true
+   "in_salary_survey": true,
+   "tags": []
   },
   {
    "id": "ase",
@@ -1820,7 +1905,8 @@
    "group": "tw_semi",
    "careers_url": "https://ase.aseglobal.com/",
    "reason": "官網阻擋自動化存取",
-   "in_salary_survey": false
+   "in_salary_survey": false,
+   "tags": []
   },
   {
    "id": "novatek",
@@ -1829,7 +1915,8 @@
    "group": "tw_semi",
    "careers_url": "https://www.novatek.com.tw/Recruit",
    "reason": "官網職缺刊登於求職平台",
-   "in_salary_survey": false
+   "in_salary_survey": false,
+   "tags": []
   },
   {
    "id": "himax",
@@ -1838,7 +1925,8 @@
    "group": "tw_semi",
    "careers_url": "https://www.himax.com.tw/zh/company/careers/",
    "reason": "官網職缺刊登於求職平台",
-   "in_salary_survey": false
+   "in_salary_survey": false,
+   "tags": []
   },
   {
    "id": "phison",
@@ -1847,7 +1935,8 @@
    "group": "tw_semi",
    "careers_url": "https://www.phison.com/zh-tw/careers/",
    "reason": "官網職缺刊登於求職平台",
-   "in_salary_survey": false
+   "in_salary_survey": false,
+   "tags": []
   },
   {
    "id": "nanya",
@@ -1856,7 +1945,8 @@
    "group": "tw_semi",
    "careers_url": "https://www.nanya.com/tw/",
    "reason": "官網職缺刊登於求職平台",
-   "in_salary_survey": false
+   "in_salary_survey": false,
+   "tags": []
   },
   {
    "id": "macronix",
@@ -1865,7 +1955,8 @@
    "group": "tw_semi",
    "careers_url": "https://www.macronix.com/zh-tw/about/careers",
    "reason": "官網職缺刊登於求職平台",
-   "in_salary_survey": false
+   "in_salary_survey": false,
+   "tags": []
   },
   {
    "id": "ememory",
@@ -1874,7 +1965,8 @@
    "group": "tw_semi",
    "careers_url": "https://www.ememory.com.tw/",
    "reason": "官網阻擋自動化存取",
-   "in_salary_survey": false
+   "in_salary_survey": false,
+   "tags": []
   },
   {
    "id": "quanta",
@@ -1883,7 +1975,8 @@
    "group": "tw_electronics",
    "careers_url": "https://hr.quantatw.com/webrecruit/4-2-job-openings.html",
    "reason": "官網無公開職缺資料",
-   "in_salary_survey": false
+   "in_salary_survey": false,
+   "tags": []
   },
   {
    "id": "delta",
@@ -1892,7 +1985,8 @@
    "group": "tw_electronics",
    "careers_url": "https://www.deltaww.com/zh-TW/careers",
    "reason": "官網職缺刊登於求職平台",
-   "in_salary_survey": false
+   "in_salary_survey": false,
+   "tags": []
   },
   {
    "id": "pegatron",
@@ -1901,7 +1995,8 @@
    "group": "tw_electronics",
    "careers_url": "https://www.pegatroncorp.com/",
    "reason": "官網職缺刊登於求職平台",
-   "in_salary_survey": false
+   "in_salary_survey": false,
+   "tags": []
   },
   {
    "id": "inventec",
@@ -1910,7 +2005,8 @@
    "group": "tw_electronics",
    "careers_url": "https://career.inventec.com/tw",
    "reason": "官網阻擋自動化存取",
-   "in_salary_survey": false
+   "in_salary_survey": false,
+   "tags": []
   },
   {
    "id": "gigabyte",
@@ -1919,7 +2015,8 @@
    "group": "tw_electronics",
    "careers_url": "https://www.gigabyte.com/tw/Careers",
    "reason": "官網阻擋自動化存取",
-   "in_salary_survey": false
+   "in_salary_survey": false,
+   "tags": []
   },
   {
    "id": "msi",
@@ -1928,7 +2025,8 @@
    "group": "tw_electronics",
    "careers_url": "https://www.msi.com/careers",
    "reason": "官網阻擋自動化存取",
-   "in_salary_survey": false
+   "in_salary_survey": false,
+   "tags": []
   },
   {
    "id": "liteon",
@@ -1937,7 +2035,8 @@
    "group": "tw_electronics",
    "careers_url": "https://www.liteon.com/zh-tw/hrjoin/join-us",
    "reason": "官網職缺刊登於求職平台",
-   "in_salary_survey": true
+   "in_salary_survey": true,
+   "tags": []
   },
   {
    "id": "meta",
@@ -1946,7 +2045,10 @@
    "group": "global_tech",
    "careers_url": "https://www.metacareers.com/jobs?offices[0]=Taipei%2C%20Taiwan",
    "reason": "官網無公開職缺資料",
-   "in_salary_survey": false
+   "in_salary_survey": false,
+   "tags": [
+    "faang"
+   ]
   },
   {
    "id": "cathay",
@@ -1955,7 +2057,8 @@
    "group": "tw_software",
    "careers_url": "https://recruit.cathayholdings.com/iMatch",
    "reason": "官網無公開職缺資料",
-   "in_salary_survey": true
+   "in_salary_survey": true,
+   "tags": []
   },
   {
    "id": "91app",
@@ -1964,7 +2067,8 @@
    "group": "tw_software",
    "careers_url": "https://www.91app.com/",
    "reason": "官網職缺刊登於求職平台",
-   "in_salary_survey": true
+   "in_salary_survey": true,
+   "tags": []
   },
   {
    "id": "cycraft",
@@ -1973,7 +2077,8 @@
    "group": "tw_software",
    "careers_url": "https://www.cycraft.com/careers",
    "reason": "官網職缺刊登於求職平台",
-   "in_salary_survey": true
+   "in_salary_survey": true,
+   "tags": []
   },
   {
    "id": "cyberlink",
@@ -1982,7 +2087,8 @@
    "group": "tw_software",
    "careers_url": "https://tw.cyberlink.com/",
    "reason": "官網職缺刊登於求職平台",
-   "in_salary_survey": true
+   "in_salary_survey": true,
+   "tags": []
   },
   {
    "id": "gamania",
@@ -1991,7 +2097,8 @@
    "group": "tw_software",
    "careers_url": "https://career.gamania.com/",
    "reason": "官網職缺刊登於求職平台",
-   "in_salary_survey": true
+   "in_salary_survey": true,
+   "tags": []
   },
   {
    "id": "itri",
@@ -2000,7 +2107,8 @@
    "group": "tw_electronics",
    "careers_url": "https://www.itri.org.tw/ListStyle.aspx?DisplayStyle=04&SiteID=1&MmmID=1036461243245060746",
    "reason": "官網職缺刊登於求職平台",
-   "in_salary_survey": true
+   "in_salary_survey": true,
+   "tags": []
   },
   {
    "id": "systex",
@@ -2009,7 +2117,8 @@
    "group": "tw_software",
    "careers_url": "https://tw.systex.com/",
    "reason": "官網職缺刊登於求職平台",
-   "in_salary_survey": true
+   "in_salary_survey": true,
+   "tags": []
   },
   {
    "id": "gss",
@@ -2018,7 +2127,8 @@
    "group": "tw_software",
    "careers_url": "https://www.gss.com.tw/career",
    "reason": "官網職缺刊登於求職平台",
-   "in_salary_survey": true
+   "in_salary_survey": true,
+   "tags": []
   },
   {
    "id": "tpisoftware",
@@ -2027,7 +2137,8 @@
    "group": "tw_software",
    "careers_url": "https://www.tpisoftware.com/",
    "reason": "官網職缺刊登於求職平台",
-   "in_salary_survey": true
+   "in_salary_survey": true,
+   "tags": []
   },
   {
    "id": "etmall",
@@ -2036,7 +2147,8 @@
    "group": "tw_software",
    "careers_url": "https://www.etmall.com.tw/",
    "reason": "官網職缺刊登於求職平台",
-   "in_salary_survey": true
+   "in_salary_survey": true,
+   "tags": []
   },
   {
    "id": "nextbank",
@@ -2045,7 +2157,8 @@
    "group": "tw_software",
    "careers_url": "https://www.nextbank.com.tw/",
    "reason": "官網職缺刊登於求職平台",
-   "in_salary_survey": true
+   "in_salary_survey": true,
+   "tags": []
   },
   {
    "id": "qnap",
@@ -2054,7 +2167,8 @@
    "group": "tw_electronics",
    "careers_url": "https://www.qnap.com/zh-tw/career",
    "reason": "官網職缺刊登於求職平台",
-   "in_salary_survey": true
+   "in_salary_survey": true,
+   "tags": []
   },
   {
    "id": "yahoo_tw",
@@ -2063,7 +2177,8 @@
    "group": "foreign_branch",
    "careers_url": "https://www.yahooinc.com/careers/search.html?location=Taiwan",
    "reason": "官網阻擋自動化存取",
-   "in_salary_survey": true
+   "in_salary_survey": true,
+   "tags": []
   },
   {
    "id": "teamt5",
@@ -2072,7 +2187,8 @@
    "group": "tw_software",
    "careers_url": "https://teamt5.org/tw/careers",
    "reason": "官網職缺刊登於求職平台",
-   "in_salary_survey": true
+   "in_salary_survey": true,
+   "tags": []
   },
   {
    "id": "igs",
@@ -2081,7 +2197,8 @@
    "group": "tw_software",
    "careers_url": "https://www.igs.com.tw/career/",
    "reason": "官網無公開職缺資料",
-   "in_salary_survey": true
+   "in_salary_survey": true,
+   "tags": []
   },
   {
    "id": "digiwin",
@@ -2090,7 +2207,8 @@
    "group": "tw_software",
    "careers_url": "https://www.digiwin.com.tw/hr/school/",
    "reason": "官網職缺刊登於求職平台",
-   "in_salary_survey": true
+   "in_salary_survey": true,
+   "tags": []
   },
   {
    "id": "sinopac",
@@ -2099,7 +2217,8 @@
    "group": "tw_software",
    "careers_url": "https://careers.sinopac.com",
    "reason": "官網無公開職缺資料",
-   "in_salary_survey": true
+   "in_salary_survey": true,
+   "tags": []
   },
   {
    "id": "cmoney",
@@ -2108,7 +2227,8 @@
    "group": "tw_software",
    "careers_url": "https://www.cmoney.tw/careers/",
    "reason": "官網職缺刊登於求職平台",
-   "in_salary_survey": true
+   "in_salary_survey": true,
+   "tags": []
   }
  ],
  "stats": {
@@ -2116,14 +2236,14 @@
   "ai_jobs": 345
  },
  "llm_usage": {
-  "model": "claude-opus-5-5",
-  "calls": 3,
-  "classified": 3,
-  "input_tokens": 6427,
-  "output_tokens": 283,
+  "model": null,
+  "calls": 0,
+  "classified": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
   "cache_read_input_tokens": 0,
   "cache_creation_input_tokens": 0,
-  "cost_usd": 0.0314,
+  "cost_usd": 0.0,
   "pending": 0
  },
  "jobs": [
