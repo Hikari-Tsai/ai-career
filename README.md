@@ -25,14 +25,80 @@ data/
 .cache/details.json.gz    職缺內文快取（放在 Actions cache，不進 git）
 ```
 
-## 關聯度排序
+## 關聯度怎麼算
 
-| 階段 | 做法 | 何時執行 |
+每個台灣職缺都會得到一個 0–100 的「關聯度」，網頁預設依這個分數排序（同分時新收錄的在前）。分數分兩段計算：
+
+```
+所有台灣職缺 ──► 第 1 段：關鍵字規則（每個都算）
+                    │ 規則分數 ≥ 15
+                    ▼
+                 第 2 段：LLM 判斷（有設定 ANTHROPIC_API_KEY 時）
+                    │
+                    ▼
+               最終分數與是否顯示
+```
+
+### 第 1 段：關鍵字規則（`scraper/relevance.py`）
+
+免費、可解釋、每次結果都一樣。詞庫是一組「類別、權重、正規表示式」，例如：
+
+| 類別 | 權重 | 例子 |
 |---|---|---|
-| 1. 規則 | 加權詞庫（LLM、機器學習、CUDA、電腦視覺…），標題權重 ×3；業務、行銷、採購、機構、製造類標題會扣分 | 每個台灣職缺都會跑 |
-| 2. LLM | Claude 判斷「這份工作每天是不是在做 AI」，輸出關聯度、類別、年資、技能與中文摘要 | 只跑規則分數 ≥15 且內容有變動的職缺 |
+| LLM / 生成式 AI | 5 | LLM、large language model、大型語言模型 |
+| LLM / 生成式 AI | 4 | generative AI、GenAI、生成式 AI |
+| LLM / 生成式 AI | 2–3 | RAG、agentic、AI agent、foundation model、transformer、fine-tune、LoRA、vLLM |
+| 機器學習 / AI 工程 | 5 | machine learning、deep learning、機器學習、深度學習 |
+| 機器學習 / AI 工程 | 3–4 | ML、neural network、AI engineer、人工智慧、AI 演算法、AI 軟體／模型 |
+| 機器學習 / AI 工程 | 2 | PyTorch、TensorFlow、JAX、模型訓練 |
+| 電腦視覺 / NLP / 語音 | 2–4 | computer vision、電腦視覺、NLP、語音辨識、多模態、object detection |
+| ML 系統 / 推論優化 | 3–4 | MLOps、model serving、distributed training、CUDA、TensorRT、Triton、量化 |
+| AI 晶片 / 硬體 | 1.5–3 | NPU、AI accelerator、AI 晶片、TPU；AI server、AI 伺服器（1.5） |
+| 資料科學 | 1.5–3 | data scientist、資料科學；單獨出現的「AI」只有 1.5 |
 
-有 LLM 結果時：`score = 0.75 × LLM + 0.25 × 規則`；沒有時就直接用規則分數。
+計算方式：
+
+1. 每個詞條只算一次。出現在**職稱或部門**算「標題分」，否則在**職缺內文**出現才算「內文分」。
+2. `分數 = 9 × 標題分 + 3 × min(內文分, 14)`，所以職稱的影響是內文的 3 倍，內文最多貢獻 42 分。
+3. 扣分（只看職稱）：
+   - 業務、行銷、BD、採購、人資、招募、會計、法務、客服、助理等 → × 0.35
+   - 機構、散熱、layout、封裝、PCB、製造、品保等硬體職，且標題分 < 4 → × 0.5
+4. 結果限制在 0–100。職缺類別取加權得分最高的類別。
+
+例子（實際用程式算出）：
+
+| 職缺 | 命中 | 規則分數 |
+|---|---|---|
+| Senior Machine Learning Engineer（內文提到 computer vision、PyTorch、TensorRT） | 標題 machine learning 5；內文 4 + 2 + 3 = 9 | 9×5 + 3×9 = **72** |
+| AI Solutions Sales Manager（內文提到 generative AI、LLM） | 標題 AI 1.5；內文 4 + 5 = 9；業務扣分 | (13.5 + 27) × 0.35 = **14.2** |
+| AI Server 機構工程師 | 標題 AI server 1.5 + AI 1.5；機構扣分 | 27 × 0.5 = **13.5** |
+| Java Backend Engineer（內文提到 AI APIs） | 內文 AI 1.5 | **4.5** |
+
+職缺內文只會替「看起來像技術職」的職稱抓取（每家公司每次有上限，Workday 每次 40 筆），其餘只用職稱評分；內文會快取，之後幾天陸續補齊。
+
+### 第 2 段：LLM 判斷（`scraper/llm.py`）
+
+規則分數 ≥ 15 的職缺會交給 Claude（預設 `claude-opus-5-5`，可用 `LLM_MODEL` 改成 Haiku 降低成本），依「這份工作每天實際在做什麼」打分，而不是看有沒有出現 AI 字眼：
+
+| LLM 分數 | 意義 |
+|---|---|
+| 85–100 | 核心 AI 工作：訓練或微調模型、LLM / RAG / agent 系統、ML 研究、CV / NLP / 語音模型、推論／編譯器／kernel 優化 |
+| 60–84 | 有實質 AI 成分：ML 平台 / MLOps、有建模的資料科學、AI 加速器架構、在模型上開發 AI 應用 |
+| 30–59 | AI 相關：AI 伺服器／GPU 硬體設計、AI 產品或專案管理、串接 AI API 的軟體 |
+| 0–29 | 不是 AI 工作，即使公司或產品跟 AI 有關（業務、採購、機構、製造、一般 IT） |
+
+LLM 同時輸出類別（多一個「AI 相關應用 / 管理」與「not_ai」）、年資、最多 6 個技能，以及一句中文摘要，網頁上的摘要、技能標籤和年資篩選都來自這裡。
+
+結果以「職稱 + 內文前 6000 字」的 hash 快取在 `data/llm_cache.json`：職缺內容沒變就不會再呼叫 API，每天只需要分析新增或修改過的職缺（每次最多 400 筆）。
+
+### 最終分數與顯示條件
+
+| 情況 | 最終分數 | 顯示條件 |
+|---|---|---|
+| 有 LLM 結果 | `0.75 × LLM 分數 + 0.25 × 規則分數` | LLM 分數 ≥ 40 且類別不是 not_ai |
+| 沒有 LLM 結果（未設定金鑰，或還在排隊） | 規則分數 | 規則分數 ≥ 32 |
+
+規則分數保留 25% 的權重，讓兩個 LLM 分數相近的職缺之間，職稱更明確的會排在前面。
 
 **為什麼不用嵌入向量：** 嵌入向量衡量的是主題相似度。「AI Server 機構工程師」或「GenAI 伺服器 TPM」在向量空間裡跟 ML 工程師很接近，但其實是不同職涯。LLM 能分辨這種差異，也能抽出結構化欄位。每天新增的候選職缺不多，加上 hash 快取，成本很低。嵌入向量比較適合下一階段的「用履歷比對職缺」個人化排序。
 
