@@ -334,6 +334,7 @@ def main() -> int:
                 "group": c["group"],
                 "careers_url": c.get("careers_url", ""),
                 "in_salary_survey": bool(c.get("in_salary_survey")),
+                "tags": c.get("tags", []),
                 **status.get(c["id"], {}),
                 "ai_jobs": sum(1 for j in out if j["uid"].split(":")[0] == c["id"]),  # board entries count all their startups
             }
@@ -348,6 +349,7 @@ def main() -> int:
                 "id": c["id"], "name": c["name"], "name_zh": c.get("name_zh", ""), "group": c["group"],
                 "careers_url": c["careers_url"], "reason": LINK_ONLY_REASONS.get(c.get("reason"), ""),
                 "in_salary_survey": bool(c.get("in_salary_survey")),
+                "tags": c.get("tags", []),
             }
             for c in load_link_only()
         ],

@@ -17,6 +17,7 @@ companies:
     group: global_tech
     careers_url: https://www.google.com/about/careers/applications/jobs/results?location=Taiwan
     source: google
+    tags: [faang]
     in_salary_survey: true
 
   - id: amazon
@@ -25,6 +26,7 @@ companies:
     group: global_tech
     careers_url: https://www.amazon.jobs/en/search?normalized_country_code[]=TWN
     source: amazon
+    tags: [faang]
     in_salary_survey: true
 
   - id: nvidia
@@ -125,7 +127,7 @@ companies:
   - {id: agoda, name: Agoda, name_zh: Agoda, group: foreign_branch, careers_url: https://job-boards.greenhouse.io/agoda, source: greenhouse, params: {board: agoda}, in_salary_survey: true}
   - {id: stripe, name: Stripe, name_zh: Stripe, group: foreign_branch, careers_url: https://stripe.com/jobs/search, source: greenhouse, params: {board: stripe}}
   - {id: crypto_com, name: Crypto.com, name_zh: Crypto.com, group: foreign_branch, careers_url: https://crypto.com/en/careers/, source: lever, params: {site: crypto}, in_salary_survey: true}
-  - {id: netflix, name: Netflix, name_zh: 網飛, group: global_tech, careers_url: https://explore.jobs.netflix.net, source: eightfold, params: {host: explore.jobs.netflix.net, domain: netflix.com, api: v2}}
+  - {id: netflix, name: Netflix, name_zh: 網飛, group: global_tech, careers_url: https://explore.jobs.netflix.net, source: eightfold, params: {host: explore.jobs.netflix.net, domain: netflix.com, api: v2}, tags: [faang]}
   - {id: ericsson, name: Ericsson, name_zh: 愛立信, group: foreign_branch, careers_url: https://jobs.ericsson.com/careers, source: eightfold, params: {host: jobs.ericsson.com, domain: ericsson.com, api: pcsx}}
   - {id: sony_sie, name: Sony Interactive Entertainment, name_zh: 索尼互動娛樂, group: foreign_branch, careers_url: https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal, source: greenhouse, params: {board: sonyinteractiveentertainmentglobal}}
   - {id: sony_music, name: Sony Music, name_zh: 索尼音樂, group: foreign_branch, careers_url: https://job-boards.greenhouse.io/sonymusicentertainment, source: greenhouse, params: {board: sonymusicentertainment}}
@@ -156,7 +158,7 @@ companies:
 
   # ---------------------------------------------------------------- global tech / semiconductors (more)
   - {id: microsoft, name: Microsoft, name_zh: 微軟, group: global_tech, careers_url: https://apply.careers.microsoft.com/careers, source: eightfold, params: {host: apply.careers.microsoft.com, domain: microsoft.com, api: pcsx}, in_salary_survey: true}
-  - {id: apple, name: Apple, name_zh: 蘋果, group: global_tech, careers_url: "https://jobs.apple.com/en-us/search?location=taiwan-TWN", source: apple}
+  - {id: apple, name: Apple, name_zh: 蘋果, group: global_tech, careers_url: "https://jobs.apple.com/en-us/search?location=taiwan-TWN", source: apple, tags: [faang]}
   - {id: intel, name: Intel, name_zh: 英特爾, group: global_tech, careers_url: https://intel.wd1.myworkdayjobs.com/External, source: workday, params: {host: intel.wd1.myworkdayjobs.com, tenant: intel, site: External}, local_only: true}
   - {id: amd, name: AMD, name_zh: 超微, group: global_tech, careers_url: https://careers.amd.com/careers-home/jobs, source: jibe, params: {host: careers.amd.com}}
   - {id: qualcomm, name: Qualcomm, name_zh: 高通, group: global_tech, careers_url: https://careers.qualcomm.com/careers, source: eightfold, params: {host: careers.qualcomm.com, domain: qualcomm.com, api: pcsx}}
@@ -201,7 +203,7 @@ companies:
   - {id: gigabyte, name: Gigabyte, name_zh: 技嘉, group: tw_electronics, link_only: true, reason: blocked, careers_url: https://www.gigabyte.com/tw/Careers}
   - {id: msi, name: MSI, name_zh: 微星, group: tw_electronics, link_only: true, reason: blocked, careers_url: https://www.msi.com/careers}
   - {id: liteon, name: Lite-On, name_zh: 光寶, group: tw_electronics, link_only: true, reason: job_board, careers_url: https://www.liteon.com/zh-tw/hrjoin/join-us, in_salary_survey: true}
-  - {id: meta, name: Meta, name_zh: Meta, group: global_tech, link_only: true, reason: no_api, careers_url: "https://www.metacareers.com/jobs?offices[0]=Taipei%2C%20Taiwan"}
+  - {id: meta, name: Meta, name_zh: Meta, group: global_tech, link_only: true, reason: no_api, careers_url: "https://www.metacareers.com/jobs?offices[0]=Taipei%2C%20Taiwan", tags: [faang]}
   # salary-survey companies whose official sites can't be crawled
   - {id: cathay, name: Cathay United Bank, name_zh: 國泰世華銀行, group: tw_software, link_only: true, reason: no_api, careers_url: https://recruit.cathayholdings.com/iMatch, in_salary_survey: true}
   - {id: 91app, name: 91APP, name_zh: 九易宇軒, group: tw_software, link_only: true, reason: job_board, careers_url: https://www.91app.com/, in_salary_survey: true}

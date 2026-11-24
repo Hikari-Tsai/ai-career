@@ -4,6 +4,11 @@
   const SENIORITY = { intern: "實習", junior: "初階", mid: "中階", senior: "資深", staff_plus: "Staff+", manager: "主管" };
   // Date facet: [days, label]. "Within N days" counts the job's date (posted, else first collected) as day 0.
   const DAY_OPTIONS = [[1, "今天"], [3, "3 天內"], [7, "7 天內"], [14, "14 天內"], [30, "30 天內"], [90, "90 天內"]];
+  // Extra company-type chips backed by companies.yaml `tags` (FAANG sits inside 國際科技大廠).
+  const TAG_CHIPS = { faang: "FAANG" };
+  let TAGS = {};
+  const hasTag = (id, t) => (TAGS[id] || []).includes(t);
+  const inGroup = (id, group) => state.group.has(group) || Object.keys(TAG_CHIPS).some((t) => state.group.has(t) && hasTag(id, t));
   const CITY_ORDER = ["台北", "新北", "新竹", "桃園", "台中", "台南", "高雄", "台灣"];
   const $ = (s) => document.querySelector(s);
 
@@ -53,7 +58,7 @@
       const hay = [j.title, j.company, j.company_zh, j.department, j.summary, ...(j.skills || []), ...(j.matched || [])].join(" ").toLowerCase();
       if (!state.q.toLowerCase().split(/\s+/).every((t) => hay.includes(t))) return false;
     }
-    if (skip !== "group" && state.group.size && !state.group.has(j.group)) return false;
+    if (skip !== "group" && state.group.size && !inGroup(j.company_id, j.group)) return false;
     if (skip !== "category" && state.category.size && !state.category.has(j.category)) return false;
     if (skip !== "city" && state.city.size && !state.city.has(j.city)) return false;
     if (skip !== "seniority" && state.seniority.size && !state.seniority.has(j.seniority)) return false;
@@ -66,6 +71,7 @@
   function renderChips(key, el, labels, order) {
     const counts = {};
     for (const j of DATA.jobs) if (matches(j, key)) counts[j[key]] = (counts[j[key]] || 0) + 1;
+    if (key === "group") for (const t in TAG_CHIPS) counts[t] = DATA.jobs.filter((j) => matches(j, key) && hasTag(j.company_id, t)).length;
     const keys = (order || Object.keys(labels)).filter((k) => counts[k] || state[key].has(k));
     el.replaceChildren(
       ...keys.map((k) => {
@@ -146,7 +152,8 @@
 
   function update() {
     writeHash();
-    renderChips("group", $("#f-group"), DATA.groups);
+    const groupOrder = Object.keys(DATA.groups).flatMap((g) => (g === "global_tech" ? [g, ...Object.keys(TAG_CHIPS)] : [g]));
+    renderChips("group", $("#f-group"), { ...DATA.groups, ...TAG_CHIPS }, groupOrder);
     renderChips("category", $("#f-category"), DATA.categories);
     renderChips("city", $("#f-city"), Object.fromEntries(CITY_ORDER.map((c) => [c, c])), CITY_ORDER);
     renderDays();
@@ -167,7 +174,7 @@
     const hasJobs = (c) => [...listed].some((l) => (c.name_zh && l.includes(c.name_zh.toLowerCase())) || l.includes(c.name.toLowerCase()));
     const ext = [...(DATA.external || []), ...failing].filter((c) => {
       if (hasJobs(c)) return false; // e.g. a link-only company that now has listings via a job board
-      if (state.group.size && !state.group.has(c.group)) return false;
+      if (state.group.size && !inGroup(c.id, c.group)) return false;
       if (state.survey && !c.in_salary_survey) return false;
       if (state.company) return false;
       if (state.q) {
@@ -282,7 +289,9 @@
 
   load()
     .then((d) => {
-      DATA = d; readHash(); renderStatic(); bind(); update();
+      DATA = d;
+      TAGS = Object.fromEntries([...DATA.companies, ...(DATA.external || [])].map((c) => [c.id, c.tags || []]));
+      readHash(); renderStatic(); bind(); update();
       window.addEventListener("hashchange", () => { readHash(); bind(); shown = PAGE; update(); });
     })
     .catch((e) => { $("#jobs").innerHTML = `<li class="empty">資料載入失敗：${esc(e.message)}</li>`; });
