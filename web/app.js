@@ -204,6 +204,16 @@
       ["更新", updated],
     ].map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join("");
 
+    // Crawl targets per company type, from the data so it stays accurate as companies are added.
+    const official = DATA.companies.filter((c) => !c.via && c.group !== "tw_startup");
+    const startups = DATA.companies.filter((c) => c.via).length;
+    const parts = Object.entries(DATA.groups).map(([g, name]) => {
+      const n = g === "tw_startup" ? startups : official.filter((c) => c.group === g).length;
+      return n ? `${g === "tw_startup" ? "Yourator 新創" : name} <b>${n}</b> 家` : "";
+    }).filter(Boolean);
+    const ext = (DATA.external || []).length;
+    $("#scope").innerHTML = `爬取對象：${parts.join("、")}${ext ? `；另有 <b>${ext}</b> 家無法自動爬取的公司附官網連結` : ""}。`;
+
     const sel = $("#f-company");
     for (const c of DATA.companies.filter((c) => c.ai_jobs).sort((a, b) => b.ai_jobs - a.ai_jobs)) {
       sel.add(new Option(`${label(c.name, c.name_zh)}（${c.ai_jobs}）`, c.id));
