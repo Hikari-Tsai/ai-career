@@ -2367,6 +2367,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"4072865d3b219c90": {
+"relevance": 30,
+"category": "ai_adjacent",
+"seniority": "unknown",
+"skills": [
+"FreeRTOS",
+"RT-Thread",
+"OpenWRT",
+"Linux",
+"高速電路設計",
+"MCU/MPU人工智慧機器學習應用開發"
+],
+"summary_zh": "為新唐MCU/MPU平台開發嵌入式系統、硬體電路及應用，含部分邊緣AI應用開發",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "41943540279095b6": {
 "relevance": 22,
 "category": "not_ai",
