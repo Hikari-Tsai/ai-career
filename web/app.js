@@ -247,6 +247,29 @@
     $("#reset").onclick = () => { location.hash = ""; readHash(); bind(); update(); };
   }
 
+  // GitHub star count: public API (60 requests/hour per IP unauthenticated), cached per browser for 30 min.
+  async function loadStars() {
+    const KEY = "ai-career:stars", TTL = 30 * 60 * 1000;
+    let cached = null;
+    try { cached = JSON.parse(localStorage.getItem(KEY)); } catch (_) { /* storage unavailable */ }
+    let n = cached && Date.now() - cached.t < TTL ? cached.n : null;
+    if (n == null) {
+      try {
+        const r = await fetch("https://api.github.com/repos/Hikari-Tsai/ai-career", { headers: { Accept: "application/vnd.github+json" } });
+        if (r.ok) n = (await r.json()).stargazers_count;
+      } catch (_) { /* offline or rate-limited */ }
+      if (n == null && cached) n = cached.n; // stale beats nothing
+      else if (n != null) try { localStorage.setItem(KEY, JSON.stringify({ n, t: Date.now() })); } catch (_) { /* ignore */ }
+    }
+    if (typeof n === "number") {
+      const el = $("#star-count");
+      el.textContent = n.toLocaleString("zh-TW");
+      el.hidden = false;
+      $("#star").setAttribute("aria-label", `在 GitHub 給這個專案星星（目前 ${n} 顆）`);
+    }
+  }
+  loadStars();
+
   load()
     .then((d) => {
       DATA = d; readHash(); renderStatic(); bind(); update();
