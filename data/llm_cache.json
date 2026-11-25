@@ -9080,6 +9080,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"fbaa18d4fad903ee": {
+"relevance": 85,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"RAG",
+"Prompt／Context Engineering",
+"Agent Workflow",
+"機器學習",
+"模型評估",
+"雲端 AI 服務"
+],
+"summary_zh": "為政府及企業客戶設計開發生成式AI與RAG、Agent等LLM應用並整合系統",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "fbc83a98d9589f77": {
 "relevance": 30,
 "category": "ai_adjacent",
