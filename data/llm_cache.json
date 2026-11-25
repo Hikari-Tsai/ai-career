@@ -31,6 +31,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"0115f98d81e9af17": {
+"relevance": 35,
+"category": "mlops_infra",
+"seniority": "junior",
+"skills": [
+"Python",
+"C++",
+"Go",
+"Kubernetes",
+"NetBox",
+"BGP"
+],
+"summary_zh": "為TPU資料中心建置網路拓撲模型、DCIM資料與設備上線自動化工具",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "01559f5caf02351c": {
 "relevance": 25,
 "category": "not_ai",
@@ -60,6 +76,22 @@
 "CI/CD"
 ],
 "summary_zh": "建置與維運支援AI訓練與推論的Kubernetes GPU平台及MLOps流程",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"022153c50a5fd3dd": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"zero-touch provisioning",
+"IPAM",
+"BGP/ECMP",
+"spine-leaf/Clos",
+"Python",
+"network telemetry"
+],
+"summary_zh": "",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -1417,6 +1449,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"227a037e70c8f42e": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "manager",
+"skills": [
+"high volume manufacturing",
+"OSAT/foundry management",
+"ATE test",
+"yield optimization",
+"DFT",
+"system level testing"
+],
+"summary_zh": "管理Google CPU/TPU晶片在晶圓廠與封測廠的量產營運、良率與供應商",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "2331c1706a6198a7": {
 "relevance": 22,
 "category": "not_ai",
@@ -2599,6 +2647,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"44939d3e0a9db495": {
+"relevance": 25,
+"category": "not_ai",
+"seniority": "manager",
+"skills": [
+"C++",
+"Go",
+"Python",
+"test automation",
+"release infrastructure",
+"software qualification"
+],
+"summary_zh": "帶領團隊負責Google資料中心平台系統軟體的測試驗證與發布流程",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "44b505aa08dee4ca": {
 "relevance": 88,
 "category": "llm_genai",
@@ -3433,6 +3497,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"5b73a97d497c3638": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"Kubernetes",
+"Go",
+"DCIM",
+"DHCP/DNS",
+"bare-metal provisioning",
+"Temporal"
+],
+"summary_zh": "開發資料中心上線服務與DCIM模型，支援AI加速器叢集基礎設施建置",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "5b86b30c6947544b": {
 "relevance": 20,
 "category": "not_ai",
@@ -3460,6 +3540,22 @@
 "CI/CD"
 ],
 "summary_zh": "帶領工程團隊為OEM/ODM客戶預載與啟用Ubuntu系統的軟體工程主管",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"5c90c52146ab578f": {
+"relevance": 85,
+"category": "llm_genai",
+"seniority": "senior",
+"skills": [
+"Python",
+"AI Agent",
+"MCP",
+"Kubernetes",
+"CI/CD",
+"vLLM"
+],
+"summary_zh": "設計並建置企業級AI Agent平台，整合至軟體開發與EDA研發流程以提升生產力",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -6708,6 +6804,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"b41614fb0572763c": {
+"relevance": 55,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Golang",
+"ASR/TTS",
+"Recommendation pipelines",
+"Multi-model routing",
+"Kafka",
+"Distributed systems"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "b5c0c63da8c76047": {
 "relevance": 12,
 "category": "not_ai",
@@ -9013,6 +9125,21 @@
 "computer vision"
 ],
 "summary_zh": "開發視訊影像處理與AI演算法，並實作於SoC嵌入式韌體",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"fcd7d691ad8d53d0": {
+"relevance": 78,
+"category": "cv_nlp",
+"seniority": "manager",
+"skills": [
+"電腦視覺SDK",
+"VPU",
+"神經網路演算法移植",
+"AI agent",
+"PoC開發"
+],
+"summary_zh": "領導團隊於聯發科VPU開發電腦視覺SDK，協助客戶移植視覺與神經網路演算法",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },

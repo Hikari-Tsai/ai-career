@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T20:03:42+00:00",
+ "generated_at": "2026-11-25T04:44:28+00:00",
  "llm_enabled": true,
  "llm_model": "claude-opus-5-5",
  "groups": {
@@ -31,9 +31,9 @@
     "faang"
    ],
    "ok": true,
-   "taiwan_jobs": 48,
+   "taiwan_jobs": 55,
    "error": null,
-   "ai_jobs": 8
+   "ai_jobs": 9
   },
   {
    "id": "amazon",
@@ -46,7 +46,7 @@
     "faang"
    ],
    "ok": true,
-   "taiwan_jobs": 57,
+   "taiwan_jobs": 56,
    "error": null,
    "ai_jobs": 5
   },
@@ -85,9 +85,9 @@
    "in_salary_survey": true,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 32,
+   "taiwan_jobs": 31,
    "error": null,
-   "ai_jobs": 9
+   "ai_jobs": 8
   },
   {
    "id": "kkcompany",
@@ -215,7 +215,7 @@
    "in_salary_survey": false,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 41,
+   "taiwan_jobs": 42,
    "error": null,
    "ai_jobs": 0
   },
@@ -241,7 +241,7 @@
    "in_salary_survey": false,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 1,
+   "taiwan_jobs": 0,
    "error": null,
    "ai_jobs": 0
   },
@@ -280,9 +280,9 @@
    "in_salary_survey": false,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 77,
+   "taiwan_jobs": 78,
    "error": null,
-   "ai_jobs": 14
+   "ai_jobs": 15
   },
   {
    "id": "ubiquiti",
@@ -332,7 +332,7 @@
    "in_salary_survey": true,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 2,
+   "taiwan_jobs": 3,
    "error": null,
    "ai_jobs": 0
   },
@@ -438,9 +438,9 @@
    "in_salary_survey": false,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 443,
+   "taiwan_jobs": 444,
    "error": null,
-   "ai_jobs": 26
+   "ai_jobs": 27
   },
   {
    "id": "realtek",
@@ -477,7 +477,7 @@
    "in_salary_survey": false,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 61,
+   "taiwan_jobs": 62,
    "error": null,
    "ai_jobs": 0
   },
@@ -490,9 +490,9 @@
    "in_salary_survey": false,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 188,
+   "taiwan_jobs": 189,
    "error": null,
-   "ai_jobs": 11
+   "ai_jobs": 9
   },
   {
    "id": "guc",
@@ -516,7 +516,7 @@
    "in_salary_survey": false,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 141,
+   "taiwan_jobs": 139,
    "error": null,
    "ai_jobs": 3
   },
@@ -542,9 +542,9 @@
    "in_salary_survey": true,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 639,
+   "taiwan_jobs": 638,
    "error": null,
-   "ai_jobs": 44
+   "ai_jobs": 43
   },
   {
    "id": "asus-araic",
@@ -568,7 +568,7 @@
    "in_salary_survey": false,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 547,
+   "taiwan_jobs": 550,
    "error": null,
    "ai_jobs": 12
   },
@@ -646,7 +646,7 @@
    "in_salary_survey": true,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 164,
+   "taiwan_jobs": 165,
    "error": null,
    "ai_jobs": 6
   },
@@ -659,7 +659,7 @@
    "in_salary_survey": true,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 24,
+   "taiwan_jobs": 25,
    "error": null,
    "ai_jobs": 1
   },
@@ -713,7 +713,7 @@
    "in_salary_survey": false,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 150,
+   "taiwan_jobs": 151,
    "error": null,
    "ai_jobs": 13
   },
@@ -765,7 +765,7 @@
    "in_salary_survey": true,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 13,
+   "taiwan_jobs": 14,
    "error": null,
    "ai_jobs": 0
   },
@@ -791,7 +791,7 @@
    "in_salary_survey": false,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 13,
+   "taiwan_jobs": 12,
    "error": null,
    "ai_jobs": 0
   },
@@ -817,7 +817,7 @@
    "in_salary_survey": true,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 214,
+   "taiwan_jobs": 213,
    "error": null,
    "ai_jobs": 1
   },
@@ -830,7 +830,7 @@
    "in_salary_survey": false,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 281,
+   "taiwan_jobs": 273,
    "error": null,
    "ai_jobs": 0
   },
@@ -869,7 +869,7 @@
    "in_salary_survey": false,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 113,
+   "taiwan_jobs": 110,
    "error": null,
    "ai_jobs": 1
   },
@@ -882,7 +882,7 @@
    "in_salary_survey": false,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 35,
+   "taiwan_jobs": 34,
    "error": null,
    "ai_jobs": 0
   },
@@ -921,7 +921,7 @@
    "in_salary_survey": false,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 283,
+   "taiwan_jobs": 285,
    "error": null,
    "ai_jobs": 0
   },
@@ -986,7 +986,7 @@
    "in_salary_survey": false,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 7,
+   "taiwan_jobs": 9,
    "error": null,
    "ai_jobs": 0
   },
@@ -999,7 +999,7 @@
    "in_salary_survey": false,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 47,
+   "taiwan_jobs": 49,
    "error": null,
    "ai_jobs": 1
   },
@@ -1012,9 +1012,889 @@
    "in_salary_survey": false,
    "tags": [],
    "ok": true,
-   "taiwan_jobs": 743,
+   "taiwan_jobs": 742,
    "error": null,
    "ai_jobs": 52
+  },
+  {
+   "id": "yourator:flexii",
+   "name": "Flexii | 飛來速科技股份有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/flexii",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 1
+  },
+  {
+   "id": "yourator:linkst",
+   "name": "智林國際股份有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/linkst",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 1
+  },
+  {
+   "id": "yourator:anrotec",
+   "name": "安容科技股份有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/anrotec",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 2
+  },
+  {
+   "id": "yourator:Tricuss",
+   "name": "十論科技股份有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/Tricuss",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 1
+  },
+  {
+   "id": "yourator:skstaiwan",
+   "name": "SKS 新光保全",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/skstaiwan",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 2
+  },
+  {
+   "id": "yourator:profetai",
+   "name": "Profet AI 杰倫智能科技股份有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/profetai",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 5
+  },
+  {
+   "id": "yourator:aift",
+   "name": "AIFT",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/aift",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 2
+  },
+  {
+   "id": "yourator:sinopac",
+   "name": "永豐商業銀行股份有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/sinopac",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 6
+  },
+  {
+   "id": "yourator:shinfangglobal",
+   "name": "神農氏 SHENNONGSHI.AI",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/shinfangglobal",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 2
+  },
+  {
+   "id": "yourator:cyberon",
+   "name": "賽微科技 Cyberon",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/cyberon",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 2
+  },
+  {
+   "id": "yourator:may4s",
+   "name": "伊原力科技",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/may4s",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:imcore",
+   "name": "想核股份有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/imcore",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 1
+  },
+  {
+   "id": "yourator:auragenesis",
+   "name": "復觀創新有限公司 Aura Genesis",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/auragenesis",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 1
+  },
+  {
+   "id": "yourator:pic-net",
+   "name": "統一資訊股份有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/pic-net",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 3
+  },
+  {
+   "id": "yourator:GliaCloud",
+   "name": "GliaCloud",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/GliaCloud",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:shinybrands",
+   "name": "軒郁國際股份有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/shinybrands",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:jkopay",
+   "name": "街口電子支付",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/jkopay",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 2
+  },
+  {
+   "id": "yourator:25sprout",
+   "name": "25sprout 新芽網路",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/25sprout",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:Cathay-Financial-Holding",
+   "name": "國泰金控 Cathay Financial Holdings",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/Cathay-Financial-Holding",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 5
+  },
+  {
+   "id": "yourator:AlleyPin",
+   "name": "AlleyPin 翔評互動",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/AlleyPin",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:chailease",
+   "name": "中租控股",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/chailease",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 1
+  },
+  {
+   "id": "yourator:PressPlay",
+   "name": "PressPlay",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/PressPlay",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:langlive",
+   "name": "浪LIVE",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/langlive",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:upyoung",
+   "name": "上洋產業股份有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/upyoung",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:aenea",
+   "name": "岸雷科技股份有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/aenea",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 1
+  },
+  {
+   "id": "yourator:intelli-go",
+   "name": "意騰科技 intelliGo",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/intelli-go",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 2
+  },
+  {
+   "id": "yourator:homeplus-net-tw",
+   "name": "中嘉數位股份有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/homeplus-net-tw",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 1
+  },
+  {
+   "id": "yourator:PERFECTcorp",
+   "name": "玩美移動 AI/AR美妝科技",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/PERFECTcorp",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:UCCapital",
+   "name": "優式資本 UC Capital",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/UCCapital",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 2
+  },
+  {
+   "id": "yourator:compal",
+   "name": "仁寶電腦工業股份有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/compal",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 7
+  },
+  {
+   "id": "yourator:radiantmkgt",
+   "name": "旭暉信達商號",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/radiantmkgt",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:Kapito",
+   "name": "開必拓數據",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/Kapito",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:8d8a33fc",
+   "name": "人工智能股份有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/8d8a33fc",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:OakMega",
+   "name": "OakMega 大橡科技",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/OakMega",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:aisolly",
+   "name": "宇宙製造股份有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/aisolly",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:PicCollage",
+   "name": "PicCollage 拼貼趣",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/PicCollage",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:centific",
+   "name": "美商昇迪凡科技術有限公司台灣分公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/centific",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:DrRight",
+   "name": "Dr.Right 精準關懷",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/DrRight",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:thingnario",
+   "name": "慧景科技thingnario ",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/thingnario",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:Yourator",
+   "name": "Yourator 數位人才媒合平台",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/Yourator",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:acbel",
+   "name": "康舒科技股份有限公司 AcBel Polytech Inc.",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/acbel",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:unitedorthopedic",
+   "name": "United Orthopedic Corporation",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/unitedorthopedic",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:simpleinfo",
+   "name": "簡訊設計｜圖文不符",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/simpleinfo",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:vitabox",
+   "name": "VITABOX 維他盒子",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/vitabox",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:witsper",
+   "name": "WitsPer 智選家",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/witsper",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:ucgroup",
+   "name": "格威博報堂集團_艾斯傳媒行銷股份有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/ucgroup",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:ONElab",
+   "name": "ONElab",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/ONElab",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 1
+  },
+  {
+   "id": "yourator:CrescendoLab",
+   "name": "漸強實驗室 Crescendo Lab Ltd.",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/CrescendoLab",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:english-cool",
+   "name": "英文庫有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/english-cool",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:kahowa",
+   "name": "音速驍智科技股份有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/kahowa",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:techtanium",
+   "name": "Techtanium Digital Pte Ltd",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/techtanium",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:WONDERLAND",
+   "name": "WONDERLAND",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/WONDERLAND",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:ViewSonicCorporation",
+   "name": "ViewSonic International Corporation",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/ViewSonicCorporation",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:Alfred",
+   "name": "AlfredCamera 阿福管家",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/Alfred",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:digitm",
+   "name": "數字廣告股份有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/digitm",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:taishinbank",
+   "name": "台新新光金控_台新國際商業銀行",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/taishinbank",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:PChome",
+   "name": "PChome Online 網路家庭",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/PChome",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:a6577eba",
+   "name": "鷺洲整合行銷有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/a6577eba",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:CreatorDB",
+   "name": "CreatorDB",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/CreatorDB",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:healthleaguex",
+   "name": "健康盟 Health League",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/healthleaguex",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:jambolive",
+   "name": "樂播科技 Jambo Live",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/jambolive",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:sangu",
+   "name": "SANGU 三谷家電｜東朱數位行銷股份有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/sangu",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:TITANSOFT",
+   "name": "新加坡商鈦坦科技",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/TITANSOFT",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:WebComm",
+   "name": "WebComm 偉康科技",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/WebComm",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:HardCoreTechnology",
+   "name": "GoFreight",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/HardCoreTechnology",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:aifian",
+   "name": "AIFIAN",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/aifian",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:ede1cf74",
+   "name": "承暉展創股份有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/ede1cf74",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:GEEVERGREEN",
+   "name": "GEEVERGREEN",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/GEEVERGREEN",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:7ELEVEn",
+   "name": "統一超商 7-ELEVEN",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/7ELEVEn",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:spacevleo",
+   "name": "前進太空股份有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/spacevleo",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:hourloop",
+   "name": "Hour Loop 飛輪電商",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/hourloop",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:sudoresearch",
+   "name": "SuDo Research Labs（蘇度科技有限公司）",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/sudoresearch",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 1
+  },
+  {
+   "id": "yourator:jubohealth",
+   "name": "Jubo 智齡科技",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/jubohealth",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:familypet",
+   "name": "familypet",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/familypet",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:JunyiAcademy",
+   "name": "JunyiAcademy 均一平台教育基金會",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/JunyiAcademy",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:MrLiving",
+   "name": "MR. LIVING 居家先生",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/MrLiving",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:weare",
+   "name": "威亞策略顧問股份有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/weare",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:seeds",
+   "name": "學籽 Seeducation",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/seeds",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:ph2",
+   "name": "百瀚智能教育",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/ph2",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:kkco",
+   "name": "KlickKlack Communications",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/kkco",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:teach4taiwan",
+   "name": "Teach For Taiwan 為台灣而教",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/teach4taiwan",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:ridefair",
+   "name": "RideFair 睿德菲爾有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/ridefair",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:ogilvy",
+   "name": "奧美整合行銷傳播集團",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/ogilvy",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:KdanMobile",
+   "name": "KDAN",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/KdanMobile",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:topoo",
+   "name": "泰溥科技有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/topoo",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:apex",
+   "name": "寶碩財務科技",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/apex",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:qoooq",
+   "name": "夸克創意股份有限公司",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/qoooq",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
+  },
+  {
+   "id": "yourator:meepShop",
+   "name": "meepShop 網路開店平台",
+   "name_zh": "",
+   "group": "tw_startup",
+   "careers_url": "https://www.yourator.co/companies/meepShop",
+   "via": "Yourator",
+   "ok": true,
+   "ai_jobs": 0
   }
  ],
  "external": [
@@ -1362,301 +2242,21 @@
   }
  ],
  "stats": {
-  "taiwan_jobs_scanned": 6441,
-  "ai_jobs": 346
+  "taiwan_jobs_scanned": 6446,
+  "ai_jobs": 345
  },
  "llm_usage": {
-  "model": null,
-  "calls": 0,
-  "classified": 0,
-  "input_tokens": 0,
-  "output_tokens": 0,
+  "model": "claude-opus-5-5",
+  "calls": 8,
+  "classified": 8,
+  "input_tokens": 19032,
+  "output_tokens": 853,
   "cache_read_input_tokens": 0,
   "cache_creation_input_tokens": 0,
-  "cost_usd": 0.0,
+  "cost_usd": 0.0932,
   "pending": 0
  },
  "jobs": [
-  {
-   "uid": "umc:550",
-   "company_id": "umc",
-   "company": "UMC",
-   "company_zh": "聯電",
-   "group": "tw_semi",
-   "via": "",
-   "title": "深度學習開發工程師_南科",
-   "url": "https://careers.umc.com/jobin.php?mid=550",
-   "location": "台灣 南部科學園區",
-   "city": "台灣",
-   "department": "資訊工程",
-   "posted_at": "2026-09-30",
-   "first_seen": "2026-11-23",
-   "score": 83.2,
-   "rule_score": 69.0,
-   "category": "ml",
-   "matched": [
-    "model training",
-    "NLP",
-    "Transformer",
-    "深度學習"
-   ],
-   "seniority": "junior",
-   "skills": [
-    "CNN",
-    "RNN",
-    "Transformer",
-    "NLP",
-    "K8s",
-    "CI/CD"
-   ],
-   "summary": "於聯電南科開發深度學習模型與平台，導入AI技術提升晶圓廠營運效率",
-   "snippet": "工作說明： 1.利用AI新技術導入、深度學習模型開發相關平台與解法，以提升營運效率。 2.深度學習系統開發 3.專案執行 4.產學合作 5.深度學習新技術開發與導入 上班地點： 台南市新市區南科二路18號(南部科學園區) 地區： 南部科學園區 管理責任： 無 上班時段： 日班 08:30-17:30 休假制度： 依公司規定 可上班日： 不限 工作條件 接受身分： 應屆畢業生、上班族 工作經驗： 不拘 學歷要求： 碩士(含)以上 科系要求： 數理統計相關, 應用數學相關, 資訊工程相關 語言條件-外語： 英文 --",
-   "llm": true
-  },
-  {
-   "uid": "fet:2550201",
-   "company_id": "fet",
-   "company": "Far EasTone",
-   "company_zh": "遠傳電信",
-   "group": "tw_electronics",
-   "via": "",
-   "title": "AI工程師",
-   "url": "https://erecruit.fareastone.com.tw/zh_TW/web/guest/home?p_p_id=FETRECopportunity_WAR_FETRECopportunityportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_FETRECopportunity_WAR_FETRECopportunityportlet_jobId=2550201&_FETRECopportunity_WAR_FETRECopportunityportlet_mvcPath=%2Fhtml%2Fjob%2Ffront%2FjobDetailForInternet.jsp",
-   "location": "台灣 新北",
-   "city": "新北",
-   "department": "I3915",
-   "posted_at": "",
-   "first_seen": "2000-01-01",
-   "score": 78.8,
-   "rule_score": 69.0,
-   "category": "llm_genai",
-   "matched": [
-    "AI",
-    "AI 應用",
-    "AI工程師",
-    "RAG",
-    "大語言模型",
-    "機器學習",
-    "生成式 AI"
-   ],
-   "seniority": "mid",
-   "skills": [
-    "生成式 AI",
-    "RAG",
-    "Prompt／Context Engineering",
-    "Agent Workflow",
-    "模型評估",
-    "API 整合"
-   ],
-   "summary": "為政府及企業客戶開發LLM應用，含RAG、Agent與系統整合及PoC導入",
-   "snippet": "1. 負責生成式 AI、機器學習及資料分析應用之設計、開發、測試與導入，將業務需求轉化為可落地的 AI 解決方案。 2. 開發大語言模型相關應用，包含 RAG 知識檢索、Prompt／Context Engineering、Agent Workflow、模型評估及回應品質優化。 3. 串接企業內部資料、資料庫及外部 API，並配合既有系統進行後端服務、工具呼叫與 AI 應用整合。 4. 參與政府及企業客戶 AI 專案之需求分析、技術規劃、PoC、系統建置、測試驗證及技術文件撰寫。 5. 參與 AI 專案之技術規劃、",
-   "llm": true
-  },
-  {
-   "uid": "umc:605",
-   "company_id": "umc",
-   "company": "UMC",
-   "company_zh": "聯電",
-   "group": "tw_semi",
-   "via": "",
-   "title": "2027研發替代役_深度學習建模工程師_南科",
-   "url": "https://careers.umc.com/jobin.php?mid=605",
-   "location": "台灣 南部科學園區",
-   "city": "台灣",
-   "department": "資訊工程",
-   "posted_at": "2026-09-18",
-   "first_seen": "2026-11-23",
-   "score": 78.4,
-   "rule_score": 58.5,
-   "category": "ml",
-   "matched": [
-    "AI",
-    "深度學習",
-    "資料科學"
-   ],
-   "seniority": "junior",
-   "skills": [
-    "深度學習模型",
-    "統計大數據分析",
-    "資料科學演算法",
-    "模型調適"
-   ],
-   "summary": "設計訓練深度學習模型，應用於晶圓廠提升良率、產能與縮短cycle time",
-   "snippet": "工作說明： 1.執行統計大數據分析與開發資料科學演算法及設計與訓練深度學習模型，並運用技巧調適模型，使其具備最佳的預測能力。 2.利用深度學習模型開發系統雛形，並驗證可以提升廠內人員生產力，機台產能，產品良率，與降低產品 cycle time。 3.開發AI新技術與研發 AI 關鍵零組件，專案執行，產學合作。 上班地點： 台南市新市區南科二路18號 地區： 南部科學園區 管理責任： 無 上班時段： 日班 08:30-17:30 休假制度： 依公司規定 可上班日： 不限 工作條件 接受身分： 應屆畢業生 工作經驗：",
-   "llm": true
-  },
-  {
-   "uid": "umc:546",
-   "company_id": "umc",
-   "company": "UMC",
-   "company_zh": "聯電",
-   "group": "tw_semi",
-   "via": "",
-   "title": "GenAI 系統平台開發工程師_南科",
-   "url": "https://careers.umc.com/jobin.php?mid=546",
-   "location": "台灣 南部科學園區",
-   "city": "台灣",
-   "department": "資訊工程",
-   "posted_at": "2026-01-29",
-   "first_seen": "2026-11-23",
-   "score": 63.0,
-   "rule_score": 36.0,
-   "category": "llm_genai",
-   "matched": [
-    "GenAI"
-   ],
-   "seniority": "junior",
-   "skills": [
-    "GenAI 平台建置",
-    "GenAI 應用開發",
-    "編程技能",
-    "系統設計",
-    "系統維運"
-   ],
-   "summary": "於聯電南科建置GenAI系統平台並開發內部生成式AI應用專案與維運",
-   "snippet": "工作說明： 1.依部門訂立之計劃，落實執行，達成目標，當責 GenAI 平台及應用專案開發，協助各部門增進效率，解決部門痛點，提昇公司長期競爭力 2.GenAI 系統平台建置 3.GenAI 應用專案開發 4.日管維運、建立SOP、維持系統穩定 5.持續精進強化專業技能，提升競爭力 上班地點： 台南市新市區南科二路18號(南部科學園區) 地區： 南部科學園區 管理責任： 無 上班時段： 日班 08:30-17:30 休假制度： 依公司規定 可上班日： 不限 工作條件 接受身分： 應屆畢業生、上班族 工作經驗： 不拘",
-   "llm": true
-  },
-  {
-   "uid": "logitech:148647",
-   "company_id": "logitech",
-   "company": "Logitech",
-   "company_zh": "羅技",
-   "group": "global_tech",
-   "via": "",
-   "title": "(Spring Internship) AI Application Intern, 2027",
-   "url": "https://logitech.wd5.myworkdayjobs.com/en-US/Logitech/job/Hsinchu-Taiwan/AI-Application-Intern--2027_148647-1",
-   "location": "Hsinchu, Taiwan",
-   "city": "新竹",
-   "department": "",
-   "posted_at": "2026-11-05",
-   "first_seen": "2026-11-05",
-   "score": 60.4,
-   "rule_score": 37.5,
-   "category": "llm_genai",
-   "matched": [
-    "AI",
-    "AI engineer",
-    "LLM"
-   ],
-   "seniority": "intern",
-   "skills": [
-    "Local LLM",
-    "Claude/GPT",
-    "C/C++",
-    "Software system level design",
-    "Technical documentation",
-    "Windows/macOS deployment"
-   ],
-   "summary": "評估本地端LLM於公司筆電的應用、部署與安全，規劃與雲端LLM分流並製作原型",
-   "snippet": "…sitive global impact while having the flexibility to do it in their own way. An AI engineer responsible in Local LLM research, how to improve engineer's daily tasks efficiency and delivery quality. Your Contribution: Be Yourself. Be Open. Stay Hungry and Humbl",
-   "llm": true
-  },
-  {
-   "uid": "logitech:148639",
-   "company_id": "logitech",
-   "company": "Logitech",
-   "company_zh": "羅技",
-   "group": "global_tech",
-   "via": "",
-   "title": "(Spring Internship) AI Automation Test Intern Engineer, 2027",
-   "url": "https://logitech.wd5.myworkdayjobs.com/en-US/Logitech/job/Hsinchu-Taiwan/AI-Automation-Test-Intern-Engineer_148639",
-   "location": "Hsinchu, Taiwan",
-   "city": "新竹",
-   "department": "",
-   "posted_at": "2026-11-05",
-   "first_seen": "2026-11-05",
-   "score": 55.1,
-   "rule_score": 55.5,
-   "category": "llm_genai",
-   "matched": [
-    "AI",
-    "AI/ML",
-    "Data Scien",
-    "Large Language Model",
-    "prompt engineer"
-   ],
-   "seniority": "intern",
-   "skills": [
-    "Python",
-    "LLMs",
-    "prompt engineering",
-    "AI agent architectures",
-    "test automation",
-    "EVT"
-   ],
-   "summary": "開發鍵盤平台AI技能與提示流程，整合AI工具至驗證測試自動化",
-   "snippet": "…Programming: Strong foundational skills in Python (experience with software testing or automation frameworks is a plus). AI/ML Familiarity: Basic understanding of Large Language Models (LLMs), prompt engineering, or AI agent architectures. Testing Mindset: Fa",
-   "llm": true
-  },
-  {
-   "uid": "umc:590",
-   "company_id": "umc",
-   "company": "UMC",
-   "company_zh": "聯電",
-   "group": "tw_semi",
-   "via": "",
-   "title": "數據整合工程師_竹科/南科",
-   "url": "https://careers.umc.com/jobin.php?mid=590",
-   "location": "台灣 新竹科學園區",
-   "city": "新竹",
-   "department": "技術研發",
-   "posted_at": "2026-08-06",
-   "first_seen": "2026-08-06",
-   "score": 50.2,
-   "rule_score": 15.0,
-   "category": "data_sci",
-   "matched": [
-    "machine learning"
-   ],
-   "seniority": "mid",
-   "skills": [
-    "big data analysis",
-    "machine learning",
-    "FDC analysis",
-    "yield enhancement",
-    "Process integration",
-    "Coding"
-   ],
-   "summary": "開發半導體巨量數據良率提升系統，進行FDC分析與機器學習方法開發",
-   "snippet": "….Big data analysis for yield enhancement 4.Process/equipment FDC analysis 5.R&D machine learning methodology/system development 上班地點： 新竹市東區力行二路3號 地區： 新竹科學園區 管理責任： 不需負擔管理責任 出差外派： 無需出差外派 上班時段： 日班 休假制度： 週休二日 可上班日： 不限 工作條件 接受身分： 上班族 工作經驗： 2年以上 學歷要求： 碩士以上 科系要求： 資訊工",
-   "llm": true
-  },
-  {
-   "uid": "logitech:148693",
-   "company_id": "logitech",
-   "company": "Logitech",
-   "company_zh": "羅技",
-   "group": "global_tech",
-   "via": "",
-   "title": "Spring Internship Program - Field Quality Analyst (Artificial Intelligence and System Integration)",
-   "url": "https://logitech.wd5.myworkdayjobs.com/en-US/Logitech/job/Hsinchu-Taiwan/Spring-Internship-Program---Field-Quality-Analyst--Artificial-Intelligence-and-System-Integration-_148693",
-   "location": "Hsinchu, Taiwan",
-   "city": "新竹",
-   "department": "",
-   "posted_at": "2026-11-13",
-   "first_seen": "2026-11-13",
-   "score": 34.3,
-   "rule_score": 17.2,
-   "category": "ai_adjacent",
-   "matched": [
-    "AI",
-    "large language model",
-    "Machine Learning"
-   ],
-   "seniority": "intern",
-   "skills": [
-    "Jira Cloud",
-    "Oracle PLM Quality Cloud",
-    "data analytics",
-    "data visualization",
-    "large language models",
-    "NotebookLM"
-   ],
-   "summary": "",
-   "snippet": "…Execute rigorous testing and UAT (User Acceptance Testing) protocols to qualify the Jira project, working directly with IT developers to resolve technical bottlenecks. Implement AI/Machine Learning integrations to mine historical QIMS data, enabling rapid, au",
-   "llm": true
-  },
   {
    "uid": "appier:8076142",
    "company_id": "appier",
@@ -3267,7 +3867,7 @@
    "location": "台灣 高雄",
    "city": "高雄",
    "department": "dataScience",
-   "posted_at": "2026-11-23",
+   "posted_at": "2026-11-24",
    "first_seen": "2026-11-23",
    "score": 84.8,
    "rule_score": 69.0,
@@ -3742,44 +4342,6 @@
    "llm": true
   },
   {
-   "uid": "winbond:1360220366",
-   "company_id": "winbond",
-   "company": "Winbond",
-   "company_zh": "華邦電",
-   "group": "tw_semi",
-   "via": "",
-   "title": "(竹北) CAD AI Engineer",
-   "url": "https://careers.winbond.com/job/%E6%96%B0%E7%AB%B9%EF%BC%8C%E5%8F%B0%E7%81%A3-%28%E7%AB%B9%E5%8C%97%29-CAD-AI-Engineer/1360220366/",
-   "location": "新竹，台灣, TW",
-   "city": "新竹",
-   "department": "",
-   "posted_at": "2026-11-10",
-   "first_seen": "2026-11-24",
-   "score": 82.9,
-   "rule_score": 76.5,
-   "category": "llm_genai",
-   "matched": [
-    "AI",
-    "AI Engineer",
-    "LangChain",
-    "LLM",
-    "PyTorch",
-    "RAG"
-   ],
-   "seniority": "mid",
-   "skills": [
-    "Python",
-    "LLM / RAG",
-    "LangChain / LlamaIndex",
-    "FAISS / Milvus",
-    "vLLM / Ollama",
-    "API / backend"
-   ],
-   "summary": "為CAD/EDA工程流程建置RAG架構與LLM內部工具，如知識與除錯助理",
-   "snippet": "作為華邦的(竹北) CAD AI Engineer ， 【工作內容】 1. 建立 RAG 架構（文件 / Jira / log / engineering data） 2. 開發內部 AI 工具（knowledge assistant / debug assistant / automation） 3. 整合 LLM（如 Gemma、LLaMA）至工程 workflow 4. 設計資料處理流程（text / log / 文件） 5. 建立 API 並整合至內部系統（EDA / flow / 工具） 工作地點：竹北辦",
-   "llm": true
-  },
-  {
    "uid": "esun:268",
    "company_id": "esun",
    "company": "E.SUN Bank",
@@ -4055,44 +4617,6 @@
    "llm": true
   },
   {
-   "uid": "asus:d8d988e6-c0b7-4b8e-8a57-c90e60e7d9b6",
-   "company_id": "asus",
-   "company": "ASUS",
-   "company_zh": "華碩",
-   "group": "tw_electronics",
-   "via": "",
-   "title": "AI工程師/架構師",
-   "url": "https://recruit.asus.com/Jobs/Detail?sn=d8d988e6-c0b7-4b8e-8a57-c90e60e7d9b6",
-   "location": "臺灣 / 臺北",
-   "city": "台北",
-   "department": "業務行銷/ 行銷企劃/ 網站開發：電子商務",
-   "posted_at": "",
-   "first_seen": "2000-01-01",
-   "score": 79.9,
-   "rule_score": 64.5,
-   "category": "llm_genai",
-   "matched": [
-    "AI",
-    "AI 模型",
-    "AI工程師",
-    "Langchain",
-    "RAG",
-    "模型訓練"
-   ],
-   "seniority": "mid",
-   "skills": [
-    "Python",
-    "Langchain",
-    "RAG",
-    "Agent",
-    "VectorDB",
-    "Docker"
-   ],
-   "summary": "為電商行銷部門開發部署LLM/RAG/Agent系統並監控優化模型表現",
-   "snippet": "工作說明 1. 開發與維護 AI 系統 - 部署 AI 模型到生產環境，確保系統穩定運行 2. 處理與清理數據 - 收集、處理和清理數據，以確保 AI 模型的準確性和可靠性。 3. 監控與改進 AI 性能 - 持續監測 AI 模型的表現，識別並修正偏差或性能下降的問題。 4. 負責與開發團隊協作 - 與後端、前端、DevOps 團隊合作，將 AI 模型整合到應用程式中。 5. 負責AI 演算法研究與應用 - 研究新的 AI 技術與演算法，並將其應用到實際問題中。 需求條件 擅長工具：Linux,Git,Python",
-   "llm": true
-  },
-  {
    "uid": "wistron:26009855",
    "company_id": "wistron",
    "company": "Wistron",
@@ -4104,7 +4628,7 @@
    "location": "台灣 高雄",
    "city": "高雄",
    "department": "dataScience",
-   "posted_at": "2026-11-12",
+   "posted_at": "2026-11-24",
    "first_seen": "2026-11-12",
    "score": 79.9,
    "rule_score": 55.5,
@@ -5032,6 +5556,44 @@
    "llm": true
   },
   {
+   "uid": "winbond:1370851966",
+   "company_id": "winbond",
+   "company": "Winbond",
+   "company_zh": "華邦電",
+   "group": "tw_semi",
+   "via": "",
+   "title": "(竹北) 資深AI 全端工程師-研發生產力",
+   "url": "https://careers.winbond.com/job/%E6%96%B0%E7%AB%B9%EF%BC%8C%E5%8F%B0%E7%81%A3-%28%E7%AB%B9%E5%8C%97%29-%E8%B3%87%E6%B7%B1AI-%E5%85%A8%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB-%E7%A0%94%E7%99%BC%E7%94%9F%E7%94%A2%E5%8A%9B/1370851966/",
+   "location": "新竹，台灣, TW",
+   "city": "新竹",
+   "department": "",
+   "posted_at": "2026-11-25",
+   "first_seen": "2026-11-25",
+   "score": 74.2,
+   "rule_score": 42.0,
+   "category": "llm_genai",
+   "matched": [
+    "AI",
+    "AI Agent",
+    "AI Systems",
+    "LLM",
+    "Model Serving",
+    "vLLM"
+   ],
+   "seniority": "senior",
+   "skills": [
+    "Python",
+    "AI Agent",
+    "MCP",
+    "Kubernetes",
+    "CI/CD",
+    "vLLM"
+   ],
+   "summary": "設計並建置企業級AI Agent平台，整合至軟體開發與EDA研發流程以提升生產力",
+   "snippet": "…，你將協助內部需求部門建置完善的資訊系統平台，促進企業內部運作並提升生產力。工作內容包含： ，以下為工作內容、工作條件以及重要通知。 [工作內容] 1. 定義 AI Agent Platform 的端到端架構及技術 Roadmap，涵蓋 Agent Runtime／Harness、Engineering Repository、Context Layer、MCP Tool Integration、Evaluation、Observability、Secure SDLC、Kubernetes Runtime 及 Hyb",
+   "llm": true
+  },
+  {
    "uid": "asus:22550a82-ed21-4ba2-87b4-05640bbd1052",
    "company_id": "asus",
    "company": "ASUS",
@@ -5108,6 +5670,40 @@
    "llm": true
   },
   {
+   "uid": "mediatek:MTK120261111001",
+   "company_id": "mediatek",
+   "company": "MediaTek",
+   "company_zh": "聯發科",
+   "group": "tw_semi",
+   "via": "",
+   "title": "AI & Computer Vision Senior Software Algorithm Lead",
+   "url": "https://careers.mediatek.com/en/jobs/MTK120261111001",
+   "location": "HsinChu, Taiwan",
+   "city": "新竹",
+   "department": "",
+   "posted_at": "2026-11-24",
+   "first_seen": "2026-11-25",
+   "score": 73.9,
+   "rule_score": 61.5,
+   "category": "cv_nlp",
+   "matched": [
+    "AI",
+    "Computer Vision",
+    "神經網路"
+   ],
+   "seniority": "manager",
+   "skills": [
+    "電腦視覺SDK",
+    "VPU",
+    "神經網路演算法移植",
+    "AI agent",
+    "PoC開發"
+   ],
+   "summary": "領導團隊於聯發科VPU開發電腦視覺SDK，協助客戶移植視覺與神經網路演算法",
+   "snippet": "…領導團隊，在MediaTek VPU上開發電腦視覺SDK與參考設計。 2. 蒐集客戶需求，並與客戶協商專案範圍與時程。 3. 開發PoC示範，協助客戶將視覺與神經網路演算法移植至VPU。 4. 協調硬體、編譯器、韌體與軟體團隊，確保各團隊開發計劃一致。 5. 撰寫技術文件。 6. 建立AI agent系統，加速SDK開發、演算法導入與測試。",
+   "llm": true
+  },
+  {
    "uid": "qualcomm:3099203",
    "company_id": "qualcomm",
    "company": "Qualcomm",
@@ -5159,7 +5755,7 @@
    "location": "台灣 竹北",
    "city": "新竹",
    "department": "dataScience",
-   "posted_at": "2026-11-12",
+   "posted_at": "2026-11-24",
    "first_seen": "2026-11-12",
    "score": 73.5,
    "rule_score": 78.0,
@@ -5198,7 +5794,7 @@
    "location": "台灣 高雄",
    "city": "高雄",
    "department": "InformationEngineering",
-   "posted_at": "2026-11-24",
+   "posted_at": "2026-11-25",
    "first_seen": "2026-11-23",
    "score": 73.5,
    "rule_score": 69.0,
@@ -5687,7 +6283,7 @@
    "location": "台灣 高雄",
    "city": "高雄",
    "department": "InformationEngineering",
-   "posted_at": "2026-11-23",
+   "posted_at": "2026-11-24",
    "first_seen": "2026-11-23",
    "score": 71.6,
    "rule_score": 82.5,
@@ -5871,7 +6467,7 @@
    "location": "台灣 新北",
    "city": "新北",
    "department": "softwareFirmware",
-   "posted_at": "2026-11-18",
+   "posted_at": "2026-11-24",
    "first_seen": "2026-11-18",
    "score": 70.5,
    "rule_score": 27.0,
@@ -5970,7 +6566,7 @@
    "location": "台灣 高雄",
    "city": "高雄",
    "department": "dataScience",
-   "posted_at": "2026-11-23",
+   "posted_at": "2026-11-24",
    "first_seen": "2026-11-23",
    "score": 70.1,
    "rule_score": 64.5,
@@ -6361,42 +6957,6 @@
    "llm": true
   },
   {
-   "uid": "winbond:1370821066",
-   "company_id": "winbond",
-   "company": "Winbond",
-   "company_zh": "華邦電",
-   "group": "tw_semi",
-   "via": "",
-   "title": "(竹北) AI 全端工程師-研發生產力",
-   "url": "https://careers.winbond.com/job/%E6%96%B0%E7%AB%B9%EF%BC%8C%E5%8F%B0%E7%81%A3-%28%E7%AB%B9%E5%8C%97%29-AI-%E5%85%A8%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB-%E7%A0%94%E7%99%BC%E7%94%9F%E7%94%A2%E5%8A%9B/1370821066/",
-   "location": "新竹，台灣, TW",
-   "city": "新竹",
-   "department": "",
-   "posted_at": "2026-11-24",
-   "first_seen": "2026-11-24",
-   "score": 66.4,
-   "rule_score": 49.5,
-   "category": "llm_genai",
-   "matched": [
-    "AI",
-    "AI Agent",
-    "AI 應用",
-    "LLM"
-   ],
-   "seniority": "junior",
-   "skills": [
-    "Python",
-    "LLM／AI Agent",
-    "MCP",
-    "Tool Calling",
-    "CI/CD",
-    "Git"
-   ],
-   "summary": "為半導體研發流程建置AI Agent與自動化工作流，整合MCP工具與CI/CD提升研發生產力",
-   "snippet": "…建置 Coding、Refactoring、Test Generation、PR／CI/CD，以及 EDA Simulation、Testing、Log／Report Analysis、Debugging 等工程流程，導入 AI Agent 與 Automation，建立具備可追蹤、可驗證及 Human-in-the-loop Controls 的標準化 Workflow 2. 與工程團隊合作，系統化整理既有程式碼、測試案例、技術規格、開發文件及歷史案例，將工程知識轉化為可執行、可驗證、可重複使用，並能持續迭代演",
-   "llm": true
-  },
-  {
    "uid": "yourator:Tricuss:47782",
    "company_id": "yourator:Tricuss",
    "company": "十論科技股份有限公司",
@@ -6621,42 +7181,6 @@
    "llm": true
   },
   {
-   "uid": "winbond:1363023966",
-   "company_id": "winbond",
-   "company": "Winbond",
-   "company_zh": "華邦電",
-   "group": "tw_semi",
-   "via": "",
-   "title": "(竹北) Senior AI Architect",
-   "url": "https://careers.winbond.com/job/%E6%96%B0%E7%AB%B9%EF%BC%8C%E5%8F%B0%E7%81%A3-%28%E7%AB%B9%E5%8C%97%29-Senior-AI-Architect/1363023966/",
-   "location": "新竹，台灣, TW",
-   "city": "新竹",
-   "department": "",
-   "posted_at": "2026-11-10",
-   "first_seen": "2026-11-23",
-   "score": 65.6,
-   "rule_score": 46.5,
-   "category": "mlops_infra",
-   "matched": [
-    "Agentic",
-    "AI",
-    "AI 應用",
-    "ML"
-   ],
-   "seniority": "senior",
-   "skills": [
-    "企業級 AI 平台架構",
-    "模型服務",
-    "檢索增強生成",
-    "Agentic AI",
-    "AI Governance",
-    "可觀測性"
-   ],
-   "summary": "設計華邦企業級AI平台架構，含模型服務、RAG、Agent與治理營運",
-   "snippet": "…內部運作並提升生產力。工作內容包含： ，以下為工作內容、工作條件以及重要通知。 我們正在尋找一位 Senior AI Architect，以協助公司建立企業級 AI 應用與 AI 平台的核心架構能力。這個角色的核心任務，不僅是評估模型或完成單一專案，而是讓 AI 從概念驗證走向穩健營運，並成為可重複使用的技術底座。你將從企業需求出發，規劃平台能力、資料基礎、系統整合、安全治理與營運機制，打造可長期支撐公司 AI 應用發展的架構標準與共用能力。 [你將參與的工作內容] 1. 設計並維護企業級 AI 平台底座，在一致的",
-   "llm": true
-  },
-  {
    "uid": "realtek:1412",
    "company_id": "realtek",
    "company": "Realtek",
@@ -6840,7 +7364,7 @@
    "location": "台灣 台北",
    "city": "台北",
    "department": "softwareFirmware",
-   "posted_at": "2026-11-12",
+   "posted_at": "2026-11-24",
    "first_seen": "2026-11-12",
    "score": 64.9,
    "rule_score": 55.5,
@@ -7428,6 +7952,42 @@
     "performance optimization"
    ],
    "summary": "為Google Cloud混合與地端環境打造GPU/TPU大型AI叢集基礎設施",
+   "snippet": "…system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs",
+   "llm": true
+  },
+  {
+   "uid": "google:94702841641214662",
+   "company_id": "google",
+   "company": "Google",
+   "company_zh": "谷歌",
+   "group": "global_tech",
+   "via": "",
+   "title": "Software Engineer II, Emergent AI Infrastructure, Google Cloud",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/94702841641214662",
+   "location": "Taipei, Taiwan",
+   "city": "台北",
+   "department": "",
+   "posted_at": "2026-11-24",
+   "first_seen": "2026-11-25",
+   "score": 60.8,
+   "rule_score": 48.0,
+   "category": "mlops_infra",
+   "matched": [
+    "AI",
+    "AI Infrastructure",
+    "natural language",
+    "TPU"
+   ],
+   "seniority": "junior",
+   "skills": [
+    "distributed systems",
+    "large-scale infrastructure",
+    "GPU/TPU",
+    "AI clusters",
+    "networking",
+    "low level system software"
+   ],
+   "summary": "",
    "snippet": "…system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs",
    "llm": true
   },
@@ -8718,7 +9278,7 @@
    "location": "台灣 新北",
    "city": "新北",
    "department": "softwareFirmware",
-   "posted_at": "2026-11-12",
+   "posted_at": "2026-11-24",
    "first_seen": "2026-11-12",
    "score": 52.5,
    "rule_score": 15.0,
@@ -8814,6 +9374,43 @@
    "llm": true
   },
   {
+   "uid": "binance:5021408101",
+   "company_id": "binance",
+   "company": "Binance",
+   "company_zh": "幣安",
+   "group": "foreign_branch",
+   "via": "",
+   "title": "Recommendation Engine & Audio Backend Engineer (Golang) (APAC Remote)",
+   "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5021408101",
+   "location": "Hong Kong; Singapore; Taiwan",
+   "city": "台灣",
+   "department": "Experience & Connectivity Service",
+   "posted_at": "2026-11-24",
+   "first_seen": "2026-11-25",
+   "score": 51.8,
+   "rule_score": 42.0,
+   "category": "ai_adjacent",
+   "matched": [
+    "AI",
+    "AI Agent",
+    "ASR",
+    "LLM",
+    "speech recognition"
+   ],
+   "seniority": "senior",
+   "skills": [
+    "Golang",
+    "ASR/TTS",
+    "Recommendation pipelines",
+    "Multi-model routing",
+    "Kafka",
+    "Distributed systems"
+   ],
+   "summary": "",
+   "snippet": "…Nice to Have Audio Engineering Experience: Prior background building backend systems for voice/audio processing, speech recognition (ASR), voice synthesis (TTS), or real-time audio streaming in Golang. Tier-1 / Large-Scale Tech Experience: Experience working",
+   "llm": true
+  },
+  {
    "uid": "foxconn:dfbd4b953e954e5d8c611bdfb87142dc",
    "company_id": "foxconn",
    "company": "Hon Hai / Foxconn",
@@ -8899,7 +9496,7 @@
    "location": "台灣 新竹",
    "city": "新竹",
    "department": "InformationEngineering",
-   "posted_at": "2026-11-20",
+   "posted_at": "2026-11-24",
    "first_seen": "2026-11-20",
    "score": 51.8,
    "rule_score": 42.0,
@@ -9415,6 +10012,40 @@
    "llm": true
   },
   {
+   "uid": "qualcomm:3081550",
+   "company_id": "qualcomm",
+   "company": "Qualcomm",
+   "company_zh": "高通",
+   "group": "global_tech",
+   "via": "",
+   "title": "Data Compression Research Engineer",
+   "url": "https://careers.qualcomm.com/careers/job/446715343548",
+   "location": "Taipei, Taipei City, Taiwan",
+   "city": "台北",
+   "department": "Video Standards Engineering",
+   "posted_at": "2025-11-05",
+   "first_seen": "2025-11-05",
+   "score": 48.0,
+   "rule_score": 27.0,
+   "category": "ai_hw",
+   "matched": [
+    "machine learning",
+    "neural network"
+   ],
+   "seniority": "mid",
+   "skills": [
+    "data compression",
+    "digital signal processing",
+    "image/video compression",
+    "information theory",
+    "hardware design",
+    "C/C++"
+   ],
+   "summary": "",
+   "snippet": "…f Data Compression Research Engineer with a focus on compression algorithms for neural network and multimedia systems. You will join a world-renowned team of experts who develop algorithms, hardware architectures, and systems for video and data compression. Yo",
+   "llm": true
+  },
+  {
    "uid": "qualcomm:3096566",
    "company_id": "qualcomm",
    "company": "Qualcomm",
@@ -9449,40 +10080,6 @@
    ],
    "summary": "設計影像訊號處理(ISP)硬體架構，含傳統與AI影像演算法的硬體化與PPA最佳化",
    "snippet": "…As a Qualcomm Camera Engineer you will work on ideas that touch our daily life – creating everlasting connected memories and assist in building innovative devices through human and computer vision technologies in the Mobile, Automotive, XR, IoT & Compute spac",
-   "llm": true
-  },
-  {
-   "uid": "qualcomm:3081550",
-   "company_id": "qualcomm",
-   "company": "Qualcomm",
-   "company_zh": "高通",
-   "group": "global_tech",
-   "via": "",
-   "title": "Data Compression Research Engineer",
-   "url": "https://careers.qualcomm.com/careers/job/446715343548",
-   "location": "Taipei, Taipei City, Taiwan",
-   "city": "台北",
-   "department": "Video Standards Engineering",
-   "posted_at": "2025-11-05",
-   "first_seen": "2025-11-05",
-   "score": 48.0,
-   "rule_score": 27.0,
-   "category": "ai_hw",
-   "matched": [
-    "machine learning",
-    "neural network"
-   ],
-   "seniority": "mid",
-   "skills": [
-    "data compression",
-    "digital signal processing",
-    "image/video compression",
-    "information theory",
-    "hardware design",
-    "C/C++"
-   ],
-   "summary": "",
-   "snippet": "…f Data Compression Research Engineer with a focus on compression algorithms for neural network and multimedia systems. You will join a world-renowned team of experts who develop algorithms, hardware architectures, and systems for video and data compression. Yo",
    "llm": true
   },
   {
@@ -10423,41 +11020,6 @@
    "llm": true
   },
   {
-   "uid": "appier:7497826",
-   "company_id": "appier",
-   "company": "Appier",
-   "company_zh": "沛星互動",
-   "group": "tw_software",
-   "via": "",
-   "title": "Data Analytics Consultant (Enterprise Solution)",
-   "url": "https://job-boards.greenhouse.io/appier/jobs/7497826",
-   "location": "Taipei, Taiwan",
-   "city": "台北",
-   "department": "Technical Solutions",
-   "posted_at": "2026-10-13",
-   "first_seen": "2026-10-13",
-   "score": 41.6,
-   "rule_score": 31.5,
-   "category": "data_sci",
-   "matched": [
-    "AI",
-    "Machine Learning",
-    "ML"
-   ],
-   "seniority": "mid",
-   "skills": [
-    "SQL",
-    "Python",
-    "Tableau",
-    "Looker",
-    "A/B Testing",
-    "EDA"
-   ],
-   "summary": "為企業客戶以SQL/Python分析數據、建儀表板與A/B測試，並將需求回饋產品團隊",
-   "snippet": "…Familiarity with RDBMS, NOSQL DB queries Foundational knowledge or hands-on experience in Machine Learning (ML). Experience in Agent development or AI tool related workflows. Experience in top business consulting firms Prior experience working in an English-s",
-   "llm": true
-  },
-  {
    "uid": "binance:5002365101",
    "company_id": "binance",
    "company": "Binance",
@@ -10977,7 +11539,7 @@
    "location": "台灣 新北",
    "city": "新北",
    "department": "project",
-   "posted_at": "2026-11-12",
+   "posted_at": "2026-11-24",
    "first_seen": "2026-11-12",
    "score": 39.0,
    "rule_score": 36.0,
@@ -11584,7 +12146,7 @@
    "location": "台灣 竹北",
    "city": "新竹",
    "department": "project",
-   "posted_at": "2026-11-12",
+   "posted_at": "2026-11-24",
    "first_seen": "2026-11-12",
    "score": 36.4,
    "rule_score": 25.5,
@@ -11673,6 +12235,286 @@
    ],
    "summary": "",
    "snippet": "AWS operates the world's largest fleet of GPU-accelerated servers powering AI/ML training and inference at cloud scale. Our team defines the server architectures, drives the hardware designs, and owns the fleet quality for these platforms — from component sele",
+   "llm": true
+  },
+  {
+   "uid": "umc:550",
+   "company_id": "umc",
+   "company": "UMC",
+   "company_zh": "聯電",
+   "group": "tw_semi",
+   "via": "",
+   "title": "深度學習開發工程師_南科",
+   "url": "https://careers.umc.com/jobin.php?mid=550",
+   "location": "台灣 南部科學園區",
+   "city": "台灣",
+   "department": "資訊工程",
+   "posted_at": "2026-09-30",
+   "first_seen": "2026-11-23",
+   "score": 83.2,
+   "rule_score": 69.0,
+   "category": "ml",
+   "matched": [
+    "model training",
+    "NLP",
+    "Transformer",
+    "深度學習"
+   ],
+   "seniority": "junior",
+   "skills": [
+    "CNN",
+    "RNN",
+    "Transformer",
+    "NLP",
+    "K8s",
+    "CI/CD"
+   ],
+   "summary": "於聯電南科開發深度學習模型與平台，導入AI技術提升晶圓廠營運效率",
+   "snippet": "工作說明： 1.利用AI新技術導入、深度學習模型開發相關平台與解法，以提升營運效率。 2.深度學習系統開發 3.專案執行 4.產學合作 5.深度學習新技術開發與導入 上班地點： 台南市新市區南科二路18號(南部科學園區) 地區： 南部科學園區 管理責任： 無 上班時段： 日班 08:30-17:30 休假制度： 依公司規定 可上班日： 不限 工作條件 接受身分： 應屆畢業生、上班族 工作經驗： 不拘 學歷要求： 碩士(含)以上 科系要求： 數理統計相關, 應用數學相關, 資訊工程相關 語言條件-外語： 英文 --",
+   "llm": true
+  },
+  {
+   "uid": "fet:2550201",
+   "company_id": "fet",
+   "company": "Far EasTone",
+   "company_zh": "遠傳電信",
+   "group": "tw_electronics",
+   "via": "",
+   "title": "AI工程師",
+   "url": "https://erecruit.fareastone.com.tw/zh_TW/web/guest/home?p_p_id=FETRECopportunity_WAR_FETRECopportunityportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_FETRECopportunity_WAR_FETRECopportunityportlet_jobId=2550201&_FETRECopportunity_WAR_FETRECopportunityportlet_mvcPath=%2Fhtml%2Fjob%2Ffront%2FjobDetailForInternet.jsp",
+   "location": "台灣 新北",
+   "city": "新北",
+   "department": "I3915",
+   "posted_at": "",
+   "first_seen": "2000-01-01",
+   "score": 78.8,
+   "rule_score": 69.0,
+   "category": "llm_genai",
+   "matched": [
+    "AI",
+    "AI 應用",
+    "AI工程師",
+    "RAG",
+    "大語言模型",
+    "機器學習",
+    "生成式 AI"
+   ],
+   "seniority": "mid",
+   "skills": [
+    "生成式 AI",
+    "RAG",
+    "Prompt／Context Engineering",
+    "Agent Workflow",
+    "模型評估",
+    "API 整合"
+   ],
+   "summary": "為政府及企業客戶開發LLM應用，含RAG、Agent與系統整合及PoC導入",
+   "snippet": "1. 負責生成式 AI、機器學習及資料分析應用之設計、開發、測試與導入，將業務需求轉化為可落地的 AI 解決方案。 2. 開發大語言模型相關應用，包含 RAG 知識檢索、Prompt／Context Engineering、Agent Workflow、模型評估及回應品質優化。 3. 串接企業內部資料、資料庫及外部 API，並配合既有系統進行後端服務、工具呼叫與 AI 應用整合。 4. 參與政府及企業客戶 AI 專案之需求分析、技術規劃、PoC、系統建置、測試驗證及技術文件撰寫。 5. 參與 AI 專案之技術規劃、",
+   "llm": true
+  },
+  {
+   "uid": "umc:605",
+   "company_id": "umc",
+   "company": "UMC",
+   "company_zh": "聯電",
+   "group": "tw_semi",
+   "via": "",
+   "title": "2027研發替代役_深度學習建模工程師_南科",
+   "url": "https://careers.umc.com/jobin.php?mid=605",
+   "location": "台灣 南部科學園區",
+   "city": "台灣",
+   "department": "資訊工程",
+   "posted_at": "2026-09-18",
+   "first_seen": "2026-11-23",
+   "score": 78.4,
+   "rule_score": 58.5,
+   "category": "ml",
+   "matched": [
+    "AI",
+    "深度學習",
+    "資料科學"
+   ],
+   "seniority": "junior",
+   "skills": [
+    "深度學習模型",
+    "統計大數據分析",
+    "資料科學演算法",
+    "模型調適"
+   ],
+   "summary": "設計訓練深度學習模型，應用於晶圓廠提升良率、產能與縮短cycle time",
+   "snippet": "工作說明： 1.執行統計大數據分析與開發資料科學演算法及設計與訓練深度學習模型，並運用技巧調適模型，使其具備最佳的預測能力。 2.利用深度學習模型開發系統雛形，並驗證可以提升廠內人員生產力，機台產能，產品良率，與降低產品 cycle time。 3.開發AI新技術與研發 AI 關鍵零組件，專案執行，產學合作。 上班地點： 台南市新市區南科二路18號 地區： 南部科學園區 管理責任： 無 上班時段： 日班 08:30-17:30 休假制度： 依公司規定 可上班日： 不限 工作條件 接受身分： 應屆畢業生 工作經驗：",
+   "llm": true
+  },
+  {
+   "uid": "umc:546",
+   "company_id": "umc",
+   "company": "UMC",
+   "company_zh": "聯電",
+   "group": "tw_semi",
+   "via": "",
+   "title": "GenAI 系統平台開發工程師_南科",
+   "url": "https://careers.umc.com/jobin.php?mid=546",
+   "location": "台灣 南部科學園區",
+   "city": "台灣",
+   "department": "資訊工程",
+   "posted_at": "2026-01-29",
+   "first_seen": "2026-11-23",
+   "score": 63.0,
+   "rule_score": 36.0,
+   "category": "llm_genai",
+   "matched": [
+    "GenAI"
+   ],
+   "seniority": "junior",
+   "skills": [
+    "GenAI 平台建置",
+    "GenAI 應用開發",
+    "編程技能",
+    "系統設計",
+    "系統維運"
+   ],
+   "summary": "於聯電南科建置GenAI系統平台並開發內部生成式AI應用專案與維運",
+   "snippet": "工作說明： 1.依部門訂立之計劃，落實執行，達成目標，當責 GenAI 平台及應用專案開發，協助各部門增進效率，解決部門痛點，提昇公司長期競爭力 2.GenAI 系統平台建置 3.GenAI 應用專案開發 4.日管維運、建立SOP、維持系統穩定 5.持續精進強化專業技能，提升競爭力 上班地點： 台南市新市區南科二路18號(南部科學園區) 地區： 南部科學園區 管理責任： 無 上班時段： 日班 08:30-17:30 休假制度： 依公司規定 可上班日： 不限 工作條件 接受身分： 應屆畢業生、上班族 工作經驗： 不拘",
+   "llm": true
+  },
+  {
+   "uid": "logitech:148647",
+   "company_id": "logitech",
+   "company": "Logitech",
+   "company_zh": "羅技",
+   "group": "global_tech",
+   "via": "",
+   "title": "(Spring Internship) AI Application Intern, 2027",
+   "url": "https://logitech.wd5.myworkdayjobs.com/en-US/Logitech/job/Hsinchu-Taiwan/AI-Application-Intern--2027_148647-1",
+   "location": "Hsinchu, Taiwan",
+   "city": "新竹",
+   "department": "",
+   "posted_at": "2026-11-05",
+   "first_seen": "2026-11-05",
+   "score": 60.4,
+   "rule_score": 37.5,
+   "category": "llm_genai",
+   "matched": [
+    "AI",
+    "AI engineer",
+    "LLM"
+   ],
+   "seniority": "intern",
+   "skills": [
+    "Local LLM",
+    "Claude/GPT",
+    "C/C++",
+    "Software system level design",
+    "Technical documentation",
+    "Windows/macOS deployment"
+   ],
+   "summary": "評估本地端LLM於公司筆電的應用、部署與安全，規劃與雲端LLM分流並製作原型",
+   "snippet": "…sitive global impact while having the flexibility to do it in their own way. An AI engineer responsible in Local LLM research, how to improve engineer's daily tasks efficiency and delivery quality. Your Contribution: Be Yourself. Be Open. Stay Hungry and Humbl",
+   "llm": true
+  },
+  {
+   "uid": "logitech:148639",
+   "company_id": "logitech",
+   "company": "Logitech",
+   "company_zh": "羅技",
+   "group": "global_tech",
+   "via": "",
+   "title": "(Spring Internship) AI Automation Test Intern Engineer, 2027",
+   "url": "https://logitech.wd5.myworkdayjobs.com/en-US/Logitech/job/Hsinchu-Taiwan/AI-Automation-Test-Intern-Engineer_148639",
+   "location": "Hsinchu, Taiwan",
+   "city": "新竹",
+   "department": "",
+   "posted_at": "2026-11-05",
+   "first_seen": "2026-11-05",
+   "score": 55.1,
+   "rule_score": 55.5,
+   "category": "llm_genai",
+   "matched": [
+    "AI",
+    "AI/ML",
+    "Data Scien",
+    "Large Language Model",
+    "prompt engineer"
+   ],
+   "seniority": "intern",
+   "skills": [
+    "Python",
+    "LLMs",
+    "prompt engineering",
+    "AI agent architectures",
+    "test automation",
+    "EVT"
+   ],
+   "summary": "開發鍵盤平台AI技能與提示流程，整合AI工具至驗證測試自動化",
+   "snippet": "…Programming: Strong foundational skills in Python (experience with software testing or automation frameworks is a plus). AI/ML Familiarity: Basic understanding of Large Language Models (LLMs), prompt engineering, or AI agent architectures. Testing Mindset: Fa",
+   "llm": true
+  },
+  {
+   "uid": "umc:590",
+   "company_id": "umc",
+   "company": "UMC",
+   "company_zh": "聯電",
+   "group": "tw_semi",
+   "via": "",
+   "title": "數據整合工程師_竹科/南科",
+   "url": "https://careers.umc.com/jobin.php?mid=590",
+   "location": "台灣 新竹科學園區",
+   "city": "新竹",
+   "department": "技術研發",
+   "posted_at": "2026-08-06",
+   "first_seen": "2026-08-06",
+   "score": 50.2,
+   "rule_score": 15.0,
+   "category": "data_sci",
+   "matched": [
+    "machine learning"
+   ],
+   "seniority": "mid",
+   "skills": [
+    "big data analysis",
+    "machine learning",
+    "FDC analysis",
+    "yield enhancement",
+    "Process integration",
+    "Coding"
+   ],
+   "summary": "開發半導體巨量數據良率提升系統，進行FDC分析與機器學習方法開發",
+   "snippet": "….Big data analysis for yield enhancement 4.Process/equipment FDC analysis 5.R&D machine learning methodology/system development 上班地點： 新竹市東區力行二路3號 地區： 新竹科學園區 管理責任： 不需負擔管理責任 出差外派： 無需出差外派 上班時段： 日班 休假制度： 週休二日 可上班日： 不限 工作條件 接受身分： 上班族 工作經驗： 2年以上 學歷要求： 碩士以上 科系要求： 資訊工",
+   "llm": true
+  },
+  {
+   "uid": "logitech:148693",
+   "company_id": "logitech",
+   "company": "Logitech",
+   "company_zh": "羅技",
+   "group": "global_tech",
+   "via": "",
+   "title": "Spring Internship Program - Field Quality Analyst (Artificial Intelligence and System Integration)",
+   "url": "https://logitech.wd5.myworkdayjobs.com/en-US/Logitech/job/Hsinchu-Taiwan/Spring-Internship-Program---Field-Quality-Analyst--Artificial-Intelligence-and-System-Integration-_148693",
+   "location": "Hsinchu, Taiwan",
+   "city": "新竹",
+   "department": "",
+   "posted_at": "2026-11-13",
+   "first_seen": "2026-11-13",
+   "score": 34.3,
+   "rule_score": 17.2,
+   "category": "ai_adjacent",
+   "matched": [
+    "AI",
+    "large language model",
+    "Machine Learning"
+   ],
+   "seniority": "intern",
+   "skills": [
+    "Jira Cloud",
+    "Oracle PLM Quality Cloud",
+    "data analytics",
+    "data visualization",
+    "large language models",
+    "NotebookLM"
+   ],
+   "summary": "",
+   "snippet": "…Execute rigorous testing and UAT (User Acceptance Testing) protocols to qualify the Jira project, working directly with IT developers to resolve technical bottlenecks. Implement AI/Machine Learning integrations to mine historical QIMS data, enabling rapid, au",
    "llm": true
   },
   {
