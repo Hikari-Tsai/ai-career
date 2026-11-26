@@ -1881,6 +1881,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"30bc82d2b134c086": {
+"relevance": 25,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"Terraform",
+"Docker/K8S",
+"AWS",
+"CI/CD",
+"Python",
+"Claude Code"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "30f8b934927bdfd8": {
 "relevance": 25,
 "category": "not_ai",
@@ -2203,6 +2219,22 @@
 "Root Cause分析"
 ],
 "summary_zh": "負責AI伺服器的自動化測試腳本開發、軟硬體整合驗證與問題分析",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"3a59191a783ec4db": {
+"relevance": 68,
+"category": "llm_genai",
+"seniority": "junior",
+"skills": [
+"Python",
+"TypeScript",
+"LLM agents",
+"MCP",
+"RAG",
+"LangGraph"
+],
+"summary_zh": "",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -2839,6 +2871,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"493a8c30bcd17bd8": {
+"relevance": 82,
+"category": "llm_genai",
+"seniority": "senior",
+"skills": [
+"Python",
+"AI coding agents",
+"multi-agent systems",
+"context engineering",
+"LLM evaluation",
+"Kubernetes"
+],
+"summary_zh": "為研發團隊設計並建置AI代理、評估框架與AI原生開發流程基礎設施",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "4942000f3af28752": {
 "relevance": 70,
 "category": "llm_genai",
@@ -3344,6 +3392,22 @@
 "知識管理"
 ],
 "summary_zh": "開發應用於資料與知識分析的AI Agent系統（職缺描述未提供細節）",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"54ef6bc4f961c437": {
+"relevance": 45,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Kubernetes",
+"Terraform",
+"CI/CD",
+"AWS",
+"Kafka",
+"LLM gateway"
+],
+"summary_zh": "負責AI威脅分析平台後端架構與維運，含SLO監控、CI/CD及AI推論成本優化",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -3963,6 +4027,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"6692bf6b79cdafdb": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"Claude Code",
+"MCP servers",
+"Golang",
+"Python",
+"microservice architectures",
+"CI/CD"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "6696964e2edef54f": {
 "relevance": 35,
 "category": "ai_hw",
@@ -4576,6 +4656,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"758ea47d0b4ec15c": {
+"relevance": 72,
+"category": "ml",
+"seniority": "senior",
+"skills": [
+"AI/ML solution design",
+"scalable system architecture",
+"LLM integration",
+"Agentic AI",
+"AI-native system architecture",
+"PoC"
+],
+"summary_zh": "為趨勢科技資安產品設計可擴展AI/ML架構並主導PoC到量產落地",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "769468c4c7e96f42": {
 "relevance": 92,
 "category": "cv_nlp",
@@ -5169,6 +5265,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"8584515e17120458": {
+"relevance": 55,
+"category": "ai_adjacent",
+"seniority": "manager",
+"skills": [
+"GenAI",
+"AI platform",
+"AI engineering governance",
+"AWS / GCP / Azure",
+"cloud-native system architecture",
+"cybersecurity"
+],
+"summary_zh": "領導趨勢科技AI工程組織轉型，制定AI策略路線圖並管理多位工程經理",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "8589bf14addfba0c": {
 "relevance": 40,
 "category": "ai_adjacent",
@@ -5421,6 +5533,22 @@
 "CPU architecture",
 "AMD uProf",
 "Kafka/Spark"
+],
+"summary_zh": "x",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"8901aa847825d808": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"Claude Code",
+"MCP servers",
+"C/C++",
+"Python",
+"Linux",
+"CI/CD"
 ],
 "summary_zh": "x",
 "model": "claude-opus-5-5",
@@ -6000,6 +6128,19 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"98953ffe9e772655": {
+"relevance": 72,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"AI Agents",
+"Automation",
+"LLM"
+],
+"summary_zh": "於HPE台北開發AI代理與自動化軟體系統，職缺描述未提供細節",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "993bf7f8c6ff6898": {
 "relevance": 72,
 "category": "mlops_infra",
@@ -6255,6 +6396,22 @@
 "數據分析"
 ],
 "summary_zh": "AI伺服器產線工業工程師，負責產線佈局、產能人力規劃與製程改善",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"a01819ca28cb8c0e": {
+"relevance": 92,
+"category": "llm_genai",
+"seniority": "senior",
+"skills": [
+"LLM fine-tuning",
+"PyTorch",
+"Hugging Face Transformers",
+"Python",
+"MLOps",
+"LoRA"
+],
+"summary_zh": "在趨勢科技AI Lab微調與評估LLM並開發部署資安AI服務",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -7325,6 +7482,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"c31270fade908aed": {
+"relevance": 35,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"Claude Code / GitHub Copilot / Cursor",
+"MCP servers",
+"Golang / Python",
+"Microservices & REST API",
+"PostgreSQL / Redis",
+"CI/CD (GitHub Action)"
+],
+"summary_zh": "運用AI輔助開發工具開發端點資安產品後端微服務，含測試與部署維運",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "c3616a9923e22cd3": {
 "relevance": 35,
 "category": "ai_hw",
@@ -7934,6 +8107,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"d2f62e1e8b4ad8c5": {
+"relevance": 30,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"Claude Code",
+"MCP servers",
+"C/C++",
+"WinDbg",
+"pytest",
+"GitHub Action"
+],
+"summary_zh": "運用AI輔助開發工具開發、測試與維護Windows端點資安代理程式軟體",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "d34a61be67e227d2": {
 "relevance": 55,
 "category": "mlops_infra",
@@ -8490,6 +8679,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"e512436cf14405b2": {
+"relevance": 50,
+"category": "ai_adjacent",
+"seniority": "senior",
+"skills": [
+"Python",
+"Java",
+"Kubernetes",
+"AWS",
+"CI/CD",
+"Terraform"
+],
+"summary_zh": "為VisionOne AI助理Companion開發整合LLM的雲端後端服務與CI/CD維運",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "e513044322dd65f0": {
 "relevance": 30,
 "category": "ai_adjacent",
@@ -8856,6 +9061,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"eff08f848e093d93": {
+"relevance": 18,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"Python",
+"Go",
+"Docker",
+"Kubernetes",
+"gRPC",
+"LLM APIs"
+],
+"summary_zh": "以Python/Go開發與維運雲端後端服務及API，並運用AI工具加速開發",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "f145de882a9012a8": {
 "relevance": 32,
 "category": "ai_hw",
@@ -9035,6 +9256,22 @@
 "ETL"
 ],
 "summary_zh": "開發醫療AI網頁應用全端功能，含前後端、ETL管線與代理式工作流程編排",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"f63ba89759d95695": {
+"relevance": 25,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"Swift",
+"Objective-C",
+"Xcode",
+"Claude Code",
+"MCP servers",
+"GitHub Action"
+],
+"summary_zh": "開發維護macOS端點資安產品元件並除錯，運用AI輔助開發工具提升效率",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
