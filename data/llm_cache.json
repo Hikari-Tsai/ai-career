@@ -199,6 +199,21 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"063bdfb47fa77674": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "unknown",
+"skills": [
+"電性異常分析",
+"產品測試良率追蹤",
+"Server產品優化",
+"技術文件管理",
+"客戶需求報告"
+],
+"summary_zh": "負責AI伺服器電性異常分析、良率追蹤與客戶議題跨部門協調",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "064d9270db2be0ee": {
 "relevance": 88,
 "category": "ml",
@@ -538,6 +553,22 @@
 "C/C++"
 ],
 "summary_zh": "開發指紋影像處理與辨識演算法，模擬驗證效能並移植至多種運算平台",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"0dfcc59e30953b7d": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"Linux",
+"Python",
+"shell scripting",
+"hardware validation",
+"storage/server NPI",
+"root-cause analysis"
+],
+"summary_zh": "負責Google Cloud儲存硬體的電氣、功能、可靠度驗證與測試自動化",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -1583,6 +1614,22 @@
 "Docker"
 ],
 "summary_zh": "為電商行銷部門開發部署LLM/RAG/Agent系統並監控優化模型表現",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"29481695389e40e0": {
+"relevance": 72,
+"category": "llm_genai",
+"seniority": "mid",
+"skills": [
+"Python",
+"LLM",
+"RAG",
+"vLLM",
+"Kubernetes",
+"FastAPI"
+],
+"summary_zh": "擔任客戶與AI研發間橋樑，整合部署語音、影像或LLM模型並開發後端API與PoC",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -5027,6 +5074,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"832c5863f0586e2c": {
+"relevance": 12,
+"category": "not_ai",
+"seniority": "manager",
+"skills": [
+"BIOS",
+"Kernel",
+"BMC",
+"embedded operating systems",
+"system bring-up",
+"Open Compute Projects (OCP)"
+],
+"summary_zh": "帶領團隊開發Google資料中心伺服器系統軟體（BIOS、BMC、核心）並規劃技術路線",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "833fed8f2f7276fb": {
 "relevance": 92,
 "category": "ml",
@@ -5040,6 +5103,22 @@
 "Diffusion Policy"
 ],
 "summary_zh": "以模擬合成資料訓練與微調機器人具身智能多模態基礎模型並部署",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"8391a34ef8b1eeb4": {
+"relevance": 42,
+"category": "ai_adjacent",
+"seniority": "mid",
+"skills": [
+"React",
+"TypeScript",
+"Node.js",
+"WebAuthn/FIDO2",
+"BFF",
+"SSR"
+],
+"summary_zh": "開發幣安登入驗證與MFA前後端，並整合AI人臉辨識與活體偵測至KYC產品",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -5950,6 +6029,22 @@
 "statistical modeling"
 ],
 "summary_zh": "分析3DIC與先進封裝良率數據，進行失效診斷與根因分析，輔以統計與ML提升良率",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"9aa1dc27b5d871cf": {
+"relevance": 30,
+"category": "ai_adjacent",
+"seniority": "manager",
+"skills": [
+"hardware diagnostics",
+"GPU/TPU accelerators",
+"data center automation",
+"HPC manufacturing",
+"Linux",
+"software development"
+],
+"summary_zh": "帶領台灣團隊開發GPU/TPU伺服器硬體診斷軟體，並與製造夥伴優化測試與維修流程",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
