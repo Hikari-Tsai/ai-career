@@ -7,6 +7,7 @@ and register it here.
 from . import bigtech, custom, global_ats, simple_ats, tw_electronics, tw_semi, workday
 
 SOURCES = {
+    "avature": (global_ats.avature, global_ats.avature_detail),
     "jibe": (global_ats.jibe, None),
     "oracle": (global_ats.oracle, global_ats.oracle_detail),
     "radancy": (global_ats.radancy, global_ats.radancy_detail),
@@ -27,6 +28,9 @@ SOURCES = {
     "manatal": (custom.manatal, None),
     "jazzhr": (custom.jazzhr, custom.jazzhr_detail),
     "esun": (custom.esun, None),
+    "compal": (tw_electronics.compal, tw_electronics.compal_detail),
+    "psmc": (tw_semi.psmc, None),
+    "siliconmotion": (tw_semi.siliconmotion, tw_semi.siliconmotion_detail),
     "wix_cms": (custom.wix_cms, None),
     "yourator": (custom.yourator, custom.yourator_detail),
     "sea": (custom.sea, None),

@@ -123,15 +123,15 @@ python3 -m http.server -d . 8000   # 開 http://localhost:8000/web/
 
 ## 收錄範圍
 
-`companies.yaml` 目前自動爬取 75 個招募來源，另有 34 家以官網直達卡片顯示（2026-11-23 驗證）：
+`companies.yaml` 目前自動爬取 81 個招募來源，另有 33 家以官網直達卡片顯示（2026-11-27 從 Mac 重新驗證）：
 
 | 類型 | 公司 |
 |---|---|
-| 台灣半導體 | 聯發科、聯電、瑞昱、新唐、華邦電、創意、世界先進 |
-| 台灣電子／系統／電信 | 鴻海、華碩（含機器人與 AI 中心 ARAIC 官網；同一職缺以 ARAIC 為主）、緯創、宏碁、研華、群暉、台灣大哥大、中華電信、遠傳 |
+| 台灣半導體 | 聯發科、聯電、瑞昱、新唐、華邦電、創意、世界先進、力積電、慧榮 |
+| 台灣電子／系統／電信 | 鴻海、仁寶、華碩（含機器人與 AI 中心 ARAIC 官網；同一職缺以 ARAIC 為主）、緯創、宏碁、研華、群暉、台灣大哥大、中華電信、遠傳 |
 | 台灣軟體／網路／金融 | 趨勢、Appier、KKCompany、SHOPLINE、Pinkoi、Gogolook、Dcard、玉山銀行 |
-| 國際科技大廠 | Google、Microsoft、Amazon、Apple、NVIDIA、Intel、AMD、Qualcomm、Micron、Broadcom、Marvell、Synopsys、Cadence、Arm、AMAT、ASML、Lam、KLA、IBM、Cisco、Dell、TI、HP、HPE、Supermicro、Logitech、NXP、Infineon、ADI、Keysight、Teradyne、Netflix |
-| 日美星外商在台 | LINE、Shopee、Renesas、Bosch、Zebra、Binance、Ubiquiti、Canonical、OKX、Agoda、Stripe、Crypto.com、Ericsson、Sony、TEL、foodpanda |
+| 國際科技大廠 | Google、Microsoft、Amazon、Apple、NVIDIA、Intel、AMD、Qualcomm、Micron、Broadcom、Marvell、Synopsys、Cadence、Arm、AMAT、ASML、Lam、KLA、IBM、Cisco、Dell、TI、HP、HPE、Supermicro、Logitech、NXP、Infineon、ADI、Keysight、Teradyne、Netflix、西門子 |
+| 日美星外商在台 | LINE、雅虎台灣（Workday）、Shopee、Renesas、Bosch、Zebra、Binance、Ubiquiti、Canonical、OKX、Agoda、Stripe、Crypto.com、Ericsson、Sony、TEL、foodpanda |
 | 台灣新創（Yourator） | 以 AI、機器學習、LLM 等關鍵字搜尋 Yourator（robots.txt 允許、公開 API），已由官網爬取的公司會跳過，職缺標示「來源：Yourator」 |
 
 **無法收錄的公司**（不使用求職平台、不繞過反爬蟲機制）：其中的大廠以 `link_only: true` 登記在 `companies.yaml`，網頁上會以「請至官網查看」卡片顯示，直接連到官方招募頁。
@@ -140,8 +140,7 @@ python3 -m http.server -d . 8000   # 開 http://localhost:8000/web/
 - **官網只導向 104 等求職平台**：聯詠、奇景、群聯、微星（2025 年 6 月起官網職缺改連到 104）、世芯、晶心、南亞科、旺宏、台達電、和碩、光寶、Gogoro、工研院、91APP、奧義智慧、iKala、遊戲橘子、昕力、精誠、叡揚、東森購物、將來銀行、訊連、台灣人工智慧實驗室
 - **官網有 Cloudflare 或其他機制阻擋自動化存取**：台積電、日月光、力旺、英業達、技嘉、義隆、Uber、Nokia、MaiCoin
 - **只有私有 API，或找不到可用的端點**：Meta（只有私有 GraphQL）、廣達（職缺頁 iframe 目前 404）、國泰（iMatch API 格式不明）、Western Digital、緯穎（只有招募信箱）
-- **之後可以補的**（端點已找到，還沒寫 adapter）：仁寶、西門子（Avature）、力積電、慧榮
-- **暫時抓不到**：Workday 系統的公司（NVIDIA、Intel、Micron 等）在 GitHub Actions 上常被限流，聯電擋雲端 IP。抓取失敗且沒有舊資料可沿用時，網頁會自動改顯示成官網直達卡片。
+- **只在本機抓**：Workday 系統的公司（NVIDIA、Intel、Micron、雅虎等）在 GitHub Actions 上常被限流，聯電、遠傳擋雲端 IP，所以標成 `local_only`，由 Mac 每天 04:00 執行 `scripts/local_crawl.sh` 抓取。本機執行時若有公司被限流，會先冷卻 10 分鐘，再以一半速度逐一補抓一次。抓取失敗時沿用前一天的資料；沒有舊資料可沿用時，網頁會改顯示成官網直達卡片。
 
 ## GitHub Actions 設定
 

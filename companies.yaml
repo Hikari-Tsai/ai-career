@@ -114,6 +114,8 @@ companies:
   # ---------------------------------------------------------------- foreign companies with Taiwan branches
   - {id: netskope, name: Netskope, name_zh: Netskope, group: foreign_branch, careers_url: https://www.netskope.com/company/careers/open-positions, source: greenhouse, params: {board: netskope}, in_salary_survey: true}
   - {id: line, name: LINE Taiwan, name_zh: LINE 台灣, group: foreign_branch, careers_url: https://careers.linecorp.com/jobs, source: line}
+  # yahooinc.com's own job search needs a reCAPTCHA token; Yahoo's Workday tenant lists the same openings.
+  - {id: yahoo_tw, name: Yahoo Taiwan, name_zh: 雅虎台灣, group: foreign_branch, careers_url: "https://ouryahoo.wd5.myworkdayjobs.com/careers", source: workday, params: {host: ouryahoo.wd5.myworkdayjobs.com, tenant: ouryahoo, site: careers}, local_only: true, in_salary_survey: true}
   - {id: shopee, name: Shopee Taiwan, name_zh: 蝦皮台灣, group: foreign_branch, careers_url: https://careers.shopee.tw/, source: sea, params: {region_ids: 28}}
   - {id: renesas, name: Renesas, name_zh: 瑞薩電子, group: foreign_branch, careers_url: https://jobs.renesas.com/jobs, source: smartrecruiters, params: {company: RenesasElectronics}}
   - {id: bosch, name: Bosch, name_zh: 博世, group: foreign_branch, careers_url: https://careers.smartrecruiters.com/BoschGroup, source: smartrecruiters, params: {company: BoschGroup}}
@@ -128,6 +130,7 @@ companies:
   - {id: stripe, name: Stripe, name_zh: Stripe, group: foreign_branch, careers_url: https://stripe.com/jobs/search, source: greenhouse, params: {board: stripe}}
   - {id: crypto_com, name: Crypto.com, name_zh: Crypto.com, group: foreign_branch, careers_url: https://crypto.com/en/careers/, source: lever, params: {site: crypto}, in_salary_survey: true}
   - {id: netflix, name: Netflix, name_zh: 網飛, group: global_tech, careers_url: https://explore.jobs.netflix.net, source: eightfold, params: {host: explore.jobs.netflix.net, domain: netflix.com, api: v2}, tags: [faang]}
+  - {id: siemens, name: Siemens, name_zh: 西門子, group: global_tech, careers_url: "https://jobs.siemens.com/en_US/externaljobs/SearchJobs/Taiwan/", source: avature, params: {host: jobs.siemens.com}}
   - {id: ericsson, name: Ericsson, name_zh: 愛立信, group: foreign_branch, careers_url: https://jobs.ericsson.com/careers, source: eightfold, params: {host: jobs.ericsson.com, domain: ericsson.com, api: pcsx}}
   - {id: sony_sie, name: Sony Interactive Entertainment, name_zh: 索尼互動娛樂, group: foreign_branch, careers_url: https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal, source: greenhouse, params: {board: sonyinteractiveentertainmentglobal}}
   - {id: sony_music, name: Sony Music, name_zh: 索尼音樂, group: foreign_branch, careers_url: https://job-boards.greenhouse.io/sonymusicentertainment, source: greenhouse, params: {board: sonymusicentertainment}}
@@ -136,6 +139,8 @@ companies:
   # ---------------------------------------------------------------- Taiwan semiconductors
   - {id: mediatek, name: MediaTek, name_zh: 聯發科, group: tw_semi, careers_url: https://careers.mediatek.com/en/jobs, source: mediatek}
   - {id: realtek, name: Realtek, name_zh: 瑞昱, group: tw_semi, careers_url: "https://recruit.realtek.com/Job/Search?lang=en", source: realtek, all_taiwan: true}
+  - {id: psmc, name: PSMC, name_zh: 力積電, group: tw_semi, careers_url: "https://www.powerchip.com/zh-tw/join/index/manufacturing", source: psmc, all_taiwan: true}
+  - {id: siliconmotion, name: Silicon Motion, name_zh: 慧榮, group: tw_semi, careers_url: "https://www.siliconmotion.com/company/careers/lists", source: siliconmotion}
   - {id: umc, name: UMC, name_zh: 聯電, group: tw_semi, careers_url: https://careers.umc.com/jobsearch.php, source: umc, local_only: true}
   - {id: nuvoton, name: Nuvoton, name_zh: 新唐, group: tw_semi, careers_url: https://jobs.nuvoton.com/search/, source: successfactors, params: {host: jobs.nuvoton.com}}
   - {id: winbond, name: Winbond, name_zh: 華邦電, group: tw_semi, careers_url: https://careers.winbond.com/, source: successfactors, params: {host: careers.winbond.com}}
@@ -148,6 +153,7 @@ companies:
   # ASUS Robotics & AI Center lists its openings on its own site; the same jobs also appear on recruit.asus.com
   # with tags like "(AI應用)". `supersedes` keeps this site's copy and drops the matching ASUS one.
   - {id: asus-araic, name: ASUS Robotics & AI Center, name_zh: 華碩機器人與 AI 中心, group: tw_electronics, careers_url: "https://www.araic.asus.com/job-openings", source: wix_cms, params: {url: "https://www.araic.asus.com/job-openings"}, supersedes: {company: asus, marker: "AI應用|Robotics|ARAIC|機器人|Autonomous"}, in_salary_survey: true}
+  - {id: compal, name: Compal, name_zh: 仁寶, group: tw_electronics, careers_url: "https://www.compal.com/careers/jobs/", source: compal}
   - {id: wistron, name: Wistron, name_zh: 緯創, group: tw_electronics, careers_url: https://jobs.wistron.com, source: wistron}
   - {id: acer, name: Acer, name_zh: 宏碁, group: tw_electronics, careers_url: https://careers.acer.com, source: successfactors, params: {host: careers.acer.com}}
   - {id: advantech, name: Advantech, name_zh: 研華, group: tw_electronics, careers_url: https://www.advantech.com/en/careers, source: workday, params: {host: advantech.wd3.myworkdayjobs.com, tenant: advantech, site: External}, local_only: true}
@@ -217,7 +223,6 @@ companies:
   - {id: etmall, name: Eastern Home Shopping, name_zh: 東森購物, group: tw_software, link_only: true, reason: job_board, careers_url: https://www.etmall.com.tw/, in_salary_survey: true}
   - {id: nextbank, name: NEXT BANK, name_zh: 將來銀行, group: tw_software, link_only: true, reason: job_board, careers_url: https://www.nextbank.com.tw/, in_salary_survey: true}
   - {id: qnap, name: QNAP, name_zh: 威聯通, group: tw_electronics, link_only: true, reason: job_board, careers_url: https://www.qnap.com/zh-tw/career, in_salary_survey: true}
-  - {id: yahoo_tw, name: Yahoo Taiwan, name_zh: 雅虎台灣, group: foreign_branch, link_only: true, reason: blocked, careers_url: "https://www.yahooinc.com/careers/search.html?location=Taiwan", in_salary_survey: true}
   - {id: teamt5, name: TeamT5, name_zh: 杜浦數位安全, group: tw_software, link_only: true, reason: job_board, careers_url: https://teamt5.org/tw/careers, in_salary_survey: true}
   - {id: igs, name: IGS, name_zh: 鈊象電子, group: tw_software, link_only: true, reason: no_api, careers_url: https://www.igs.com.tw/career/, in_salary_survey: true}
   - {id: digiwin, name: Digiwin, name_zh: 鼎新電腦, group: tw_software, link_only: true, reason: job_board, careers_url: https://www.digiwin.com.tw/hr/school/, in_salary_survey: true}

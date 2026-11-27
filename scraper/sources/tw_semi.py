@@ -197,3 +197,63 @@ def talentsite_detail(company: dict, job: Job) -> dict:
     text = html_to_text(get_text(job.url))
     i = text.find("工作說明")
     return {"description": text[i : i + 6000] if i >= 0 else text[:4000]}
+
+
+_PSMC_CATEGORIES = ("manufacturing", "process_technology", "r-d_unit", "information_technology", "other")
+
+
+def psmc(company: dict):
+    """PSMC lists each job category on one server-rendered page; postings have no ids, dates or detail pages,
+    so the id is a hash of category + title and the URL points at the category page."""
+    import hashlib
+    from urllib.parse import quote
+
+    for cat in company.get("params", {}).get("categories", _PSMC_CATEGORIES):
+        url = f"https://www.powerchip.com/zh-tw/join/index/{cat}"
+        for chunk in get_text(url).split('<div class="card-content">')[1:]:
+            title = re.search(r"<h4>([^<]+)</h4>", chunk)
+            if not title:
+                continue
+            title = html_to_text(title.group(1))
+            part = lambda rx: html_to_text((re.search(rx, chunk, re.S) or [None, ""])[1])
+            loc = re.search(r"工作地點[：:]\s*([^<\s]+)", chunk)
+            yield Job(
+                company_id=company["id"],
+                source_id=f"{cat}-{hashlib.sha1(title.encode()).hexdigest()[:10]}",
+                title=title,
+                url=f"{url}#{quote(title)}",
+                location=f"台灣 {loc.group(1) if loc else '新竹'}",
+                department=cat.replace("_", " ").replace("-", " "),
+                description="\n".join(filter(None, (
+                    part(r'<div class="intro bold">.*?<p class="content">(.*?)</p>'),
+                    part(r'<div class="condition bold">.*?<p class="content">(.*?)</p>'),
+                    part(r"工作時段\s*</div>\s*<p>(.*?)</p>"),
+                ))),
+            )
+
+
+_SIMO_ROW = re.compile(
+    r'<a class="searchjob-item" href="(?P<url>https://www\.siliconmotion\.com/company/careers/(?P<id>[^/"]+)/detail)">\s*'
+    r'<h5 class="title title-sm">(?P<title>[^<]+)</h5>\s*'
+    r'<span class="sub-title subtitle-xxs"><i class="icon-map"></i>(?P<loc>[^<]+)</span>',
+    re.S,
+)
+_SIMO_TW = {"Taipei/Hsinchu", "Taipei", "Hsinchu", "Tainan", "Taiwan"}
+
+
+def siliconmotion(company: dict):
+    """One server-rendered page lists every opening worldwide; keep the Taiwan locations."""
+    for m in _SIMO_ROW.finditer(get_text("https://www.siliconmotion.com/company/careers/lists")):
+        loc = m["loc"].strip()
+        yield Job(
+            company_id=company["id"],
+            source_id=m["id"],
+            title=html_to_text(m["title"]),
+            url=m["url"],
+            location=f"Taiwan {loc}" if loc in _SIMO_TW else loc,
+        )
+
+
+def siliconmotion_detail(company: dict, job: Job) -> dict:
+    m = re.search(r'<div class="editor">(.*?)</div>\s*</section>', get_text(job.url), re.S)
+    return {"description": html_to_text(m.group(1)) if m else ""}

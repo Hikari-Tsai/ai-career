@@ -245,3 +245,73 @@ def ibm(company: dict):
                 description=html_to_text(s.get("description")),
             )
         frm += len(rows)
+
+
+# ---- Avature (Siemens): server-rendered search pages with standard theme classes
+_AV_LINK = re.compile(r'<a class="link" href="([^"]+/JobDetail/(?:[^"/]+/)?(\d+))"[^>]*>\s*(.*?)\s*</a>', re.S)
+_AV_FIELD = re.compile(
+    r'article__content__view__field__label"\s*>\s*(.*?)\s*</div>\s*<div class="article__content__view__field__value">(.*?)</div>', re.S
+)
+
+
+def _av_span(chunk: str, cls: str) -> str:
+    m = re.search(rf'class="list-item-{cls}"[^>]*>(.*?)</span>', chunk, re.S)
+    return html_to_text(m.group(1)) if m else ""
+
+
+def avature(company: dict):
+    """params: host, locale (en_US), portal (externaljobs), search (SearchJobs/Taiwan/), country (regex).
+    The search is a keyword match, so rows are post-filtered on country; "Multiple Locations" rows are
+    resolved from their detail page."""
+    p = company["params"]
+    base = f"https://{p['host']}/{p.get('locale', 'en_US')}/{p.get('portal', 'externaljobs')}/{p.get('search', 'SearchJobs/Taiwan/')}"
+    country = re.compile(p.get("country", "Taiwan"), re.I)
+    offset, total, seen = 0, None, set()
+    while True:
+        page = get_text(base, params={"folderOffset": offset}, timeout=60)
+        if total is None:
+            m = re.search(r"([\d,]+) results", page)
+            total = int(m.group(1).replace(",", "")) if m else 0
+        chunks = page.split('<article class="article article--result')[1:]
+        for chunk in chunks:
+            m = _AV_LINK.search(chunk)
+            if not m or m.group(2) in seen:
+                continue
+            seen.add(m.group(2))
+            job = Job(
+                company_id=company["id"],
+                source_id=m.group(2),
+                title=html_to_text(m.group(3)),
+                url=m.group(1),
+                location=", ".join(filter(None, (_av_span(chunk, "jobCity"), _av_span(chunk, "jobState"), _av_span(chunk, "jobCountry")))),
+                department=_av_span(chunk, "family"),
+            )
+            if not job.location:  # "Multiple Locations": only the detail page says where
+                d = avature_detail(company, job)
+                job.location, job.description, job.posted_at = d["location"], d["description"], d["posted_at"]
+            if country.search(job.location):
+                job.location = job.location.replace("Taiwan Province of China", "Taiwan").replace("Taiwan, Province of China", "Taiwan")
+                yield job
+        offset += len(chunks)
+        if not chunks or offset >= total or offset > 2000:
+            break
+
+
+def avature_detail(company: dict, job: Job) -> dict:
+    page = get_text(job.url, timeout=60)
+    fields = {html_to_text(k): v for k, v in _AV_FIELD.findall(page)}
+    posted = ""
+    raw = html_to_text(fields.get("Posted since", ""))
+    for fmt in ("%d-%b-%Y", "%b %d, %Y", "%Y-%m-%d", "%d/%m/%Y"):
+        try:
+            posted = datetime.strptime(raw, fmt).date().isoformat()
+            break
+        except ValueError:
+            continue
+    i = page.find("tf_replaceFieldVideoTokens")
+    desc = ""
+    if i >= 0:
+        end = re.compile(r'<div class="article__content__view__field[ "]|</article>').search(page, i + 30)
+        desc = html_to_text(page[page.find(">", i) + 1 : end.start() if end else i + 30000])
+    loc = re.sub(r"\s*\n\s*", " / ", html_to_text(fields.get("Location(s)", "")).strip())
+    return {"description": desc, "location": loc or job.location, "posted_at": posted}

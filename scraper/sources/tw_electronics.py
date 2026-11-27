@@ -192,3 +192,48 @@ def fet(company: dict):
             )
         if not new:
             break
+
+
+_COMPAL_ROW = re.compile(
+    r'<a href="(?P<url>[^"]+)" class="list-group-item list-group-item-action">\s*<div class="row">\s*'
+    r'<span class="col-md">(?P<title>[^<]+)</span>\s*'
+    r'<span class="col-md-2">(?P<y>\d{4})年(?P<m>\d{1,2})月(?P<d>\d{1,2})日</span>\s*'
+    r'<span class="col-md-2">(?P<field>[^<]*)</span>\s*<span class="col-lg-3 col-md-4">(?P<loc>[^<]*)</span>',
+    re.S,
+)
+_COMPAL_FIELD = re.compile(r'<p class="d-inline-block align-top\s*">([^<]+)：</p>\s*<p class="d-inline-block align-top\s*">(.*?)</p>', re.S)
+_COMPAL_CODE = re.compile(r"[A-Z]{4}\d{5}")
+_COMPAL_LIST = "https://www.compal.com/careers/jobs/%E8%81%B7%E7%BC%BA%E5%88%97%E8%A1%A8/"
+
+
+def compal(company: dict):
+    """Compal's Wagtail site renders the list server-side; walk ?page=N until a page adds nothing new."""
+    seen: set[str] = set()
+    for page in range(1, 30):
+        html = get_text(_COMPAL_LIST, params={"page": page} if page > 1 else None)
+        new = 0
+        for m in _COMPAL_ROW.finditer(html):
+            url = m["url"].replace("http://", "https://", 1)
+            if url in seen:
+                continue
+            seen.add(url)
+            new += 1
+            title = html_to_text(m["title"])
+            code = _COMPAL_CODE.search(title)
+            loc = m["loc"].strip()
+            yield Job(
+                company_id=company["id"],
+                source_id=code.group(0) if code else url.rstrip("/").rsplit("/", 1)[-1],
+                title=title,
+                url=url,
+                location="海外" if loc == "海外" else f"台灣 {loc}",
+                department=m["field"].strip(),
+                posted_at=f"{m['y']}-{int(m['m']):02d}-{int(m['d']):02d}",
+            )
+        if not new:
+            break
+
+
+def compal_detail(company: dict, job: Job) -> dict:
+    fields = {k.strip(): html_to_text(v) for k, v in _COMPAL_FIELD.findall(get_text(job.url))}
+    return {"description": "\n".join(fields.get(k, "") for k in ("工作內容", "需求條件")).strip()}
