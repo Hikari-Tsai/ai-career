@@ -53,15 +53,15 @@
 },
 {
 "date": "2026-11-27",
-"taiwan_jobs": 6490,
-"ai_jobs": 349,
-"new_ai_jobs": 3,
+"taiwan_jobs": 6470,
+"ai_jobs": 353,
+"new_ai_jobs": 10,
 "llm": {
-"calls": 18,
-"classified": 18,
-"input_tokens": 41106,
-"output_tokens": 2205,
-"cost_usd": 0.2085
+"calls": 29,
+"classified": 29,
+"input_tokens": 60791,
+"output_tokens": 3361,
+"cost_usd": 0.3104
 }
 }
 ]
