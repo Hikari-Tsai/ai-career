@@ -17,13 +17,14 @@ from datetime import date, datetime, timezone
 
 from . import llm
 from .config import CACHE, DATA, GROUP_LABELS, LINK_ONLY_REASONS, load_companies, load_link_only
+from . import http
 from .http import RateLimited
 from .models import Job, is_taiwan
 from .relevance import CANDIDATE_THRESHOLD, CATEGORY_LABELS, DISPLAY_THRESHOLD, rule_score
 from .sources import SOURCES
 
 DETAIL_CAP = 300  # detail requests per company per run; the cache fills the rest on later runs
-DETAIL_CAP_BY_SOURCE = {"workday": 40}  # Workday rate-limits hard; spread the backlog over several days
+DETAIL_CAP_BY_SOURCE = {"workday": 25}  # Workday rate-limits hard; spread the backlog over several days
 # Only fetch descriptions for roles that could plausibly be AI work: skips technicians, sales, finance, ...
 TECH_TITLE = re.compile(
     r"engineer|scientist|develop|research|architect|software|data|machine|learning|\bAI\b|\bML\b|algorithm|"
@@ -180,7 +181,13 @@ def main() -> int:
         "--mode", choices=("all", "cloud", "local"), default="all",
         help="cloud: skip companies marked local_only (they keep their last listings); local: only those",
     )
+    ap.add_argument(
+        "--retry-wait", type=int, default=None,
+        help="seconds to wait before retrying rate-limited companies one at a time (default: 600 in local mode, else 0)",
+    )
     args = ap.parse_args()
+    if args.retry_wait is None:
+        args.retry_wait = 600 if args.mode == "local" else 0
     if args.rebaseline and (args.only or args.mode == "local"):
         ap.error("--rebaseline needs a full run (without --only or --mode local)")
 
@@ -221,6 +228,19 @@ def main() -> int:
             jobs, err = fut.result()
             status[c["id"]] = {"ok": err is None, "taiwan_jobs": len(jobs), "error": err}
             print(f"{'OK ' if not err else 'ERR'} {c['id']:<22} {len(jobs):>4} TW jobs {err or ''}")
+            all_jobs.extend(jobs)
+
+    # Shared platforms (Workday) sometimes throttle a burst of tenants at once. Give them a cool-down,
+    # then retry those companies one at a time at half the pace. Still at most one retry per run.
+    retry = [c for c in companies if (status[c["id"]].get("error") or "").startswith("RateLimited")]
+    if retry and args.retry_wait:
+        print(f"{len(retry)} rate-limited; retrying one at a time after {args.retry_wait}s: {', '.join(c['id'] for c in retry)}")
+        time.sleep(args.retry_wait)
+        http.cool_down()
+        for c in retry:
+            jobs, err = crawl_company(c, details)
+            status[c["id"]] = {"ok": err is None, "taiwan_jobs": len(jobs), "error": err}
+            print(f"{'OK ' if not err else 'ERR'} {c['id']:<22} {len(jobs):>4} TW jobs (retry) {err or ''}")
             all_jobs.extend(jobs)
 
     # ---- relevance

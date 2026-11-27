@@ -44,6 +44,14 @@ def _bucket(host: str) -> str:
 PLATFORM_INTERVAL = {"myworkdayjobs.com": 3.0}
 
 
+def cool_down(factor: float = 2.0) -> None:
+    """Before a retry pass: forget this run's rate-limit trips and pace the shared platforms more slowly."""
+    with _lock:
+        _throttled.clear()
+        for p in PLATFORM_INTERVAL:
+            PLATFORM_INTERVAL[p] *= factor
+
+
 def _throttle(host: str) -> None:
     host = _bucket(host)
     interval = PLATFORM_INTERVAL.get(host, MIN_INTERVAL)
