@@ -1355,6 +1355,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"1fd04806dd2552e8": {
+"relevance": 8,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"Tessent DFT",
+"ATPG",
+"IEEE 1149.1/1500/1687",
+"STIL/WGL",
+"Tcl/Perl/Python",
+"RTL to GDSII"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "1fee44debddcdbf4": {
 "relevance": 62,
 "category": "mlops_infra",
@@ -1598,6 +1614,22 @@
 "流程優化"
 ],
 "summary_zh": "負責AI伺服器產線排程、品質、成本與人員管理及流程改善",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"26394f302f480e59": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"computational lithography",
+"OPC",
+"GPU acceleration",
+"UNIX/Linux",
+"C/C++",
+"Python"
+],
+"summary_zh": "支援Siemens EDA計算微影/OPC軟體產品生命週期，對接客戶需求與研發測試",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
@@ -8539,6 +8571,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"df29e445078357f8": {
+"relevance": 25,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"C/C++",
+"CUDA",
+"Python",
+"MPI",
+"FEM/FD/FVM/BEM",
+"PDE solvers"
+],
+"summary_zh": "開發半導體製程與元件模擬軟體，著重數值演算法與高效能GPU運算",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "df40e800583f1d1d": {
 "relevance": 88,
 "category": "llm_genai",
@@ -8703,6 +8751,22 @@
 "Semantic Kernel"
 ],
 "summary_zh": "為HP AI PC與邊緣運算打造代理式AI系統、LLM推論執行環境與RAG平台",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"e25ae1009c458233": {
+"relevance": 68,
+"category": "data_sci",
+"seniority": "mid",
+"skills": [
+"Python",
+"R",
+"SQL",
+"JAVA",
+"深度學習開發工具框架",
+"大數據資料分析"
+],
+"summary_zh": "運用AI與大數據開發晶圓廠智能調機、品質預測與瑕疵檢測應用及視覺化平台",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
