@@ -1729,6 +1729,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"2bbf37c6ec9b5417": {
+"relevance": 80,
+"category": "llm_genai",
+"seniority": "staff_plus",
+"skills": [
+"Vision Language Action (VLA)",
+"Reinforcement Learning",
+"ROS / ROS2",
+"NVIDIA Isaac Sim",
+"PyTorch",
+"SLAM"
+],
+"summary_zh": "",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "2be1fdef7b759d7d": {
 "relevance": 75,
 "category": "mlops_infra",
@@ -4257,6 +4273,22 @@
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
+"6aca46ad906fb224": {
+"relevance": 15,
+"category": "not_ai",
+"seniority": "mid",
+"skills": [
+"System Verilog",
+"UVM",
+"C/C++",
+"SystemC",
+"Python",
+"RTL verification"
+],
+"summary_zh": "負責NVIDIA GPU/SoC顯示子系統多媒體IP的設計驗證與驗證計畫執行",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
 "6b52cfc3ae254340": {
 "relevance": 80,
 "category": "llm_genai",
@@ -6459,6 +6491,22 @@
 "MongoDB"
 ],
 "summary_zh": "為醫療AI SaaS平台設計開發雲端分散式後端微服務與資料平台",
+"model": "claude-opus-5-5",
+"prompt": "v1"
+},
+"9f3f6054bbcbf2b5": {
+"relevance": 25,
+"category": "not_ai",
+"seniority": "senior",
+"skills": [
+"UEFI/EDK II",
+"ACPI",
+"Windows internals",
+"C/C++",
+"Python/PowerShell",
+"CI/CD pipelines"
+],
+"summary_zh": "與PC OEM合作整合Arm架構Windows平台韌體，建置CI/CD與遙測診斷，輔以AI分析問題",
 "model": "claude-opus-5-5",
 "prompt": "v1"
 },
